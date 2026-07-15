@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c22cee1cabc9b84f92975ed946ab97c, type: 3}
+  m_Name: PAtk_E_Missile
+  m_EditorClassIdentifier: 
+  Name: "\u30A6\u30A7\u30A4\u2606\u30DF\u30B5\u30A4\u30EB"
+  Info: "\u30DF\u30B5\u30A4\u30EB\u3092\u3070\u3089\u6492\u304D\n\u6575\u3092\u7206\u6483\u3059\u308B\n\u540C\u3058\u6575\u306B\u547D\u4E2D\u3059\u308B\u3068\n\u5A01\u529B\u304C\u5897\u52A0\u3059\u308B"
+  Icon: {fileID: 2800000, guid: 8a76ebaa66a5b924584e44e936ea8617, type: 3}
+  AtkType: 2
+  FilterSet: 0
+  Filters: ca000000cb000000000000006500000066000000
+  EndTime: 175
+  CT: 25
+  SPUse: 400
+  BranchInfos: []
+  Branchs: []
+  Fixeds:
+  - EditDisp: '[0]BNum:0Time:(0, 999)'
+    BranchNum: 0
+    Times: {x: 0, y: 999}
+    SpeedRem: 75
+    NoJump: 0
+    NoDash: 1
+    Aiming: 1
+    NGravity: 0
+    NoDamage: 1
+  Shots:
+  - Obj: {fileID: 5905403385281065886, guid: a82747f4aff9f8a419aebcfd8a599626, type: 3}
+    Fires:
+    - EditDisp: '[0]BNum:0,Time:(30, 155, 10),Count:1,Speed:(2000.00, 3000.00)'
+      BranchNum: 0
+      Times: {x: 30, y: 155, z: 10}
+      Count: 1
+      Speed: {x: 2000, y: 3000}
+      Trans:
+        PosBase: 0
+        TransPoss: []
+        RotBase: 2
+        TransRots:
+        - Change: 1
+          Fix: {x: 0, y: 0}
+          Val: {x: 10, y: 40, z: 0}
+        - Change: 0
+          Fix: {x: 0, y: 0}
+          Val: {x: -35, y: 0, z: 0}
+    Hits:
+    - EditDisp: "[0]BNum:0|(\u901A\u5E38,\u9060\u8DDD\u96E2,SP+0.0)"
+      BranchNum: 0
+      EHit: 1
+      FHit: 0
+      MHit: 0
+      Heals: 0
+      DamageType: 0
+      ShortAtk: 0
+      DamCalc: 
+      MultDamChange: {x: 0, y: 0}
+      BreakValue: 0
+      SPAdd: 0
+      KBs: []
+      BufSets: []
+    Adds:
+    - EditDisp: 
+      BranchNum: 0
+      AddShots:
+      - {fileID: 11400000, guid: 55103ccd8da4b3a4aaf8f2d4f9bef23a, type: 2}
+    Summon:
+      LimitTime: 0
+      HPMulPer: 0
+      AtkMulPer: 0
+    HitCT: 0
+  Moves: []
+  States: []
+  Bufs: []
+  WeponSets: []
+  Anims:
+  - EditDisp: '[0]BNum:0Time:(0, 175)ID:3'
+    BranchNum: 0
+    Times: {x: 0, y: 175}
+    ID: 3
+    Speed: 35
+  SEPlays:
+  - BranchNum: 0
+    Times: {x: 30, y: 155, z: 10}
+    Clip: {fileID: 8300000, guid: 96ce7ebf2a5453d46ba4410b0cb16abe, type: 3}
+    Volume: 50
+    Pitch: 200

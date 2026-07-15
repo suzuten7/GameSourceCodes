@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 971300707df511444a5e16905bf0c64b, type: 3}
+  m_Name: EnemyAI_Cheater_P2
+  m_EditorClassIdentifier: 
+  AtkAIs:
+  - EditDisp: "[0]Time(0\uFF5E0),OIfCount:0,AtkSlot:0,AtkName:\u30ED\u30F3\u30B0\u30D6\u30E9\u30F3\u30C1"
+    TimeIf: {x: 0, y: 0}
+    OtherIfs: []
+    AtkSlot: 0
+    AtkD: {fileID: 11400000, guid: 6d41d13967e0d3043b80092de1382895, type: 2}
+    StayInput: 0
+  - EditDisp: "[1]Time(0\uFF5E0),OIfCount:0,AtkSlot:1,AtkName:\u30EC\u30FC\u30B6\u30FC\u30DE\u30B8\u30C3\u30AF"
+    TimeIf: {x: 0, y: 0}
+    OtherIfs: []
+    AtkSlot: 1
+    AtkD: {fileID: 11400000, guid: 352e9c4e2aa5e3940acb8572fbf6f984, type: 2}
+    StayInput: 0
+  - EditDisp: "[2]Time(0\uFF5E0),OIfCount:0,AtkSlot:2,AtkName:\u30AC\u30C8\u30EA\u30F3\u30B0"
+    TimeIf: {x: 0, y: 0}
+    OtherIfs: []
+    AtkSlot: 2
+    AtkD: {fileID: 11400000, guid: 11ffa3577a5219f4aa9e40347ae2f43c, type: 2}
+    StayInput: 0
+  - EditDisp: "[3]Time(0\uFF5E0),OIfCount:0,AtkSlot:3,AtkName:NMB"
+    TimeIf: {x: 0, y: 0}
+    OtherIfs: []
+    AtkSlot: 3
+    AtkD: {fileID: 11400000, guid: 6d2c72e6564e3274695df2cfd1974dc3, type: 2}
+    StayInput: 0
+  - EditDisp: "[4]Time(0\uFF5E0),OIfCount:0,AtkSlot:4,AtkName:G\u30A6\u30A7\u30FC\u30D6"
+    TimeIf: {x: 0, y: 0}
+    OtherIfs: []
+    AtkSlot: 4
+    AtkD: {fileID: 11400000, guid: d339808f1c0a28f43820e28f96db4c8d, type: 2}
+    StayInput: 0
+  - EditDisp: "[5]Time(0\uFF5E0),OIfCount:0,AtkSlot:5,AtkName:\u30A6\u30A7\u30A4\u2606\u30DF\u30B5\u30A4\u30EB"
+    TimeIf: {x: 0, y: 0}
+    OtherIfs: []
+    AtkSlot: 5
+    AtkD: {fileID: 11400000, guid: 5618bead782820c45b9ad60b8a101909, type: 2}
+    StayInput: 0
+  - EditDisp: "[6]Time(0\uFF5E0),OIfCount:0,AtkSlot:6,AtkName:\u30AF\u30A4\u30C3\u30AF\u30D6\u30ED\u30C3\u30B3\u30EA\u30FC"
+    TimeIf: {x: 0, y: 0}
+    OtherIfs: []
+    AtkSlot: 6
+    AtkD: {fileID: 11400000, guid: b0cb898749cca334a96ce47b003daa40, type: 2}
+    StayInput: 0
+  TimerLim: 180
+  NoTargetResetTime: 0

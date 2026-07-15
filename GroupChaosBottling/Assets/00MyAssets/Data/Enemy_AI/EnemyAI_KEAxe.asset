@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 971300707df511444a5e16905bf0c64b, type: 3}
+  m_Name: EnemyAI_KEAxe
+  m_EditorClassIdentifier: 
+  AtkAIs:
+  - EditDisp: "[0]Time(0\uFF5E400),OIfCount:0,AtkSlot:0,AtkName:\u30A2\u30C3\u30AF\u30B9\u30AB\u30A6\u30F3\u30BF\u30FC"
+    TimeIf: {x: 0, y: 400}
+    OtherIfs: []
+    AtkSlot: 0
+    AtkD: {fileID: 11400000, guid: 6568c8414cafd4c438d1d5745932bfeb, type: 2}
+  - EditDisp: "[1]Time(800\uFF5E1000),OIfCount:0,AtkSlot:1,AtkName:\u30A2\u30C3\u30AF\u30B9\u30D0\u30FC\u30B9\u30C8"
+    TimeIf: {x: 800, y: 1000}
+    OtherIfs: []
+    AtkSlot: 1
+    AtkD: {fileID: 11400000, guid: a24b01ee8ed30ef4d94fdef7caed6426, type: 2}
+  - EditDisp: "[2]Time(1500\uFF5E1700),OIfCount:0,AtkSlot:2,AtkName:\u30A2\u30C3\u30AF\u30B9\u30D5\u30A9\u30FC\u30EB"
+    TimeIf: {x: 1500, y: 1700}
+    OtherIfs: []
+    AtkSlot: 2
+    AtkD: {fileID: 11400000, guid: 8279723f992cf484380699675404e14d, type: 2}
+  - EditDisp: "[3]Time(2000\uFF5E2200),OIfCount:0,AtkSlot:1,AtkName:\u30A2\u30C3\u30AF\u30B9\u30D0\u30FC\u30B9\u30C8"
+    TimeIf: {x: 2000, y: 2200}
+    OtherIfs: []
+    AtkSlot: 1
+    AtkD: {fileID: 11400000, guid: a24b01ee8ed30ef4d94fdef7caed6426, type: 2}
+  - EditDisp: "[4]Time(2400\uFF5E2700),OIfCount:0,AtkSlot:0,AtkName:\u30A2\u30C3\u30AF\u30B9\u30AB\u30A6\u30F3\u30BF\u30FC"
+    TimeIf: {x: 2400, y: 2700}
+    OtherIfs: []
+    AtkSlot: 0
+    AtkD: {fileID: 11400000, guid: 6568c8414cafd4c438d1d5745932bfeb, type: 2}
+  - EditDisp: "[5]Time(3000\uFF5E4000),OIfCount:0,AtkSlot:3,AtkName:\u30A2\u30C3\u30AF\u30B9\u30B9\u30D4\u30CB\u30F3\u30B0"
+    TimeIf: {x: 3000, y: 4000}
+    OtherIfs: []
+    AtkSlot: 3
+    AtkD: {fileID: 11400000, guid: 85973a59af8ed6c44b2d1128106847b9, type: 2}
+  - EditDisp: "[6]Time(4400\uFF5E4800),OIfCount:0,AtkSlot:2,AtkName:\u30A2\u30C3\u30AF\u30B9\u30D5\u30A9\u30FC\u30EB"
+    TimeIf: {x: 4400, y: 4800}
+    OtherIfs: []
+    AtkSlot: 2
+    AtkD: {fileID: 11400000, guid: 8279723f992cf484380699675404e14d, type: 2}
+  TimerLim: 5000
+  NoTargetResetTime: 0

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c12fea65286e7ef41b8dcbac1ecf837d, type: 3}
+  m_Name: Stage_Eiffel
+  m_EditorClassIdentifier: 
+  Name: "\u30A8\u30C3\u30D5\u30A7\u30EB\u5854"
+  Info: "\u30A8\u30C3\u30D5\u30A7\u30EB\u5854\u3063\u3066\u4F55\u3067\u3059\u304B\nA.\u6575\u3067\u3059"
+  Icon: {fileID: 2800000, guid: 4bf3c77b0bc3afe44909265fabddc02a, type: 3}
+  SceneID: 6
+  TimeLimSec: 300
+  TimeStar: 120
+  DeathStar: 6
+  DifencePer: 0
+  NoClears: 0
+  ChaosBuf: "\u30DC\u30B9\u306E\u30D0\u30EA\u30A2\u306E\u56DE\u6570+50%"
+  ChaosStates: []
+  ChaosBfUps:
+  - Target: 2
+    Buf: 2011
+    TimePer: 0
+    PowPer: 50
+  ClearChaosGrain: 2000
+  GeneDropCount: {x: 2, y: 3}
+  GeneDropTypes: 010000000300000005000000

@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c22cee1cabc9b84f92975ed946ab97c, type: 3}
+  m_Name: PAtk_S_Kusa
+  m_EditorClassIdentifier: 
+  Name: "\u8349"
+  Info: "HP\u3092\u56DE\u5FA9\u3059\u308B"
+  Icon: {fileID: 2800000, guid: fd162f7a45c59134ea32f6c93886848e, type: 3}
+  AtkType: 1
+  FilterSet: 0
+  Filters: 6e00000004000000
+  EndTime: 60
+  CT: 15
+  SPUse: 0
+  BranchInfos: []
+  Branchs: []
+  Fixeds: []
+  Shots: []
+  Moves: []
+  States:
+  - BranchNum: 0
+    Times: {x: 50, y: 50, z: 0}
+    State: 0
+    Adds: U.MHP*0.6
+  Bufs: []
+  WeponSets: []
+  Anims:
+  - EditDisp: '[0]BNum:0Time:(0, 60)ID:20'
+    BranchNum: 0
+    Times: {x: 0, y: 60}
+    ID: 20
+    Speed: 0
+  SEPlays: []

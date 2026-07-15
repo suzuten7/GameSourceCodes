@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c22cee1cabc9b84f92975ed946ab97c, type: 3}
+  m_Name: PAtk_S_AtkSphere
+  m_EditorClassIdentifier: 
+  Name: "\u30A2\u30BF\u30C3\u30AF\u30B9\u30D5\u30A3\u30A2"
+  Info: "\u5473\u65B9\u306E\u653B\u6483\u529B\u3092\u4E0A\u3052\u308B\n\u30B9\u30D5\u30A3\u30A2\u3092\u4F5C\u308B\n\u81EA\u5206\u3067\u56DE\u53CE\u306F\u3067\u304D\u306A\u3044\u304C\n\u534A\u5206\u306E\u30D0\u30D5\u3092\u4ED8\u4E0E\u3059\u308B"
+  Icon: {fileID: 2800000, guid: 4146d2332b026274ba30fd44bfed427e, type: 3}
+  AtkType: 1
+  FilterSet: 0
+  Filters: 020000002c0100006f000000660000006e000000
+  EndTime: 120
+  CT: 8
+  SPUse: 0
+  BranchInfos: []
+  Branchs: []
+  Fixeds:
+  - EditDisp: '[0]BNum:0Time:(0, 120)'
+    BranchNum: 0
+    Times: {x: 0, y: 120}
+    SpeedRem: 0
+    NoJump: 0
+    NoDash: 0
+    Aiming: 1
+    NGravity: 0
+    NoDamage: 0
+  Shots:
+  - Obj: {fileID: 5905403385281065886, guid: 5e715a724daa9ff4aa816038bfdef6ad, type: 3}
+    Fires:
+    - EditDisp: '[0]BNum:0,Time:(110, 110, 0),Count:1,Speed:(3000.00, 3000.00)'
+      BranchNum: 0
+      Times: {x: 110, y: 110, z: 0}
+      Count: 1
+      Speed: {x: 3000, y: 3000}
+      Trans:
+        PosBase: 0
+        TransPoss: []
+        RotBase: 2
+        TransRots: []
+    Hits:
+    - EditDisp: "[0]BNum:0|(\u30B9\u30AD\u30EB,\u9060\u8DDD\u96E2,SP+0.0)"
+      BranchNum: 0
+      EHit: 0
+      FHit: 1
+      MHit: 0
+      Heals: 1
+      DamageType: 3
+      ShortAtk: 0
+      DamCalc: 
+      MultDamChange: {x: 0, y: 0}
+      BreakValue: 0
+      SPAdd: 0
+      KBs: []
+      BufSets:
+      - EditDisp: "\u653B\u6483\u5897\u52A0[1,\u4ED8\u4E0E\u5897\u52A0](\u6642\u9593:\u4ED8\u4E0E900Max900)(\u6BB5\u968E:\u4ED8\u4E0E10Max50)"
+        Buf: 10
+        Index: 1
+        Set: 1
+        TimeVal: 900
+        PowVal: 10
+        TimeMax: 900
+        PowMax: 50
+    Adds: []
+    Summon:
+      LimitTime: 0
+      HPMulPer: 0
+      AtkMulPer: 0
+    HitCT: 0
+  Moves: []
+  States: []
+  Bufs:
+  - BranchNum: 0
+    Times: {x: 110, y: 110, z: 0}
+    BufSets:
+    - EditDisp: "\u653B\u6483\u5897\u52A0[1,\u4ED8\u4E0E\u5897\u52A0](\u6642\u9593:\u4ED8\u4E0E900Max900)(\u6BB5\u968E:\u4ED8\u4E0E5Max50)"
+      Buf: 10
+      Index: 1
+      Set: 1
+      TimeVal: 900
+      PowVal: 5
+      TimeMax: 900
+      PowMax: 50
+  WeponSets: []
+  Anims:
+  - EditDisp: '[0]BNum:0Time:(0, 120)ID:2'
+    BranchNum: 0
+    Times: {x: 0, y: 120}
+    ID: 2
+    Speed: -40
+  SEPlays:
+  - BranchNum: 0
+    Times: {x: 110, y: 110, z: 0}
+    Clip: {fileID: 8300000, guid: 300c9f52eee2ad040bc9d8318e7a9561, type: 3}
+    Volume: 350
+    Pitch: 100

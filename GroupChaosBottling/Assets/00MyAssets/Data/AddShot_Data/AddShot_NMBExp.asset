@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd99303b2ae6bdc46b490e1ada5c6be7, type: 3}
+  m_Name: AddShot_NMBExp
+  m_EditorClassIdentifier: 
+  Shots:
+  - Obj: {fileID: 5905403385281065886, guid: 5512d69dfb502ac42ac1e783de55ca9a, type: 3}
+    Fires:
+    - EditDisp: 
+      BranchNum: -1
+      Times: {x: 0, y: 0, z: 0}
+      Count: 1
+      Speed: {x: 0, y: 0}
+      Trans:
+        PosBase: 0
+        TransPoss: []
+        RotBase: -1
+        TransRots: []
+    Hits:
+    - EditDisp: 
+      BranchNum: -1
+      EHit: 1
+      FHit: 0
+      MHit: 0
+      Heals: 0
+      DamageType: 4
+      ShortAtk: 0
+      DamCalc: (U.ATKdfmT.DEF)*5
+      BreakValue: 25
+      SPAdd: 0
+      BufSets:
+      - EditDisp: 
+        Buf: 1000
+        Index: 0
+        Set: 1
+        TimeVal: 1200
+        PowVal: 15000
+        TimeMax: 1200
+        PowMax: 
+    Adds: []
+    Summon:
+      LimitTime: 0
+      HPMulPer: 0
+      AtkMulPer: 0
+    HitCT: 0
+  SEPlays:
+  - BranchNum: -1
+    Times: {x: 0, y: 0, z: 0}
+    Clip: {fileID: 8300000, guid: 26f4cccbaa1a7814ebf9e026338e23fb, type: 3}
+    Volume: 300
+    Pitch: 50

@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c22cee1cabc9b84f92975ed946ab97c, type: 3}
+  m_Name: EAtk_E_YazirusiSokusi
+  m_EditorClassIdentifier: 
+  Name: "\u3084\u3058\u308B\u3057\u5373\u6B7B"
+  Info: "\u5373\u6B7B\u7D1A\u3084\u3058\u308B\u3057\u3092\u3070\u3089\u6492\u304F"
+  Icon: {fileID: 2800000, guid: 76bd72c2ae2ab5547af05ef98982016f, type: 3}
+  AtkType: 2
+  Filters: 
+  EndTime: 360
+  CT: 45
+  SPUse: 0
+  BranchInfos: []
+  Branchs: []
+  Fixeds:
+  - EditDisp: '[0]BNum:0Time:(0, 60)'
+    BranchNum: 0
+    Times: {x: 0, y: 60}
+    SpeedRem: 75
+    NoJump: 0
+    NoDash: 0
+    Aiming: 1
+    NGravity: 0
+    NoDamage: 0
+  Shots:
+  - Obj: {fileID: 5905403385281065886, guid: b79ed399bf2572148be614a0a312b875, type: 3}
+    Fires:
+    - EditDisp: '[0]BNum:0,Time:(144, 350, 10),Count:1,Speed:(444.00, 444.00)'
+      BranchNum: 0
+      Times: {x: 144, y: 350, z: 10}
+      Count: 1
+      Speed: {x: 444, y: 444}
+      Trans:
+        PosBase: 0
+        TransPoss: []
+        RotBase: -1
+        TransRots:
+        - Change: 5
+          Mlt: 0
+          Val: {x: 0, y: 2, z: 0}
+    Hits:
+    - EditDisp: "[0]BNum:0|(\u5FC5\u6BBA,\u9060\u8DDD\u96E2,SP+0.0)\u5BFE\u6700\u5927HP999.9%"
+      BranchNum: 0
+      EHit: 1
+      FHit: 0
+      MHit: 0
+      Heals: 0
+      DamageType: 4
+      ShortAtk: 0
+      DamCalc: T.MHP*9.999
+      SPAdd: 0
+      BufSets: []
+    Adds: []
+    HitCT: 0
+  Moves: []
+  States: []
+  Bufs: []
+  WeponSets: []
+  Anims:
+  - EditDisp: '[0]BNum:0Time:(0, 360)ID:3'
+    BranchNum: 0
+    Times: {x: 0, y: 360}
+    ID: 3
+    Speed: -60
+  SEPlays:
+  - BranchNum: 0
+    Times: {x: 144, y: 350, z: 10}
+    Clip: {fileID: 8300000, guid: c5f203541c7d96c439f2bf8f597b3200, type: 3}
+    Volume: 60
+    Pitch: 200

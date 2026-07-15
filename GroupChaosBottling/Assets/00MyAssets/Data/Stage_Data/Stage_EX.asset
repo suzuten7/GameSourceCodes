@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c12fea65286e7ef41b8dcbac1ecf837d, type: 3}
+  m_Name: Stage_EX
+  m_EditorClassIdentifier: 
+  Name: "EX\u30B9\u30C6\u30FC\u30B8"
+  Info: "\u5F37\u6575\u3068\u9023\u6226\u3059\u308B"
+  Icon: {fileID: 2800000, guid: 8848aa569d8232847b2c8be7f014d454, type: 3}
+  SceneID: 7
+  TimeLimSec: 600
+  TimeStar: 240
+  DeathStar: 10
+  DifencePer: 0
+  NoClears: 0
+  ChaosBuf: "\u6575\u304C10\u79D2\u3054\u3068\u306BAtk+5%"
+  ChaosStates: []
+  ChaosBfUps: []
+  ClearChaosGrain: 7500
+  GeneDropCount: {x: 6, y: 10}
+  GeneDropTypes: 00000000010000000200000003000000040000000500000006000000

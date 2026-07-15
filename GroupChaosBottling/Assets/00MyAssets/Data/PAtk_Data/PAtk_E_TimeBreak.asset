@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c22cee1cabc9b84f92975ed946ab97c, type: 3}
+  m_Name: PAtk_E_TimeBreak
+  m_EditorClassIdentifier: 
+  Name: "\u30BF\u30A4\u30E0\u30D6\u30EC\u30A4\u30AF"
+  Info: "\u77ED\u6642\u9593\u30B9\u30AD\u30EB\u306ECT\u304C\n3\u500D\u901F\u3067\u6E1B\u5C11\u3059\u308B\u3088\u3046\u306B"
+  Icon: {fileID: 2800000, guid: e5082653199ca324dace3fb59ecc1fe8, type: 3}
+  AtkType: 2
+  FilterSet: 0
+  Filters: 6e000000
+  EndTime: 60
+  CT: 20
+  SPUse: 300
+  BranchInfos: []
+  Branchs: []
+  Fixeds:
+  - EditDisp: '[0]BNum:0Time:(0, 999)'
+    BranchNum: 0
+    Times: {x: 0, y: 999}
+    SpeedRem: 75
+    NoJump: 0
+    NoDash: 1
+    Aiming: 0
+    NGravity: 0
+    NoDamage: 1
+  Shots: []
+  Moves: []
+  States: []
+  Bufs:
+  - BranchNum: 0
+    Times: {x: 5, y: 5, z: 0}
+    BufSets:
+    - EditDisp: "\u30BF\u30A4\u30E0\u30D6\u30EC\u30A4\u30AF[0,\u4ED8\u4E0E](\u6642\u9593:\u4ED8\u4E0E420)"
+      Buf: 2301
+      Index: 0
+      Set: 0
+      TimeVal: 420
+      PowVal: 
+      TimeMax: 0
+      PowMax: 
+  WeponSets: []
+  Anims:
+  - EditDisp: '[0]BNum:0Time:(0, 60)ID:3'
+    BranchNum: 0
+    Times: {x: 0, y: 60}
+    ID: 3
+    Speed: 0
+  SEPlays:
+  - BranchNum: 0
+    Times: {x: 30, y: 30, z: 0}
+    Clip: {fileID: 8300000, guid: 96ce7ebf2a5453d46ba4410b0cb16abe, type: 3}
+    Volume: 150
+    Pitch: -100

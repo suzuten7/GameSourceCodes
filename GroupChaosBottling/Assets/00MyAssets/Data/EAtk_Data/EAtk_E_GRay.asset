@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c22cee1cabc9b84f92975ed946ab97c, type: 3}
+  m_Name: EAtk_E_GRay
+  m_EditorClassIdentifier: 
+  Name: "G\u30EC\u30A4"
+  Info: 
+  Icon: {fileID: 2800000, guid: 0e5367b990015e24d813e5b3d270f26a, type: 3}
+  AtkType: 2
+  Filters: 00000000
+  EndTime: 330
+  CT: 12
+  SPUse: 0
+  BranchInfos: []
+  Branchs: []
+  Fixeds:
+  - EditDisp: '[0]BNum:0Time:(0, 60)'
+    BranchNum: 0
+    Times: {x: 0, y: 60}
+    SpeedRem: 75
+    NoJump: 0
+    NoDash: 0
+    Aiming: 1
+    NGravity: 0
+  Shots:
+  - Obj: {fileID: 5905403385281065886, guid: 018e13e11fb1d814ca1a76382b9e3282, type: 3}
+    Fires:
+    - EditDisp: '[0]BNum:0,Time:(15, 15, 0),Count:1,Speed:(0.00, 0.00)'
+      BranchNum: 0
+      Times: {x: 15, y: 15, z: 0}
+      Count: 1
+      Speed: {x: 0, y: 0}
+      Trans:
+        PosBase: 0
+        TransPoss: []
+        RotBase: 0
+        TransRots:
+        - Change: 0
+          Mlt: 0
+          Val: {x: 0, y: -60, z: 0}
+    Hits:
+    - EditDisp: "[0]BNum:0|(\u5FC5\u6BBA,\u9060\u8DDD\u96E2,SP+0.0)\u5BFE\u6700\u5927HP35.0%"
+      BranchNum: 0
+      EHit: 1
+      FHit: 0
+      MHit: 0
+      Heals: 0
+      DamageType: 4
+      ShortAtk: 0
+      DamCalc: T.MHP*0.35
+      SPAdd: 0
+      BufSets: []
+    Adds: []
+    HitCT: 0
+  Moves: []
+  States: []
+  Bufs: []
+  WeponSets: []
+  Anims:
+  - EditDisp: '[0]BNum:0Time:(0, 330)ID:3'
+    BranchNum: 0
+    Times: {x: 0, y: 330}
+    ID: 3
+    Speed: 0
+  SEPlays:
+  - BranchNum: 0
+    Times: {x: 15, y: 15, z: 0}
+    Clip: {fileID: 8300000, guid: 9c8ec50697cd0b54e85df323e7b62570, type: 3}
+    Volume: 300
+    Pitch: 25

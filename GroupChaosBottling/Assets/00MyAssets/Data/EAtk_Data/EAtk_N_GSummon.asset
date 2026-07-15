@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c22cee1cabc9b84f92975ed946ab97c, type: 3}
+  m_Name: EAtk_N_GSummon
+  m_EditorClassIdentifier: 
+  Name: "G\u30B5\u30E2\u30F3"
+  Info: 
+  Icon: {fileID: 0}
+  AtkType: 0
+  FilterSet: 0
+  Filters: 
+  EndTime: 100
+  CT: 6
+  SPUse: 0
+  BranchInfos: []
+  Branchs: []
+  Fixeds: []
+  Shots:
+  - Obj: {fileID: 3138562507945577928, guid: f989ebe2c364d1441b5f84d34e128277, type: 3}
+    Fires:
+    - EditDisp: '[0]BNum:0,Time:(80, 80, 0),Count:5,Speed:(0.00, 0.00)'
+      BranchNum: 0
+      Times: {x: 80, y: 80, z: 0}
+      Count: 5
+      Speed: {x: 0, y: 0}
+      Trans:
+        PosBase: 1
+        TransPoss:
+        - Change: 3
+          Fix: {x: 5, y: 0}
+          Val: {x: 5, y: 0, z: 0}
+        - Change: 4
+          Fix: {x: 5, y: 0}
+          Val: {x: 0, y: 0, z: 5}
+        RotBase: -1
+        TransRots: []
+    Hits: []
+    Adds: []
+    Summon:
+      LimitTime: 40
+      HPMulPer: 50
+      AtkMulPer: 25
+    HitCT: 0
+  Moves: []
+  States: []
+  Bufs: []
+  WeponSets: []
+  Anims:
+  - EditDisp: '[0]BNum:0Time:(25, 200)ID:1'
+    BranchNum: 0
+    Times: {x: 25, y: 200}
+    ID: 1
+    Speed: 0
+  SEPlays:
+  - BranchNum: 0
+    Times: {x: 80, y: 80, z: 0}
+    Clip: {fileID: 8300000, guid: 96ce7ebf2a5453d46ba4410b0cb16abe, type: 3}
+    Volume: 75
+    Pitch: 100

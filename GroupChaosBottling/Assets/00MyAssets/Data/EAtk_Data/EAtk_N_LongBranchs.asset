@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c22cee1cabc9b84f92975ed946ab97c, type: 3}
+  m_Name: EAtk_N_LongBranchs
+  m_EditorClassIdentifier: 
+  Name: "\u30ED\u30F3\u30B0\u30D6\u30E9\u30F3\u30C1"
+  Info: 
+  Icon: {fileID: 0}
+  AtkType: 0
+  FilterSet: 0
+  Filters: 
+  EndTime: 150
+  CT: 10
+  SPUse: 0
+  BranchInfos: []
+  Branchs: []
+  Fixeds: []
+  Shots:
+  - Obj: {fileID: 3138562507945577928, guid: fe0f4e603e834604784e7fd0ad932d84, type: 3}
+    Fires:
+    - EditDisp: '[0]BNum:0,Time:(40, 130, 40),Count:1,Speed:(0.00, 0.00)'
+      BranchNum: 0
+      Times: {x: 40, y: 130, z: 40}
+      Count: 1
+      Speed: {x: 0, y: 0}
+      Trans:
+        PosBase: 0
+        TransPoss: []
+        RotBase: -1
+        TransRots: []
+    Hits: []
+    Adds: []
+    Summon:
+      LimitTime: 60
+      HPMulPer: 0
+      AtkMulPer: 0
+    HitCT: 0
+  Moves:
+  - BranchNum: 0
+    Times: {x: 40, y: 130, z: 40}
+    Base: 1
+    Vect: {x: 10000, y: 0, z: 5000}
+    SetSpeed: 1
+  States: []
+  Bufs: []
+  WeponSets: []
+  Anims:
+  - EditDisp: '[0]BNum:0Time:(5, 45)ID:1'
+    BranchNum: 0
+    Times: {x: 5, y: 45}
+    ID: 1
+    Speed: 150
+  SEPlays: []

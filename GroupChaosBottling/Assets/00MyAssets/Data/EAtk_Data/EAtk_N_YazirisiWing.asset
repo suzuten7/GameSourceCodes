@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c22cee1cabc9b84f92975ed946ab97c, type: 3}
+  m_Name: EAtk_N_YazirisiWing
+  m_EditorClassIdentifier: 
+  Name: "\u3084\u3058\u308B\u3057\u30A6\u30A3\u30F3\u30B0"
+  Info: 
+  Icon: {fileID: 0}
+  AtkType: 0
+  Filters: 
+  EndTime: 170
+  CT: 8
+  SPUse: 0
+  BranchInfos: []
+  Branchs: []
+  Fixeds: []
+  Shots:
+  - Obj: {fileID: 5905403385281065886, guid: 4f2d5331539100346b94dc982cf78da6, type: 3}
+    Fires:
+    - EditDisp: '[0]BNum:0,Time:(45, 150, 45),Count:8,Speed:(600.00, 2400.00)'
+      BranchNum: 0
+      Times: {x: 45, y: 150, z: 45}
+      Count: 8
+      Speed: {x: 600, y: 2400}
+      Trans:
+        PosBase: 0
+        TransPoss:
+        - Change: 0
+          Mlt: 0
+          Val: {x: 4, y: 0, z: 0}
+        - Change: 1
+          Mlt: 0
+          Val: {x: 4, y: 0.5, z: 0}
+        RotBase: 1
+        TransRots:
+        - Change: 1
+          Mlt: 0
+          Val: {x: 35, y: 85, z: 0}
+    - EditDisp: '[1]BNum:0,Time:(45, 150, 45),Count:8,Speed:(600.00, 2400.00)'
+      BranchNum: 0
+      Times: {x: 45, y: 150, z: 45}
+      Count: 8
+      Speed: {x: 600, y: 2400}
+      Trans:
+        PosBase: 0
+        TransPoss:
+        - Change: 0
+          Mlt: 0
+          Val: {x: -4, y: 0, z: 0}
+        - Change: 1
+          Mlt: 0
+          Val: {x: 4, y: 0.5, z: 0}
+        RotBase: 1
+        TransRots:
+        - Change: 1
+          Mlt: 0
+          Val: {x: 35, y: 85, z: 0}
+    Hits:
+    - EditDisp: "[0]BNum:0|(\u901A\u5E38,\u9060\u8DDD\u96E2,SP+0.0)\u81EA\u653B\u6483\u529B24.0%"
+      BranchNum: 0
+      EHit: 1
+      FHit: 0
+      MHit: 0
+      Heals: 0
+      DamageType: 0
+      ShortAtk: 0
+      DamCalc: U.ATK*0.24
+      SPAdd: 0
+      BufSets: []
+    Adds: []
+    HitCT: 60
+  Moves: []
+  States: []
+  Bufs: []
+  WeponSets: []
+  Anims:
+  - EditDisp: '[0]BNum:0Time:(0, 170)ID:3'
+    BranchNum: 0
+    Times: {x: 0, y: 170}
+    ID: 3
+    Speed: -35
+  SEPlays:
+  - BranchNum: 0
+    Times: {x: 45, y: 150, z: 45}
+    Clip: {fileID: 8300000, guid: 96ce7ebf2a5453d46ba4410b0cb16abe, type: 3}
+    Volume: 150
+    Pitch: 160

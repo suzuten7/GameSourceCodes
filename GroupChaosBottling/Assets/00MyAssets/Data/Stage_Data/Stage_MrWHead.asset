@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c12fea65286e7ef41b8dcbac1ecf837d, type: 3}
+  m_Name: Stage_MrWHead
+  m_EditorClassIdentifier: 
+  Name: Mr.WHead
+  Info: "Git\u306E\u7D42\u7109\u3092\u8A9E\u308B\u7269\u304C\n\u5177\u73FE\u5316\u3057\u305F\u3082\u306E"
+  Icon: {fileID: 2800000, guid: d2a2ae4d400221d43ac1e932640f26d4, type: 3}
+  SceneID: 18
+  TimeLimSec: 300
+  TimeStar: 120
+  DeathStar: 6
+  DifencePer: 0
+  NoClears: 0
+  ChaosBuf: 
+  ChaosStates: []
+  ChaosBfUps: []
+  ClearChaosGrain: 4000
+  GeneDropCount: {x: 2, y: 3}
+  GeneDropTypes: 07000000080000000a000000

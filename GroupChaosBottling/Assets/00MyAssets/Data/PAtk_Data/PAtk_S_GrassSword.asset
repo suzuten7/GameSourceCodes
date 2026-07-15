@@ -1,0 +1,148 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c22cee1cabc9b84f92975ed946ab97c, type: 3}
+  m_Name: PAtk_S_GrassSword
+  m_EditorClassIdentifier: 
+  Name: "\u3050\u3089\u3059\u305D\u30FC\u3069"
+  Info: "\u81EA\u8EAB\u306E\u5468\u56F2\u3092\u52D5\u304D\u56DE\u308B\n\u5263\u3092\u98DB\u3070\u3059"
+  Icon: {fileID: 2800000, guid: 097ba55fcd497bc4eb7193e202630436, type: 3}
+  AtkType: 1
+  FilterSet: 0
+  Filters: 0000000064000000ca000000c9000000
+  EndTime: 120
+  CT: 17
+  SPUse: 0
+  BranchInfos: []
+  Branchs: []
+  Fixeds:
+  - EditDisp: '[0]BNum:0Time:(0, 120)'
+    BranchNum: 0
+    Times: {x: 0, y: 120}
+    SpeedRem: 70
+    NoJump: 0
+    NoDash: 0
+    Aiming: 0
+    NGravity: 0
+    NoDamage: 0
+  Shots:
+  - Obj: {fileID: 5905403385281065886, guid: 98283698ce0b48b4e9a67e3a5016d362, type: 3}
+    Fires:
+    - EditDisp: '[0]BNum:0,Time:(30, 120, 20),Count:1,Speed:(1900.00, 2900.00)'
+      BranchNum: 0
+      Times: {x: 30, y: 120, z: 20}
+      Count: 1
+      Speed: {x: 1900, y: 2900}
+      Trans:
+        PosBase: 0
+        TransPoss: []
+        RotBase: -1
+        TransRots:
+        - Change: 1
+          Fix: {x: 0, y: 0}
+          Val: {x: 30, y: 360, z: 0}
+    Hits:
+    - EditDisp: "[0]BNum:0|(\u30B9\u30AD\u30EB,\u8FD1\u8DDD\u96E2,SP+0.5)(\u81EA\u653B\u6483\u529B{\u9632\u8A08}\u5BFE\u9632\u5FA1\u529B)25.0%"
+      BranchNum: 0
+      EHit: 1
+      FHit: 0
+      MHit: 0
+      Heals: 0
+      DamageType: 3
+      ShortAtk: 1
+      DamCalc: (U.ATKdfmT.DEF)*0.25
+      MultDamChange: {x: 0, y: 0}
+      BreakValue: 0.25
+      SPAdd: 0.5
+      KBs: []
+      BufSets: []
+    Adds: []
+    Summon:
+      LimitTime: 0
+      HPMulPer: 0
+      AtkMulPer: 0
+    HitCT: 30
+  Moves: []
+  States: []
+  Bufs: []
+  WeponSets:
+  - BranchNum: 0
+    Times: {x: 0, y: 0}
+    Obj: {fileID: 0}
+    Set: 0
+    PosChange: {x: 0, y: 0, z: 0}
+    RotChange: {x: 0, y: 0, z: 0}
+  - BranchNum: 0
+    Times: {x: 0, y: 0}
+    Obj: {fileID: 0}
+    Set: 0
+    PosChange: {x: 0, y: 0, z: 0}
+    RotChange: {x: 0, y: 0, z: 0}
+  - BranchNum: 0
+    Times: {x: 0, y: 0}
+    Obj: {fileID: 0}
+    Set: 0
+    PosChange: {x: 0, y: 0, z: 0}
+    RotChange: {x: 0, y: 0, z: 0}
+  - BranchNum: 0
+    Times: {x: 0, y: 0}
+    Obj: {fileID: 0}
+    Set: 0
+    PosChange: {x: 0, y: 0, z: 0}
+    RotChange: {x: 0, y: 0, z: 0}
+  - BranchNum: 0
+    Times: {x: 0, y: 0}
+    Obj: {fileID: 0}
+    Set: 0
+    PosChange: {x: 0, y: 0, z: 0}
+    RotChange: {x: 0, y: 0, z: 0}
+  - BranchNum: 0
+    Times: {x: 0, y: 0}
+    Obj: {fileID: 0}
+    Set: 0
+    PosChange: {x: 0, y: 0, z: 0}
+    RotChange: {x: 0, y: 0, z: 0}
+  - BranchNum: 0
+    Times: {x: 0, y: 0}
+    Obj: {fileID: 0}
+    Set: 0
+    PosChange: {x: 0, y: 0, z: 0}
+    RotChange: {x: 0, y: 0, z: 0}
+  - BranchNum: 0
+    Times: {x: 0, y: 0}
+    Obj: {fileID: 0}
+    Set: 0
+    PosChange: {x: 0, y: 0, z: 0}
+    RotChange: {x: 0, y: 0, z: 0}
+  - BranchNum: 0
+    Times: {x: 0, y: 0}
+    Obj: {fileID: 0}
+    Set: 0
+    PosChange: {x: 0, y: 0, z: 0}
+    RotChange: {x: 0, y: 0, z: 0}
+  - BranchNum: 0
+    Times: {x: 0, y: 0}
+    Obj: {fileID: 0}
+    Set: 0
+    PosChange: {x: 0, y: 0, z: 0}
+    RotChange: {x: 0, y: 0, z: 0}
+  Anims:
+  - EditDisp: '[0]BNum:0Time:(0, 120)ID:4'
+    BranchNum: 0
+    Times: {x: 0, y: 120}
+    ID: 4
+    Speed: 0
+  SEPlays:
+  - BranchNum: 0
+    Times: {x: 30, y: 120, z: 20}
+    Clip: {fileID: 8300000, guid: 300c9f52eee2ad040bc9d8318e7a9561, type: 3}
+    Volume: 35
+    Pitch: 250

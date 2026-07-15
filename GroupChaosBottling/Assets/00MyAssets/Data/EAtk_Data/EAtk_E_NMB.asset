@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c22cee1cabc9b84f92975ed946ab97c, type: 3}
+  m_Name: EAtk_E_NMB
+  m_EditorClassIdentifier: 
+  Name: NMB
+  Info: 
+  Icon: {fileID: 2800000, guid: c52b0a0623874c74baad17011f3d9323, type: 3}
+  AtkType: 2
+  Filters: 
+  EndTime: 180
+  CT: 20
+  SPUse: 0
+  BranchInfos: []
+  Branchs: []
+  Fixeds: []
+  Shots:
+  - Obj: {fileID: 5905403385281065886, guid: 3dc2e4a648072c3488ace0dee693be2a, type: 3}
+    Fires:
+    - EditDisp: '[0]BNum:0,Time:(150, 150, 0),Count:1,Speed:(1000.00, 1000.00)'
+      BranchNum: 0
+      Times: {x: 150, y: 150, z: 0}
+      Count: 1
+      Speed: {x: 1000, y: 1000}
+      Trans:
+        PosBase: 0
+        TransPoss:
+        - Change: 0
+          Val: {x: 0, y: 3, z: 0}
+        RotBase: -1
+        TransRots:
+        - Change: 0
+          Val: {x: -60, y: 0, z: 0}
+    Hits: []
+    HitCT: 0
+  Moves: []
+  States: []
+  Bufs: []
+  WeponSets: []
+  Anims:
+  - EditDisp: '[0]BNum:0Time:(0, 180)ID:4'
+    BranchNum: 0
+    Times: {x: 0, y: 180}
+    ID: 4
+    Speed: -80
+  SEPlays:
+  - BranchNum: 0
+    Times: {x: 150, y: 150, z: 0}
+    Clip: {fileID: 8300000, guid: 96ce7ebf2a5453d46ba4410b0cb16abe, type: 3}
+    Volume: 200
+    Pitch: 30

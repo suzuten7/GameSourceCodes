@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c22cee1cabc9b84f92975ed946ab97c, type: 3}
+  m_Name: PAtk_S_Karyoku
+  m_EditorClassIdentifier: 
+  Name: "\u904E\u529B"
+  Info: "HP\u304C\u6E1B\u5C11\u3057\u7D9A\u3051\u308B\u304C\n\u4E0E\u30C0\u30E1\u30FC\u30B8\u304C1.3\u500D\u306B\u306A\u308B\n\u72B6\u614B\u3092\u5207\u308A\u66FF\u3048\u308B"
+  Icon: {fileID: 2800000, guid: 0ae15f6078efce64db31b87c58c7678d, type: 3}
+  AtkType: 1
+  FilterSet: 0
+  Filters: 6e000000
+  EndTime: 30
+  CT: 10
+  SPUse: 0
+  BranchInfos: []
+  Branchs: []
+  Fixeds: []
+  Shots: []
+  Moves: []
+  States: []
+  Bufs:
+  - BranchNum: 0
+    Times: {x: 5, y: 5, z: 0}
+    BufSets:
+    - EditDisp: "\u904E\u529B[0,\u5207\u308A\u66FF\u3048](\u6642\u9593\u7121\u9650)"
+      Buf: 2302
+      Index: 0
+      Set: 3
+      TimeVal: 0
+      PowVal: 
+      TimeMax: 0
+      PowMax: 
+  WeponSets:
+  - BranchNum: 0
+    Times: {x: 0, y: 50}
+    Obj: {fileID: 6293833836109196858, guid: 93808f716b8dfec41a3316c3ae98591c, type: 3}
+    Set: 0
+    PosChange: {x: 0, y: 0, z: 0}
+    RotChange: {x: 0, y: 0, z: 0}
+  Anims:
+  - EditDisp: '[0]BNum:0Time:(0, 35)ID:20'
+    BranchNum: 0
+    Times: {x: 0, y: 35}
+    ID: 20
+    Speed: 200
+  SEPlays:
+  - BranchNum: 0
+    Times: {x: 20, y: 20, z: 0}
+    Clip: {fileID: 8300000, guid: 0ef0e1917edf7bd4693f975b0c0e18d9, type: 3}
+    Volume: 200
+    Pitch: 220

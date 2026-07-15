@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c22cee1cabc9b84f92975ed946ab97c, type: 3}
+  m_Name: PAtk_E_GigaSpear
+  m_EditorClassIdentifier: 
+  Name: "\u30AE\u30AC\u30B9\u30D4\u30A2"
+  Info: "\u30C7\u30AB\u3044\u69CD\u3092\u53EC\u559A\u3057\n\u6575\u306B\u7A81\u304D\u523A\u3059"
+  Icon: {fileID: 2800000, guid: a11b5cd25dbda644ebdaaa5836c2ddd4, type: 3}
+  AtkType: 2
+  FilterSet: 0
+  Filters: 0000000064000000c9000000
+  EndTime: 35
+  CT: 12
+  SPUse: 150
+  BranchInfos: []
+  Branchs: []
+  Fixeds:
+  - EditDisp: '[0]BNum:0Time:(0, 999)'
+    BranchNum: 0
+    Times: {x: 0, y: 999}
+    SpeedRem: 60
+    NoJump: 1
+    NoDash: 1
+    Aiming: 0
+    NGravity: 0
+    NoDamage: 1
+  Shots:
+  - Obj: {fileID: 5905403385281065886, guid: ce4a2da79f01a474eacda7ed6b960bed, type: 3}
+    Fires:
+    - EditDisp: '[0]BNum:0,Time:(0, 0, 0),Count:1,Speed:(500.00, 500.00)'
+      BranchNum: 0
+      Times: {x: 0, y: 0, z: 0}
+      Count: 1
+      Speed: {x: 500, y: 500}
+      Trans:
+        PosBase: 1
+        TransPoss:
+        - Change: 0
+          Fix: {x: 0, y: 0}
+          Val: {x: 0, y: 20, z: -13}
+        RotBase: 0
+        TransRots: []
+    Hits:
+    - EditDisp: "[0]BNum:0|(\u5FC5\u6BBA,\u8FD1\u8DDD\u96E2,SP+0.0)(\u81EA\u653B\u6483\u529B{\u9632\u8A08}\u5BFE\u9632\u5FA1\u529B)250.0%"
+      BranchNum: 0
+      EHit: 1
+      FHit: 0
+      MHit: 0
+      Heals: 0
+      DamageType: 4
+      ShortAtk: 1
+      DamCalc: (U.ATKdfmT.DEF)*2.5
+      MultDamChange: {x: 0, y: 0}
+      BreakValue: 3
+      SPAdd: 0
+      KBs: []
+      BufSets: []
+    Adds: []
+    Summon:
+      LimitTime: 0
+      HPMulPer: 0
+      AtkMulPer: 0
+    HitCT: 60
+  Moves: []
+  States: []
+  Bufs: []
+  WeponSets:
+  - BranchNum: 0
+    Times: {x: 0, y: 50}
+    Obj: {fileID: 6293833836109196858, guid: 3d11648eb48e09e46abbed22b097c343, type: 3}
+    Set: 0
+    PosChange: {x: 0, y: 0, z: 0}
+    RotChange: {x: 0, y: 0, z: 0}
+  Anims:
+  - EditDisp: '[0]BNum:0Time:(0, 35)ID:20'
+    BranchNum: 0
+    Times: {x: 0, y: 35}
+    ID: 20
+    Speed: 0
+  SEPlays:
+  - BranchNum: 0
+    Times: {x: 0, y: 0, z: 0}
+    Clip: {fileID: 8300000, guid: 0ef0e1917edf7bd4693f975b0c0e18d9, type: 3}
+    Volume: 500
+    Pitch: 35

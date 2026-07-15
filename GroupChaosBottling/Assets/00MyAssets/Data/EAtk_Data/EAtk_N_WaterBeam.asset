@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c22cee1cabc9b84f92975ed946ab97c, type: 3}
+  m_Name: EAtk_N_WaterBeam
+  m_EditorClassIdentifier: 
+  Name: "\u30A6\u30A9\u30FC\u30BF\u30FC\u30D3\u30FC\u30E0"
+  Info: 
+  Icon: {fileID: 0}
+  AtkType: 0
+  Filters: 
+  EndTime: 70
+  CT: 0
+  SPUse: 0
+  BranchInfos: []
+  Branchs: []
+  Fixeds: []
+  Shots:
+  - Obj: {fileID: 5905403385281065886, guid: 03edfd3014474a94f9ffece2a621b1f2, type: 3}
+    Fires:
+    - EditDisp: '[0]BNum:0,Time:(50, 50, 0),Count:1,Speed:(0.00, 0.00)'
+      BranchNum: 0
+      Times: {x: 50, y: 50, z: 0}
+      Count: 1
+      Speed: {x: 0, y: 0}
+      Trans:
+        PosBase: 0
+        TransPoss: []
+        RotBase: 0
+        TransRots: []
+    Hits:
+    - EditDisp: "[0]BNum:0|(\u901A\u5E38,\u9060\u8DDD\u96E2)(\u81EA\u653B\u6483\u529B{\u9632\u8A08}\u6575\u9632\u5FA1\u529B)100.0%"
+      BranchNum: 0
+      EHit: 1
+      FHit: 0
+      MHit: 0
+      Heals: 0
+      DamageType: 0
+      ShortAtk: 0
+      DamCalc: (U.ATKdfmT.DEF)*1
+      SPAdd: 0
+      BufSets: []
+    HitCT: 0
+  Moves: []
+  States: []
+  Bufs: []
+  WeponSets: []
+  Anims:
+  - EditDisp: '[0]BNum:0Time:(0, 60)ID:5'
+    BranchNum: 0
+    Times: {x: 0, y: 60}
+    ID: 5
+    Speed: 150
+  SEPlays:
+  - BranchNum: 0
+    Times: {x: 35, y: 60, z: 25}
+    Clip: {fileID: 8300000, guid: 96ce7ebf2a5453d46ba4410b0cb16abe, type: 3}
+    Volume: 60
+    Pitch: 150

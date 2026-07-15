@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c22cee1cabc9b84f92975ed946ab97c, type: 3}
+  m_Name: PAtk_S_MiniTornado
+  m_EditorClassIdentifier: 
+  Name: "mini\u7ADC\u5DFB"
+  Info: "\u3061\u3063\u3061\u3083\u306A\u7ADC\u5DFB\u3092\u767A\u751F\u3055\u305B\u308B"
+  Icon: {fileID: 2800000, guid: 14c5f665d5ce7f9498ee908177ab05ec, type: 3}
+  AtkType: 1
+  FilterSet: 0
+  Filters: 0000000065000000c9000000
+  EndTime: 35
+  CT: 10
+  SPUse: 0
+  BranchInfos: []
+  Branchs: []
+  Fixeds: []
+  Shots:
+  - Obj: {fileID: 5905403385281065886, guid: 59e0aba905d3d584ba37413948965b45, type: 3}
+    Fires:
+    - EditDisp: '[0]BNum:0,Time:(25, 25, 0),Count:1,Speed:(1200.00, 1600.00)'
+      BranchNum: 0
+      Times: {x: 25, y: 25, z: 0}
+      Count: 1
+      Speed: {x: 1200, y: 1600}
+      Trans:
+        PosBase: 0
+        TransPoss: []
+        RotBase: 0
+        TransRots: []
+    Hits:
+    - EditDisp: "[0]BNum:0|(\u30B9\u30AD\u30EB,\u9060\u8DDD\u96E2,SP+0.6)\u81EA\u653B\u6483\u529B60.0%"
+      BranchNum: 0
+      EHit: 1
+      FHit: 0
+      MHit: 0
+      Heals: 0
+      DamageType: 3
+      ShortAtk: 0
+      DamCalc: U.ATK*0.6
+      MultDamChange: {x: -15, y: 15}
+      BreakValue: 0.6
+      SPAdd: 0.6
+      KBs: []
+      BufSets: []
+    Adds: []
+    Summon:
+      LimitTime: 0
+      HPMulPer: 0
+      AtkMulPer: 0
+    HitCT: 2
+  Moves: []
+  States: []
+  Bufs: []
+  WeponSets: []
+  Anims:
+  - EditDisp: '[0]BNum:0Time:(0, 60)ID:20'
+    BranchNum: 0
+    Times: {x: 0, y: 60}
+    ID: 20
+    Speed: 0
+  SEPlays:
+  - BranchNum: 0
+    Times: {x: 25, y: 25, z: 0}
+    Clip: {fileID: 8300000, guid: c5f203541c7d96c439f2bf8f597b3200, type: 3}
+    Volume: 100
+    Pitch: 60

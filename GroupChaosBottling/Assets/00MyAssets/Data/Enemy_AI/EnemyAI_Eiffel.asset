@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 971300707df511444a5e16905bf0c64b, type: 3}
+  m_Name: EnemyAI_Eiffel
+  m_EditorClassIdentifier: 
+  AtkAIs:
+  - EditDisp: "[0]Time(0\uFF5E100),OIfCount:0,AtkSlot:0,AtkName:\u30D0\u30EA\u30A2"
+    TimeIf: {x: 0, y: 100}
+    OtherIfs: []
+    AtkSlot: 0
+    AtkD: {fileID: 11400000, guid: d7885b49726d4f949913ecc3d7f89bb0, type: 2}
+  - EditDisp: "[1]Time(200\uFF5E400),OIfCount:0,AtkSlot:1,AtkName:\u30D6\u30EC\u30C3\u30C8\u30B7\u30E7\u30C3\u30C8"
+    TimeIf: {x: 200, y: 400}
+    OtherIfs: []
+    AtkSlot: 1
+    AtkD: {fileID: 11400000, guid: 375746371fc31ab4f93c96c59d008af0, type: 2}
+  - EditDisp: "[2]Time(600\uFF5E750),OIfCount:0,AtkSlot:2,AtkName:\u30EA\u30D9\u30C3\u30C8\u30B9\u30D7\u30E9\u30C3\u30B7\u30E5"
+    TimeIf: {x: 600, y: 750}
+    OtherIfs: []
+    AtkSlot: 2
+    AtkD: {fileID: 11400000, guid: 11d9ef7f3c06cc342bd467bdbcd16c0d, type: 2}
+  - EditDisp: "[3]Time(800\uFF5E1000),OIfCount:0,AtkSlot:1,AtkName:\u30D6\u30EC\u30C3\u30C8\u30B7\u30E7\u30C3\u30C8"
+    TimeIf: {x: 800, y: 1000}
+    OtherIfs: []
+    AtkSlot: 1
+    AtkD: {fileID: 11400000, guid: 375746371fc31ab4f93c96c59d008af0, type: 2}
+  - EditDisp: "[4]Time(1100\uFF5E1200),OIfCount:0,AtkSlot:3,AtkName:\u9244\u9AA8"
+    TimeIf: {x: 1100, y: 1200}
+    OtherIfs: []
+    AtkSlot: 3
+    AtkD: {fileID: 11400000, guid: 1cb3a6009f397724fb31c0d9421abe54, type: 2}
+  - EditDisp: "[5]Time(1300\uFF5E1500),OIfCount:0,AtkSlot:1,AtkName:\u30D6\u30EC\u30C3\u30C8\u30B7\u30E7\u30C3\u30C8"
+    TimeIf: {x: 1300, y: 1500}
+    OtherIfs: []
+    AtkSlot: 1
+    AtkD: {fileID: 11400000, guid: 375746371fc31ab4f93c96c59d008af0, type: 2}
+  - EditDisp: "[6]Time(1600\uFF5E1700),OIfCount:0,AtkSlot:4,AtkName:\u30D5\u30A9\u30FC\u30EB\u30A8\u30C3\u30D5\u30A7\u30EB"
+    TimeIf: {x: 1600, y: 1700}
+    OtherIfs: []
+    AtkSlot: 4
+    AtkD: {fileID: 11400000, guid: a576259fd693fe740811677a70bfc1a3, type: 2}
+  - EditDisp: "[7]Time(2000\uFF5E2400),OIfCount:0,AtkSlot:2,AtkName:\u30EA\u30D9\u30C3\u30C8\u30B9\u30D7\u30E9\u30C3\u30B7\u30E5"
+    TimeIf: {x: 2000, y: 2400}
+    OtherIfs: []
+    AtkSlot: 2
+    AtkD: {fileID: 11400000, guid: 11d9ef7f3c06cc342bd467bdbcd16c0d, type: 2}
+  - EditDisp: "[8]Time(2700\uFF5E2800),OIfCount:0,AtkSlot:5,AtkName:\u30DF\u30CB\u30C1\u30E5\u30A2\u30A8\u30C3\u30D5\u30A7\u30EB"
+    TimeIf: {x: 2700, y: 2800}
+    OtherIfs: []
+    AtkSlot: 5
+    AtkD: {fileID: 11400000, guid: 18fcc0c1b3aa09149b45647bcad9614c, type: 2}
+  TimerLim: 3000
+  NoTargetResetTime: 0

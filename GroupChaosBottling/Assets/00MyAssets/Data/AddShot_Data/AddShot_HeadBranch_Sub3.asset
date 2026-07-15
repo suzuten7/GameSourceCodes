@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd99303b2ae6bdc46b490e1ada5c6be7, type: 3}
+  m_Name: AddShot_HeadBranch_Sub3
+  m_EditorClassIdentifier: 
+  Shots:
+  - Obj: {fileID: 5905403385281065886, guid: eab546182aac9d744a75efbea272c81e, type: 3}
+    Fires:
+    - EditDisp: 
+      BranchNum: -1
+      Times: {x: 0, y: 0, z: 0}
+      Count: 2
+      Speed: {x: 1500, y: 1500}
+      Trans:
+        PosBase: 0
+        TransPoss: []
+        RotBase: 0
+        TransRots:
+        - Change: 2
+          Fix: {x: 0, y: 0}
+          Val: {x: 0, y: 35, z: 0}
+    Hits: []
+    Adds: []
+    Summon:
+      LimitTime: 0
+      HPMulPer: 0
+      AtkMulPer: 0
+    HitCT: 0
+  SEPlays:
+  - BranchNum: -1
+    Times: {x: 0, y: 0, z: 0}
+    Clip: {fileID: 8300000, guid: eb82b7b629006474dacffc75634a33d3, type: 3}
+    Volume: 50
+    Pitch: 100

@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c22cee1cabc9b84f92975ed946ab97c, type: 3}
+  m_Name: EAtk_E_Barria
+  m_EditorClassIdentifier: 
+  Name: "\u30D0\u30EA\u30A2"
+  Info: 
+  Icon: {fileID: 0}
+  AtkType: 2
+  Filters: 
+  EndTime: 300
+  CT: 20
+  SPUse: 0
+  BranchInfos: []
+  Branchs: []
+  Fixeds: []
+  Shots: []
+  Moves: []
+  States: []
+  Bufs:
+  - BranchNum: 0
+    Times: {x: 280, y: 280, z: 0}
+    BufSets:
+    - EditDisp: "\u30D0\u30EA\u30A2[0,\u4ED8\u4E0E](\u6642\u9593\u7121\u9650)(\u6BB5\u968E:\u4ED8\u4E0E\u30D7\u30EC\u30A4\u30E4\u30FC\u65702500.0%)"
+      Buf: 2011
+      Index: 0
+      Set: 0
+      TimeVal: 0
+      PowVal: PCOUNT*25
+      TimeMax: 0
+      PowMax: 
+    - EditDisp: "\u9632\u5FA1\u4F4E\u4E0B[9999,\u4ED8\u4E0E](\u6642\u9593:\u4ED8\u4E0E900)(\u6BB5\u968E:\u4ED8\u4E0E80)"
+      Buf: 120
+      Index: 9999
+      Set: 0
+      TimeVal: 900
+      PowVal: 80
+      TimeMax: 900
+      PowMax: 
+  WeponSets: []
+  Anims:
+  - EditDisp: '[0]BNum:0Time:(0, 300)ID:4'
+    BranchNum: 0
+    Times: {x: 0, y: 300}
+    ID: 4
+    Speed: 0
+  SEPlays:
+  - BranchNum: 0
+    Times: {x: 280, y: 280, z: 0}
+    Clip: {fileID: 8300000, guid: c5f203541c7d96c439f2bf8f597b3200, type: 3}
+    Volume: 150
+    Pitch: 200

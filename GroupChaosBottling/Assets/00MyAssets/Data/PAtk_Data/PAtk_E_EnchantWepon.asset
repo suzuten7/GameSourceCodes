@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c22cee1cabc9b84f92975ed946ab97c, type: 3}
+  m_Name: PAtk_E_EnchantWepon
+  m_EditorClassIdentifier: 
+  Name: "\u30A8\u30F3\u30C1\u30E3\u30F3\u30C8\u30A6\u30A7\u30DD\u30F3"
+  Info: "\u77ED\u6642\u9593\u30E1\u30A4\u30F3\u653B\u6483\u306E\n\u4E0E\u30C0\u30E1\u30FC\u30B8\u304C3\u500D\u306B\u306A\u308B"
+  Icon: {fileID: 2800000, guid: a8a7b32b94e715c43ae5934187bd0276, type: 3}
+  AtkType: 2
+  FilterSet: 0
+  Filters: 660000006e000000
+  EndTime: 60
+  CT: 20
+  SPUse: 270
+  BranchInfos: []
+  Branchs: []
+  Fixeds:
+  - EditDisp: '[0]BNum:0Time:(0, 999)'
+    BranchNum: 0
+    Times: {x: 0, y: 999}
+    SpeedRem: 75
+    NoJump: 0
+    NoDash: 1
+    Aiming: 1
+    NGravity: 0
+    NoDamage: 1
+  Shots: []
+  Moves: []
+  States: []
+  Bufs:
+  - BranchNum: 0
+    Times: {x: 0, y: 0, z: 0}
+    BufSets:
+    - EditDisp: "\u30A8\u30F3\u30C1\u30E3\u30F3\u30C8\u30A6\u30A7\u30DD\u30F3[0,\u4ED8\u4E0E](\u6642\u9593:\u4ED8\u4E0E420)"
+      Buf: 2300
+      Index: 0
+      Set: 0
+      TimeVal: 420
+      PowVal: 
+      TimeMax: 0
+      PowMax: 
+  WeponSets: []
+  Anims:
+  - EditDisp: '[0]BNum:0Time:(0, 60)ID:3'
+    BranchNum: 0
+    Times: {x: 0, y: 60}
+    ID: 3
+    Speed: 0
+  SEPlays:
+  - BranchNum: 0
+    Times: {x: 30, y: 30, z: 0}
+    Clip: {fileID: 8300000, guid: 96ce7ebf2a5453d46ba4410b0cb16abe, type: 3}
+    Volume: 150
+    Pitch: -100

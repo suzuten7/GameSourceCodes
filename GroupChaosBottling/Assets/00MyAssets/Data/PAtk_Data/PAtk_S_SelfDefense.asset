@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c22cee1cabc9b84f92975ed946ab97c, type: 3}
+  m_Name: PAtk_S_SelfDefense
+  m_EditorClassIdentifier: 
+  Name: "\u81EA\u5DF1\u9632\u885B"
+  Info: "\u81EA\u5206\u3060\u3051\u5B88\u308B\u30B9\u30AD\u30EB"
+  Icon: {fileID: 2800000, guid: 0de12d03f4657554aaa7b8a5cc612eb0, type: 3}
+  AtkType: 1
+  FilterSet: 0
+  Filters: 6e000000020000002d010000
+  EndTime: 60
+  CT: 18
+  SPUse: 0
+  BranchInfos: []
+  Branchs: []
+  Fixeds: []
+  Shots: []
+  Moves: []
+  States: []
+  Bufs:
+  - BranchNum: 0
+    Times: {x: 50, y: 50, z: 0}
+    BufSets:
+    - EditDisp: "\u30B7\u30FC\u30EB\u30C9[0,\u4ED8\u4E0E](\u6642\u9593:\u4ED8\u4E0E900)(\u6BB5\u968E:\u4ED8\u4E0E\u81EA\u6700\u5927HP40.0%)"
+      Buf: 2010
+      Index: 0
+      Set: 0
+      TimeVal: 900
+      PowVal: U.MHP*0.4
+      TimeMax: 0
+      PowMax: 
+    - EditDisp: "\u30D0\u30EA\u30A2[0,\u4ED8\u4E0E](\u6642\u9593:\u4ED8\u4E0E900)(\u6BB5\u968E:\u4ED8\u4E0E2)"
+      Buf: 2011
+      Index: 0
+      Set: 0
+      TimeVal: 900
+      PowVal: 2
+      TimeMax: 0
+      PowMax: 
+  WeponSets: []
+  Anims:
+  - EditDisp: '[0]BNum:0Time:(0, 60)ID:20'
+    BranchNum: 0
+    Times: {x: 0, y: 60}
+    ID: 20
+    Speed: 0
+  SEPlays: []

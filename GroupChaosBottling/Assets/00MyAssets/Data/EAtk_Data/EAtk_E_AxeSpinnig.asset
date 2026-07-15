@@ -1,0 +1,216 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c22cee1cabc9b84f92975ed946ab97c, type: 3}
+  m_Name: EAtk_E_AxeSpinnig
+  m_EditorClassIdentifier: 
+  Name: "\u30A2\u30C3\u30AF\u30B9\u30B9\u30D4\u30CB\u30F3\u30B0"
+  Info: "\u3076\u3093\u56DE\u3059"
+  Icon: {fileID: 2800000, guid: b442fd7ae2ec93c4b9b9eda0c032960c, type: 3}
+  AtkType: 2
+  Filters: 
+  EndTime: 600
+  CT: 6
+  SPUse: 0
+  BranchInfos:
+  - BID: 0
+    Name: 
+    ChangeEndTime: 0
+    NoEnd: 1
+  - BID: 1
+    Name: 
+    ChangeEndTime: 0
+    NoEnd: 0
+  - BID: 2
+    Name: 
+    ChangeEndTime: 0
+    NoEnd: 0
+  Branchs:
+  - EditDisp: '[0]BNum:0Time:(599, 600)MP:0Future{Num:1Time:0}'
+    BranchNums: 00000000
+    Times: {x: 599, y: 600}
+    Ifs: 1f000000
+    StayFlTime: 0
+    UseMP: 0
+    BranchColor: {r: 0, g: 0, b: 0, a: 0}
+    HideUI: 0
+    FutureNum: 1
+    FutureTime: 0
+  - EditDisp: '[1]BNum:0Time:(599, 600)MP:0Future{Num:2Time:0}'
+    BranchNums: 00000000
+    Times: {x: 599, y: 600}
+    Ifs: 1e000000
+    StayFlTime: 0
+    UseMP: 0
+    BranchColor: {r: 0, g: 0, b: 0, a: 0}
+    HideUI: 0
+    FutureNum: 2
+    FutureTime: 0
+  Fixeds:
+  - EditDisp: '[0]BNum:0Time:(0, 60)'
+    BranchNum: 0
+    Times: {x: 0, y: 60}
+    SpeedRem: 75
+    NoJump: 0
+    NoDash: 0
+    Aiming: 1
+    NGravity: 0
+    NoDamage: 0
+  Shots:
+  - Obj: {fileID: 5905403385281065886, guid: 0cbfb87061fdf2b48ba0288629373887, type: 3}
+    Fires:
+    - EditDisp: '[0]BNum:1,Time:(100, 600, 60),Count:4,Speed:(2000.00, 2000.00)'
+      BranchNum: 1
+      Times: {x: 100, y: 600, z: 60}
+      Count: 4
+      Speed: {x: 2000, y: 2000}
+      Trans:
+        PosBase: 0
+        TransPoss: []
+        RotBase: -1
+        TransRots:
+        - Change: 5
+          Mlt: 0
+          Val: {x: 0, y: 2, z: 0}
+        - Change: 2
+          Mlt: 0
+          Val: {x: 0, y: 90, z: 0}
+    - EditDisp: '[1]BNum:2,Time:(100, 600, 15),Count:4,Speed:(2000.00, 2000.00)'
+      BranchNum: 2
+      Times: {x: 100, y: 600, z: 15}
+      Count: 4
+      Speed: {x: 2000, y: 2000}
+      Trans:
+        PosBase: 0
+        TransPoss: []
+        RotBase: -1
+        TransRots:
+        - Change: 5
+          Mlt: 0
+          Val: {x: 0, y: 2, z: 0}
+        - Change: 2
+          Mlt: 0
+          Val: {x: 0, y: 90, z: 0}
+    Hits:
+    - EditDisp: "[0]BNum:1|(\u901A\u5E38,\u9060\u8DDD\u96E2,SP+0.0)(\u81EA\u653B\u6483\u529B{\u9632\u8A08}\u5BFE\u9632\u5FA1\u529B)70.0%"
+      BranchNum: 1
+      EHit: 1
+      FHit: 0
+      MHit: 0
+      Heals: 0
+      DamageType: 0
+      ShortAtk: 0
+      DamCalc: (U.ATKdfmT.DEF)*0.7
+      MultDamChange: {x: -25, y: 25}
+      BreakValue: 0
+      SPAdd: 0
+      KBs: []
+      BufSets: []
+    - EditDisp: "[1]BNum:2|(\u901A\u5E38,\u9060\u8DDD\u96E2,SP+0.0)(\u81EA\u653B\u6483\u529B{\u9632\u8A08}\u5BFE\u9632\u5FA1\u529B)70.0%"
+      BranchNum: 2
+      EHit: 1
+      FHit: 0
+      MHit: 0
+      Heals: 0
+      DamageType: 0
+      ShortAtk: 0
+      DamCalc: (U.ATKdfmT.DEF)*0.7
+      MultDamChange: {x: 0, y: 0}
+      BreakValue: 0
+      SPAdd: 0
+      KBs: []
+      BufSets: []
+    Adds: []
+    Summon:
+      LimitTime: 40
+      HPMulPer: 50
+      AtkMulPer: 100
+    HitCT: 0
+  Moves:
+  - BranchNum: 1
+    Times: {x: 100, y: 600, z: 0}
+    Base: 0
+    Vect: {x: 0, y: 0, z: 75}
+    SetSpeed: 0
+  - BranchNum: 2
+    Times: {x: 100, y: 600, z: 0}
+    Base: 0
+    Vect: {x: 0, y: 0, z: 250}
+    SetSpeed: 0
+  - BranchNum: 0
+    Times: {x: 0, y: 600, z: 0}
+    Base: -1
+    Vect: {x: 0, y: -50, z: 0}
+    SetSpeed: 0
+  - BranchNum: 1
+    Times: {x: 0, y: 600, z: 0}
+    Base: -1
+    Vect: {x: 0, y: -50, z: 0}
+    SetSpeed: 0
+  - BranchNum: 2
+    Times: {x: 0, y: 600, z: 0}
+    Base: -1
+    Vect: {x: 0, y: -50, z: 0}
+    SetSpeed: 0
+  States: []
+  Bufs:
+  - BranchNum: 0
+    Times: {x: 25, y: 25, z: 0}
+    BufSets:
+    - EditDisp: "\u53CD\u6483\u84C4\u7A4D[0,\u4ED8\u4E0E](\u6642\u9593:\u4ED8\u4E0E600)(\u6BB5\u968E:\u4ED8\u4E0E\u81EA\u6700\u5927HP10.0%)"
+      Buf: 2104
+      Index: 0
+      Set: 0
+      TimeVal: 600
+      PowVal: U.MHP*0.1
+      TimeMax: 0
+      PowMax: 
+    - EditDisp: "\u9632\u5FA1\u4F4E\u4E0B[-1000,\u4ED8\u4E0E](\u6642\u9593:\u4ED8\u4E0E1200)(\u6BB5\u968E:\u4ED8\u4E0E80)"
+      Buf: 120
+      Index: -1000
+      Set: 0
+      TimeVal: 1200
+      PowVal: 80
+      TimeMax: 0
+      PowMax: 
+  WeponSets: []
+  Anims:
+  - EditDisp: '[0]BNum:0Time:(0, 600)ID:4'
+    BranchNum: 0
+    Times: {x: 0, y: 600}
+    ID: 4
+    Speed: -75
+  - EditDisp: '[1]BNum:1Time:(0, 99)ID:4'
+    BranchNum: 1
+    Times: {x: 0, y: 99}
+    ID: 4
+    Speed: -50
+  - EditDisp: '[2]BNum:2Time:(0, 99)ID:4'
+    BranchNum: 2
+    Times: {x: 0, y: 99}
+    ID: 4
+    Speed: -50
+  - EditDisp: '[3]BNum:1Time:(100, 600)ID:4'
+    BranchNum: 1
+    Times: {x: 100, y: 600}
+    ID: 4
+    Speed: 0
+  - EditDisp: '[4]BNum:2Time:(100, 600)ID:4'
+    BranchNum: 2
+    Times: {x: 100, y: 600}
+    ID: 4
+    Speed: 100
+  SEPlays:
+  - BranchNum: 0
+    Times: {x: 30, y: 30, z: 0}
+    Clip: {fileID: 8300000, guid: 96ce7ebf2a5453d46ba4410b0cb16abe, type: 3}
+    Volume: 150
+    Pitch: -100

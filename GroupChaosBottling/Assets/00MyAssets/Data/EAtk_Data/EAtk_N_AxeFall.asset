@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c22cee1cabc9b84f92975ed946ab97c, type: 3}
+  m_Name: EAtk_N_AxeFall
+  m_EditorClassIdentifier: 
+  Name: "\u30A2\u30C3\u30AF\u30B9\u30D5\u30A9\u30FC\u30EB"
+  Info: 
+  Icon: {fileID: 0}
+  AtkType: 0
+  Filters: 
+  EndTime: 180
+  CT: 4
+  SPUse: 0
+  BranchInfos: []
+  Branchs: []
+  Fixeds: []
+  Shots:
+  - Obj: {fileID: 5905403385281065886, guid: 0cbfb87061fdf2b48ba0288629373887, type: 3}
+    Fires:
+    - EditDisp: '[0]BNum:0,Time:(140, 140, 0),Count:10,Speed:(3000.00, 3000.00)'
+      BranchNum: 0
+      Times: {x: 140, y: 140, z: 0}
+      Count: 10
+      Speed: {x: 3000, y: 3000}
+      Trans:
+        PosBase: 0
+        TransPoss:
+        - Change: 2
+          Mlt: 0
+          Val: {x: 0.8, y: 0, z: 0}
+        RotBase: 0
+        TransRots:
+        - Change: 0
+          Mlt: 0
+          Val: {x: 0, y: 0, z: 90}
+    Hits:
+    - EditDisp: "[0]BNum:0|(\u901A\u5E38,\u9060\u8DDD\u96E2,SP+0.0)(\u81EA\u653B\u6483\u529B{\u9632\u8A08}\u5BFE\u9632\u5FA1\u529B)500.0%"
+      BranchNum: 0
+      EHit: 1
+      FHit: 0
+      MHit: 0
+      Heals: 0
+      DamageType: 0
+      ShortAtk: 0
+      DamCalc: (U.ATKdfmT.DEF)*5
+      MultDamChange: {x: -25, y: 25}
+      BreakValue: 0
+      SPAdd: 0
+      KBs: []
+      BufSets: []
+    Adds: []
+    Summon:
+      LimitTime: 30
+      HPMulPer: 0
+      AtkMulPer: 0
+    HitCT: 0
+  Moves:
+  - BranchNum: 0
+    Times: {x: 0, y: 180, z: 0}
+    Base: -1
+    Vect: {x: 0, y: -50, z: 0}
+    SetSpeed: 0
+  States: []
+  Bufs: []
+  WeponSets: []
+  Anims:
+  - EditDisp: '[0]BNum:0Time:(0, 180)ID:3'
+    BranchNum: 0
+    Times: {x: 0, y: 180}
+    ID: 3
+    Speed: -80
+  SEPlays:
+  - BranchNum: 0
+    Times: {x: 75, y: 75, z: 0}
+    Clip: {fileID: 8300000, guid: 96ce7ebf2a5453d46ba4410b0cb16abe, type: 3}
+    Volume: 150
+    Pitch: 160

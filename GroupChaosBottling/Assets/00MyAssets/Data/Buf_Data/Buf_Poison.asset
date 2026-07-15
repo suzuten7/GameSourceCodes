@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 293c3158aaaba8140b700761c71ebdc0, type: 3}
+  m_Name: Buf_Poison
+  m_EditorClassIdentifier: 
+  Buf: 1000
+  Info: 
+  Col: {r: 0, g: 1, b: 0, a: 1}
+  Icon: {fileID: 2800000, guid: c52b0a0623874c74baad17011f3d9323, type: 3}
+  Type: 2
+  EffectObj: {fileID: 7024842138666826482, guid: 9519f7513d9644645a737865a03794e3, type: 3}
+  RemSE:
+    Clip: {fileID: 0}
+    Volume: 100
+    Pitch: 100

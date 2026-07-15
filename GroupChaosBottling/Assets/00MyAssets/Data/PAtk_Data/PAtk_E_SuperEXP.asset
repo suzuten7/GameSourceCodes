@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c22cee1cabc9b84f92975ed946ab97c, type: 3}
+  m_Name: PAtk_E_SuperEXP
+  m_EditorClassIdentifier: 
+  Name: "\u8D85\u7206\u6483"
+  Info: "\u524D\u65B9\u3092\u7206\u7834\u3059\u308B\n\u3068\u3066\u3082\u91CD\u3044"
+  Icon: {fileID: 2800000, guid: d3b5fa41e417ebe4da85d0457f99c048, type: 3}
+  AtkType: 2
+  FilterSet: 0
+  Filters: 0000000065000000c9000000
+  EndTime: 60
+  CT: 30
+  SPUse: 999
+  BranchInfos: []
+  Branchs: []
+  Fixeds:
+  - EditDisp: '[0]BNum:0Time:(0, 999)'
+    BranchNum: 0
+    Times: {x: 0, y: 999}
+    SpeedRem: 75
+    NoJump: 0
+    NoDash: 1
+    Aiming: 0
+    NGravity: 0
+    NoDamage: 1
+  Shots:
+  - Obj: {fileID: 5905403385281065886, guid: ef80f7d0ca68bbf45ab6179c67772d5e, type: 3}
+    Fires:
+    - EditDisp: '[0]BNum:0,Time:(30, 30, 0),Count:1,Speed:(0.00, 0.00)'
+      BranchNum: 0
+      Times: {x: 30, y: 30, z: 0}
+      Count: 1
+      Speed: {x: 0, y: 0}
+      Trans:
+        PosBase: 0
+        TransPoss:
+        - Change: 0
+          Fix: {x: 0, y: 0}
+          Val: {x: 0, y: 0, z: 6}
+        RotBase: -1
+        TransRots: []
+    Hits:
+    - EditDisp: "[0]BNum:0|(\u5FC5\u6BBA,\u9060\u8DDD\u96E2,SP+0.0)(\u81EA\u653B\u6483\u529B{\u9632\u8A08}\u5BFE\u9632\u5FA1\u529B)370.0%"
+      BranchNum: 0
+      EHit: 1
+      FHit: 0
+      MHit: 0
+      Heals: 0
+      DamageType: 4
+      ShortAtk: 0
+      DamCalc: (U.ATKdfmT.DEF)*3.7
+      MultDamChange: {x: 0, y: 0}
+      BreakValue: 10
+      SPAdd: 0
+      KBs: []
+      BufSets: []
+    Adds: []
+    Summon:
+      LimitTime: 0
+      HPMulPer: 0
+      AtkMulPer: 0
+    HitCT: 11
+  Moves: []
+  States: []
+  Bufs: []
+  WeponSets: []
+  Anims:
+  - EditDisp: '[0]BNum:0Time:(0, 60)ID:3'
+    BranchNum: 0
+    Times: {x: 0, y: 60}
+    ID: 3
+    Speed: 0
+  SEPlays:
+  - BranchNum: 0
+    Times: {x: 30, y: 35, z: 3}
+    Clip: {fileID: 8300000, guid: 26f4cccbaa1a7814ebf9e026338e23fb, type: 3}
+    Volume: 75
+    Pitch: -150
+  - BranchNum: 0
+    Times: {x: 30, y: 35, z: 3}
+    Clip: {fileID: 8300000, guid: 26f4cccbaa1a7814ebf9e026338e23fb, type: 3}
+    Volume: 75
+    Pitch: 150

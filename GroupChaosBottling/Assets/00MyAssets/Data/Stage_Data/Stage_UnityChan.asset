@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c12fea65286e7ef41b8dcbac1ecf837d, type: 3}
+  m_Name: Stage_UnityChan
+  m_EditorClassIdentifier: 
+  Name: "\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093?"
+  Info: "\u69D8\u3005\u306A\u653B\u6483\u3092\u6271\u3046\n\u507D\u306E\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093\n\u3092\u5012\u305B"
+  Icon: {fileID: 2800000, guid: 88a9bed89fcd1934e9449d4ad431342c, type: 3}
+  SceneID: 14
+  TimeLimSec: 420
+  TimeStar: 180
+  DeathStar: 6
+  DifencePer: 0
+  NoClears: 0
+  ChaosBuf: "\u30E6\u30CB\u30C6\u30A3\u3061\u3083\u3093?\u304C\n2\u4F53\u306B\u306A\u308B\u304C\nHP-40%\nAtk-30%"
+  ChaosStates:
+  - Target: 2
+    State: 0
+    Per: -40
+  - Target: 0
+    State: 2
+    Per: -30
+  ChaosBfUps: []
+  ClearChaosGrain: 3000
+  GeneDropCount: {x: 3, y: 4}
+  GeneDropTypes: 000000000100000002000000030000000400000007000000

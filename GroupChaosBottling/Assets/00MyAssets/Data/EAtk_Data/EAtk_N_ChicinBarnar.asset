@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c22cee1cabc9b84f92975ed946ab97c, type: 3}
+  m_Name: EAtk_N_ChicinBarnar
+  m_EditorClassIdentifier: 
+  Name: "\u30C1\u30AD\u30F3\u30D0\u30FC\u30CA\u30FC"
+  Info: 
+  Icon: {fileID: 0}
+  AtkType: 0
+  Filters: 
+  EndTime: 250
+  CT: 6
+  SPUse: 0
+  BranchInfos: []
+  Branchs: []
+  Fixeds: []
+  Shots:
+  - Obj: {fileID: 5905403385281065886, guid: 98c8e0e2bf5215a4fad0fea491e018f4, type: 3}
+    Fires:
+    - EditDisp: '[0]BNum:0,Time:(60, 200, 40),Count:4,Speed:(1000.00, 4000.00)'
+      BranchNum: 0
+      Times: {x: 60, y: 200, z: 40}
+      Count: 4
+      Speed: {x: 1000, y: 4000}
+      Trans:
+        PosBase: 0
+        TransPoss: []
+        RotBase: 1
+        TransRots:
+        - Change: 1
+          Mlt: 0
+          Val: {x: 6, y: 6, z: 6}
+    Hits:
+    - EditDisp: "[0]BNum:0|(\u901A\u5E38,\u9060\u8DDD\u96E2,SP+0.0)(\u81EA\u653B\u6483\u529B{\u9632\u8A08}\u5BFE\u9632\u5FA1\u529B)10.0%"
+      BranchNum: 0
+      EHit: 1
+      FHit: 0
+      MHit: 0
+      Heals: 0
+      DamageType: 0
+      ShortAtk: 0
+      DamCalc: (U.ATKdfmT.DEF)*0.1
+      SPAdd: 0
+      BufSets: []
+    Adds: []
+    HitCT: 0
+  Moves: []
+  States: []
+  Bufs: []
+  WeponSets: []
+  Anims:
+  - EditDisp: '[0]BNum:0Time:(0, 240)ID:1'
+    BranchNum: 0
+    Times: {x: 0, y: 240}
+    ID: 1
+    Speed: 75
+  SEPlays:
+  - BranchNum: 0
+    Times: {x: 60, y: 200, z: 40}
+    Clip: {fileID: 8300000, guid: 6791451c594fab44fac46b35c74d67b0, type: 3}
+    Volume: 150
+    Pitch: 60

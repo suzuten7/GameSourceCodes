@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c22cee1cabc9b84f92975ed946ab97c, type: 3}
+  m_Name: PAtk_S_DokuYaku
+  m_EditorClassIdentifier: 
+  Name: "\u6BD2\u85AC"
+  Info: "\u6BD2\u72B6\u614B\u306B\u306A\u308B\u304C\nMP\u3092\u56DE\u5FA9\u3059\u308B"
+  Icon: {fileID: 2800000, guid: e4bee61bfe9587341a5cd3e0f3112a70, type: 3}
+  AtkType: 1
+  FilterSet: 0
+  Filters: 6e00000003000000
+  EndTime: 60
+  CT: 15
+  SPUse: 0
+  BranchInfos: []
+  Branchs: []
+  Fixeds: []
+  Shots: []
+  Moves: []
+  States:
+  - BranchNum: 0
+    Times: {x: 50, y: 50, z: 0}
+    State: 2
+    Adds: U.MMP*0.1
+  Bufs:
+  - BranchNum: 0
+    Times: {x: 50, y: 50, z: 0}
+    BufSets:
+    - EditDisp: "\u6BD2[0,\u4ED8\u4E0E\u5897\u52A0](\u6642\u9593:\u4ED8\u4E0E1500Max1500)(\u6BB5\u968E:\u4ED8\u4E0E\u81EA\u6700\u5927HP1.5%)"
+      Buf: 1000
+      Index: 0
+      Set: 1
+      TimeVal: 1500
+      PowVal: U.MHP*0.015
+      TimeMax: 1500
+      PowMax: 
+  WeponSets: []
+  Anims:
+  - EditDisp: '[0]BNum:0Time:(0, 60)ID:20'
+    BranchNum: 0
+    Times: {x: 0, y: 60}
+    ID: 20
+    Speed: 0
+  SEPlays: []

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 971300707df511444a5e16905bf0c64b, type: 3}
+  m_Name: EnemyAI_SandBagBarrias
+  m_EditorClassIdentifier: 
+  AtkAIs:
+  - EditDisp: "[0]Time(0\uFF5E0),OIfCount:0,AtkSlot:0,AtkName:\u30B5\u30F3\u30C9\u30D0\u30C3\u30B0\u30D0\u30EA\u30A2"
+    TimeIf: {x: 0, y: 0}
+    OtherIfs: []
+    AtkSlot: 0
+    AtkD: {fileID: 11400000, guid: 877c20417664931468f3f77ad2a5712f, type: 2}
+    StayInput: 0
+  TimerLim: 0
+  NoTargetResetTime: 0

@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c22cee1cabc9b84f92975ed946ab97c, type: 3}
+  m_Name: PAtk_E_KiroBlade
+  m_EditorClassIdentifier: 
+  Name: "\u30AD\u30ED\u30D6\u30EC\u30A4\u30C9"
+  Info: "\u5F37\u3044\u65AC\u6483\u30922\u56DE\u653E\u3064"
+  Icon: {fileID: 2800000, guid: 70e101e1d5ceaa5439bf3ad4e3c791f7, type: 3}
+  AtkType: 2
+  FilterSet: 0
+  Filters: 0000000064000000
+  EndTime: 40
+  CT: 15
+  SPUse: 200
+  BranchInfos: []
+  Branchs: []
+  Fixeds:
+  - EditDisp: '[0]BNum:0Time:(0, 999)'
+    BranchNum: 0
+    Times: {x: 0, y: 999}
+    SpeedRem: 60
+    NoJump: 1
+    NoDash: 1
+    Aiming: 0
+    NGravity: 0
+    NoDamage: 1
+  Shots:
+  - Obj: {fileID: 5905403385281065886, guid: e2f1fe1cf2ac91346af19af8f935c63a, type: 3}
+    Fires:
+    - EditDisp: '[0]BNum:0,Time:(0, 0, 0),Count:1,Speed:(500.00, 500.00)'
+      BranchNum: 0
+      Times: {x: 0, y: 0, z: 0}
+      Count: 1
+      Speed: {x: 500, y: 500}
+      Trans:
+        PosBase: 0
+        TransPoss: []
+        RotBase: 0
+        TransRots:
+        - Change: 0
+          Fix: {x: 0, y: 0}
+          Val: {x: 0, y: 0, z: -90}
+    - EditDisp: '[1]BNum:0,Time:(35, 35, 0),Count:1,Speed:(0.00, 0.00)'
+      BranchNum: 0
+      Times: {x: 35, y: 35, z: 0}
+      Count: 1
+      Speed: {x: 0, y: 0}
+      Trans:
+        PosBase: 0
+        TransPoss: []
+        RotBase: 0
+        TransRots:
+        - Change: 0
+          Fix: {x: 0, y: 0}
+          Val: {x: 0, y: 0, z: 75}
+    - EditDisp: '[2]BNum:0,Time:(35, 35, 0),Count:1,Speed:(0.00, 0.00)'
+      BranchNum: 0
+      Times: {x: 35, y: 35, z: 0}
+      Count: 1
+      Speed: {x: 0, y: 0}
+      Trans:
+        PosBase: 0
+        TransPoss: []
+        RotBase: 0
+        TransRots:
+        - Change: 0
+          Fix: {x: 0, y: 0}
+          Val: {x: 0, y: 0, z: -75}
+    Hits:
+    - EditDisp: "[0]BNum:0|(\u5FC5\u6BBA,\u8FD1\u8DDD\u96E2,SP+0.0)(\u81EA\u653B\u6483\u529B{\u9632\u8A08}\u5BFE\u9632\u5FA1\u529B)500.0%"
+      BranchNum: 0
+      EHit: 1
+      FHit: 0
+      MHit: 0
+      Heals: 0
+      DamageType: 4
+      ShortAtk: 1
+      DamCalc: (U.ATKdfmT.DEF)*5
+      MultDamChange: {x: 0, y: 0}
+      BreakValue: 4
+      SPAdd: 0
+      KBs: []
+      BufSets: []
+    Adds: []
+    Summon:
+      LimitTime: 0
+      HPMulPer: 0
+      AtkMulPer: 0
+    HitCT: 0
+  Moves: []
+  States: []
+  Bufs: []
+  WeponSets:
+  - BranchNum: 0
+    Times: {x: 0, y: 100}
+    Obj: {fileID: 6293833836109196858, guid: 1fa631b6e4f35a44a90d5646f718260f, type: 3}
+    Set: 0
+    PosChange: {x: 0, y: 0, z: 0}
+    RotChange: {x: 0, y: 0, z: 0}
+  Anims:
+  - EditDisp: '[0]BNum:0Time:(0, 20)ID:30'
+    BranchNum: 0
+    Times: {x: 0, y: 20}
+    ID: 30
+    Speed: 100
+  - EditDisp: '[1]BNum:0Time:(20, 40)ID:1'
+    BranchNum: 0
+    Times: {x: 20, y: 40}
+    ID: 1
+    Speed: 100
+  SEPlays:
+  - BranchNum: 0
+    Times: {x: 0, y: 0, z: 0}
+    Clip: {fileID: 8300000, guid: 0ef0e1917edf7bd4693f975b0c0e18d9, type: 3}
+    Volume: 400
+    Pitch: 25
+  - BranchNum: 0
+    Times: {x: 35, y: 35, z: 0}
+    Clip: {fileID: 8300000, guid: 0ef0e1917edf7bd4693f975b0c0e18d9, type: 3}
+    Volume: 500
+    Pitch: 40

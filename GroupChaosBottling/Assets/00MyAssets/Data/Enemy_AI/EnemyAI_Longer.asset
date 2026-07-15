@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 971300707df511444a5e16905bf0c64b, type: 3}
+  m_Name: EnemyAI_Longer
+  m_EditorClassIdentifier: 
+  AtkAIs:
+  - EditDisp: "[0]Time(200\uFF5E600),OIfCount:0,AtkSlot:0,AtkName:\u30ED\u30F3\u30B0\u30D6\u30E9\u30B9\u30C8"
+    TimeIf: {x: 200, y: 600}
+    OtherIfs: []
+    AtkSlot: 0
+    AtkD: {fileID: 11400000, guid: 8b333219b11845e47817fe9adc9754fc, type: 2}
+    StayInput: 0
+  - EditDisp: "[1]Time(700\uFF5E900),OIfCount:0,AtkSlot:1,AtkName:\u30ED\u30F3\u30B0\u30D6\u30E9\u30F3\u30C1"
+    TimeIf: {x: 700, y: 900}
+    OtherIfs: []
+    AtkSlot: 1
+    AtkD: {fileID: 11400000, guid: 6d41d13967e0d3043b80092de1382895, type: 2}
+    StayInput: 0
+  - EditDisp: "[2]Time(1100\uFF5E1700),OIfCount:0,AtkSlot:2,AtkName:\u30ED\u30F3\u30B0\u30BF\u30C3\u30AF\u30EB"
+    TimeIf: {x: 1100, y: 1700}
+    OtherIfs: []
+    AtkSlot: 2
+    AtkD: {fileID: 11400000, guid: 0f09b7f6a425a7a49b6a9fdf3e4256eb, type: 2}
+    StayInput: 0
+  - EditDisp: "[3]Time(2200\uFF5E2700),OIfCount:0,AtkSlot:10,AtkName:\u30ED\u30F3\u30B0\u30B5\u30FC\u30AF\u30EB"
+    TimeIf: {x: 2200, y: 2700}
+    OtherIfs: []
+    AtkSlot: 10
+    AtkD: {fileID: 11400000, guid: 08355011d4d3a254aa1b0fff64f5a66f, type: 2}
+    StayInput: 0
+  - EditDisp: "[4]Time(4200\uFF5E4600),OIfCount:0,AtkSlot:3,AtkName:\u30ED\u30F3\u30B0\u30B9\u30A6\u30A3\u30C3\u30D7"
+    TimeIf: {x: 4200, y: 4600}
+    OtherIfs: []
+    AtkSlot: 3
+    AtkD: {fileID: 11400000, guid: dd031d3eb60737748949e6d1c29e0897, type: 2}
+    StayInput: 0
+  - EditDisp: "[5]Time(5000\uFF5E5400),OIfCount:0,AtkSlot:0,AtkName:\u30ED\u30F3\u30B0\u30D6\u30E9\u30B9\u30C8"
+    TimeIf: {x: 5000, y: 5400}
+    OtherIfs: []
+    AtkSlot: 0
+    AtkD: {fileID: 11400000, guid: 8b333219b11845e47817fe9adc9754fc, type: 2}
+    StayInput: 0
+  - EditDisp: "[6]Time(5700\uFF5E6200),OIfCount:0,AtkSlot:2,AtkName:\u30ED\u30F3\u30B0\u30BF\u30C3\u30AF\u30EB"
+    TimeIf: {x: 5700, y: 6200}
+    OtherIfs: []
+    AtkSlot: 2
+    AtkD: {fileID: 11400000, guid: 0f09b7f6a425a7a49b6a9fdf3e4256eb, type: 2}
+    StayInput: 0
+  - EditDisp: "[7]Time(6400\uFF5E7000),OIfCount:0,AtkSlot:3,AtkName:\u30ED\u30F3\u30B0\u30B9\u30A6\u30A3\u30C3\u30D7"
+    TimeIf: {x: 6400, y: 7000}
+    OtherIfs: []
+    AtkSlot: 3
+    AtkD: {fileID: 11400000, guid: dd031d3eb60737748949e6d1c29e0897, type: 2}
+    StayInput: 0
+  TimerLim: 7100
+  NoTargetResetTime: 0

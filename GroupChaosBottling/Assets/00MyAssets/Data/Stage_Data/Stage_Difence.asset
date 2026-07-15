@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c12fea65286e7ef41b8dcbac1ecf837d, type: 3}
+  m_Name: Stage_Difence
+  m_EditorClassIdentifier: 
+  Name: "\u30C7\u30A3\u30D5\u30A7\u30F3\u30B9"
+  Info: "\u6CB8\u304D\u7D9A\u3051\u308B\n\u6575\u3092\u5012\u3057\n\u4E2D\u592E\u306E\u7269\u3092\u5B88\u308C"
+  Icon: {fileID: 2800000, guid: 2121e2b1a05ca0542bbe320bdeab168d, type: 3}
+  SceneID: 16
+  TimeLimSec: 300
+  TimeStar: 120
+  DeathStar: 6
+  DifencePer: 60
+  NoClears: 0
+  ChaosBuf: "\u8FFD\u52A0\u306E\u6575\u304C\u51FA\u73FE"
+  ClearChaosGrain: 3000
+  GeneDropCount: {x: 3, y: 4}
+  GeneDropTypes: 0000000002000000

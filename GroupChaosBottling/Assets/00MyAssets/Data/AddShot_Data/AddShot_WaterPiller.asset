@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd99303b2ae6bdc46b490e1ada5c6be7, type: 3}
+  m_Name: AddShot_WaterPiller
+  m_EditorClassIdentifier: 
+  Shots:
+  - Obj: {fileID: 5905403385281065886, guid: 56583d24d81025440ae94cf135ce36da, type: 3}
+    Fires:
+    - EditDisp: 
+      BranchNum: -1
+      Times: {x: 0, y: 999, z: 0}
+      Count: 1
+      Speed: {x: 0, y: 0}
+      Trans:
+        PosBase: 0
+        TransPoss: []
+        RotBase: -1
+        TransRots: []
+    Hits:
+    - EditDisp: 
+      BranchNum: -1
+      EHit: 1
+      FHit: 0
+      MHit: 0
+      Heals: 0
+      DamageType: 0
+      ShortAtk: 0
+      DamCalc: (U.ATKdfmT.DEF)*0.25
+      SPAdd: 0
+      BufSets: []
+    HitCT: 20
+  SEPlays:
+  - BranchNum: -1
+    Times: {x: 0, y: 0, z: 0}
+    Clip: {fileID: 8300000, guid: eb82b7b629006474dacffc75634a33d3, type: 3}
+    Volume: 50
+    Pitch: 100

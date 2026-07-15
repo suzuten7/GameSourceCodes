@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd99303b2ae6bdc46b490e1ada5c6be7, type: 3}
+  m_Name: PassiveAdd_AddSlash
+  m_EditorClassIdentifier: 
+  Shots:
+  - Obj: {fileID: 5905403385281065886, guid: 2f4ef16b5e1500c48a9aebe2ef4728d4, type: 3}
+    Fires:
+    - EditDisp: 
+      BranchNum: -1
+      Times: {x: 0, y: 0, z: 0}
+      Count: 1
+      Speed: {x: 0, y: 0}
+      Trans:
+        PosBase: 0
+        TransPoss: []
+        RotBase: -1
+        TransRots: []
+    Hits:
+    - EditDisp: 
+      BranchNum: 1
+      EHit: 1
+      FHit: 0
+      MHit: 0
+      Heals: 0
+      DamageType: 5
+      ShortAtk: 1
+      DamCalc: (U.ATKdfmT.DEF)*0.2
+      BreakValue: 0
+      SPAdd: 0
+      KBs: []
+      BufSets: []
+    - EditDisp: 
+      BranchNum: 2
+      EHit: 1
+      FHit: 0
+      MHit: 0
+      Heals: 0
+      DamageType: 5
+      ShortAtk: 0
+      DamCalc: (U.ATKdfmT.DEF)*0.4
+      BreakValue: 0
+      SPAdd: 0
+      KBs: []
+      BufSets: []
+    - EditDisp: 
+      BranchNum: 3
+      EHit: 1
+      FHit: 0
+      MHit: 0
+      Heals: 0
+      DamageType: 5
+      ShortAtk: 0
+      DamCalc: (U.ATKdfmT.DEF)*0.6
+      BreakValue: 0
+      SPAdd: 0
+      KBs: []
+      BufSets: []
+    - EditDisp: 
+      BranchNum: 4
+      EHit: 1
+      FHit: 0
+      MHit: 0
+      Heals: 0
+      DamageType: 5
+      ShortAtk: 0
+      DamCalc: (U.ATKdfmT.DEF)*0.8
+      BreakValue: 0
+      SPAdd: 0
+      KBs: []
+      BufSets: []
+    Adds: []
+    Summon:
+      LimitTime: 0
+      HPMulPer: 0
+      AtkMulPer: 0
+    HitCT: 7
+  SEPlays:
+  - BranchNum: -1
+    Times: {x: 0, y: 0, z: 0}
+    Clip: {fileID: 8300000, guid: 54a4a1310c1547b4f9fca1a88484bfdf, type: 3}
+    Volume: 75
+    Pitch: 250

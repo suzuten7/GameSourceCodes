@@ -1,0 +1,358 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c22cee1cabc9b84f92975ed946ab97c, type: 3}
+  m_Name: PAtk_N_Wand
+  m_EditorClassIdentifier: 
+  Name: "\u30EF\u30F3\u30C9"
+  Info: "\u9060\u8DDD\u96E2\u304B\u3089\u9B54\u6CD5\u5F3E\u3092\u653E\u3064\n\u9577\u62BC\u3057\u306F\u5F3E\u3092\u6563\u3089\u3070\u305B\u308B"
+  Icon: {fileID: 2800000, guid: 1175fe12b12e5414b80120403e86bea3, type: 3}
+  AtkType: 0
+  FilterSet: 0
+  Filters: 0000000065000000ca000000c8000000
+  EndTime: 60
+  CT: 0
+  SPUse: 0
+  BranchInfos:
+  - BID: 0
+    Name: "\u4E00\u6BB5"
+    ChangeEndTime: 0
+    NoEnd: 0
+  - BID: 1
+    Name: "\u4E8C\u6BB5"
+    ChangeEndTime: 0
+    NoEnd: 0
+  - BID: 2
+    Name: "\u4E09\u6BB5"
+    ChangeEndTime: 0
+    NoEnd: 0
+  - BID: 3
+    Name: "\u56DB\u6BB5"
+    ChangeEndTime: 0
+    NoEnd: 0
+  - BID: 4
+    Name: "\u4E94\u6BB5"
+    ChangeEndTime: 0
+    NoEnd: 0
+  - BID: 10
+    Name: "\u91CD\u653B\u6483"
+    ChangeEndTime: 0
+    NoEnd: 0
+  Branchs:
+  - EditDisp: '[0]BNum:0Time:(30, 60)MP:0Future{Num:1Time:0}'
+    BranchNums: 00000000
+    Times: {x: 30, y: 60}
+    Ifs: 0400000003000000
+    StayFlTime: 12
+    UseMP: 0
+    BranchColor: {r: 0, g: 0, b: 0, a: 0}
+    HideUI: 0
+    FutureNum: 1
+    FutureTime: 0
+  - EditDisp: '[1]BNum:1Time:(30, 60)MP:0Future{Num:2Time:0}'
+    BranchNums: 01000000
+    Times: {x: 30, y: 60}
+    Ifs: 0400000003000000
+    StayFlTime: 12
+    UseMP: 0
+    BranchColor: {r: 0, g: 0, b: 0, a: 0}
+    HideUI: 0
+    FutureNum: 2
+    FutureTime: 0
+  - EditDisp: '[2]BNum:2Time:(30, 60)MP:0Future{Num:3Time:0}'
+    BranchNums: 02000000
+    Times: {x: 30, y: 60}
+    Ifs: 0400000003000000
+    StayFlTime: 12
+    UseMP: 0
+    BranchColor: {r: 0, g: 0, b: 0, a: 0}
+    HideUI: 0
+    FutureNum: 3
+    FutureTime: 0
+  - EditDisp: '[3]BNum:3Time:(30, 60)MP:0Future{Num:4Time:0}'
+    BranchNums: 03000000
+    Times: {x: 30, y: 60}
+    Ifs: 0400000003000000
+    StayFlTime: 12
+    UseMP: 0
+    BranchColor: {r: 0, g: 0, b: 0, a: 0}
+    HideUI: 0
+    FutureNum: 4
+    FutureTime: 0
+  - EditDisp: '[4]BNum:4Time:(30, 60)MP:0Future{Num:0Time:0}'
+    BranchNums: 04000000
+    Times: {x: 30, y: 60}
+    Ifs: 0400000003000000
+    StayFlTime: 12
+    UseMP: 0
+    BranchColor: {r: 0, g: 0, b: 0, a: 0}
+    HideUI: 0
+    FutureNum: 0
+    FutureTime: 0
+  - EditDisp: '[5]BNum:0,1,2,3,4Time:(30, 60)MP:250Future{Num:10Time:0}'
+    BranchNums: 0000000001000000020000000300000004000000
+    Times: {x: 30, y: 60}
+    Ifs: 01000000
+    StayFlTime: 12
+    UseMP: 250
+    BranchColor: {r: 0, g: 0, b: 0, a: 0}
+    HideUI: 0
+    FutureNum: 10
+    FutureTime: 0
+  - EditDisp: '[6]BNum:10Time:(25, 60)MP:0Future{Num:3Time:0}'
+    BranchNums: 0a000000
+    Times: {x: 25, y: 60}
+    Ifs: 00000000
+    StayFlTime: 0
+    UseMP: 0
+    BranchColor: {r: 0, g: 0, b: 0, a: 0}
+    HideUI: 0
+    FutureNum: 3
+    FutureTime: 0
+  Fixeds:
+  - EditDisp: '[0]BNum:-1Time:(0, 999)'
+    BranchNum: -1
+    Times: {x: 0, y: 999}
+    SpeedRem: 80
+    NoJump: 0
+    NoDash: 0
+    Aiming: 0
+    NGravity: 0
+    NoDamage: 0
+  Shots:
+  - Obj: {fileID: 5905403385281065886, guid: 2cbb080e0997834419e6d2ac0410346e, type: 3}
+    Fires:
+    - EditDisp: '[0]BNum:0,Time:(15, 15, 0),Count:1,Speed:(2000.00, 2000.00)'
+      BranchNum: 0
+      Times: {x: 15, y: 15, z: 0}
+      Count: 1
+      Speed: {x: 2000, y: 2000}
+      Trans:
+        PosBase: 0
+        TransPoss: []
+        RotBase: 1
+        TransRots: []
+    - EditDisp: '[1]BNum:1,Time:(15, 15, 0),Count:1,Speed:(2000.00, 2000.00)'
+      BranchNum: 1
+      Times: {x: 15, y: 15, z: 0}
+      Count: 1
+      Speed: {x: 2000, y: 2000}
+      Trans:
+        PosBase: 0
+        TransPoss: []
+        RotBase: 1
+        TransRots: []
+    - EditDisp: '[2]BNum:2,Time:(20, 20, 0),Count:1,Speed:(2000.00, 2000.00)'
+      BranchNum: 2
+      Times: {x: 20, y: 20, z: 0}
+      Count: 1
+      Speed: {x: 2000, y: 2000}
+      Trans:
+        PosBase: 0
+        TransPoss: []
+        RotBase: 1
+        TransRots: []
+    - EditDisp: '[3]BNum:3,Time:(15, 25, 8),Count:1,Speed:(2000.00, 2000.00)'
+      BranchNum: 3
+      Times: {x: 15, y: 25, z: 8}
+      Count: 1
+      Speed: {x: 2000, y: 2000}
+      Trans:
+        PosBase: 0
+        TransPoss: []
+        RotBase: 1
+        TransRots: []
+    - EditDisp: '[4]BNum:4,Time:(25, 25, 0),Count:1,Speed:(2000.00, 2000.00)'
+      BranchNum: 4
+      Times: {x: 25, y: 25, z: 0}
+      Count: 1
+      Speed: {x: 2000, y: 2000}
+      Trans:
+        PosBase: 0
+        TransPoss: []
+        RotBase: 1
+        TransRots: []
+    - EditDisp: '[5]BNum:10,Time:(25, 25, 0),Count:10,Speed:(5000.00, 5000.00)'
+      BranchNum: 10
+      Times: {x: 25, y: 25, z: 0}
+      Count: 10
+      Speed: {x: 5000, y: 5000}
+      Trans:
+        PosBase: 0
+        TransPoss: []
+        RotBase: 1
+        TransRots:
+        - Change: 1
+          Fix: {x: 0, y: 0}
+          Val: {x: 15, y: 15, z: 360}
+    Hits:
+    - EditDisp: "[0]BNum:0|(\u901A\u5E38,\u9060\u8DDD\u96E2,SP+5.0)(\u81EA\u653B\u6483\u529B{\u9632\u8A08}\u5BFE\u9632\u5FA1\u529B)65.0%"
+      BranchNum: 0
+      EHit: 1
+      FHit: 0
+      MHit: 0
+      Heals: 0
+      DamageType: 0
+      ShortAtk: 0
+      DamCalc: (U.ATKdfmT.DEF)*0.65
+      MultDamChange: {x: 0, y: 0}
+      BreakValue: 1
+      SPAdd: 5
+      KBs: []
+      BufSets: []
+    - EditDisp: "[1]BNum:1|(\u901A\u5E38,\u9060\u8DDD\u96E2,SP+6.5)(\u81EA\u653B\u6483\u529B{\u9632\u8A08}\u5BFE\u9632\u5FA1\u529B)75.0%"
+      BranchNum: 1
+      EHit: 1
+      FHit: 0
+      MHit: 0
+      Heals: 0
+      DamageType: 0
+      ShortAtk: 0
+      DamCalc: (U.ATKdfmT.DEF)*0.75
+      MultDamChange: {x: 0, y: 0}
+      BreakValue: 1
+      SPAdd: 6.5
+      KBs: []
+      BufSets: []
+    - EditDisp: "[2]BNum:2|(\u901A\u5E38,\u9060\u8DDD\u96E2,SP+8.0)(\u81EA\u653B\u6483\u529B{\u9632\u8A08}\u5BFE\u9632\u5FA1\u529B)90.0%"
+      BranchNum: 2
+      EHit: 1
+      FHit: 0
+      MHit: 0
+      Heals: 0
+      DamageType: 0
+      ShortAtk: 0
+      DamCalc: (U.ATKdfmT.DEF)*0.9
+      MultDamChange: {x: 0, y: 0}
+      BreakValue: 1
+      SPAdd: 8
+      KBs: []
+      BufSets: []
+    - EditDisp: "[3]BNum:3|(\u901A\u5E38,\u9060\u8DDD\u96E2,SP+9.5)(\u81EA\u653B\u6483\u529B{\u9632\u8A08}\u5BFE\u9632\u5FA1\u529B)60.0%"
+      BranchNum: 3
+      EHit: 1
+      FHit: 0
+      MHit: 0
+      Heals: 0
+      DamageType: 0
+      ShortAtk: 0
+      DamCalc: (U.ATKdfmT.DEF)*0.6
+      MultDamChange: {x: 0, y: 0}
+      BreakValue: 1
+      SPAdd: 9.5
+      KBs: []
+      BufSets: []
+    - EditDisp: "[4]BNum:4|(\u901A\u5E38,\u9060\u8DDD\u96E2,SP+11.0)(\u81EA\u653B\u6483\u529B{\u9632\u8A08}\u5BFE\u9632\u5FA1\u529B)210.0%"
+      BranchNum: 4
+      EHit: 1
+      FHit: 0
+      MHit: 0
+      Heals: 0
+      DamageType: 0
+      ShortAtk: 0
+      DamCalc: (U.ATKdfmT.DEF)*2.1
+      MultDamChange: {x: 0, y: 0}
+      BreakValue: 1
+      SPAdd: 11
+      KBs: []
+      BufSets: []
+    - EditDisp: "[5]BNum:10|(\u91CD\u6483,\u9060\u8DDD\u96E2,SP+1.5)(\u81EA\u653B\u6483\u529B{\u9632\u8A08}\u5BFE\u9632\u5FA1\u529B)40.0%"
+      BranchNum: 10
+      EHit: 1
+      FHit: 0
+      MHit: 0
+      Heals: 0
+      DamageType: 1
+      ShortAtk: 0
+      DamCalc: (U.ATKdfmT.DEF)*0.4
+      MultDamChange: {x: 0, y: 0}
+      BreakValue: 0.5
+      SPAdd: 1.5
+      KBs: []
+      BufSets: []
+    Adds: []
+    Summon:
+      LimitTime: 0
+      HPMulPer: 0
+      AtkMulPer: 0
+    HitCT: 0
+  Moves: []
+  States: []
+  Bufs: []
+  WeponSets:
+  - BranchNum: -1
+    Times: {x: 0, y: 999}
+    Obj: {fileID: 6293833836109196858, guid: 34999135b8ab0a14c88341df51f2f4f3, type: 3}
+    Set: 0
+    PosChange: {x: 0, y: 0, z: 0}
+    RotChange: {x: 0, y: 0, z: 0}
+  Anims:
+  - EditDisp: '[0]BNum:0Time:(0, 35)ID:1'
+    BranchNum: 0
+    Times: {x: 0, y: 35}
+    ID: 1
+    Speed: 0
+  - EditDisp: '[1]BNum:1Time:(0, 35)ID:2'
+    BranchNum: 1
+    Times: {x: 0, y: 35}
+    ID: 2
+    Speed: 0
+  - EditDisp: '[2]BNum:2Time:(0, 35)ID:3'
+    BranchNum: 2
+    Times: {x: 0, y: 35}
+    ID: 3
+    Speed: 0
+  - EditDisp: '[3]BNum:3Time:(0, 35)ID:4'
+    BranchNum: 3
+    Times: {x: 0, y: 35}
+    ID: 4
+    Speed: 0
+  - EditDisp: '[4]BNum:4Time:(0, 35)ID:5'
+    BranchNum: 4
+    Times: {x: 0, y: 35}
+    ID: 5
+    Speed: 0
+  - EditDisp: '[5]BNum:10Time:(0, 35)ID:10'
+    BranchNum: 10
+    Times: {x: 0, y: 35}
+    ID: 10
+    Speed: 0
+  SEPlays:
+  - BranchNum: 0
+    Times: {x: 15, y: 15, z: 0}
+    Clip: {fileID: 8300000, guid: c5f203541c7d96c439f2bf8f597b3200, type: 3}
+    Volume: 100
+    Pitch: 150
+  - BranchNum: 1
+    Times: {x: 15, y: 15, z: 0}
+    Clip: {fileID: 8300000, guid: c5f203541c7d96c439f2bf8f597b3200, type: 3}
+    Volume: 100
+    Pitch: 150
+  - BranchNum: 2
+    Times: {x: 20, y: 20, z: 0}
+    Clip: {fileID: 8300000, guid: c5f203541c7d96c439f2bf8f597b3200, type: 3}
+    Volume: 100
+    Pitch: 150
+  - BranchNum: 3
+    Times: {x: 15, y: 25, z: 8}
+    Clip: {fileID: 8300000, guid: c5f203541c7d96c439f2bf8f597b3200, type: 3}
+    Volume: 100
+    Pitch: 150
+  - BranchNum: 4
+    Times: {x: 25, y: 25, z: 0}
+    Clip: {fileID: 8300000, guid: c5f203541c7d96c439f2bf8f597b3200, type: 3}
+    Volume: 100
+    Pitch: 150
+  - BranchNum: 10
+    Times: {x: 25, y: 25, z: 0}
+    Clip: {fileID: 8300000, guid: 249f21eb41173054999b4f91d31d3c41, type: 3}
+    Volume: 400
+    Pitch: 90

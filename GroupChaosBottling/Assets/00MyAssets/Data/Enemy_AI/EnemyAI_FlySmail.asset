@@ -1,0 +1,52 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 971300707df511444a5e16905bf0c64b, type: 3}
+  m_Name: EnemyAI_FlySmail
+  m_EditorClassIdentifier: 
+  AtkAIs:
+  - EditDisp: "[0]Time(0\uFF5E100),OIfCount:0,AtkSlot:1,AtkName:\u3084\u3058\u308B\u3057\u5373\u6B7B"
+    TimeIf: {x: 0, y: 100}
+    OtherIfs: []
+    AtkSlot: 1
+    AtkD: {fileID: 11400000, guid: c0728989be2803d488c3d9a65628a687, type: 2}
+  - EditDisp: "[1]Time(450\uFF5E550),OIfCount:0,AtkSlot:4,AtkName:\u3084\u3058\u308B\u3057\u30A6\u30A3\u30F3\u30B0"
+    TimeIf: {x: 450, y: 550}
+    OtherIfs: []
+    AtkSlot: 4
+    AtkD: {fileID: 11400000, guid: d03934e728a5d6149ad4bde111fc9fa2, type: 2}
+  - EditDisp: "[2]Time(700\uFF5E850),OIfCount:0,AtkSlot:0,AtkName:\u3084\u3058\u308B\u3057"
+    TimeIf: {x: 700, y: 850}
+    OtherIfs: []
+    AtkSlot: 0
+    AtkD: {fileID: 11400000, guid: a205a63a41958c8439cb709905ea7d96, type: 2}
+  - EditDisp: "[3]Time(1050\uFF5E1200),OIfCount:0,AtkSlot:5,AtkName:\u30B9\u30DE\u30A4\u30EB\u30DF\u30B5\u30A4\u30EB"
+    TimeIf: {x: 1050, y: 1200}
+    OtherIfs: []
+    AtkSlot: 5
+    AtkD: {fileID: 11400000, guid: 704f855eab9375043baf4c4d3eec27f2, type: 2}
+  - EditDisp: "[4]Time(1400\uFF5E1500),OIfCount:0,AtkSlot:2,AtkName:\u30C7\u30AB\u3084\u3058\u308B\u3057\u5373\u6B7B"
+    TimeIf: {x: 1400, y: 1500}
+    OtherIfs: []
+    AtkSlot: 2
+    AtkD: {fileID: 11400000, guid: ce6e617d3394356428502c008cd4a77f, type: 2}
+  - EditDisp: "[5]Time(1600\uFF5E1700),OIfCount:0,AtkSlot:3,AtkName:\u3084\u3058\u308B\u3057\u30A6\u30A3\u30F3\u30B0"
+    TimeIf: {x: 1600, y: 1700}
+    OtherIfs: []
+    AtkSlot: 3
+    AtkD: {fileID: 11400000, guid: d03934e728a5d6149ad4bde111fc9fa2, type: 2}
+  - EditDisp: "[6]Time(1900\uFF5E2000),OIfCount:0,AtkSlot:0,AtkName:\u3084\u3058\u308B\u3057"
+    TimeIf: {x: 1900, y: 2000}
+    OtherIfs: []
+    AtkSlot: 0
+    AtkD: {fileID: 11400000, guid: a205a63a41958c8439cb709905ea7d96, type: 2}
+  TimerLim: 2100
+  NoTargetResetTime: 0

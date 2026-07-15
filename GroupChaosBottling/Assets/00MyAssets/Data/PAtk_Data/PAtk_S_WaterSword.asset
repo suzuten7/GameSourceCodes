@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c22cee1cabc9b84f92975ed946ab97c, type: 3}
+  m_Name: PAtk_S_WaterSword
+  m_EditorClassIdentifier: 
+  Name: "\u3046\u3049\u30FC\u305F\u30FC\u305D\u30FC\u3069"
+  Info: "\u5C11\u3057\u5148\u3067\u6B62\u307E\u308A\n\u6575\u306E\u65B9\u3092\u72D9\u3063\u3066\u98DB\u3076\n\u5263\u3092\u98DB\u3070\u3059(\u8FD1\u8DDD\u96E2\u6271\u3044)"
+  Icon: {fileID: 2800000, guid: 47cac27d6d8718d4f84e46c29a0490ce, type: 3}
+  AtkType: 1
+  FilterSet: 0
+  Filters: 0000000064000000ca000000c9000000
+  EndTime: 75
+  CT: 10
+  SPUse: 0
+  BranchInfos: []
+  Branchs: []
+  Fixeds:
+  - EditDisp: '[0]BNum:0Time:(0, 120)'
+    BranchNum: 0
+    Times: {x: 0, y: 120}
+    SpeedRem: 70
+    NoJump: 0
+    NoDash: 0
+    Aiming: 0
+    NGravity: 0
+    NoDamage: 0
+  Shots:
+  - Obj: {fileID: 5905403385281065886, guid: 4c727e3fc3d7d144d8f6827f7323d42e, type: 3}
+    Fires:
+    - EditDisp: '[0]BNum:0,Time:(20, 60, 16),Count:1,Speed:(3000.00, 3000.00)'
+      BranchNum: 0
+      Times: {x: 20, y: 60, z: 16}
+      Count: 1
+      Speed: {x: 3000, y: 3000}
+      Trans:
+        PosBase: 0
+        TransPoss: []
+        RotBase: 0
+        TransRots:
+        - Change: 1
+          Fix: {x: 0, y: 0}
+          Val: {x: 15, y: 45, z: 0}
+        - Change: 0
+          Fix: {x: 0, y: 0}
+          Val: {x: -20, y: 0, z: 0}
+    Hits:
+    - EditDisp: "[0]BNum:0|(\u30B9\u30AD\u30EB,\u8FD1\u8DDD\u96E2,SP+4.8)(\u81EA\u653B\u6483\u529B{\u9632\u8A08}\u5BFE\u9632\u5FA1\u529B)240.0%"
+      BranchNum: 0
+      EHit: 1
+      FHit: 0
+      MHit: 0
+      Heals: 0
+      DamageType: 3
+      ShortAtk: 1
+      DamCalc: (U.ATKdfmT.DEF)*2.4
+      MultDamChange: {x: -90, y: 10}
+      BreakValue: 2.4
+      SPAdd: 4.8
+      KBs: []
+      BufSets: []
+    Adds: []
+    Summon:
+      LimitTime: 0
+      HPMulPer: 0
+      AtkMulPer: 0
+    HitCT: 60
+  Moves: []
+  States: []
+  Bufs: []
+  WeponSets: []
+  Anims:
+  - EditDisp: '[0]BNum:0Time:(0, 120)ID:3'
+    BranchNum: 0
+    Times: {x: 0, y: 120}
+    ID: 3
+    Speed: 0
+  SEPlays:
+  - BranchNum: 0
+    Times: {x: 30, y: 120, z: 35}
+    Clip: {fileID: 8300000, guid: 300c9f52eee2ad040bc9d8318e7a9561, type: 3}
+    Volume: 35
+    Pitch: 250

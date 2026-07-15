@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c22cee1cabc9b84f92975ed946ab97c, type: 3}
+  m_Name: PAtk_S_GensiYaiba
+  m_EditorClassIdentifier: 
+  Name: "\u539F\u523A\u306E\u5203"
+  Info: "\u4E00\u5B9A\u6642\u9593\n\u901A\u5E38\u653B\u6483\u304C\u547D\u4E2D\u3059\u308B\u3068\nSP\u309250\u6D88\u8CBB\u3057\u3066\n\u901A\u5E38\u653B\u6483\u6271\u3044\u306E\u8FFD\u6483\u3092\u653E\u3064\n\u72B6\u614B\u3092\u4ED8\u4E0E\u3059\u308B"
+  Icon: {fileID: 2800000, guid: a6788a8b0ae17ed489dd9f9c4acd71b3, type: 3}
+  AtkType: 1
+  FilterSet: 0
+  Filters: 6e000000
+  EndTime: 30
+  CT: 18
+  SPUse: 0
+  BranchInfos: []
+  Branchs: []
+  Fixeds: []
+  Shots: []
+  Moves: []
+  States: []
+  Bufs:
+  - BranchNum: 0
+    Times: {x: 5, y: 5, z: 0}
+    BufSets:
+    - EditDisp: "\u539F\u523A\u306E\u5203[0,\u4ED8\u4E0E](\u6642\u9593:\u4ED8\u4E0E720)"
+      Buf: 2303
+      Index: 0
+      Set: 0
+      TimeVal: 720
+      PowVal: 
+      TimeMax: 0
+      PowMax: 
+  WeponSets:
+  - BranchNum: 0
+    Times: {x: 0, y: 50}
+    Obj: {fileID: 6293833836109196858, guid: 93808f716b8dfec41a3316c3ae98591c, type: 3}
+    Set: 0
+    PosChange: {x: 0, y: 0, z: 0}
+    RotChange: {x: 0, y: 0, z: 0}
+  Anims:
+  - EditDisp: '[0]BNum:0Time:(0, 35)ID:20'
+    BranchNum: 0
+    Times: {x: 0, y: 35}
+    ID: 20
+    Speed: 200
+  SEPlays:
+  - BranchNum: 0
+    Times: {x: 20, y: 20, z: 0}
+    Clip: {fileID: 8300000, guid: 0ef0e1917edf7bd4693f975b0c0e18d9, type: 3}
+    Volume: 200
+    Pitch: 220

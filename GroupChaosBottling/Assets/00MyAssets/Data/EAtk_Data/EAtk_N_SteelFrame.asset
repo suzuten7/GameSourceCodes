@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c22cee1cabc9b84f92975ed946ab97c, type: 3}
+  m_Name: EAtk_N_SteelFrame
+  m_EditorClassIdentifier: 
+  Name: "\u9244\u9AA8"
+  Info: 
+  Icon: {fileID: 0}
+  AtkType: 0
+  Filters: 
+  EndTime: 170
+  CT: 0
+  SPUse: 0
+  BranchInfos: []
+  Branchs: []
+  Fixeds: []
+  Shots:
+  - Obj: {fileID: 5905403385281065886, guid: 1e32a69d6acb8ff4a9c3d6380ff18760, type: 3}
+    Fires:
+    - EditDisp: '[0]BNum:0,Time:(120, 160, 12),Count:1,Speed:(500.00, 5000.00)'
+      BranchNum: 0
+      Times: {x: 120, y: 160, z: 12}
+      Count: 1
+      Speed: {x: 500, y: 5000}
+      Trans:
+        PosBase: 0
+        TransPoss:
+        - Change: 0
+          Mlt: 0
+          Val: {x: 0, y: 3, z: 0}
+        RotBase: 0
+        TransRots:
+        - Change: 1
+          Mlt: 0
+          Val: {x: -20, y: 60, z: 25}
+        - Change: 0
+          Mlt: 0
+          Val: {x: 25, y: 0, z: 0}
+    Hits:
+    - EditDisp: "[0]BNum:0|(\u901A\u5E38,\u9060\u8DDD\u96E2,SP+0.0)(\u81EA\u653B\u6483\u529B{\u9632\u8A08}\u5BFE\u9632\u5FA1\u529B)110.0%"
+      BranchNum: 0
+      EHit: 1
+      FHit: 0
+      MHit: 0
+      Heals: 0
+      DamageType: 0
+      ShortAtk: 0
+      DamCalc: (U.ATKdfmT.DEF)*1.1
+      MultDamChange: {x: -40, y: 20}
+      BreakValue: 0
+      SPAdd: 0
+      KBs: []
+      BufSets: []
+    Adds: []
+    Summon:
+      LimitTime: 0
+      HPMulPer: 0
+      AtkMulPer: 0
+    HitCT: 120
+  Moves: []
+  States: []
+  Bufs: []
+  WeponSets: []
+  Anims:
+  - EditDisp: '[0]BNum:0Time:(0, 170)ID:3'
+    BranchNum: 0
+    Times: {x: 0, y: 170}
+    ID: 3
+    Speed: -75
+  SEPlays:
+  - BranchNum: 0
+    Times: {x: 120, y: 160, z: 12}
+    Clip: {fileID: 8300000, guid: eb81a134a0826fc4792faf22db68dfed, type: 3}
+    Volume: 200
+    Pitch: 80

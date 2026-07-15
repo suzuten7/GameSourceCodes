@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e27391287f85d994c8017b417808842d, type: 3}
+  m_Name: DataColor
+  m_EditorClassIdentifier: 
+  NSelectCol: {r: 1, g: 1, b: 1, a: 1}
+  SelectCol: {r: 1, g: 1, b: 0, a: 1}
+  F_HP_Base: {r: 0, g: 1, b: 0, a: 1}
+  E_HP_Base: {r: 1, g: 0, b: 0, a: 1}
+  HP_DBuf: {r: 1, g: 0, b: 1, a: 1}
+  HP_Rem: {r: 1, g: 0.5019608, b: 0, a: 1}
+  HP_Add: {r: 0.7529412, g: 1, b: 0.7529412, a: 1}
+  Shild_Base: {r: 0, g: 0.5019608, b: 1, a: 1}
+  Shild_Rem: {r: 0.5019608, g: 0, b: 1, a: 1}
+  Shild_Add: {r: 0.5019608, g: 0.5019608, b: 1, a: 1}
+  Break_Base: {r: 0, g: 1, b: 1, a: 1}
+  Break_Add: {r: 0, g: 1, b: 0.5019608, a: 1}
+  MP_Base: {r: 1, g: 1, b: 1, a: 1}
+  MP_Low: {r: 1, g: 0.5019608, b: 0.5019608, a: 1}
+  MP_Neg: {r: 1, g: 0, b: 0.5019608, a: 1}

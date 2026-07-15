@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c22cee1cabc9b84f92975ed946ab97c, type: 3}
+  m_Name: PAtk_S_FriendSmail
+  m_EditorClassIdentifier: 
+  Name: "\u30D5\u30EC\u30F3\u30C9\u30B9\u30DE\u30A4\u30EB"
+  Info: "\u5473\u65B9\u306E\u30D5\u30EC\u30F3\u30C9\u30B9\u30DE\u30A4\u30EB\n\u3092\u51FA\u3057\u6295\u3052\u3064\u3051\u308B"
+  Icon: {fileID: 2800000, guid: 5fff334c68a72a44aa6e38104d36d292, type: 3}
+  AtkType: 1
+  FilterSet: 0
+  Filters: 0500000066000000
+  EndTime: 45
+  CT: 18
+  SPUse: 0
+  BranchInfos: []
+  Branchs: []
+  Fixeds:
+  - EditDisp: '[0]BNum:0Time:(0, 180)'
+    BranchNum: 0
+    Times: {x: 0, y: 180}
+    SpeedRem: 70
+    NoJump: 0
+    NoDash: 0
+    Aiming: 1
+    NGravity: 0
+    NoDamage: 0
+  Shots:
+  - Obj: {fileID: 3138562507945577928, guid: ae6c872d9134a8446b16513da6563da8, type: 3}
+    Fires:
+    - EditDisp: '[0]BNum:0,Time:(35, 35, 0),Count:1,Speed:(1500.00, 1500.00)'
+      BranchNum: 0
+      Times: {x: 35, y: 35, z: 0}
+      Count: 1
+      Speed: {x: 1500, y: 1500}
+      Trans:
+        PosBase: 0
+        TransPoss:
+        - Change: 0
+          Fix: {x: 0, y: 0}
+          Val: {x: 0, y: 1, z: 0.5}
+        RotBase: 2
+        TransRots:
+        - Change: 0
+          Fix: {x: 0, y: 0}
+          Val: {x: -30, y: 0, z: 0}
+    Hits: []
+    Adds: []
+    Summon:
+      LimitTime: 45
+      HPMulPer: 0
+      AtkMulPer: 0
+    HitCT: 0
+  Moves: []
+  States: []
+  Bufs: []
+  WeponSets: []
+  Anims:
+  - EditDisp: '[0]BNum:0Time:(0, 60)ID:1'
+    BranchNum: 0
+    Times: {x: 0, y: 60}
+    ID: 1
+    Speed: 0
+  SEPlays:
+  - BranchNum: 0
+    Times: {x: 35, y: 35, z: 0}
+    Clip: {fileID: 8300000, guid: 300c9f52eee2ad040bc9d8318e7a9561, type: 3}
+    Volume: 350
+    Pitch: 100

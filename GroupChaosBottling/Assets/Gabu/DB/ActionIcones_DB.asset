@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 217f53f4fc8fa6b458c6cfb620e60708, type: 3}
+  m_Name: ActionIcones_DB
+  m_EditorClassIdentifier: 
+  default_index: 0
+  play_index: 10
+  ui_index: 14
+  Menu_icons:
+  - {fileID: 11400000, guid: 529bef8632ebe6847ba64e7749446c7a, type: 2}
+  - {fileID: 11400000, guid: 805858e642d60f84297f3761dce54133, type: 2}
+  - {fileID: 11400000, guid: fcccba2ef328d2c468ad5431c1a684eb, type: 2}
+  - {fileID: 11400000, guid: 529bef8632ebe6847ba64e7749446c7a, type: 2}
+  Move_icons:
+  - {fileID: 11400000, guid: e5718bffd2aee1e44b0c7552ad434f66, type: 2}
+  - {fileID: 11400000, guid: 5dd706748f04b4947b6a9945c28caa74, type: 2}
+  - {fileID: 11400000, guid: 9216e3ed78933cf44b381a006f4c7a64, type: 2}
+  - {fileID: 11400000, guid: e5718bffd2aee1e44b0c7552ad434f66, type: 2}
+  Dash_icons:
+  - {fileID: 11400000, guid: 700403c41705574498d65b98b4a8d463, type: 2}
+  - {fileID: 11400000, guid: 55e18d6bcb6c693468794f76142077e2, type: 2}
+  - {fileID: 11400000, guid: 3264dc1969480f54d84f809a71f445ed, type: 2}
+  - {fileID: 11400000, guid: 700403c41705574498d65b98b4a8d463, type: 2}
+  Jump_icons:
+  - {fileID: 11400000, guid: 69eb51997782b3a48aedf9fe2ea03bfe, type: 2}
+  - {fileID: 11400000, guid: 0aad3aa9bcfad1b4cbeaa1bf8215e4c8, type: 2}
+  - {fileID: 11400000, guid: 67d900e96218f29438b51d29abcb65ca, type: 2}
+  - {fileID: 11400000, guid: 69eb51997782b3a48aedf9fe2ea03bfe, type: 2}
+  Target_icons:
+  - {fileID: 11400000, guid: b00a76f1c6c00bd47a3b5fc700080c8d, type: 2}
+  - {fileID: 11400000, guid: c86713b83bb2d27459c9bfa79ed78dfc, type: 2}
+  - {fileID: 11400000, guid: 7864eb231f1360b4d9261bc3b236f09c, type: 2}
+  - {fileID: 11400000, guid: b00a76f1c6c00bd47a3b5fc700080c8d, type: 2}
+  Chenge_icons:
+  - {fileID: 11400000, guid: 006724c31f6146f48a0a21ea25c27593, type: 2}
+  - {fileID: 11400000, guid: cae13cdbad309bc409638cd9114b6990, type: 2}
+  - {fileID: 11400000, guid: 7f36ae57cd458444280e1d5b232c714e, type: 2}
+  - {fileID: 11400000, guid: 006724c31f6146f48a0a21ea25c27593, type: 2}
+  N_Atk_icons:
+  - {fileID: 11400000, guid: e753d57e9617fea42ba946329be5e11d, type: 2}
+  - {fileID: 11400000, guid: 85e3e4497cec9d94289cc55bf5e68f7a, type: 2}
+  - {fileID: 11400000, guid: 5623093fe62e0454c8812543d21ea026, type: 2}
+  - {fileID: 11400000, guid: e753d57e9617fea42ba946329be5e11d, type: 2}
+  S1_Atk_icons:
+  - {fileID: 11400000, guid: 3123d8850671b6e47a35ca2bd1880c8d, type: 2}
+  - {fileID: 11400000, guid: cd0a15b30d64c3940acdd0099469ca3c, type: 2}
+  - {fileID: 11400000, guid: e6ed1fb6ebb593b4a844c0d17a25451c, type: 2}
+  - {fileID: 11400000, guid: 3123d8850671b6e47a35ca2bd1880c8d, type: 2}
+  S2_Atk_icons:
+  - {fileID: 11400000, guid: 94dc410a1e0d4344b9dda410b068595e, type: 2}
+  - {fileID: 11400000, guid: 5b4a941b703b4c4469a7765838d536c7, type: 2}
+  - {fileID: 11400000, guid: 817a43cbcfd97e34e8dac054b9edcd38, type: 2}
+  - {fileID: 11400000, guid: 94dc410a1e0d4344b9dda410b068595e, type: 2}
+  E_Atk_icons:
+  - {fileID: 11400000, guid: 62445564878a12a48a24307fd8d6337a, type: 2}
+  - {fileID: 11400000, guid: 20206b95207e7cf49b65264989c580d3, type: 2}
+  - {fileID: 11400000, guid: 7238b3c1a3419b6478e8348b44a1a5e2, type: 2}
+  - {fileID: 11400000, guid: 62445564878a12a48a24307fd8d6337a, type: 2}
+  Look_icons:
+  - {fileID: 11400000, guid: 9389c214429ede74cbf9717031aa5904, type: 2}
+  - {fileID: 11400000, guid: 93f74d4eabcfb4b41869457ba0b63b56, type: 2}
+  - {fileID: 11400000, guid: 47b2e9bf931d02c418fe56d57287ea63, type: 2}
+  - {fileID: 11400000, guid: 9389c214429ede74cbf9717031aa5904, type: 2}
+  UIMove_icons:
+  - {fileID: 11400000, guid: 66a74277c838796428961c0c860b8cea, type: 2}
+  - {fileID: 11400000, guid: a395c62b5f440f14e9100b781731e709, type: 2}
+  - {fileID: 11400000, guid: 3b5f4546ccdc11f4f928c518c491eecb, type: 2}
+  - {fileID: 11400000, guid: 66a74277c838796428961c0c860b8cea, type: 2}
+  UICofirm_icons:
+  - {fileID: 11400000, guid: 84cb61a034d6e2c43981f5bc1d0dce26, type: 2}
+  - {fileID: 11400000, guid: 53c8b3eec38438342abbafe86ac25c7a, type: 2}
+  - {fileID: 11400000, guid: 84eb3493f5761db43901774937e5f0cf, type: 2}
+  - {fileID: 11400000, guid: 84cb61a034d6e2c43981f5bc1d0dce26, type: 2}
+  UIBack_icons:
+  - {fileID: 11400000, guid: 3959b3742fb65f4459701d11d3822380, type: 2}
+  - {fileID: 11400000, guid: a5d7a2f15298754419aeb73bf8475153, type: 2}
+  - {fileID: 11400000, guid: 89dcf492cc5d3c44b897c57b89c4f1c5, type: 2}
+  - {fileID: 11400000, guid: 3959b3742fb65f4459701d11d3822380, type: 2}
+  VMouseMove_icons:
+  - {fileID: 11400000, guid: 66a74277c838796428961c0c860b8cea, type: 2}
+  - {fileID: 11400000, guid: a395c62b5f440f14e9100b781731e709, type: 2}
+  - {fileID: 11400000, guid: 3b5f4546ccdc11f4f928c518c491eecb, type: 2}
+  - {fileID: 11400000, guid: 66a74277c838796428961c0c860b8cea, type: 2}

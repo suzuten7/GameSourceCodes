@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 971300707df511444a5e16905bf0c64b, type: 3}
+  m_Name: FriendAI_Smail
+  m_EditorClassIdentifier: 
+  AtkAIs:
+  - TimeIf: {x: 0, y: 0}
+    OtherIfs:
+    - Ifs: 10
+      Val: {x: 4, y: 0}
+    AtkSlot: 0
+    AtkD: {fileID: 11400000, guid: 224ff1b997fb26a438a174be70e6dccf, type: 2}
+  - TimeIf: {x: 0, y: 0}
+    OtherIfs:
+    - Ifs: 11
+      Val: {x: 4, y: 0}
+    AtkSlot: 0
+    AtkD: {fileID: 11400000, guid: ae3746a21af6de64d8f90336a76171ca, type: 2}
+  TimerLim: 0
+  NoTargetResetTime: 0
