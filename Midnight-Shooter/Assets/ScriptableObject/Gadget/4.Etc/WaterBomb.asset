@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3fe75bd429b58d4f83f70721f941d41, type: 3}
+  m_Name: WaterBomb
+  m_EditorClassIdentifier: Assembly-CSharp::D_Gadget
+  name: "\u30A6\u30A9\u30FC\u30BF\u30FC\u30DC\u30E0"
+  info: "\u6C34\u6CA1\u3055\u305B\u308B\u7206\u5F3E\n\u30C0\u30E1\u30FC\u30B8\u306F\u7121\u3044"
+  category: 3
+  icon: {fileID: 0}
+  iconColor: {r: 1, g: 1, b: 1, a: 1}
+  gadgetObj: {fileID: 3061669821251532423, guid: 017aee6cabe15ca458fe20272bbf250b, type: 3}
+  max_HP: 10
+  start_Retention: 1
+  max_Retention: 2
+  get_Time: 18
+  use_Time: 0.4
+  move_SPDPenalty: 0.9
+  instance: 0
+  can_ThrowPowChange: 1
+  throwDisMax: 6
+  throwDisMin: 1
+  throwSpeed: 27.5
+  simulatedType: 2
+  visualiDistance: 1
+  soundRange: 8
+  soundTime: 1
+  seAudio: {fileID: 8300000, guid: 43b701ff5fb627947a198dc719bc6ed2, type: 3}
+  seVolume: 1
+  sePitch: 1
+  breakSoundRange: 0
+  breakSoundTime: 0
+  breakSeAudio: {fileID: 0}
+  breakSeVolume: 1
+  breakSePitch: 1

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cfcf46d99bfae345b12fba2b921d55c, type: 3}
+  m_Name: MoveType_Space
+  m_EditorClassIdentifier: Assembly-CSharp::Data_MoveType
+  name: "\u5B87\u5B99"
+  info: "\u6E1B\u901F\u304C\u7121\u3044\u304C\u9577\u6642\u9593\u6EDE\u5728\u3067\u7A92\u606F\u3059\u308B"
+  col: {r: 1, g: 1, b: 1, a: 1}
+  moveSpeed: 0.05
+  damp: 0
+  soundRange: 0
+  soundTime: 0
+  seAudio: {fileID: 0}
+  seVolue: 0
+  sePitch: 0
+  slowArea: 0
+  suffocation: 1
+  damage: 0
+  injuryPer: 0
+  bufAdds: []
+  flyNo: 1

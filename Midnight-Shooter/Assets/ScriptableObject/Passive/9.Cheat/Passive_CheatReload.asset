@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd2459ed02b8a1d4cb5f06af461cb0eb, type: 3}
+  m_Name: Passive_CheatReload
+  m_EditorClassIdentifier: Assembly-CSharp::Data_Passive
+  name: "\u30EA\u30ED\u30FC\u30C9\u30CF\u30C3\u30AF"
+  info: "\u30EA\u30ED\u30FC\u30C9\u77ED\u7E2E{values[0]}%"
+  icon: {fileID: 0}
+  iconColor: {r: 1, g: 1, b: 1, a: 1}
+  type: 9
+  passive: 9005
+  category: 03000000
+  costs: 00000000
+  PassiveValues:
+  - type: 1
+    noValue: 1
+    values:
+    - 0.01
+  stringLvs: []

@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cfcf46d99bfae345b12fba2b921d55c, type: 3}
+  m_Name: MoveType_Snow
+  m_EditorClassIdentifier: Assembly-CSharp::Data_MoveType
+  name: "\u96EA"
+  info: "\u5C11\u3057\u901F\u5EA6\u304C\u843D\u3061\u308B"
+  col: {r: 0.7529412, g: 1, b: 1, a: 1}
+  moveSpeed: 0.8
+  damp: 10
+  soundRange: 1.1
+  soundTime: 1.1
+  seAudio: {fileID: 8300000, guid: 94cbac965ad448a44a89d60cecb02b45, type: 3}
+  seVolue: 1
+  sePitch: 0.25
+  slowArea: 1
+  suffocation: 0
+  damage: 0
+  injuryPer: 0
+  bufAdds: []
+  flyNo: 0

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cfcf46d99bfae345b12fba2b921d55c, type: 3}
+  m_Name: MoveType_PoisonSwamp
+  m_EditorClassIdentifier: Assembly-CSharp::Data_MoveType
+  name: "\u6BD2\u6CBC"
+  info: "\u79FB\u52D5\u901F\u5EA6\u304C\u4E0B\u304C\u308B\u3046\u3048\u306B\u6BD2\u72B6\u614B\u3068\u30C0\u30E1\u30FC\u30B8\u3092\u53D7\u3051\u3065\u4ED8\u3051\u308B"
+  col: {r: 0.5019608, g: 0, b: 1, a: 1}
+  moveSpeed: 0.7
+  damp: 10
+  soundRange: 0.6
+  soundTime: 1.4
+  seAudio: {fileID: 8300000, guid: d7a5a2ca138a1fc46b35f6b2000cba94, type: 3}
+  seVolue: 1
+  sePitch: 0.7
+  slowArea: 1
+  suffocation: 0
+  damage: 5
+  injuryPer: 0
+  bufAdds:
+  - buf: 1000
+    time: 6
+  flyNo: 0

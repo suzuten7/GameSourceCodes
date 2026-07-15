@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd2459ed02b8a1d4cb5f06af461cb0eb, type: 3}
+  m_Name: Passive_CheatInjust
+  m_EditorClassIdentifier: Assembly-CSharp::Data_Passive
+  name: "\u8CA0\u50B7\u30CF\u30C3\u30AF"
+  info: "\u53D7\u3051\u308B\u8CA0\u50B7{values[0]}%\u6E1B\u5C11"
+  icon: {fileID: 2800000, guid: 72ac5ba16eec16441b1ddb8c430973d9, type: 3}
+  iconColor: {r: 1, g: 0, b: 1, a: 1}
+  type: 9
+  passive: 9004
+  category: 00000000
+  costs: 00000000
+  PassiveValues:
+  - type: 1
+    noValue: 1
+    values:
+    - 0
+  stringLvs: []

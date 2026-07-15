@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: HelpInfo_en
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 8e600173c10579d49890605183dac2fa, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 750639372963840
+    m_Localized: '2D Shooting PvP
+
+      Build your own weapon and compete for the
+      highest score!!!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 750643667931136
+    m_Localized: 'HP is represented by a green bar.
+
+      Additional HP is represented
+      by an orange bar.
+
+      Injuries are represented by a black bar.
+
+      HP
+      automatically recovers at a rate of 10 per second.
+
+      Taking damage pauses
+      HP for 3 seconds, and resumes when healing is received.
+
+      Additional
+      HP is gained from healing exceeding the limit.
+
+      Injuries represent the
+      amount that cannot be healed.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 750713566007296
+    m_Localized: "Walking: Slow but quiet, making it hard to detect.\r\nNormal: Medium
+      speed and sound.\r\nRunning: Fast but loud, making it easy to detect.\r\nSpeed
+      \u200B\u200Band sound vary depending on the location."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 750743546892288
+    m_Localized: Normally, you can see allies within 2 meters and 90 degrees in front
+      of you, but you cannot see behind walls. You can also see some glowing objects.
+      Enemies within your line of sight have their names and HP displayed and appear
+      on the minimap, but enemies hidden by bushes or smoke are not visible except
+      for their appearance.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 750787280900096
+    m_Localized: This occurs when moving or attacking, and reveals your direction
+      to nearby enemies. It's a good way to scout for enemies outside your line of
+      sight.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 750821724524544
+    m_Localized: 'Guns: Generally have limited ammunition and require reloading.
+
+      Melee:
+      Generally have no limited ammunition but short range (same as guns internally).
+
+      Gadgets:
+      Stock increases with cooldown, and some can be adjusted by reticle position.
+
+      Special
+      Attack: Charges must be accumulated through time elapsed, damage dealt, damage
+      taken, dodge checks, and kills.
+
+      Represented by a yellow bar, which
+      turns rainbow-colored when full.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 750862291832832
+    m_Localized: 'Check the settings screen
+
+      You can change the assignments!
+      Yay!!!
+
+      <s>What is an explanation?</s>'
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

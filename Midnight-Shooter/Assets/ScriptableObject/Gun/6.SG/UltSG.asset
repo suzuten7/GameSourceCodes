@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79420998b6033d44bca11debc89caef, type: 3}
+  m_Name: UltSG
+  m_EditorClassIdentifier: Assembly-CSharp::D_Gun
+  name: "\u7A76\u6975SG"
+  info: "\u58C1\u3082\u8CAB\u901A\u3059\u308B\u8D85\u706B\u529B\u3092\u6301\u3064\u30B7\u30E7\u30C3\u30C8\u30AC\u30F3\n\u305F\u3060\u3057\u6B21\u306E\u767A\u5C04\u307E\u3067\u306B\u6642\u9593\u304C\u304B\u304B\u308B"
+  category: 5
+  icon: {fileID: 2800000, guid: 15f7dbf4464e78a4083a2981cadffede, type: 3}
+  iconColor: {r: 1, g: 0, b: 1, a: 1}
+  imgObj: {fileID: 1183525126522053531, guid: 0311b5c6fec08784bb39dc46465e783b, type: 3}
+  capacity: 1
+  tacticalUse: 1
+  nReloadTime: 2
+  tReloadTime: 4
+  reloadSoundRange: 0
+  reloadSoundTime: 0
+  reloadSeAudio: {fileID: 0}
+  reloadSeVolume: 1
+  reloadSePitch: 1
+  changeWaitTime: 1.1
+  hip_SPDPenalty: 0.65
+  ads_SPDPenalty: 0.5
+  hip_SpinSpeed: 60
+  ads_SpinSpeed: 30
+  ai_Range: 2
+  shots:
+    bulletObj: {fileID: 7648474098923394488, guid: 6fd355078bf449945bc839805a2e7502, type: 3}
+    RPS: 0.5
+    semiAuto: 1
+    pallet: 14
+    speed: 14
+    speed_Min: 0.3
+    stopDiffusion:
+      hip_Diffusion: 20
+      ads_Diffusion: 15
+    moveDiffusion:
+      hip_Diffusion: 40
+      ads_Diffusion: 30
+    offSetFront_All: 0
+    offSetFront_Bullet: 0
+    offSetSide_Bullet: 0
+    offSetRot_Bullet: 0
+    bulletRot_Reticle: 0
+    recoil_Pattern: []
+    recoil_Random: {x: 15, y: 15}
+    recoil_Time: 4
+    adsRecoil_Multi: 0.5
+    soundRange: 24
+    soundTime: 2.5
+    seAudio: {fileID: 8300000, guid: aec51a24800718547a9a7a8c9b79f0d7, type: 3}
+    seVolue: 1
+    sePitch: 0.7
+  bullets:
+    time: 0.7
+    targetPosRem: 0
+    hitStartTime: 0
+    hitEndTime: 0
+    hitCT: 0
+    HP: 9
+    perce: 2
+    noStop: 0
+    self_Hit: 0
+    team_Hit: 0
+    enemy_Hit: 1
+    bullet_Hit: 1
+    gadget_Hit: 1
+    remAddShot: {fileID: 0}
+  damages:
+    damageBase: 9
+    distanceMode: 1
+    disMult:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.2
+        value: 1
+        inSlope: -0.3125
+        outSlope: -0.3125
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0.75
+        inSlope: -0.3125
+        outSlope: -0.3125
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    disMax: 20
+    headMulti: 1.34
+    injustPer: 20
+    wallMult: 1.25
+  damageScoreMult: 1
+  killScoreMult: 1
+  bufAdds: []
+  kbPow: 0
+  kbCenter: 0

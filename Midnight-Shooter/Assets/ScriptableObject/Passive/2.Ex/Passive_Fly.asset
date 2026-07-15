@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd2459ed02b8a1d4cb5f06af461cb0eb, type: 3}
+  m_Name: Passive_Fly
+  m_EditorClassIdentifier: Assembly-CSharp::Data_Passive
+  name: "\u98DB\u884C"
+  info: "\u4E00\u90E8\u3092\u9664\u304F\u30A8\u30EA\u30A2\u3092\u7121\u52B9\u5316\u3059\u308B\u304C\n\u30CE\u30C3\u30AF\u30D0\u30C3\u30AF\u8010\u6027\u304C{values[0]}%\u4F4E\u4E0B\u3057\n\u79FB\u52D5\u6642\u306E\u97F3\u8DDD\u96E2\u304C{values[1]}%\u5897\u52A0\u3059\u308B"
+  icon: {fileID: 0}
+  iconColor: {r: 1, g: 1, b: 1, a: 1}
+  type: 1
+  passive: 1017
+  category: 0100000008000000
+  costs: 07000000
+  PassiveValues:
+  - type: 0
+    noValue: 1
+    values:
+    - 2
+  - type: 0
+    noValue: 1
+    values:
+    - 1.3
+  stringLvs: []

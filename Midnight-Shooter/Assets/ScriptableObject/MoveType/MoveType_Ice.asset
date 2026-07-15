@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cfcf46d99bfae345b12fba2b921d55c, type: 3}
+  m_Name: MoveType_Ice
+  m_EditorClassIdentifier: Assembly-CSharp::Data_MoveType
+  name: "\u6C37"
+  info: "\u6E1B\u901F\u3057\u306B\u304F\u3044\u305F\u3081\u901F\u304F\u79FB\u52D5\u51FA\u6765\u308B"
+  col: {r: 0, g: 1, b: 1, a: 1}
+  moveSpeed: 0.2
+  damp: 0.25
+  soundRange: 1.2
+  soundTime: 0.7
+  seAudio: {fileID: 8300000, guid: b0877f3b8c9d7d2438d06efb058dec61, type: 3}
+  seVolue: 0.6
+  sePitch: 2
+  slowArea: 0
+  suffocation: 0
+  damage: 0
+  injuryPer: 0
+  bufAdds: []
+  flyNo: 0

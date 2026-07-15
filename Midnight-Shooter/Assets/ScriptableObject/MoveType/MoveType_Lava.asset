@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cfcf46d99bfae345b12fba2b921d55c, type: 3}
+  m_Name: MoveType_Lava
+  m_EditorClassIdentifier: Assembly-CSharp::Data_MoveType
+  name: "\u6EB6\u5CA9"
+  info: "\u5165\u308B\u3068\u708E\u4E0A\u3057\u5927\u30C0\u30E1\u30FC\u30B8\u3092\u53D7\u3051\u7D9A\u3051\u308B"
+  col: {r: 1, g: 0.5019608, b: 0, a: 1}
+  moveSpeed: 0.6
+  damp: 10
+  soundRange: 0.7
+  soundTime: 0.6
+  seAudio: {fileID: 8300000, guid: 31460befb0ee29f47af42ea9cb06835f, type: 3}
+  seVolue: 1
+  sePitch: 1.3
+  slowArea: 1
+  suffocation: 1
+  damage: 30
+  injuryPer: 20
+  bufAdds:
+  - buf: 1001
+    time: 8
+  flyNo: 0

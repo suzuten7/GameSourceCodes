@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cfcf46d99bfae345b12fba2b921d55c, type: 3}
+  m_Name: MoveType_Spike
+  m_EditorClassIdentifier: Assembly-CSharp::Data_MoveType
+  name: "\u91DD"
+  info: "\u30C0\u30E1\u30FC\u30B8\u3092\u53D7\u3051\u308B"
+  col: {r: 1, g: 1, b: 1, a: 1}
+  moveSpeed: 0.8
+  damp: 10
+  soundRange: 1
+  soundTime: 1
+  seAudio: {fileID: 8300000, guid: 8d6b4e7f37ab07343b0957ebfd9e00d9, type: 3}
+  seVolue: 1
+  sePitch: 0.6
+  slowArea: 1
+  suffocation: 0
+  damage: 15
+  injuryPer: 60
+  bufAdds: []
+  flyNo: 0

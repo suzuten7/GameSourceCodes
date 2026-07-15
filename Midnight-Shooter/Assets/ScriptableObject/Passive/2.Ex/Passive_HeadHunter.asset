@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd2459ed02b8a1d4cb5f06af461cb0eb, type: 3}
+  m_Name: Passive_HeadHunter
+  m_EditorClassIdentifier: Assembly-CSharp::Data_Passive
+  name: "\u30D8\u30C3\u30C8\u30CF\u30F3\u30BF\u30FC"
+  info: "\u30AD\u30EB\u30B9\u30B3\u30A2\u304C{values[0]}\u500D\n\u30D8\u30C3\u30C8\u30AD\u30EB\u30B9\u30B3\u30A2\u304C{values[1]}\u500D"
+  icon: {fileID: 2800000, guid: f221c0b431dafb34e84b5bd251fc79c1, type: 3}
+  iconColor: {r: 1, g: 0, b: 0, a: 1}
+  type: 1
+  passive: 1007
+  category: 07000000
+  costs: 0600000004000000
+  PassiveValues:
+  - type: -1
+    noValue: 1
+    values:
+    - 0.7
+    - 0.4
+  - type: -1
+    noValue: 1
+    values:
+    - 2
+    - 5
+  stringLvs: []

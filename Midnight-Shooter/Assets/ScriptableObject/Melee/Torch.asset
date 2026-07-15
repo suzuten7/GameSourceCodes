@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79420998b6033d44bca11debc89caef, type: 3}
+  m_Name: Torch
+  m_EditorClassIdentifier: Assembly-CSharp::D_Gun
+  name: "\u677E\u660E"
+  info: "\u76F8\u624B\u3092\u708E\u4E0A\u3055\u305B\u308B\n\u5468\u56F2\u304C\u660E\u308B\u304F\u306A\u308B\u305F\u3081\u6CE8\u610F"
+  category: 1001
+  icon: {fileID: 2800000, guid: 5d90410c1defd494381f3e651e74ce3b, type: 3}
+  iconColor: {r: 1, g: 0.77201664, b: 0.514151, a: 1}
+  imgObj: {fileID: 1183525126522053531, guid: d02126b5c4c69ad418b4c49b09e59222, type: 3}
+  capacity: -1
+  tacticalUse: 0
+  nReloadTime: 0
+  tReloadTime: 0
+  reloadSoundRange: 0
+  reloadSoundTime: 0
+  reloadSeAudio: {fileID: 0}
+  reloadSeVolume: 1
+  reloadSePitch: 1
+  changeWaitTime: 0.2
+  hip_SPDPenalty: 0.9
+  ads_SPDPenalty: 0.5
+  hip_SpinSpeed: 360
+  ads_SpinSpeed: 180
+  ai_Range: 1
+  shots:
+    bulletObj: {fileID: 7648474098923394488, guid: c2c87cf1e6b69c3498622d3f565f1ae4, type: 3}
+    RPS: 1
+    semiAuto: 1
+    pallet: 1
+    speed: 3
+    speed_Min: 1
+    stopDiffusion:
+      hip_Diffusion: 0
+      ads_Diffusion: 0
+    moveDiffusion:
+      hip_Diffusion: 0
+      ads_Diffusion: 0
+    offSetFront_All: 0
+    offSetFront_Bullet: 0
+    offSetSide_Bullet: 0
+    offSetRot_Bullet: 0
+    bulletRot_Reticle: 0
+    recoil_Pattern: []
+    recoil_Random: {x: 0, y: 0}
+    recoil_Time: 1
+    adsRecoil_Multi: 1
+    soundRange: 6
+    soundTime: 0.6
+    seAudio: {fileID: 0}
+    seVolue: 1
+    sePitch: 1
+  bullets:
+    time: 0.5
+    targetPosRem: 0
+    hitStartTime: 0
+    hitEndTime: 0
+    hitCT: 0
+    HP: 20
+    perce: 2
+    noStop: 1
+    self_Hit: 0
+    team_Hit: 0
+    enemy_Hit: 1
+    bullet_Hit: 0
+    gadget_Hit: 1
+    remAddShot: {fileID: 0}
+  damages:
+    damageBase: 30
+    distanceMode: 0
+    disMult:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    disMax: 1
+    headMulti: 1
+    injustPer: 50
+    wallMult: 1
+  damageScoreMult: 1.2
+  killScoreMult: 1.1
+  bufAdds:
+  - buf: 1001
+    time: 8
+  kbPow: 0
+  kbCenter: 0

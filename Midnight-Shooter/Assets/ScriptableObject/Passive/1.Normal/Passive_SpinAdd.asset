@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd2459ed02b8a1d4cb5f06af461cb0eb, type: 3}
+  m_Name: Passive_SpinAdd
+  m_EditorClassIdentifier: Assembly-CSharp::Data_Passive
+  name: "\u56DE\u8EE2\u901F\u5EA6\u5897\u52A0"
+  info: "\u8996\u70B9\u56DE\u8EE2\u901F\u5EA6\u304C\n{values[0]}%\u5897\u52A0"
+  icon: {fileID: 0}
+  iconColor: {r: 1, g: 1, b: 1, a: 1}
+  type: 0
+  passive: 36
+  category: 02000000
+  costs: 02000000020000000300000003000000
+  PassiveValues:
+  - type: 0
+    noValue: 1
+    values:
+    - 1.5
+    - 2
+    - 5
+    - 10
+  stringLvs: []

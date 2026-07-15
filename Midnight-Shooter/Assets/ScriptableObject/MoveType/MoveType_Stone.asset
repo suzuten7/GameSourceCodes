@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cfcf46d99bfae345b12fba2b921d55c, type: 3}
+  m_Name: MoveType_Stone
+  m_EditorClassIdentifier: Assembly-CSharp::Data_MoveType
+  name: "\u77F3"
+  info: 
+  col: {r: 0.5019608, g: 0.5019608, b: 0.5019608, a: 1}
+  moveSpeed: 1
+  damp: 10
+  soundRange: 1
+  soundTime: 1
+  seAudio: {fileID: 8300000, guid: e34a312bd587cb1419f0b788af26f2e6, type: 3}
+  seVolue: 1
+  sePitch: 1
+  slowArea: 0
+  suffocation: 0
+  damage: 0
+  injuryPer: 0
+  bufAdds: []
+  flyNo: 0

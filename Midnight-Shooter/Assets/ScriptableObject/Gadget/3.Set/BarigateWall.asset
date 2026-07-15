@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3fe75bd429b58d4f83f70721f941d41, type: 3}
+  m_Name: BarigateWall
+  m_EditorClassIdentifier: Assembly-CSharp::D_Gadget
+  name: "\u30D0\u30EA\u30B1\u30FC\u30C9(\u30A6\u30A9\u30FC\u30EB)"
+  info: "\u8996\u754C\u3082\u901A\u884C\u3082\u59A8\u5BB3\u51FA\u6765\u308B\u30D0\u30EA\u30B1\u30FC\u30C9\n\u30D0\u30EC\u30C3\u30C8\u756A\u306B\u6BD4\u3079\u3066\u5C0F\u3055\u3044\u304C\u8010\u4E45\u304C\u9AD8\u3044"
+  category: 2
+  icon: {fileID: 0}
+  iconColor: {r: 1, g: 1, b: 1, a: 1}
+  gadgetObj: {fileID: 3061669821251532423, guid: 5ef989e40be428845940f2cf8e8757db, type: 3}
+  max_HP: 300
+  start_Retention: 1
+  max_Retention: 2
+  get_Time: 25
+  use_Time: 0.5
+  move_SPDPenalty: 0.7
+  instance: 0
+  can_ThrowPowChange: 0
+  throwDisMax: 6
+  throwDisMin: 1
+  throwSpeed: 27.5
+  simulatedType: 2
+  visualiDistance: 0
+  soundRange: 10
+  soundTime: 1.5
+  seAudio: {fileID: 8300000, guid: 891710cdd0a41a64fafd74fb79a5e1b1, type: 3}
+  seVolume: 1
+  sePitch: 1
+  breakSoundRange: 15
+  breakSoundTime: 1
+  breakSeAudio: {fileID: 8300000, guid: a9bde306b92780f46a7e8b9ba4ac899f, type: 3}
+  breakSeVolume: 1
+  breakSePitch: 1

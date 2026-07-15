@@ -1,0 +1,535 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: OptionBase_en
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 5f38c48c9640e384888f2c8db35ec398, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 36719955968
+    m_Localized: '- Gameplay -'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380631912448
+    m_Localized: '- Operation Switch -'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1296290418688
+    m_Localized: Switching to stealthy movement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1302657372160
+    m_Localized: Switching aim state
+    m_Metadata:
+      m_Items: []
+  - m_Id: 461183520768
+    m_Localized: Switching between dashes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 472432644096
+    m_Localized: Press
+    m_Metadata:
+      m_Items: []
+  - m_Id: 786804117504
+    m_Localized: Toggle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1356931665920
+    m_Localized: Reversal of reticle direction movement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1419837837312
+    m_Localized: '- Reticle -'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1912429481984
+    m_Localized: Normal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1913696161792
+    m_Localized: VertFlip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1914547605504
+    m_Localized: HoriFlip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1998182027264
+    m_Localized: AllFlip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2411262251008
+    m_Localized: change
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2258455367680
+    m_Localized: Reticle Change
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290770912153600
+    m_Localized: Change the color of the reticle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290800473608192
+    m_Localized: Reticle size
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290835282137088
+    m_Localized: Recoil color change
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290869528629248
+    m_Localized: Recoil size
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290896300871680
+    m_Localized: Change distance color
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290923630956544
+    m_Localized: Distance display size
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290955717382144
+    m_Localized: Brightness outside of field of view
+    m_Metadata:
+      m_Items: []
+  - m_Id: 290993386426368
+    m_Localized: Gore effects when taking damage (meaningless)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 291021911887872
+    m_Localized: Custom images for multiplayer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 291438079119360
+    m_Localized: Image reticle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 293057839632384
+    m_Localized: Color selection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 293129549647872
+    m_Localized: OFF
+    m_Metadata:
+      m_Items: []
+  - m_Id: 293131227369472
+    m_Localized: ON
+    m_Metadata:
+      m_Items: []
+  - m_Id: 293572971466752
+    m_Localized: '- Accessibility -'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 293668727427072
+    m_Localized: Dash
+    m_Metadata:
+      m_Items: []
+  - m_Id: 293741976752128
+    m_Localized: Walk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 293744778547200
+    m_Localized: Reload
+    m_Metadata:
+      m_Items: []
+  - m_Id: 293923921465344
+    m_Localized: Attack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 293925246865408
+    m_Localized: Gadget
+    m_Metadata:
+      m_Items: []
+  - m_Id: 294040573448192
+    m_Localized: Ult
+    m_Metadata:
+      m_Items: []
+  - m_Id: 294080343838720
+    m_Localized: Marker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 294154922758144
+    m_Localized: Base
+    m_Metadata:
+      m_Items: []
+  - m_Id: 294620574388224
+    m_Localized: '- Keyboard & Mouse -'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 294784756224000
+    m_Localized: '- Controller -'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 294929510043648
+    m_Localized: Dead Zone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 294963546820608
+    m_Localized: Virtual cursor speed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 294998221131776
+    m_Localized: 'Reticle movement speed [Normal]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 295028420120576
+    m_Localized: 'Reticle movement speed [ADS]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 295133332246528
+    m_Localized: Reticle acceleration (useless)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 295151640383488
+    m_Localized: Reticle distance acceleration multiplier (meaningless)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 295178060304384
+    m_Localized: '- Touch -'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 295833688739840
+    m_Localized: Button transparency
+    m_Metadata:
+      m_Items: []
+  - m_Id: 295904069160960
+    m_Localized: Reticle operation mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 295957399736320
+    m_Localized: stick
+    m_Metadata:
+      m_Items: []
+  - m_Id: 295969076678656
+    m_Localized: scroll
+    m_Metadata:
+      m_Items: []
+  - m_Id: 295978023129088
+    m_Localized: point
+    m_Metadata:
+      m_Items: []
+  - m_Id: 296037712269312
+    m_Localized: Button layout
+    m_Metadata:
+      m_Items: []
+  - m_Id: 296525727928320
+    m_Localized: setting
+    m_Metadata:
+      m_Items: []
+  - m_Id: 296651053731840
+    m_Localized: '- Interface -'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 296771342176256
+    m_Localized: '- Attack Position -'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 296807333498880
+    m_Localized: Change the color of the diffusion area
+    m_Metadata:
+      m_Items: []
+  - m_Id: 296845640077312
+    m_Localized: Distance of the diffusion range
+    m_Metadata:
+      m_Items: []
+  - m_Id: 296883174903808
+    m_Localized: Change the color of the gadget's current range.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 297088247009280
+    m_Localized: Change the color of the gadget at its maximum distance.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 297106282516480
+    m_Localized: Change the color of the gadget at the minimum distance.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 297133964922880
+    m_Localized: Change the color of the dodge check (normal).
+    m_Metadata:
+      m_Items: []
+  - m_Id: 297165485117440
+    m_Localized: Change the color of the dodge check (success).
+    m_Metadata:
+      m_Items: []
+  - m_Id: 297216299110400
+    m_Localized: Change the color of the evasion check (failure).
+    m_Metadata:
+      m_Items: []
+  - m_Id: 297245025898496
+    m_Localized: '- Sound display -'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 297277389148160
+    m_Localized: Its own sound wave color
+    m_Metadata:
+      m_Items: []
+  - m_Id: 297308074676224
+    m_Localized: Sound direction distance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 297342807707648
+    m_Localized: Ally's sound direction color
+    m_Metadata:
+      m_Items: []
+  - m_Id: 297375166763008
+    m_Localized: Ally's sound direction size
+    m_Metadata:
+      m_Items: []
+  - m_Id: 297403063078912
+    m_Localized: Enemy sound direction color
+    m_Metadata:
+      m_Items: []
+  - m_Id: 297441080250368
+    m_Localized: Enemy sound direction size
+    m_Metadata:
+      m_Items: []
+  - m_Id: 297608764329984
+    m_Localized: '- Pin -'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 297634974535680
+    m_Localized: 'Change pin color [self]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 297666918354944
+    m_Localized: 'Change pin color [ally]'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 297693619294208
+    m_Localized: '- Minimap -'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 297720806772736
+    m_Localized: Minimap Transparency
+    m_Metadata:
+      m_Items: []
+  - m_Id: 297746454941696
+    m_Localized: Minimap UI size
+    m_Metadata:
+      m_Items: []
+  - m_Id: 297773722112000
+    m_Localized: Minimap scale
+    m_Metadata:
+      m_Items: []
+  - m_Id: 297800557268992
+    m_Localized: My own position color
+    m_Metadata:
+      m_Items: []
+  - m_Id: 297837324537856
+    m_Localized: My own position size
+    m_Metadata:
+      m_Items: []
+  - m_Id: 297869683593216
+    m_Localized: Your pin size
+    m_Metadata:
+      m_Items: []
+  - m_Id: 297912461299712
+    m_Localized: Ally's position color
+    m_Metadata:
+      m_Items: []
+  - m_Id: 297937761341440
+    m_Localized: Ally's position size
+    m_Metadata:
+      m_Items: []
+  - m_Id: 297968941797376
+    m_Localized: Ally pin size
+    m_Metadata:
+      m_Items: []
+  - m_Id: 297995567239168
+    m_Localized: Enemy position color
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298021009887232
+    m_Localized: Enemy position size
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298059383574528
+    m_Localized: '- Big Map -'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298098738728960
+    m_Localized: Changing the transparency of the big map
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298129977905152
+    m_Localized: '- Damage Log -'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298206305849344
+    m_Localized: Normal damage color change
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298207702552576
+    m_Localized: Change the color of headshot damage.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298253063950336
+    m_Localized: Color change upon kill
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298284588339200
+    m_Localized: Color change during recovery
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298361755144192
+    m_Localized: '- Overall transparency -'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298387755634688
+    m_Localized: Transparency of effects when near death
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298416553725952
+    m_Localized: Change the transparency of your own status UI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298440532561920
+    m_Localized: Change the transparency of the information-related UI.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298465899712512
+    m_Localized: Change the background transparency of the ranking board.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298516361383936
+    m_Localized: Changing the transparency of internet information
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298525098119168
+    m_Localized: '- Volume -'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298640986738688
+    m_Localized: Master volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298674117545984
+    m_Localized: 
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298822021287936
+    m_Localized: UI (not yet implemented)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298837049479168
+    m_Localized: My SE volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298854380343296
+    m_Localized: Ally's SE volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298902539341824
+    m_Localized: Enemy sound effect volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298968800956416
+    m_Localized: '- Test -'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 299027584126976
+    m_Localized: Test (switch)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 299045338615808
+    m_Localized: Test (scrollbar)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 299072735809536
+    m_Localized: 'Test (Color palette, Minimum transparency: 0%)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 299133611937792
+    m_Localized: 'Test (Color palette, Minimum transparency: 100%)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 299161990598656
+    m_Localized: There's no going back except by resetting the settings!!!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 299200087461888
+    m_Localized: '- Reset/Save Destruction -'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 299288708911104
+    m_Localized: Reset settings (cancellable)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 299344769978368
+    m_Localized: Option save destruction
+    m_Metadata:
+      m_Items: []
+  - m_Id: 299385039491072
+    m_Localized: Color palette save corrupted
+    m_Metadata:
+      m_Items: []
+  - m_Id: 299385731551232
+    m_Localized: Player set save corrupted
+    m_Metadata:
+      m_Items: []
+  - m_Id: 299426756038656
+    m_Localized: Image loading save corrupted
+    m_Metadata:
+      m_Items: []
+  - m_Id: 299486940106752
+    m_Localized: All save files destroyed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 299638757134336
+    m_Localized: Save
+    m_Metadata:
+      m_Items: []
+  - m_Id: 299750380146688
+    m_Localized: cancel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300511491133440
+    m_Localized: Mobile stick
+    m_Metadata:
+      m_Items: []
+  - m_Id: 301919502209024
+    m_Localized: Size...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317671563202560
+    m_Localized: Melee
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2124612404908032
+    m_Localized: Mouse cursor display during gameplay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2125290749693952
+    m_Localized: Score area size
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2125292490330112
+    m_Localized: Transparency of the score area
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2125345539887104
+    m_Localized: Flag size
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2125382097440768
+    m_Localized: Flag transparency
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

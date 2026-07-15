@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd2459ed02b8a1d4cb5f06af461cb0eb, type: 3}
+  m_Name: Passive_NoEnemyHPUI
+  m_EditorClassIdentifier: Assembly-CSharp::Data_Passive
+  name: "\u6575HPUI\u975E\u8868\u793A"
+  info: "\u6575\u306EHPUI\u304C\u8868\u793A\u3055\u308C\u306A\u304F\u306A\u308B\u304C\n\u30B3\u30B9\u30C8\u304C\u5897\u3048\u308B\n<s>\u4ECA\u307E\u3067\u306F\u305A\u3063\u3068\u30B3\u30EC\u3060\u3063\u305F</s>"
+  icon: {fileID: 0}
+  iconColor: {r: 1, g: 1, b: 1, a: 1}
+  type: 2
+  passive: 2007
+  category: 0000000002000000
+  costs: feffffff
+  PassiveValues: []
+  stringLvs: []

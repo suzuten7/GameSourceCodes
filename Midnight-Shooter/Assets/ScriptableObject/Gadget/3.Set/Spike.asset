@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3fe75bd429b58d4f83f70721f941d41, type: 3}
+  m_Name: Spike
+  m_EditorClassIdentifier: Assembly-CSharp::D_Gadget
+  name: "\u30B9\u30D1\u30A4\u30AF"
+  info: "\u6575\u5473\u65B9\u95A2\u4FC2\u306A\u304F\n\u89E6\u308C\u308B\u3068\u75DB\u3044\u68D8\u3092\u6295\u3052\u308B"
+  category: 2
+  icon: {fileID: 0}
+  iconColor: {r: 1, g: 1, b: 1, a: 1}
+  gadgetObj: {fileID: 3061669821251532423, guid: 9ea2214bf2b0b1e40ae92622a9c824b0, type: 3}
+  max_HP: 0
+  start_Retention: 1
+  max_Retention: 2
+  get_Time: 30
+  use_Time: 0.6
+  move_SPDPenalty: 0.7
+  instance: 0
+  can_ThrowPowChange: 1
+  throwDisMax: 6
+  throwDisMin: 1
+  throwSpeed: 50
+  simulatedType: 2
+  visualiDistance: 1
+  soundRange: 5
+  soundTime: 1.5
+  seAudio: {fileID: 8300000, guid: 2526c72499098fe429eaa184e98f89e8, type: 3}
+  seVolume: 1
+  sePitch: 0.6
+  breakSoundRange: 0
+  breakSoundTime: 0
+  breakSeAudio: {fileID: 0}
+  breakSeVolume: 1
+  breakSePitch: 1

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cfcf46d99bfae345b12fba2b921d55c, type: 3}
+  m_Name: MoveType_BlackHole
+  m_EditorClassIdentifier: Assembly-CSharp::Data_MoveType
+  name: "\u30D6\u30E9\u30C3\u30AF\u30DB\u30FC\u30EB"
+  info: "\u5165\u308B\u3068\u6301\u7D9A\u30C0\u30E1\u30FC\u30B8\u3068\u6DF7\u4E71\u3092\u53D7\u3051\u308B"
+  col: {r: 1, g: 1, b: 1, a: 1}
+  moveSpeed: 1
+  damp: 2
+  soundRange: 0
+  soundTime: 0
+  seAudio: {fileID: 0}
+  seVolue: 0
+  sePitch: 0
+  slowArea: 0
+  suffocation: 1
+  damage: 28
+  injuryPer: 100
+  bufAdds:
+  - buf: 1101
+    time: 0.5
+  flyNo: 1

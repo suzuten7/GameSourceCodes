@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cfcf46d99bfae345b12fba2b921d55c, type: 3}
+  m_Name: MoveType_DirtSwamp
+  m_EditorClassIdentifier: Assembly-CSharp::Data_MoveType
+  name: "\u6CE5\u6CBC"
+  info: "\u97F3\u304C\u5C0F\u3055\u304F\u306A\u308B\u304C\u79FB\u52D5\u304C\u9045\u304F\u306A\u308B"
+  col: {r: 0.3490566, g: 0, b: 0, a: 1}
+  moveSpeed: 0.6
+  damp: 10
+  soundRange: 0.6
+  soundTime: 1.4
+  seAudio: {fileID: 8300000, guid: d7a5a2ca138a1fc46b35f6b2000cba94, type: 3}
+  seVolue: 1
+  sePitch: 1
+  slowArea: 1
+  suffocation: 0
+  damage: 0
+  injuryPer: 0
+  bufAdds: []
+  flyNo: 0

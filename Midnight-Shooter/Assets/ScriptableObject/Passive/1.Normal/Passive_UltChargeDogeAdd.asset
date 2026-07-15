@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd2459ed02b8a1d4cb5f06af461cb0eb, type: 3}
+  m_Name: Passive_UltChargeDogeAdd
+  m_EditorClassIdentifier: Assembly-CSharp::Data_Passive
+  name: "\u56DE\u907F\u5FC5\u6BBA\u30C1\u30E3\u30FC\u30B8\u5897\u52A0"
+  info: "\u56DE\u907F\u3067\u306E\u5FC5\u6BBA\u30C1\u30E3\u30FC\u30B8\u304C{values[0]}%\u5897\u52A0"
+  icon: {fileID: 0}
+  iconColor: {r: 1, g: 1, b: 1, a: 1}
+  passive: 28
+  category: 06000000
+  costs: 030000000300000004000000
+  PassiveValues:
+  - type: 0
+    noValue: 1
+    values:
+    - 1.3
+    - 1.6
+    - 2
+  stringLvs: []

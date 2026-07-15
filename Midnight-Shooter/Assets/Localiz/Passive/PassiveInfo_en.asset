@@ -1,0 +1,419 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: PassiveInfo_en
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: edba6535a0a174c4085644470b8d10b4, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 56062177579008
+    m_Localized: Maximum HP increases by {values[0]}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56312539779072
+    m_Localized: 'Time to recover HP after taking damage reduced by
+
+      {values[0]}%'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56632032497664
+    m_Localized: The number of injuries received decreases by {values[0]}%.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56707169259520
+    m_Localized: Hide HP from enemies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 364403487543296
+    m_Localized: The forward field of view angle increases by {values[0]}.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 364404456427520
+    m_Localized: Camera size increased by {values[0]}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 364405651804160
+    m_Localized: Movement speed increases by {values[0]}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 364711164907520
+    m_Localized: Sound distance during movement decreases by {values[0]}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 364712070877184
+    m_Localized: 'Reduces the effect of areas that slow down movement speed by
+
+      {values[0]}%'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 364712767131648
+    m_Localized: 'Reduces damage taken in the area by
+
+      {values[0]}%'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 365484145774592
+    m_Localized: Reload time reduced by {values[0]}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 365484913332224
+    m_Localized: The sound range during an attack decreases by {values[0]}%.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 365486519750656
+    m_Localized: The diffusion angle decreases by {values[0]}%.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 365767710085120
+    m_Localized: The rebound decreases by {values[0]}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 365768477642752
+    m_Localized: RPS increases by {values[0]}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 365769110982656
+    m_Localized: Bullet velocity increases by {values[0]}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 365969154117632
+    m_Localized: Damage dealt is increased by {values[0]}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 365969988784128
+    m_Localized: 'Damage is increased by
+
+      {values[0]}% when hitting a headshot.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 365970760536064
+    m_Localized: Gadget cooldown reduced by {values[0]}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 366169268555776
+    m_Localized: The gadget stock limit is increased by {values[0]}.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 366170170331136
+    m_Localized: 'The gadget''s range increases by
+
+      {values[0]}%'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 366301577875456
+    m_Localized: 'Gadget damage increased by
+
+      {values[0]}%'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 366302341238784
+    m_Localized: The score you earn increases by {values[0]}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 366494843015168
+    m_Localized: The score gained from dealing damage is increased by {values[0]}%.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 366496516542464
+    m_Localized: Score gained from kills increases by {values[0]}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 366497212796928
+    m_Localized: The score earned from headshot kills increases by {values[0]}%.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 366613730562048
+    m_Localized: Ult charge increases by {values[0]}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 366787072757760
+    m_Localized: Ult charge increases by {values[0]}% over time.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 366937837015040
+    m_Localized: Ult charge increases by {values[0]}% from damage dealt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 366939380518912
+    m_Localized: Ult charge from taking damage increases by {values[0]}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 367090539040768
+    m_Localized: Ult charge increased by {values[0]}% during evasion.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 367091256266752
+    m_Localized: Kills increase Ult Charge by {values[0]}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 367304511459328
+    m_Localized: Evasion check size increased by {values[0]}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 367305283211264
+    m_Localized: Reduces knockback by {values[0]}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 367469116919808
+    m_Localized: Your field of view increases by {values[0]}m, but you also become
+      visible to enemies.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 367469746065408
+    m_Localized: The number of bullets in the gun increases by {values[0]} times,
+      but the reload time increases by {values[1]} times.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 367470446514176
+    m_Localized: HP becomes {values[0]} times, but movement speed becomes {values[1]}
+      times.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 367471146962944
+    m_Localized: 'Gun damage is multiplied by {values[0]}, but
+
+      RPS and bullet
+      velocity are multiplied by {values[1]}.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 367472891793408
+    m_Localized: 'Gun damage is multiplied by {values[0]}, but
+
+      RPS and bullet
+      velocity are multiplied by {values[1]}.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 367762474930176
+    m_Localized: 'The distance of sound increases by {values[0]}, but
+
+      The
+      distance at which sound can be heard increases by {values[1]}%.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 367763871633408
+    m_Localized: 'Kill score is multiplied by {values[0]}
+
+      Headkill score
+      is multiplied by {values[1]}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 367995229442048
+    m_Localized: 'While waiting to respawn after death,
+
+      gadgets and special
+      moves become available,
+
+      and you can move at {values[1]}% speed,
+
+      but
+      the time until respawn increases by {values[0]}%.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368094353428480
+    m_Localized: 'The amount of damage received increases by {values[0]}%, but
+
+      when
+      HP reaches zero,
+
+      damage is prevented by using the damage as a substitute
+      for HP.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368095318118400
+    m_Localized: 'When critically injured:
+
+      Movement speed increases by {values[0]}%,
+      but
+
+      Enemy kill score increases by {values[1]}%.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368096014372864
+    m_Localized: 'The player''s size decreases by {values[0]}%, but
+
+      HP decreases
+      by {values[1]}%.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368176956051456
+    m_Localized: 'The player''s size increases by {values[0]}%, but
+
+      HP increases
+      by {values[1]}%.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368305075261440
+    m_Localized: "The location of the last opponent you killed will now be displayed
+      on the minimap,\r\n and your score will increase by an additional {values[0]}
+      when you kill someone,\r\n but if you are killed by the same opponent, your
+      score will decrease by {values[1]}."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368305914122240
+    m_Localized: 'While a dodge check is active,
+
+      the score increases by {values[0]}
+      per second, but
+
+      HP decreases by {values[1]}%.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368306471964672
+    m_Localized: You can breathe in the water, but you will suffocate anywhere else.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368485266755584
+    m_Localized: 'Movement speed decreases by {values[0]}%, but
+
+      Movement
+      speed increases by {values[1]}% in slow areas.
+
+      (Slowing effect is not
+      negated)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368597233700864
+    m_Localized: 'Disables most areas, but
+
+      Knockback resistance is reduced
+      by {values[0]}%
+
+      Sound distance during movement is increased by {values[1]}%'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368640367923200
+    m_Localized: 'The surrounding area becomes obscured,
+
+      and the forward
+      field of view angle becomes {values[0]}%,
+
+      but the cost increases.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368686073253888
+    m_Localized: 'HP decreases by {values[0]}%, but
+
+      cost increases'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368738845986816
+    m_Localized: 'Reload time increases by {values[0]}%, but
+
+      cost increases.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368815664664576
+    m_Localized: If you are within {values[0]}m on the minimap, your position will
+      be revealed to the enemy, but the cost will increase.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368816365113344
+    m_Localized: The range over which sound can be heard decreases by {values[0]}%,
+      but the cost increases.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 368882626727936
+    m_Localized: 'Upon death,
+
+      Gadget Stock decreases by {stringlvs[0]}%
+
+      Special
+      Gauge decreases by {values[0]}%
+
+      but cost increases.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 369097207320576
+    m_Localized: 'The enemy''s HP UI will no longer be displayed, but
+
+      the
+      cost will increase.
+
+      <s>This has always been the case until now</s>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 369202324967424
+    m_Localized: "Speed \u200B\u200Breduction in the area increases by {values[0]}%\r\nDamage
+      taken from the area increases by {values[1]}% but\r\nCost increases"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 369442981548032
+    m_Localized: Movement speed {values[0]} times
+    m_Metadata:
+      m_Items: []
+  - m_Id: 369524619481088
+    m_Localized: HP {values[0]} increased
+    m_Metadata:
+      m_Items: []
+  - m_Id: 369526720827392
+    m_Localized: The time it takes to recover HP after taking damage is reduced by
+      {values[0]}%.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 369624641048576
+    m_Localized: Injuries received are reduced by {values[0]}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 369625689624576
+    m_Localized: Reload reduction {values[0]}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 369716907347968
+    m_Localized: Gadget CT reduction {values[0]}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 369962869723136
+    m_Localized: You can now see enemy locations on the minimap.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370082386415616
+    m_Localized: Special attack gauge increase amount {values[0]} times
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370135863791616
+    m_Localized: Always transparent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370163160322048
+    m_Localized: Respawn wait time is reduced by {values[0]}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370164062097408
+    m_Localized: The noise during movement is reduced by {values[0]}%.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370324645220352
+    m_Localized: Attack sound reduced by {values[0]}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 369717804929024
+    m_Localized: Everything will become visible
+    m_Metadata:
+      m_Items: []
+  - m_Id: 371291004473344
+    m_Localized: HP visualization
+    m_Metadata:
+      m_Items: []
+  - m_Id: 371623042355200
+    m_Localized: decreases by 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 371699991056384
+    m_Localized: It becomes 0
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3fe75bd429b58d4f83f70721f941d41, type: 3}
+  m_Name: IceGrenade
+  m_EditorClassIdentifier: Assembly-CSharp::D_Gadget
+  name: "\u30A2\u30A4\u30B9\u30B0\u30EC\u30CD\u30FC\u30C9"
+  info: "\u6E1B\u901F\u3057\u306A\u3044\u30B0\u30EC\u30CD\u30FC\u30C9"
+  category: 0
+  icon: {fileID: 2800000, guid: 04201d7efe721b844a6e48aa807662a9, type: 3}
+  iconColor: {r: 0, g: 1, b: 0.981899, a: 1}
+  gadgetObj: {fileID: 3061669821251532423, guid: b1481acc43e1ec34095a6beb75bb2b02, type: 3}
+  max_HP: 5
+  start_Retention: 1
+  max_Retention: 2
+  get_Time: 20
+  use_Time: 0.4
+  move_SPDPenalty: 0.8
+  instance: 0
+  can_ThrowPowChange: 1
+  throwDisMax: 20
+  throwDisMin: 0.5
+  throwSpeed: 11
+  simulatedType: 2
+  visualiDistance: 1
+  soundRange: 8
+  soundTime: 1
+  seAudio: {fileID: 8300000, guid: 43b701ff5fb627947a198dc719bc6ed2, type: 3}
+  seVolume: 1
+  sePitch: 1
+  breakSoundRange: 0
+  breakSoundTime: 0
+  breakSeAudio: {fileID: 0}
+  breakSeVolume: 1
+  breakSePitch: 1
