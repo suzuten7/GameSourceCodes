@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fe58b3b87749b543bf81c315e34f0e0, type: 3}
+  m_Name: JSAtk_Gyanburu_HalfHalf
+  m_EditorClassIdentifier: Assembly-CSharp::Suzuten_Test.Suzuten_Data_Attack
+  Name: "\u30CF\u30FC\u30D5\u30CF\u30FC\u30D5"
+  Info: "50%\u306E\u78BA\u7387\u3067EX\u3092\u56DE\u5FA9\u3059\u308B\n50%\u306E\u78BA\u7387\u3067\u6B7B\u304C\u5F85\u3063\u3066\u3044\u308B\n(\u30EA\u30D0\u30A4\u30D6\u7B49\u8CAB\u901A)"
+  Icon: {fileID: 0}
+  Type: 1
+  AddressableAddress: JSAtk_Gyanburu_HalfHalf
+  AtkType: 0
+  CT: 10
+  Costs: []
+  Branchs:
+  - DispStr: "[0]|1\u79D2"
+    BID: 0
+    BName: 
+    EndTime: 1
+  SortOption: 0
+  SortUpper: 1
+  EndTime: 1
+  Events:
+  - rid: 5286047670873358447
+  - rid: 5002143695642558555
+  references:
+    version: 2
+    RefIds:
+    - rid: 5002143695642558555
+      type: {class: Data_Attack/Class_AEvent_EX, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[1]EX|BID:0,\u6642\u9593:(0.9)\u79D2|EX:HalfHalf"
+        Memo: 
+        IfBID: 0
+        IfBIDs: 
+        Times: {x: 0.9, y: 0.9, z: 0}
+        EXs: 8
+    - rid: 5286047670873358447
+      type: {class: Data_Attack/Class_AEvent_Anim, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[0]\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3|BID:0,\u6642\u9593:(0\uFF5E1)\u79D2|AnimClip:Attack_SwordSlash_01ComboID:0,AnimSpeed:0.0%"
+        Memo: 
+        IfBID: 0
+        IfBIDs: 
+        Times: {x: 0, y: 1, z: 0}
+        ComboID: 0
+        AnimClip: {fileID: -203655887218126122, guid: 22c4008a480d73f44aa2b4d7e864bc61, type: 3}
+        AnimSpeed: 0

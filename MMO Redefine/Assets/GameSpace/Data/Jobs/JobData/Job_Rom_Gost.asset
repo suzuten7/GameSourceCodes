@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c8e8e76d57cbf4981ef25bc7351421, type: 3}
+  m_Name: Job_Rom_Gost
+  m_EditorClassIdentifier: Assembly-CSharp::Suzuten_Test.Suzuten_Data_Job
+  Name: "\u5E7D\u970A"
+  Info: "\u4E92\u3044\u306B\u5E72\u6E09\u304C\u3042\u307E\u308A\u3067\u304D\u306A\u3044\u5B58\u5728\n\u305D\u3057\u3066\u3082\u306E\u51C4\u304F\u6483\u305F\u308C\u5F31\u3044"
+  MHP: 500
+  HPRegene: 5
+  MMP: 300
+  MPRegene: 5
+  MST: 250
+  STRegene: 50
+  PAtk: 50
+  MAtk: 50
+  PDef: 50
+  MDef: 50
+  Adds:
+  - EquipIfs: []
+    State: 205
+    Option: 3
+    Values: {x: -500, y: 0}
+  - EquipIfs: []
+    State: 208
+    Option: 3
+    Values: {x: -80, y: 0}
+  - EquipIfs: []
+    State: 209
+    Option: 3
+    Values: {x: 80, y: 0}
+  SkillAttacks: []
+  JTGroupSet:
+  - JTreeGroup: {fileID: 11400000, guid: 25f0f9fb3d5e8314c944995306a89de0, type: 2}
+    OffSet: {x: 0, y: 0}
+  - JTreeGroup: {fileID: 11400000, guid: b71149149a10cc14db5b7488a36e3ece, type: 2}
+    OffSet: {x: 2, y: 0}
+  - JTreeGroup: {fileID: 11400000, guid: 98b6bf655fa11e14190ae49a4a0efac7, type: 2}
+    OffSet: {x: 0, y: -5}

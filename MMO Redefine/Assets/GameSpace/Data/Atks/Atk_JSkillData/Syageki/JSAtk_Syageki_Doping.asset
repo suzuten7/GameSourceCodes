@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fe58b3b87749b543bf81c315e34f0e0, type: 3}
+  m_Name: JSAtk_Syageki_Doping
+  m_EditorClassIdentifier: Assembly-CSharp::Suzuten_Test.Suzuten_Data_Attack
+  Name: "\u30C9\u30FC\u30D4\u30F3\u30B0"
+  Info: "\u6BD2\u306B\u306A\u308B\u304C\u6700\u5927HP\u3068\u7269\u7406\u653B\u6483\u529B\u3092\u4E0A\u3052\u308B"
+  Icon: {fileID: 2800000, guid: 0d42f720c4c1bad47bb86f9e13ed8719, type: 3}
+  Type: 1
+  AddressableAddress: JSAtk_Syageki_Doping
+  AtkType: 0
+  CT: 15
+  Costs: []
+  Branchs: []
+  SortOption: 0
+  SortUpper: 1
+  EndTime: 0
+  Events:
+  - rid: 2557346964607336728
+  - rid: 2557346964607336730
+  - rid: 2557346964607336732
+  references:
+    version: 2
+    RefIds:
+    - rid: 2557346964607336728
+      type: {class: Data_Attack/Class_AEvent_MyBuf, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[0]\u81EA\u5DF1\u30D0\u30D5|BID:0,\u6642\u9593:(0)\u79D2|MaxHPChange(1000)Add,Time:10,Pow:50"
+        Memo: 
+        IfBID: 0
+        IfBIDs: 
+        Times: {x: 0, y: 0, z: 0}
+        ID: 0
+        Op: 4
+        Index: 1000
+        Set: 0
+        AddTimes: {x: 10, y: 0}
+        CPow:
+        - HitSta: 0
+          Base: 0
+          Op: 0
+          Mult: 50
+        MPow: []
+    - rid: 2557346964607336730
+      type: {class: Data_Attack/Class_AEvent_MyBuf, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[1]\u81EA\u5DF1\u30D0\u30D5|BID:0,\u6642\u9593:(0)\u79D2|PAtkChange(1000)Add,Time:10,Pow:50"
+        Memo: 
+        IfBID: 0
+        IfBIDs: 
+        Times: {x: 0, y: 0, z: 0}
+        ID: 100
+        Op: 4
+        Index: 1000
+        Set: 0
+        AddTimes: {x: 10, y: 0}
+        CPow:
+        - HitSta: 0
+          Base: 0
+          Op: 0
+          Mult: 50
+        MPow: []
+    - rid: 2557346964607336732
+      type: {class: Data_Attack/Class_AEvent_MyBuf, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[2]\u81EA\u5DF1\u30D0\u30D5|BID:0,\u6642\u9593:(0)\u79D2|Poison(1000)Add,Time:25,Pow:\u6700\u5927HP5%"
+        Memo: 
+        IfBID: 0
+        IfBIDs: 
+        Times: {x: 0, y: 0, z: 0}
+        ID: 1000
+        Op: 0
+        Index: 1000
+        Set: 0
+        AddTimes: {x: 25, y: 0}
+        CPow:
+        - HitSta: 0
+          Base: 1
+          Op: 4
+          Mult: 5
+        MPow: []

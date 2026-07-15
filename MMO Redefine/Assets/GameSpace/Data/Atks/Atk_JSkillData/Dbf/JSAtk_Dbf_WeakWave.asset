@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fe58b3b87749b543bf81c315e34f0e0, type: 3}
+  m_Name: JSAtk_Dbf_WeakWave
+  m_EditorClassIdentifier: Assembly-CSharp::Suzuten_Test.Suzuten_Data_Attack
+  Name: "\u30A6\u30A3\u30FC\u30AF\u30A6\u30A7\u30FC\u30D6"
+  Info: "\u5468\u56F2\u306E\u6575\u306E\u653B\u6483\u529B\u3092\n20%\u6E1B\u5C11\u3055\u305B\u308B\u6CE2\u3092\u653E\u3064"
+  Icon: {fileID: 0}
+  Type: 1
+  AddressableAddress: JSAtk_Sien_WeakWave
+  AtkType: 0
+  CT: 10
+  Costs:
+  - Type: 3
+    Val: 200
+  Branchs: []
+  SortOption: 0
+  SortUpper: 1
+  EndTime: 0
+  Events:
+  - rid: 2557346964607336723
+  references:
+    version: 2
+    RefIds:
+    - rid: 2557346964607336723
+      type: {class: Data_Attack/Class_AEvent_ShotMain, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[0]\u5F3E\u767A\u5C04|BID:0,\u6642\u9593:(0)\u79D2|Attack_WeakWave,Count:1,Speed:0,TBase:MyPosition,MyLook,Hit:\xD71,HCT:0\u79D2,HEXCh:0%"
+        Memo: 
+        IfBID: 0
+        IfBIDs: 
+        Times: {x: 0, y: 0, z: 0}
+        Shot: {fileID: 5935130586681626263, guid: 1882510fdb2e7b94397e8e4e9aaa8529, type: 3}
+        Fire:
+          Count: 1
+          Speed: {x: 0, y: 0}
+          PosBase: 0
+          PosChange: []
+          RotBase: 0
+          RotChange: []
+        Hits:
+        - DispStr: "[0](\u6575)<\u30C0\u30E1,\u30B9\u30AD\u30EB,\u4E2D\u8DDD\u96E2,\u7121\u5C5E\u6027>\u500D\u7387\xD70%,\u72B6\u614B\xD72"
+          Option:
+            EHit: 1
+            FHit: 0
+            MHit: 0
+            DeathHit: 0
+            Heal: 0
+            AtkType: 2
+            RangeType: 1
+            NoDamAdd: 0
+            NoBaseRegist: 0
+            Element: 0
+            EleRides: 0
+            NoEleRegist: 0
+            ChangeCritPer: {x: 0, y: 0}
+            ChangeCritMult: {x: 0, y: 0}
+            ChangeHitPer: {x: 0, y: 0}
+            ChangeDogePer: {x: 0, y: 0}
+          Dam:
+            CalStr: "\u500D\u7387\xD70%"
+            DamCals: []
+            DefCals: []
+            DefPer: 0
+            Mult: 0
+          BufAdds:
+          - DispStr: '[0]PAtkChange_Rem_AddRate(1000)Add,Time:(10.00, 10.00),CPow:15'
+            ID: 100
+            Op: 7
+            Index: 1000
+            Set: 0
+            Times: {x: 10, y: 10}
+            CPow:
+            - HitSta: 0
+              Base: 0
+              Op: 0
+              Mult: 15
+            MPow: []
+          - DispStr: '[1]MAtkChange_Rem_AddRate(1000)Add,Time:(10.00, 10.00),CPow:15'
+            ID: 101
+            Op: 7
+            Index: 1000
+            Set: 0
+            Times: {x: 10, y: 10}
+            CPow:
+            - HitSta: 0
+              Base: 0
+              Op: 0
+              Mult: 15
+            MPow: []
+        HitCT: 0
+        HitEXCharge: 0
+        HateAdd: {x: 0, y: 0}

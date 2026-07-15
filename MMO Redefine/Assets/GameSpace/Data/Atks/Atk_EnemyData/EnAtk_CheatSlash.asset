@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fe58b3b87749b543bf81c315e34f0e0, type: 3}
+  m_Name: EnAtk_CheatSlash
+  m_EditorClassIdentifier: Assembly-CSharp::Datas.Data_Attack
+  Name: 
+  Info: 
+  Icon: {fileID: 0}
+  Type: 0
+  AddressableAddress: EnAtk_CheatSlash
+  AtkType: 0
+  CT: 0
+  Costs: []
+  Branchs: []
+  SortOption: 0
+  SortUpper: 1
+  EndTime: 0
+  Events:
+  - rid: 5286047829401272444
+  references:
+    version: 2
+    RefIds:
+    - rid: 5286047829401272444
+      type: {class: Data_Attack/Class_AEvent_ShotMain, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[0]\u5F3E\u767A\u5C04|BID:0,\u6642\u9593:(0)\u79D2|Attack_LSlash,Count:1,Speed:1000\uFF5E9000,TBase:MyPosition,MyLook,Hit:\xD71,HCT:0\u79D2,HEXCh:0%"
+        Memo: 
+        IfBID: 0
+        IfBIDs: 
+        Times: {x: 0, y: 0, z: 0}
+        Shot: {fileID: 5935130586681626263, guid: bdc1e53df7f7b3347b277fdcaa5323c2, type: 3}
+        Fire:
+          Count: 1
+          Speed: {x: 1000, y: 9000}
+          PosBase: 0
+          PosChange: []
+          RotBase: 0
+          RotChange: []
+        Hits:
+        - DispStr: "[0](\u6575)<\u30C0\u30E1,\u901A\u5E38,\u9060\u8DDD\u96E2,\u7121\u5C5E\u6027>\u653B\u6483\u5024:\u53D7.\u6700\u5927HP4%,\u500D\u7387\xD7100%"
+          Option:
+            EHit: 1
+            FHit: 0
+            MHit: 0
+            DeathHit: 0
+            Heal: 0
+            AtkType: 0
+            RangeType: 2
+            NoDamAdd: 1
+            NoBaseRegist: 1
+            Element: 0
+            EleRides: 0
+            NoEleRegist: 1
+            ChangeCritPer: {x: 0, y: 0}
+            ChangeCritMult: {x: 0, y: 0}
+            ChangeHitPer: {x: 0, y: 0}
+            ChangeDogePer: {x: 0, y: 0}
+          Dam:
+            CalStr: "\u653B\u6483\u5024:\u53D7.\u6700\u5927HP4%,\u500D\u7387\xD7100%"
+            DamCals:
+            - HitSta: 1
+              Base: 1
+              Op: 4
+              Mult: 4
+            DefCals: []
+            DefPer: 0
+            Mult: 100
+          BufAdds: []
+        HitCT: 0
+        HitEXCharge: 0
+        HateAdd: {x: 0, y: 0}

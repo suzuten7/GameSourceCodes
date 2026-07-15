@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c8e8e76d57cbf4981ef25bc7351421, type: 3}
+  m_Name: Job_Rom_Gyanburu
+  m_EditorClassIdentifier: Assembly-CSharp::Suzuten_Test.Suzuten_Data_Job
+  Name: "\u30AE\u30E3\u30F3\u30D6\u30EB"
+  Info: "\u904B\u306B\u5DE6\u53F3\u3055\u308C\u3084\u3059\u3044\u30B8\u30E7\u30D6"
+  MHP: 500
+  HPRegene: 5
+  MMP: 300
+  MPRegene: 5
+  MST: 250
+  STRegene: 50
+  PAtk: 50
+  MAtk: 50
+  PDef: 50
+  MDef: 50
+  Adds:
+  - EquipIfs: []
+    State: 208
+    Option: 3
+    Values: {x: -25, y: 0}
+  - EquipIfs: []
+    State: 209
+    Option: 3
+    Values: {x: 25, y: 0}
+  - EquipIfs: []
+    State: 205
+    Option: 3
+    Values: {x: -50, y: 0}
+  - EquipIfs: []
+    State: 200
+    Option: 3
+    Values: {x: -50, y: 0}
+  - EquipIfs: []
+    State: 201
+    Option: 3
+    Values: {x: 200, y: 0}
+  SkillAttacks:
+  - {fileID: 11400000, guid: c54794812127b5743a7d28464a963326, type: 2}
+  - {fileID: 11400000, guid: 0294eea92fb82714db4fa75162a1472f, type: 2}
+  - {fileID: 11400000, guid: 945364afc98f05b4ea31d1d6daead511, type: 2}
+  - {fileID: 11400000, guid: 5de13d38087b8fe40a1c70b967db215a, type: 2}
+  - {fileID: 11400000, guid: 7f1c6af94001b82489f9d0df8cf0ea10, type: 2}
+  - {fileID: 11400000, guid: 73ea42cf2b4099341bb5106bc214a55a, type: 2}
+  - {fileID: 11400000, guid: 4f1948cacd512d642b53048ec80e445e, type: 2}
+  - {fileID: 11400000, guid: 8bcd463fa164e5240b5f1d3832ec2ce7, type: 2}
+  JTGroupSet:
+  - JTreeGroup: {fileID: 11400000, guid: 25f0f9fb3d5e8314c944995306a89de0, type: 2}
+    OffSet: {x: 0, y: 0}
+  - JTreeGroup: {fileID: 11400000, guid: 1cc5839667a03324a9bd57adf858244a, type: 2}
+    OffSet: {x: 2, y: 0}
+  - JTreeGroup: {fileID: 11400000, guid: 98b6bf655fa11e14190ae49a4a0efac7, type: 2}
+    OffSet: {x: 0, y: -5}

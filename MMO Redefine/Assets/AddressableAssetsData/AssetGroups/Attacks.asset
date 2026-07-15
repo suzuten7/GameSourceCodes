@@ -1,0 +1,902 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Attacks
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: Attacks
+  m_GUID: 9b3e5fb3c8e50694780158929d18c670
+  m_SerializeEntries:
+  - m_GUID: 00974597c73ec9c44a21e2b5116d1fad
+    m_Address: CAtk_AllPotion
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 02328383e3c6f254da9de3a9f60ee025
+    m_Address: JSAtk_Sien_HealArea
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0294eea92fb82714db4fa75162a1472f
+    m_Address: JSAtk_Gyanburu_ReaCard
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 059b5c86a6e6ad3418518750b9ed8700
+    m_Address: JSAtk_Summon_ForbiddenSummon
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 06798cc7223cb3a4a9aae15cf120b868
+    m_Address: WAtk_Bow_ilus
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 071e99825e6c5174f88b927eb610e990
+    m_Address: JSAtk_Caster_TerraEdge
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 07824f3c2ed9ef3489ff61b4e8917975
+    m_Address: JSAtk_Otori_DeatOnMult
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 08d9b21da2a23644b990cd1245c0f8f9
+    m_Address: JSAtk_Breaker_OverAttack
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0d9b1ef6ea8cc0d48b1534244666f791
+    m_Address: BAtk_Gun_Base
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0ff285a18e931544795f2b3620db4b6e
+    m_Address: BAtk_Shild_Gld
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 10cfb5a17a9989b4f939486db90af94e
+    m_Address: JSAtk_Mazyutu_MPReflesh
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1197da26005a9904dbd59cf7f9785c72
+    m_Address: JSAtk_Heal_SmoalHeal
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1392060acbcca234ea6f2790bf57b092
+    m_Address: BAtk_Shild_Base
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1394b9f33008409478397341fdf679a5
+    m_Address: JSAtk_Kensi_LSlash
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 16d3a49d9775b714781b01c0b651e800
+    m_Address: JSAtk_Sien_SelfBuf
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 17848ac2323fc6844b09ece046229456
+    m_Address: CAtk_MAtkPotion
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 19c99a0957b024641ac85d39fc6b5878
+    m_Address: JSAtk_Syageki_Grened
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1c31946c68238534b941ee3f065966c4
+    m_Address: JSAtk_Summon_Tomotate
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 200abe3000e15c248a00928350661d60
+    m_Address: WAtk_Sword_Non
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 209c4294de799d844b5536ca1e7ec20d
+    m_Address: JSAtk_Summon_Sekizou
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2146743050b6bf346be56a99b094bac6
+    m_Address: JSAtk_Hubutu_Ranzan
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 224f7016f3c36d64680b80cba79517e5
+    m_Address: OAtk_SB_MagSlash
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 22dc327189308644f8c91e8b57ab0b9f
+    m_Address: JSAtk_Mazyutu_UltRay
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 247fe71477d18fb459dc05bbe525b368
+    m_Address: JSAtk_Breaker_Impact
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 24b566dc62437844a9475fb43fc6e2f7
+    m_Address: JSAtk_Dbf_DAccumulation
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 25b3ef42d330a4b4e85608678e05661a
+    m_Address: ASAtk_OverWrite_Light
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 26689da42331f9848a16406988c600cb
+    m_Address: CAtk_MPDrag
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 26ef030d0448438439b2f6bab66ea381
+    m_Address: JSAtk_Heal_HealWind
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 28210dfa7a333674eb31735fcbef1bfa
+    m_Address: JSAtk_Caster_WaterWave
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 28e79b789a50200479404b805c656571
+    m_Address: ASAtk_OverWrite_Earth
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 290821e0c2e7bf54b85fb9675dbf2baf
+    m_Address: WAtk_Kama
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2c813ecabc2e77b4b93d4fcd2d2bbe22
+    m_Address: EnAtk_Razers
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2d758609c1abc6b4686864e683bca9e1
+    m_Address: BAtk_Sword_Base
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2e68d2b6c1f059d488aaeb7f8c44161a
+    m_Address: JSAtk_Sien_BufShot
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2f5aa3293e8a69c4ab0e98914d1d15f5
+    m_Address: JSAtk_Sien_SienTyuu
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3040e2093e20bb24c9256cd3644f6df0
+    m_Address: JSAtk_Renzya_SpearStep
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 31a0e1b17b95e8d4597995380638557d
+    m_Address: AddAtk_Kama
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 31a5d28e3997c924ba0d74286ab0844d
+    m_Address: ASAtk_Kakusei
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3261fbda1d396204aabeb3b80ef597cf
+    m_Address: JSAtk_Hubutu_FastAtk
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3eb513200451be143a08a3d3455f47da
+    m_Address: ASAtk_Mg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3f48fb4dd620ae341b9e66dd4c9b6160
+    m_Address: JSAtk_Breaker_FallBurst
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3f9ae3b8b4b55f8459ca143a5ab5b320
+    m_Address: JSAtk_Setuma_FireCircle
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3feb0d74c71176540b77357f9e3e3db2
+    m_Address: CAtk_Dokuyaku
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 414317867d55fc5458f084898d033795
+    m_Address: CAtk_KaisinZai
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 434edaa51f3ef6645bb80b7b003c08da
+    m_Address: JSAtk_Breaker_LineBreak
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 43a005a563f68df41b3f0b427d631f36
+    m_Address: ASAtk_Hissatu
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 445c399c30717244e8f010951c8b0cd2
+    m_Address: BAtk_Flys_Base
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 454039262162445498d0bd35fc6bc04b
+    m_Address: BAtk_Gun_Macin
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 46d6c6eb113ca284ea05e4969786221a
+    m_Address: ASAtk_CTWarp
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 48d9bec1dfccfce4fb03c7901cc7fad5
+    m_Address: JSAtk_Hubutu_MyFly
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 48f381014b6261944b279e2d5d70f34b
+    m_Address: JSAtk_Syageki_Missail
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 494341c9e70694c4faa24d16131a5961
+    m_Address: EnAtk_Beam
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 49ce81e79d52f8144bab88c4215a7c5c
+    m_Address: JSAtk_Setuma_EarthImpact
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4f1948cacd512d642b53048ec80e445e
+    m_Address: JSAtk_Gyanburu_EventMake
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5111208bfb159634a8a929c9f87662db
+    m_Address: JSAtk_Caster_FlameSpred
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 51453605382388c49bcfa743686fa315
+    m_Address: ASAtk_InfYakusou
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 562af0fedd292ca4eabe6d90a4447afe
+    m_Address: EnAtk_DemonShoot
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 59bf371e7dccadc458dc7af5368d12c4
+    m_Address: OAtk_Test
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5a375b3ff010bbf4ea44516bfdb3b474
+    m_Address: EnAtk_NMBF
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5a9e79799fbb7a543894890f94bda8b5
+    m_Address: EnAtk_BroccoliRain
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5cc99fad5cfb5f941b6a55a6b7a9ce28
+    m_Address: WAtk_Grobe_Base
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5de13d38087b8fe40a1c70b967db215a
+    m_Address: JSAtk_Gyanburu_MixCard
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5e8735874277bdc4b9693d2842235032
+    m_Address: CAtk_Boom
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5e9c9b2ff13dc974aad0e0285b153ec5
+    m_Address: WAtk_Sword_NaNWhiter
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 62026e2a11f06134785c90299bd89f67
+    m_Address: JSAtk_Setuma_PhysicsBreak
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 62c20e5cf3eba1c4e833894dbd0fe54d
+    m_Address: JSAtk_Dbf_BrittleArea
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6638a28559e17f64585521ed3ccd087b
+    m_Address: JSAtk_Setuma_WaterSword
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6723e821cd1e62c48bdf3d5c694cc1f4
+    m_Address: WAtk_Axe_Base
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6945c1d71541fb242b85ca2de6319d9a
+    m_Address: WAtk_Bow_Hev
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6a26537aa8bd5bc40abaf2c165d0a3fb
+    m_Address: JSAtk_Hubutu_Kamisoukou
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6aab287f30c643f45bf9a37af5a03aee
+    m_Address: CAtk_Yakusou
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6f2c2ac062045d344b7a04f430955deb
+    m_Address: JSAtk_Hubutu_Sinkasoku
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 72235f6ff9cf27046b6b4948ea24c6d0
+    m_Address: JSAtk_Renzya_ExpArrow
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 73ea42cf2b4099341bb5106bc214a55a
+    m_Address: JSAtk_Gyanburu_RandomBuf
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 74358684331362947bc0fad1bdcf0466
+    m_Address: BAtk_Magic_Base
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 74eb40120f96bac48bf3d70754d4c24f
+    m_Address: JSAtk_Kensi_PowerUp
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7795e524b2c34dd42be4a622831d81f3
+    m_Address: JSAtk_Dbf_BreakNon
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 79fa67923c45de84a8c9a4f788d8d792
+    m_Address: JSAtk_Setuma_MagicEnchant
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7a431d6ad2b2a794aae2dc3b7233bffb
+    m_Address: ASAtk_LuckBreak
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7b5bfb5fcfb95ac488ac8da7a7902397
+    m_Address: JSAtk_Syageki_Doping
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7bb2fab65e8141e4d9b4fe6348415268
+    m_Address: WAtk_RPG_Base
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7d141d4c419e54749b29e97b2b7c108c
+    m_Address: JSAtk_Otori_MultBarria
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7f1c6af94001b82489f9d0df8cf0ea10
+    m_Address: JSAtk_Gyanburu_RandomHeal
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 84b4decf00a272c40b8b7210e313f757
+    m_Address: CAtk_MDefPotion
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 85efe7b807b969d4ca9f36a24b45ddc4
+    m_Address: JSAtk_Heal_DifenceAura
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 87f4da63e06102447b11ade65c01dc41
+    m_Address: JSAtk_Syageki_KyouSya
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8a85b174fec290d4594a5974e5b5c84f
+    m_Address: JSAtk_Renzya_SpearShoot
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8b23238054ddde043b87b8231c7616f1
+    m_Address: JSAtk_Sien_ShortBuf
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8bcd463fa164e5240b5f1d3832ec2ce7
+    m_Address: JSAtk_Gyanburu_HalfHalf
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8cb2be54375de71478c39fe4162ddb2b
+    m_Address: EnAtk_SetSlash
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8f8a311500316bd459640abeb7259c09
+    m_Address: JSAtk_Setuma_WindNede
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 91a42a863787ba849af11ceb3b6be1cb
+    m_Address: JSAtk_Dbf_ElementDown
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 93438f44097c49f488328e2bfb01c770
+    m_Address: JSAtk_Heal_Revive
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 945364afc98f05b4ea31d1d6daead511
+    m_Address: JSAtk_Gyanburu_GoldCard
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 94ebb4be250904f449826e74fc4c5a5e
+    m_Address: EnAtk_FallBurst
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 968507395d95f2d49a49b1d0773642e4
+    m_Address: JSAtk_Syageki_MultShot
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 96fd4806e10db0441bcf1b3155fa539c
+    m_Address: JSAtk_Heal_SelfDifence
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9a0d32de2ad737e42ab77e6f4523c75d
+    m_Address: JSAtk_Summon_Zibaku
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9b98105f3f90d8247815f7e773eded80
+    m_Address: JSAtk_Summon_Bomb
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9d0ac65de8c1d78409463b02e786ef8d
+    m_Address: JSAtk_Dbf_RegeneJaming
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a004b2ecb53e3f64c99076531e5e7d8a
+    m_Address: ASAtk_OverWrite_Mix
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a072b97072002ac4a8041c67a0dc8e45
+    m_Address: WAtk_StafHf_Holy
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a0b5f54d76701884e9cd8d325e8ecb2a
+    m_Address: BAtk_Sword_Mz
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a0c7e43ffe33f4d45ab3d4a09d67c39e
+    m_Address: BAtk_Flys_Hell
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a139b99039570e845bf1c62d497bc07c
+    m_Address: BAtk_FBroccoli
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a2ea82e0dfb83da4280d6c22ce0aa502
+    m_Address: JSAtk_Mazyutu_SetFire
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a34a90b1a2671604babd732940dc1e4d
+    m_Address: JSAtk_Hubutu_STRecavary
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a3cc418e33ca2e64486e2e6cfa81d275
+    m_Address: JSAtk_Caster_DivBreake
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a41f1570fbe68594989503d9e892d2be
+    m_Address: JSAtk_Setuma_MPShild
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a4c334071b5583e4f9556e6aea2db512
+    m_Address: JSAtk_Syageki_GD
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a7adc2f4a4197e545b3574b8a402f929
+    m_Address: EnAtk_CheatSlash
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a97c50ec24e1b0140b98e3e24e558324
+    m_Address: JSAtk_Sien_ElementBoost
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: acad1aed3adef0c47b4e152cb6b13613
+    m_Address: JSAtk_Caster_MagicalRay
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ad6d5e19df9a86a47b84e65e8fcb96ef
+    m_Address: JSAtk_Summon_Tureet
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aee2cde4742d8cd42bf2775cd426cb8b
+    m_Address: JSAtk_Caster_Lightning
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b127c7f879ed6b140991c2f66952653b
+    m_Address: JSAtk_Setuma_NonExpan
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b227bad9b513f43408d08cca9c3e525d
+    m_Address: CAtk_PAtkPotion
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b3e3f59ab4f59004d9a72d2f66b79c7c
+    m_Address: JSAtk_Heal_Regene
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b75f75e570ea52941b71e6bf6d56c67a
+    m_Address: JSAtk_Caster_Charge
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b99648d07d1104e4392323660730a41d
+    m_Address: JSAtk_Otori_SuperGurad
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bad260a7a21a9c0478b0f21e0f171289
+    m_Address: JSAtk_Summon_MultZako
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bd4da22e59e41a944aa9a3bd7043900f
+    m_Address: JSAtk_Sien_BFiled
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bf567d3403f39584f87ce88ee04252b2
+    m_Address: JSAtk_Breaker_Delayd
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c06902a1babc7a946bbb457a89594cf7
+    m_Address: EnAtk_BombSpred
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c0a0112c0921ad64bb0e88b3406661b0
+    m_Address: JSAtk_Mazyutu_SelfHeal
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c1e9e573267365941af268371f7628fb
+    m_Address: JSAtk_Otori_Tyouhatu
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c2750d22d61cc0844a1c66194a72b738
+    m_Address: EnAtk_BroccoliSpred
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c3bc022410a156f4f9a02ee4b7d90844
+    m_Address: ASAtk_BotSet_Follow
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c54794812127b5743a7d28464a963326
+    m_Address: JSAtk_Gyanburu_CardShot
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c67d742f378457d4daaf072db0286740
+    m_Address: BAtk_Magic_Hev
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c8954ea149ed1ef4e89cb82625dbcfe8
+    m_Address: JSAtk_Sien_WeakWave
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c95928e538efcb74590fdec9fbe7ddea
+    m_Address: ASAtk_Haisoku
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c98c2b47786d80249852ec021ed57d1d
+    m_Address: JSAtk_Otori_SetShild
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ca7994609d10e314a8e4b20bd72f1421
+    m_Address: JSAtk_Hubutu_Acel
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cafb3494934bb404b81ab9ba38d699c5
+    m_Address: JSAtk_Sien_MPTake
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cbead6e3e58da224fa70cdb662766b10
+    m_Address: EnAtk_EleAll
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cc5d375db3c4955489498b5150096d91
+    m_Address: CAtk_DokuyakuKai
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cc8c335493434e440897d395da1cca3a
+    m_Address: ASAtk_NonCut
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cddea1e91423a42458c0e419bae719a1
+    m_Address: EnAtk_BroccoliCanon
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ce386da37faa2734f88afe1c84d719c1
+    m_Address: JSAtk_Mazyutu_ShortWarp
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d32c67d9208effc45bee6a81aaf7efda
+    m_Address: WAtk_StaffH_Base
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d43b4ad989837294e8eb4e8888ad52e5
+    m_Address: WAtk_Hammer_Base
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d468cb227d9271146835e1b2203596cb
+    m_Address: EnAtk_GolemBurst
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d6c46c4831df1d14e8d6137b8f64f47b
+    m_Address: OAtk_Dummy
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d762cbbe65bac7747a96e8202116d9d6
+    m_Address: JSAtk_Mazyutu_StarLight
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d87e1e8abeae2154784039157c0efa8b
+    m_Address: JSAtk_Syageki_ShootMode
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: daf79806d051feb428217896fe68c1ce
+    m_Address: JSAtk_Renzya_DubleArrow
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dd1243282d73eb0459ba47adf8491cb5
+    m_Address: JSAtk_Breaker_CounterEdge
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: de6c3885f6bc961408c5bb47c5532e73
+    m_Address: JSAtk_Dbf_RemShoot
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e016c403f9a488b4f9be7d99ceb17608
+    m_Address: JSAtk_Mazyutu_FallIce
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e02aaddfdb00b3041857cc400cd4b10e
+    m_Address: JSAtk_Summon_ImagFriend
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e1314fc0b306a644ab723742c9b32aec
+    m_Address: JSAtk_Mazyutu_ManaShoot
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e1907c8c56738cb4887c8393c1c69dd8
+    m_Address: JSAtk_Otori_Barria
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e2f9d08b65445764480c572e5dbf8eb4
+    m_Address: ASAtk_OverWrite_Dark
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e33320f2ca4706f44bd8a0ab7046ece7
+    m_Address: JSAtk_Syageki_Ransya
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e5d0af84248e7b549bad94c359acc01c
+    m_Address: EnAtk_SetSlash 1
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e5d3b64d7a6b75d4bbcbb5534f1bdc86
+    m_Address: CAtk_WarningBoom
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e6baefd9695fa8c4da48033e604268a6
+    m_Address: WAtk_StoneThrow_Base
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e7a63e5803562324192757f893479b59
+    m_Address: JSAtk_Mazyutu_OkiMa
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e8dda92b023514b41a3a3777e8076c79
+    m_Address: CAtk_PDefPotion
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ea2a38adb6a4fc84db80bb71251abd25
+    m_Address: JSAtk_Caster_CasterFinal
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ed4fd20c5ec915649842cae392e1ef82
+    m_Address: ASAtk_WTF
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f178ba2d252d3b74c854d499a1eb5aee
+    m_Address: JSAtk_Hubutu_HellSlash
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f2ad3c6193aac4345936dc0114d04ce4
+    m_Address: JSAtk_Renzya_JumpArrow
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f37ac955bc6dcf34bace2fe2c952e98a
+    m_Address: JSAtk_Dbf_SlowField
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f48c411ce83c8fa43bee4532b08ecb09
+    m_Address: ASAtk_ElementCut
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f56e1e51b31519548b92b4ddb3e995c8
+    m_Address: EnAtk_WTF
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f7b6392dc3edae84f9b9d83cadff0eaf
+    m_Address: JSAtk_Otori_Zitaiha
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f8547f2262b4cfb4794ef798ec81d6c5
+    m_Address: JSAtk_Otori_AttackArea
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f8ad733f518fc4d44bfbad1d93916886
+    m_Address: JSAtk_Renzya_ArrowRain
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f916673eeaf8e4d4b997a85bb78021d8
+    m_Address: OAtk_SB_PhysSash
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: faac9c930ca946040b7eebb669c1826c
+    m_Address: JSAtk_Renzya_BackdSpear
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fbf9c0ab14f17bf4fa8ed43cd9cb9016
+    m_Address: WAtk_StaffD_Base
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fbfb554d5ed29954383baa9b4545ae18
+    m_Address: JSAtk_Heal_SuperRezarek
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fdae409d6e5fc22459e1feb6e9ef7f28
+    m_Address: JSAtk_Heal_Rezarek
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: feac02daee4329d4387df69ef1a8e257
+    m_Address: JSAtk_Renzya_FastSpear
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 4fc6b5862b922d941bf19b644074c5cc, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 5ed07d1ef15831c49a260cfb7ffb172e, type: 2}

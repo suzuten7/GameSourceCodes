@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fe58b3b87749b543bf81c315e34f0e0, type: 3}
+  m_Name: JSAtk_Sien_HealArea
+  m_EditorClassIdentifier: Assembly-CSharp::Suzuten_Test.Suzuten_Data_Attack
+  Name: "\u30D2\u30FC\u30EB\u30A8\u30EA\u30A2"
+  Info: "\u56DE\u5FA9\u3059\u308B\u30A8\u30EA\u30A2\u3092\u767A\u751F\u3055\u305B\u308B"
+  Icon: {fileID: 2800000, guid: 35bc62773ac51d143a43a77b64ffa3a0, type: 3}
+  Type: 1
+  AddressableAddress: JSAtk_Sien_HealArea
+  AtkType: 0
+  CT: 11
+  Costs: []
+  Branchs: []
+  SortOption: 0
+  SortUpper: 1
+  EndTime: 0
+  Events:
+  - rid: 2557346964607336723
+  references:
+    version: 2
+    RefIds:
+    - rid: 2557346964607336723
+      type: {class: Data_Attack/Class_AEvent_ShotMain, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[0]\u5F3E\u767A\u5C04|BID:0,\u6642\u9593:(0)\u79D2|Attack_HealArea,Count:1,Speed:0,TBase:MyPosition,MyLook,Hit:\xD71,HCT:1.25\u79D2,HEXCh:0%"
+        Memo: 
+        IfBID: 0
+        IfBIDs: 
+        Times: {x: 0, y: 0, z: 0}
+        Shot: {fileID: 5935130586681626263, guid: f6c641c1232ec8b4c9fa4b43291b0996, type: 3}
+        Fire:
+          Count: 1
+          Speed: {x: 0, y: 0}
+          PosBase: 0
+          PosChange: []
+          RotBase: 0
+          RotChange: []
+        Hits:
+        - DispStr: "[0](\u5473,\u81EA)<\u56DE\u5FA9,\u30B9\u30AD\u30EB,\u4E2D\u8DDD\u96E2,\u7121\u5C5E\u6027>\u653B\u6483\u5024:\u9B54\u653B75%+\u6700\u5927HP10%+\u53D7.\u6700\u5927HP5%,\u500D\u7387\xD715%"
+          Option:
+            EHit: 0
+            FHit: 1
+            MHit: 1
+            DeathHit: 0
+            Heal: 1
+            AtkType: 2
+            RangeType: 1
+            NoDamAdd: 0
+            NoBaseRegist: 0
+            Element: 0
+            EleRides: 0
+            NoEleRegist: 0
+            ChangeCritPer: {x: 0, y: 0}
+            ChangeCritMult: {x: 0, y: 0}
+            ChangeHitPer: {x: 0, y: 0}
+            ChangeDogePer: {x: 0, y: 0}
+          Dam:
+            CalStr: "\u653B\u6483\u5024:\u9B54\u653B75%+\u6700\u5927HP10%+\u53D7.\u6700\u5927HP5%,\u500D\u7387\xD715%"
+            DamCals:
+            - HitSta: 0
+              Base: 111
+              Op: 4
+              Mult: 75
+            - HitSta: 0
+              Base: 1
+              Op: 4
+              Mult: 10
+            - HitSta: 1
+              Base: 1
+              Op: 4
+              Mult: 5
+            DefCals: []
+            DefPer: 0
+            Mult: 15
+          BufAdds: []
+        HitCT: 1.25
+        HitEXCharge: 0
+        HateAdd: {x: 0, y: 0}

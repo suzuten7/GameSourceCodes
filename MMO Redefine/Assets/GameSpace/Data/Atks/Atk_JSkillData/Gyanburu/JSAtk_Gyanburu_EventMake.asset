@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fe58b3b87749b543bf81c315e34f0e0, type: 3}
+  m_Name: JSAtk_Gyanburu_EventMake
+  m_EditorClassIdentifier: Assembly-CSharp::Suzuten_Test.Suzuten_Data_Attack
+  Name: "\u30A4\u30D9\u30F3\u30C8\u30E1\u30A4\u30AF"
+  Info: "\u4F55\u304B\u304C\u8D77\u3053\u308B\n\u60AA\u3044\u4E8B\u3082\u8D77\u304D\u308B"
+  Icon: {fileID: 0}
+  Type: 1
+  AddressableAddress: JSAtk_Gyanburu_EventMake
+  AtkType: 0
+  CT: 3
+  Costs:
+  - Type: 9
+    Val: 20
+  Branchs:
+  - DispStr: "[0]|1\u79D2"
+    BID: 0
+    BName: 
+    EndTime: 1
+  SortOption: 0
+  SortUpper: 1
+  EndTime: 1
+  Events:
+  - rid: 5002143695642558552
+  - rid: 5286047670873358447
+  references:
+    version: 2
+    RefIds:
+    - rid: 5002143695642558552
+      type: {class: Data_Attack/Class_AEvent_EX, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[0]EX|BID:0,\u6642\u9593:(0.9)\u79D2|EX:EventMake"
+        Memo: 
+        IfBID: 0
+        IfBIDs: 
+        Times: {x: 0.9, y: 0.9, z: 0}
+        EXs: 7
+    - rid: 5286047670873358447
+      type: {class: Data_Attack/Class_AEvent_Anim, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[1]\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3|BID:0,\u6642\u9593:(0\uFF5E1)\u79D2|AnimClip:Attack_SwordSlash_01ComboID:0,AnimSpeed:0.0%"
+        Memo: 
+        IfBID: 0
+        IfBIDs: 
+        Times: {x: 0, y: 1, z: 0}
+        ComboID: 0
+        AnimClip: {fileID: -203655887218126122, guid: 22c4008a480d73f44aa2b4d7e864bc61, type: 3}
+        AnimSpeed: 0

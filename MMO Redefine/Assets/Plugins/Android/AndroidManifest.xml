@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.DefaultCompany.MMORedefine">
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.VIBRATE" />
+  <application android:allowBackup="false">
+    <!-- Unity Activity -->
+    <activity android:name="com.unity3d.player.appui.AppUIGameActivity" android:theme="@style/BaseUnityGameActivityTheme" android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize|uiMode" android:exported="true">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+      <meta-data android:name="android.app.lib_name" android:value="game" />
+    </activity>
+    <!-- VRoidSDK -->
+    <activity android:name="net.pixiv.vroidsdk.AuthenticateActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:launchMode="singleTask" android:exported="true">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW" />
+        <category android:name="android.intent.category.DEFAULT" />
+        <category android:name="android.intent.category.BROWSABLE" />
+        <data android:scheme="my-vroidsdk-app" android:host="vroidhub" />
+      </intent-filter>
+    </activity>
+  </application>
+</manifest>

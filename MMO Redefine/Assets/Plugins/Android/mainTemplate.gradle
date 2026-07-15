@@ -1,0 +1,114 @@
+apply plugin: 'com.android.library'
+apply from: '../shared/keepUnitySymbols.gradle'
+**APPLY_PLUGINS**
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    // VRoidSDK
+    implementation 'androidx.browser:browser:1.5.0'
+
+    // Firebase
+    implementation 'com.google.android.gms:play-services-base:18.10.0'
+    implementation 'com.google.firebase:firebase-analytics:23.0.0'
+    implementation 'com.google.firebase:firebase-app-unity:13.9.0'
+    implementation 'com.google.firebase:firebase-auth:24.0.1'
+    implementation 'com.google.firebase:firebase-auth-unity:13.9.0'
+    implementation 'com.google.firebase:firebase-common:22.0.1'
+    implementation 'com.google.firebase:firebase-firestore:26.1.1'
+    implementation 'com.google.firebase:firebase-firestore-unity:13.9.0'
+
+// Android Resolver Dependencies Start
+    implementation 'com.google.android.gms:play-services-base:18.10.0' // Assets/Firebase/Editor/AppDependencies.xml:20
+    implementation 'com.google.firebase:firebase-analytics:23.0.0' // Assets/Firebase/Editor/FirestoreDependencies.xml:18
+    implementation 'com.google.firebase:firebase-app-unity:13.9.0' // Assets/Firebase/Editor/AppDependencies.xml:25
+    implementation 'com.google.firebase:firebase-auth:24.0.1' // Assets/Firebase/Editor/AuthDependencies.xml:16
+    implementation 'com.google.firebase:firebase-auth-unity:13.9.0' // Assets/Firebase/Editor/AuthDependencies.xml:23
+    implementation 'com.google.firebase:firebase-common:22.0.1' // Assets/Firebase/Editor/AppDependencies.xml:16
+    implementation 'com.google.firebase:firebase-firestore:26.1.1' // Assets/Firebase/Editor/FirestoreDependencies.xml:16
+    implementation 'com.google.firebase:firebase-firestore-unity:13.9.0' // Assets/Firebase/Editor/FirestoreDependencies.xml:23
+// Android Resolver Dependencies End
+**DEPS**
+}
+
+repositories {
+    google()
+    mavenCentral()
+
+    // Firebase Android
+    maven { url "https://maven.google.com" }
+
+    // Firebase Unity（最重要）
+    maven { url "${project(':unityLibrary').projectDir}/../Assets/Firebase/m2repository" }
+
+    // Unity libs
+    flatDir {
+        dirs 'libs'
+    }
+}
+
+// Android Resolver Exclusions
+// Android Resolver Exclusions Start
+android {
+  packaging {
+      exclude ('/lib/armeabi/*' + '*')
+      exclude ('/lib/armeabi-v7a/*' + '*')
+      exclude ('/lib/mips/*' + '*')
+      exclude ('/lib/mips64/*' + '*')
+      exclude ('/lib/x86/*' + '*')
+      exclude ('/lib/x86_64/*' + '*')
+  }
+}
+// Android Resolver Exclusions End
+android {
+    packaging {
+        exclude ('/lib/armeabi/*' + '*')
+        exclude ('/lib/armeabi-v7a/*' + '*')
+        exclude ('/lib/mips/*' + '*')
+        exclude ('/lib/mips64/*' + '*')
+        exclude ('/lib/x86/*' + '*')
+        exclude ('/lib/x86_64/*' + '*')
+    }
+
+    namespace "com.unity3d.player"
+    ndkPath "**NDKPATH**"
+    ndkVersion "**NDKVERSION**"
+    compileSdk **APIVERSION**
+    buildToolsVersion '**BUILDTOOLS**'
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    defaultConfig {
+**DEFAULT_CONFIG_SETUP**
+        minSdk **MINSDK**
+        targetSdk **TARGETSDK**
+
+        ndk {
+            debugSymbolLevel **DEBUGSYMBOLLEVEL**
+            abiFilters **ABIFILTERS**
+        }
+
+        versionCode **VERSIONCODE**
+        versionName '**VERSIONNAME**'
+
+        consumerProguardFiles 'proguard-unity.txt'**USER_PROGUARD**
+    }
+
+    lint {
+        abortOnError false
+    }
+
+    androidResources {
+        noCompress = **BUILTIN_NOCOMPRESS** + unityStreamingAssets.tokenize(', ')
+        ignoreAssetsPattern = "!.svn:!.git:!.ds_store:!*.scc:.*:!CVS:!thumbs.db:!picasa.ini:!*~"
+    }
+
+**PACKAGING**
+}
+
+**IL_CPP_BUILD_SETUP**
+**SOURCE_BUILD_SETUP**
+**EXTERNAL_SOURCES**

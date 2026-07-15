@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c260b31f6915b094ab69281b9d819e4f, type: 3}
+  m_Name: AddAtk_WaringBomb_Exp
+  m_EditorClassIdentifier: Assembly-CSharp::Datas.Data_AddShot
+  Shot:
+    DispName: "[0]\u5F3E\u767A\u5C04|BID:0,\u6642\u9593:(0)\u79D2|Attack_WarinigBomb_Exp,Count:1,Speed:0,TBase:MyPosition,MyLook,Hit:\xD71,HCT:0\u79D2,HEXCh:0%"
+    Memo: 
+    IfBID: 0
+    IfBIDs: 
+    Times: {x: 0, y: 0, z: 0}
+    Shot: {fileID: 5935130586681626263, guid: 474babf9721e511458d87378c0a6c020, type: 3}
+    Fire:
+      Count: 1
+      Speed: {x: 0, y: 0}
+      PosBase: 0
+      PosChange: []
+      RotBase: 0
+      RotChange: []
+    Hits:
+    - DispStr: "[0](\u6575,\u81EA)<\u30C0\u30E1,\u305D\u306E\u4ED6,\u305D\u306E\u4ED6,\u706B\u5C5E\u6027>\u653B\u6483\u5024:2000,\u9632\u5FA1\u5024:\u7269:\u9B54\u963250:50%\xD7200%,\u500D\u7387\xD7100%"
+      Option:
+        EHit: 1
+        FHit: 0
+        MHit: 1
+        DeathHit: 0
+        Heal: 0
+        AtkType: 4
+        RangeType: 3
+        NoDamAdd: 0
+        NoBaseRegist: 0
+        Element: 1
+        EleRides: 0
+        NoEleRegist: 0
+        ChangeCritPer: {x: 0, y: 0}
+        ChangeCritMult: {x: 0, y: 0}
+        ChangeHitPer: {x: 0, y: 0}
+        ChangeDogePer: {x: 0, y: 0}
+      Dam:
+        CalStr: "\u653B\u6483\u5024:2000,\u9632\u5FA1\u5024:\u7269:\u9B54\u963250:50%\xD7200%,\u500D\u7387\xD7100%"
+        DamCals:
+        - HitSta: 0
+          Base: 0
+          Op: 4
+          Mult: 2000
+        DefCals:
+        - HitSta: 1
+          Base: 101
+          Op: 4
+          Mult: 50
+        DefPer: 200
+        Mult: 100
+      BufAdds: []
+    HitCT: 0
+    HitEXCharge: 0
+    HateAdd: {x: 0, y: 0}

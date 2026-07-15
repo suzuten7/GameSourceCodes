@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fe58b3b87749b543bf81c315e34f0e0, type: 3}
+  m_Name: ASAtk_OverWrite_Mix
+  m_EditorClassIdentifier: Assembly-CSharp::Suzuten_Test.Suzuten_Data_Attack
+  Name: "\u30DF\u30C3\u30AF\u30B9\u30AA\u30FC\u30D0\u30FC\u30E9\u30A4\u30C9"
+  Info: "\u6B66\u5668\u653B\u6483\u304C\u5DE6\u53F3\u3067\u5225\u306E\u5C5E\u6027\u5909\u5316\n\u3092\u4F7F\u3046\u72B6\u614B\u306B\u3059\u308B"
+  Icon: {fileID: 2800000, guid: c41fad852ae7c454bb9f4f51ed39628d, type: 3}
+  Type: 1
+  AddressableAddress: ASAtk_OverWrite_Mix
+  AtkType: 0
+  CT: 10
+  Costs:
+  - Type: 9
+    Val: 5
+  Branchs: []
+  SortOption: 0
+  SortUpper: 1
+  EndTime: 0
+  Events:
+  - rid: 2557346964607336648
+  references:
+    version: 2
+    RefIds:
+    - rid: 2557346964607336648
+      type: {class: Data_Attack/Class_AEvent_MyBuf, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[0]\u81EA\u5DF1\u30D0\u30D5|BID:0,\u6642\u9593:(0)\u79D2|MixEleRide(0)Add,Time:10"
+        Memo: 
+        IfBID: 0
+        IfBIDs: 
+        Times: {x: 0, y: 0, z: 0}
+        ID: 520
+        Op: 0
+        Index: 0
+        Set: 0
+        AddTimes: {x: 10, y: 0}
+        CPow: []
+        MPow: []

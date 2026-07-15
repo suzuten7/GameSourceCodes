@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a601ed501c3c0440aef862acb0ae1f1, type: 3}
+  m_Name: JobTree_ElementCut
+  m_EditorClassIdentifier: Assembly-CSharp::Data_JobTree
+  Name: "\u30A8\u30EC\u30E1\u30F3\u30C8\u30AB\u30C3\u30C8"
+  Info: "\u30B9\u30AD\u30EB\u300C\u30A8\u30EC\u30E1\u30F3\u30C8\u30AB\u30C3\u30C8\u300D\u304C\u4F7F\u7528\u53EF\u80FD\u306B"
+  Icon: {fileID: 2800000, guid: 98790fd359023ca4fa91fb31bc2be7d6, type: 3}
+  Point: 5
+  LVMax: 1
+  StateAdds: []
+  TriggerAttacks: []
+  SkillAdds:
+  - {fileID: 11400000, guid: f48c411ce83c8fa43bee4532b08ecb09, type: 2}

@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1f72764022b1224a937c65be5312c06, type: 3}
+  m_Name: IC_Wepon_DStaff
+  m_EditorClassIdentifier: Assembly-CSharp::Toole.ImageComposeSO
+  outputSize: {x: 256, y: 256}
+  backColor: {r: 0, g: 0, b: 0, a: 0}
+  layers:
+  - noOutput: 0
+    locks: 0
+    hidePreview: 0
+    order: 0
+    texture: {fileID: 2800000, guid: f103de527d08bb743ae1efb5e7246c5d, type: 3}
+    color: {r: 0.5074362, g: 0, b: 0.6792453, a: 1}
+    anchor: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0.5}
+    position: {x: 61.987415, y: 80.50313}
+    rotation: 310.85233
+    size: {x: 64, y: 64}
+    scale: {x: 0.75, y: 0.75}
+  - noOutput: 0
+    locks: 0
+    hidePreview: 0
+    order: -1
+    texture: {fileID: 2800000, guid: b4df995f83ec09d42a1ff0ac02a53534, type: 3}
+    color: {r: 0.6037736, g: 0.05980776, b: 0.05980776, a: 1}
+    anchor: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0.5}
+    position: {x: -25.761019, y: -10.465396}
+    rotation: 44.718056
+    size: {x: 64, y: 64}
+    scale: {x: 3.663953, y: 0.35306686}
+  previewCheck1: {r: 0.7, g: 0.7, b: 0.7, a: 1}
+  previewCheck2: {r: 0.3, g: 0.3, b: 0.3, a: 1}

@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fe58b3b87749b543bf81c315e34f0e0, type: 3}
+  m_Name: JSAtk_Summon_Tomotate
+  m_EditorClassIdentifier: Assembly-CSharp::Suzuten_Test.Suzuten_Data_Attack
+  Name: "\u53CB\u306F\u76FE"
+  Info: "\u67B6\u7A7A\u306E\u53CB\u9054\u3092\u53EC\u559A\u3057\n\u653B\u6483\u3092\u53D7\u3051\u3066\u3082\u3089\u3046"
+  Icon: {fileID: 2800000, guid: d0fedca3ac4ad9d4cb00c5c32738d87a, type: 3}
+  Type: 1
+  AddressableAddress: JSAtk_Summon_Tomotate
+  AtkType: 0
+  CT: 15
+  Costs:
+  - Type: 3
+    Val: 250
+  Branchs: []
+  SortOption: 0
+  SortUpper: 1
+  EndTime: 0
+  Events:
+  - rid: 5002143692311756907
+  references:
+    version: 2
+    RefIds:
+    - rid: 5002143692311756907
+      type: {class: Data_Attack/Class_AEvent_Summon, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[0]\u53EC\u559A|BID:0,\u6642\u9593:(0)\u79D2|HP\u5272\u5408:150\u653B\u6483\u529B\u5272\u5408:50\u9632\u5FA1\u529B\u5272\u5408:150\u6642\u9593\u5236\u9650:20\u79D2"
+        Memo: 
+        IfBID: 0
+        IfBIDs: 
+        Times: {x: 0, y: 0, z: 0}
+        State: {fileID: 4376319703276055463, guid: a1c00a3b89e5ea94581babbdb3eacf03, type: 3}
+        Fire:
+          Count: 1
+          Speed: {x: 0, y: 0}
+          PosBase: 0
+          PosChange:
+          - TChange: 0
+            VectVal: {x: 0, y: 0, z: 2}
+            AddVal: {x: 0, y: 0}
+          RotBase: 0
+          RotChange: []
+        HPPer: 150
+        AtkPer: 50
+        DefPer: 150
+        TimeLimit: 20

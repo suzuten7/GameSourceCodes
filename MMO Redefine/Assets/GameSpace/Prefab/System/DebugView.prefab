@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2724837819761543862
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6180190423622186952}
+  - component: {fileID: 2141678392206005853}
+  m_Layer: 0
+  m_Name: DebugView
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6180190423622186952
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2724837819761543862}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2141678392206005853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2724837819761543862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 77c9c6071295ff0449c131519ef1b4f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Suzuten_Test.DebugValueView
+  LPVal:
+    PlayTimes: 0
+    EXP: 0
+    RespawnePos: {x: 0, y: 0, z: 0}
+    ActionObjs: []
+    ShortCutBack: 0
+    ShortCutSets: 
+    Wepons: []
+    Armors: []
+    Akuses: []
+  Save:
+    PlayTimes: 0
+    LV: 1
+    EXP: 0
+    ResPos: {x: 0, y: 15, z: 0}
+    Model: 0
+    SetWepons:
+    - GID: 1001000000
+      LV: 1
+    - GID: 1049000000
+      LV: 1
+    - GID: 1050000000
+      LV: 1
+    - GID: 1050000000
+      LV: 1
+    SetArmors:
+    - GID: -1
+      LV: 1
+    - GID: -1
+      LV: 1
+    - GID: -1
+      LV: 1
+    - GID: -1
+      LV: 1
+    SetAkuses:
+    - GID: -1
+      LV: 1
+    - GID: -1
+      LV: 1
+    - GID: -1
+      LV: 1
+    - GID: -1
+      LV: 1
+    Job1: 1
+    Job2: 0
+    ShortSets: 00e1f50501e1f50502e1f50500e9a43501e9a43502e9a43503e9a43504e9a43505e9a43506e9a435ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff
+    Items:
+    - {x: 0, y: 5}
+    - {x: 1, y: 3}
+    - {x: 2, y: 1}
+    Consumables:
+    - {x: 100000000, y: 10}
+    - {x: 100000001, y: 5}
+    - {x: 100000002, y: 4}
+    Wepons:
+    - GID: 1060000000
+      LV: 1
+    - GID: 1000000000
+      LV: 1
+    - GID: 1061000000
+      LV: 1
+    - GID: 1061000001
+      LV: 1
+    Armors: []
+    Akuses: []

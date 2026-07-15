@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fe58b3b87749b543bf81c315e34f0e0, type: 3}
+  m_Name: JSAtk_Renzya_JumpArrow
+  m_EditorClassIdentifier: Assembly-CSharp::Suzuten_Test.Suzuten_Data_Attack
+  Name: "\u30B8\u30E3\u30F3\u30D7\u30A2\u30ED\u30FC"
+  Info: "\u7A7A\u4E2D\u306B\u98DB\u3073\u4E0A\u304B\u3089\u77E2\u3092\u6483\u3061\u8FBC\u3080"
+  Icon: {fileID: 0}
+  Type: 1
+  AddressableAddress: JSAtk_Renzya_JumpArrow
+  AtkType: 0
+  CT: 12
+  Costs:
+  - Type: 3
+    Val: 170
+  Branchs:
+  - DispStr: "[0]|1.4\u79D2"
+    BID: 0
+    BName: 
+    EndTime: 1.4
+  SortOption: 0
+  SortUpper: 1
+  EndTime: 1.4
+  Events:
+  - rid: 5002143605276803170
+  - rid: 5002143605276803172
+  - rid: 2557346964607336723
+  - rid: 5286047670873358447
+  references:
+    version: 2
+    RefIds:
+    - rid: 2557346964607336723
+      type: {class: Data_Attack/Class_AEvent_ShotMain, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[2]\u5F3E\u767A\u5C04|BID:0,\u6642\u9593:(1.2)\u79D2|Attack_Arrow,Count:1,Speed:5000,TBase:MyPosition,ShotToTarget,Hit:\xD71,HCT:0\u79D2,HEXCh:0%"
+        Memo: 
+        IfBID: 0
+        IfBIDs: 
+        Times: {x: 1.2, y: 1.2, z: 0}
+        Shot: {fileID: 5935130586681626263, guid: 51a410468346ce44fbdfcd7e5b5d24d6, type: 3}
+        Fire:
+          Count: 1
+          Speed: {x: 5000, y: 5000}
+          PosBase: 0
+          PosChange: []
+          RotBase: 2
+          RotChange: []
+        Hits:
+        - DispStr: "[0](\u6575)<\u30C0\u30E1,\u30B9\u30AD\u30EB,\u4E2D\u8DDD\u96E2,\u7121\u5C5E\u6027>\u653B\u6483\u5024:\u7269\u653B100%,\u9632\u5FA1\u5024:\u7269\u9632100%,\u500D\u7387\xD7700%"
+          Option:
+            EHit: 1
+            FHit: 0
+            MHit: 0
+            DeathHit: 0
+            Heal: 0
+            AtkType: 2
+            RangeType: 1
+            NoDamAdd: 0
+            NoBaseRegist: 0
+            Element: 0
+            EleRides: 0
+            NoEleRegist: 0
+            ChangeCritPer: {x: 0, y: 0}
+            ChangeCritMult: {x: 0, y: 0}
+            ChangeHitPer: {x: 0, y: 0}
+            ChangeDogePer: {x: 0, y: 0}
+          Dam:
+            CalStr: "\u653B\u6483\u5024:\u7269\u653B100%,\u9632\u5FA1\u5024:\u7269\u9632100%,\u500D\u7387\xD7700%"
+            DamCals:
+            - HitSta: 0
+              Base: 100
+              Op: 4
+              Mult: 0
+            DefCals:
+            - HitSta: 1
+              Base: 101
+              Op: 4
+              Mult: 0
+            DefPer: 0
+            Mult: 700
+          BufAdds: []
+        HitCT: 0
+        HitEXCharge: 0
+        HateAdd: {x: 0, y: 0}
+    - rid: 5002143605276803170
+      type: {class: Data_Attack/Class_AEvent_MyMove, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[0]\u81EA\u5DF1\u79FB\u52D5|BID:0,\u6642\u9593:(0.3)\u79D2|Vect:(0.00,
+          2000.00, 0.00)"
+        Memo: 
+        IfBID: 0
+        IfBIDs: 
+        Times: {x: 0.3, y: 0.3, z: 0}
+        RotBase: 0
+        RotOffSet: {x: 0, y: 0, z: 0}
+        Vect: {x: 0, y: 2000, z: 0}
+        RotPer: 0
+    - rid: 5002143605276803172
+      type: {class: Data_Attack/Class_AEvent_MyMove, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[1]\u81EA\u5DF1\u79FB\u52D5|BID:0,\u6642\u9593:(1.2)\u79D2|Vect:(0.00,
+          0.00, -5000.00)"
+        Memo: 
+        IfBID: 0
+        IfBIDs: 
+        Times: {x: 1.2, y: 1.2, z: 0}
+        RotBase: 0
+        RotOffSet: {x: 0, y: 0, z: 0}
+        Vect: {x: 0, y: 0, z: -5000}
+        RotPer: 0
+    - rid: 5286047670873358447
+      type: {class: Data_Attack/Class_AEvent_Anim, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[3]\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3|BID:0,\u6642\u9593:(0\uFF5E1)\u79D2|AnimClip:Attack_SwordSlash_01ComboID:0,AnimSpeed:0.0%"
+        Memo: 
+        IfBID: 0
+        IfBIDs: 
+        Times: {x: 0, y: 1, z: 0}
+        ComboID: 0
+        AnimClip: {fileID: -203655887218126122, guid: 22c4008a480d73f44aa2b4d7e864bc61, type: 3}
+        AnimSpeed: 0

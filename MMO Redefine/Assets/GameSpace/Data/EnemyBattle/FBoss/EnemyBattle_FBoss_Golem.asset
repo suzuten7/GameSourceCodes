@@ -1,0 +1,302 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b10f35fdc7fa1c4c92c0358eb4b6120, type: 3}
+  m_Name: EnemyBattle_FBoss_Golem
+  m_EditorClassIdentifier: Assembly-CSharp::Suzuten_Test.Data_EnemyBattle
+  Branchs:
+  - DispStr: "[0]\u30D1\u30F3\u30C1|8\u79D2"
+    AID: 0
+    BName: "\u30D1\u30F3\u30C1"
+    EndTime: 8
+  - DispStr: "[1]\u7A81\u6483\u653B\u6483|12\u79D2"
+    AID: 1
+    BName: "\u7A81\u6483\u653B\u6483"
+    EndTime: 12
+  - DispStr: "[2]\u7A7A\u5C04\u6483|15\u79D2"
+    AID: 2
+    BName: "\u7A7A\u5C04\u6483"
+    EndTime: 15
+  - DispStr: "[10]\u5FC5\u6BBA|10\u79D2"
+    AID: 10
+    BName: "\u5FC5\u6BBA"
+    EndTime: 10
+  SortOption: 1
+  SortUpper: 1
+  EndTime: 15
+  Acts:
+  - rid: 5286047738950844590
+  - rid: 4682136352860143733
+  - rid: 4682136330209329271
+  - rid: 4682136330209329270
+  - rid: 4682136330209329357
+  - rid: 4682136330209329359
+  - rid: 4682136330209329363
+  - rid: 4682136330209329358
+  - rid: 5286047581632725186
+  - rid: 5286047581632725204
+  - rid: 5286047581632725205
+  - rid: 5286047581632725203
+  - rid: 5286047738950844592
+  - rid: 5286047738950844598
+  - rid: 5286047738950844591
+  - rid: 5286047829401272421
+  - rid: 5286047738950844596
+  references:
+    version: 2
+    RefIds:
+    - rid: 4682136330209329270
+      type: {class: Data_EnemyBattle/Class_Data_EBEvent_Attack, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[3]\u653B\u6483|ActID:0,\u6642\u9593:(0\uFF5E8v2)\u79D2|"
+        Memo: 
+        ActID: 0
+        ActIDs: 
+        Times: {x: 0, y: 8, z: 2}
+        Ifs: []
+        AttackD: {fileID: 11400000, guid: 5cc99fad5cfb5f941b6a55a6b7a9ce28, type: 2}
+        ID: -1
+        Stay: 0
+        NoUse: 0
+        PosOffSet: {x: 0, y: 0, z: 0}
+        RotOffSet: {x: 0, y: 0, z: 0}
+    - rid: 4682136330209329271
+      type: {class: Data_EnemyBattle/Class_Data_EBEvent_Move, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[2]\u79FB\u52D5|\u30E1\u30E2:\u63A5\u8FD1|ActID:0,\u6642\u9593:(0\uFF5E8)\u79D2|\u6761\u4EF6\u65701|"
+        Memo: "\u63A5\u8FD1"
+        ActID: 0
+        ActIDs: 
+        Times: {x: 0, y: 8, z: 0}
+        Ifs:
+        - Ifs: 1
+          Target: 0
+          Val: 2
+          Down: 0
+        BaseRot: 1
+        AddVect: {x: 0, y: 0, z: 1}
+        VeUsed: 0
+        SpeedPer: 100
+        LookPer: 0
+        SetVect: 0
+    - rid: 4682136330209329357
+      type: {class: Data_EnemyBattle/Class_Data_EBEvent_Attack, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[4]\u653B\u6483|ActID:0,\u6642\u9593:(0.5\uFF5E8v2)\u79D2|"
+        Memo: 
+        ActID: 0
+        ActIDs: 
+        Times: {x: 0.5, y: 8, z: 2}
+        Ifs: []
+        AttackD: {fileID: 11400000, guid: 5cc99fad5cfb5f941b6a55a6b7a9ce28, type: 2}
+        ID: -2
+        Stay: 1
+        NoUse: 0
+        PosOffSet: {x: 0, y: 0, z: 0}
+        RotOffSet: {x: 0, y: 0, z: 0}
+    - rid: 4682136330209329358
+      type: {class: Data_EnemyBattle/Class_Data_EBEvent_Attack, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[7]\u653B\u6483|ActID:1,\u6642\u9593:(1.7\uFF5E12v4)\u79D2|"
+        Memo: 
+        ActID: 1
+        ActIDs: 
+        Times: {x: 1.7, y: 12, z: 4}
+        Ifs: []
+        AttackD: {fileID: 11400000, guid: d43b4ad989837294e8eb4e8888ad52e5, type: 2}
+        ID: -1
+        Stay: 0
+        NoUse: 0
+        PosOffSet: {x: 0, y: 0, z: 0}
+        RotOffSet: {x: 0, y: 0, z: 0}
+    - rid: 4682136330209329359
+      type: {class: Data_EnemyBattle/Class_Data_EBEvent_Branch, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[5]\u5206\u5C90|\u30E1\u30E2:\u5206\u5C90|ActID:0,\u6642\u9593:(8)\u79D2|"
+        Memo: "\u5206\u5C90"
+        ActID: 0
+        ActIDs: 
+        Times: {x: 8, y: 8, z: 0}
+        Ifs: []
+        Nexts:
+        - P: 1
+          ID: 1
+          Time: 0
+    - rid: 4682136330209329363
+      type: {class: Data_EnemyBattle/Class_Data_EBEvent_Move, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[6]\u79FB\u52D5|ActID:1,\u6642\u9593:(1\uFF5E12v4)\u79D2|"
+        Memo: 
+        ActID: 1
+        ActIDs: 
+        Times: {x: 1, y: 12, z: 4}
+        Ifs: []
+        BaseRot: 1
+        AddVect: {x: 0, y: 0, z: 8000}
+        VeUsed: 0
+        SpeedPer: 0
+        LookPer: 0
+        SetVect: 0
+    - rid: 4682136352860143733
+      type: {class: Data_EnemyBattle/Class_Data_EBEvent_Rot, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[1]\u56DE\u8EE2|ActID:0/1/2,\u6642\u9593:(0\uFF5E15)\u79D2|"
+        Memo: 
+        ActID: 0
+        ActIDs: 0100000002000000
+        Times: {x: 0, y: 15, z: 0}
+        Ifs: []
+        BaseRot: 1
+        AddRot: {x: 0, y: 0, z: 0}
+        LookPer: 10
+    - rid: 5286047581632725186
+      type: {class: Data_EnemyBattle/Class_Data_EBEvent_Branch, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[8]\u5206\u5C90|\u30E1\u30E2:\u5206\u5C90|ActID:1,\u6642\u9593:(12)\u79D2|"
+        Memo: "\u5206\u5C90"
+        ActID: 1
+        ActIDs: 
+        Times: {x: 12, y: 12, z: 0}
+        Ifs: []
+        Nexts:
+        - P: 1
+          ID: 2
+          Time: 0
+    - rid: 5286047581632725203
+      type: {class: Data_EnemyBattle/Class_Data_EBEvent_Branch, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[11]\u5206\u5C90|ActID:2,\u6642\u9593:(10\uFF5E15)\u79D2|"
+        Memo: 
+        ActID: 2
+        ActIDs: 
+        Times: {x: 10, y: 15, z: 0}
+        Ifs: []
+        Nexts:
+        - P: 1
+          ID: 0
+          Time: 0
+    - rid: 5286047581632725204
+      type: {class: Data_EnemyBattle/Class_Data_EBEvent_Move, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[9]\u79FB\u52D5|ActID:2,\u6642\u9593:(1\uFF5E15v4)\u79D2|"
+        Memo: 
+        ActID: 2
+        ActIDs: 
+        Times: {x: 1, y: 15, z: 4}
+        Ifs: []
+        BaseRot: 0
+        AddVect: {x: 0, y: 1800, z: 9000}
+        VeUsed: 1
+        SpeedPer: 0
+        LookPer: 0
+        SetVect: 0
+    - rid: 5286047581632725205
+      type: {class: Data_EnemyBattle/Class_Data_EBEvent_Attack, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[10]\u653B\u6483|ActID:2,\u6642\u9593:(2.5\uFF5E15v4)\u79D2|"
+        Memo: 
+        ActID: 2
+        ActIDs: 
+        Times: {x: 2.5, y: 15, z: 4}
+        Ifs: []
+        AttackD: {fileID: 11400000, guid: 269546110e3ff2141bd6182bb4882428, type: 2}
+        ID: -2
+        Stay: 0
+        NoUse: 0
+        PosOffSet: {x: 0, y: 0, z: 0}
+        RotOffSet: {x: 0, y: 0, z: 0}
+    - rid: 5286047738950844590
+      type: {class: Data_EnemyBattle/Class_Data_EBEvent_Branch, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[0]\u5206\u5C90|\u30E1\u30E2:\u5FC5\u6BBA\u5206\u5C90|ActID:0/1/2,\u6642\u9593:(0\uFF5E10)\u79D2|\u6761\u4EF6\u65701|"
+        Memo: "\u5FC5\u6BBA\u5206\u5C90"
+        ActID: 0
+        ActIDs: 0100000002000000
+        Times: {x: 0, y: 10, z: 0}
+        Ifs:
+        - Ifs: 106
+          Target: 0
+          Val: 100
+          Down: 0
+        Nexts:
+        - P: 1
+          ID: 10
+          Time: 0
+    - rid: 5286047738950844591
+      type: {class: Data_EnemyBattle/Class_Data_EBEvent_Attack, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[14]\u653B\u6483|ActID:10,\u6642\u9593:(1\uFF5E7v0.5)\u79D2|"
+        Memo: 
+        ActID: 10
+        ActIDs: 
+        Times: {x: 1, y: 7, z: 0.5}
+        Ifs: []
+        AttackD: {fileID: 11400000, guid: d468cb227d9271146835e1b2203596cb, type: 2}
+        ID: 10
+        Stay: 0
+        NoUse: 0
+        PosOffSet: {x: 0, y: 0, z: 0}
+        RotOffSet: {x: 0, y: 0, z: 0}
+    - rid: 5286047738950844592
+      type: {class: Data_EnemyBattle/Class_Data_EBEvent_Rot, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[12]\u56DE\u8EE2|ActID:10,\u6642\u9593:(0\uFF5E7)\u79D2|"
+        Memo: 
+        ActID: 10
+        ActIDs: 
+        Times: {x: 0, y: 7, z: 0}
+        Ifs: []
+        BaseRot: 0
+        AddRot: {x: 0, y: 25, z: 0}
+        LookPer: 100
+    - rid: 5286047738950844596
+      type: {class: Data_EnemyBattle/Class_Data_EBEvent_Branch, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[16]\u5206\u5C90|ActID:10,\u6642\u9593:(7\uFF5E10)\u79D2|"
+        Memo: 
+        ActID: 10
+        ActIDs: 
+        Times: {x: 7, y: 10, z: 0}
+        Ifs: []
+        Nexts:
+        - P: 0
+          ID: 0
+          Time: 0
+    - rid: 5286047738950844598
+      type: {class: Data_EnemyBattle/Class_Data_EBEvent_Move, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[13]\u79FB\u52D5|ActID:10,\u6642\u9593:(0\uFF5E7)\u79D2|"
+        Memo: 
+        ActID: 10
+        ActIDs: 
+        Times: {x: 0, y: 7, z: 0}
+        Ifs: []
+        BaseRot: 1
+        AddVect: {x: 0, y: 0, z: 1}
+        VeUsed: 0
+        SpeedPer: 300
+        LookPer: 0
+        SetVect: 0
+    - rid: 5286047829401272421
+      type: {class: Data_EnemyBattle/Class_Data_EBEvent_MyValState, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[15]\u81EA\u5DF1\u6570\u5024\u5909\u5316|ActID:10,\u6642\u9593:(7\uFF5E10)\u79D2|State:EX+-100"
+        Memo: 
+        ActID: 10
+        ActIDs: 
+        Times: {x: 7, y: 10, z: 0}
+        Ifs: []
+        State: 3
+        Val:
+        - HitSta: 0
+          Base: 0
+          Op: 0
+          Mult: -100

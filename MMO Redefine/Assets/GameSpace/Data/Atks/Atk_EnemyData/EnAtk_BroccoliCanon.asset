@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fe58b3b87749b543bf81c315e34f0e0, type: 3}
+  m_Name: EnAtk_BroccoliCanon
+  m_EditorClassIdentifier: Assembly-CSharp::Datas.Data_Attack
+  Name: 
+  Info: 
+  Icon: {fileID: 0}
+  Type: 0
+  AddressableAddress: EnAtk_BroccoliCanon
+  AtkType: 0
+  CT: 0
+  Costs: []
+  Branchs: []
+  SortOption: 0
+  SortUpper: 1
+  EndTime: 0
+  Events:
+  - rid: 5286047829401272436
+  references:
+    version: 2
+    RefIds:
+    - rid: 5286047829401272436
+      type: {class: Data_Attack/Class_AEvent_ShotMain, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[0]\u5F3E\u767A\u5C04|BID:0,\u6642\u9593:(0)\u79D2|Attack_FBroccoli_L_Shot,Count:1,Speed:865,TBase:MyPosition,MyLook,Hit:\xD71,HCT:0\u79D2,HEXCh:0%"
+        Memo: 
+        IfBID: 0
+        IfBIDs: 
+        Times: {x: 0, y: 0, z: 0}
+        Shot: {fileID: 5935130586681626263, guid: b0588dbae18bfdd478fa62388ab8f1cd, type: 3}
+        Fire:
+          Count: 1
+          Speed: {x: 865, y: 865}
+          PosBase: 0
+          PosChange:
+          - TChange: 0
+            VectVal: {x: 0, y: 3, z: 0}
+            AddVal: {x: 0, y: 0}
+          RotBase: 0
+          RotChange:
+          - TChange: 0
+            VectVal: {x: -15, y: 0, z: 0}
+            AddVal: {x: 0, y: 0}
+        Hits:
+        - DispStr: "[0](\u6575)<\u30C0\u30E1,\u91CD\u6483,\u9060\u8DDD\u96E2,\u98A8\u5C5E\u6027>\u653B\u6483\u5024:\u7269:\u9B54\u653B86:14%,\u9632\u5FA1\u5024:\u7269:\u9B54\u963214:86%,\u500D\u7387\xD7150%,\u72B6\u614B\xD71"
+          Option:
+            EHit: 1
+            FHit: 0
+            MHit: 0
+            DeathHit: 0
+            Heal: 0
+            AtkType: 1
+            RangeType: 2
+            NoDamAdd: 0
+            NoBaseRegist: 0
+            Element: 3
+            EleRides: 0
+            NoEleRegist: 0
+            ChangeCritPer: {x: 0, y: 0}
+            ChangeCritMult: {x: 0, y: 0}
+            ChangeHitPer: {x: 0, y: 0}
+            ChangeDogePer: {x: 0, y: 0}
+          Dam:
+            CalStr: "\u653B\u6483\u5024:\u7269:\u9B54\u653B86:14%,\u9632\u5FA1\u5024:\u7269:\u9B54\u963214:86%,\u500D\u7387\xD7150%"
+            DamCals:
+            - HitSta: 0
+              Base: 100
+              Op: 4
+              Mult: 14
+            DefCals:
+            - HitSta: 1
+              Base: 101
+              Op: 4
+              Mult: 86
+            DefPer: 0
+            Mult: 150
+          BufAdds:
+          - DispStr: "[0]Poison_Non(0)AddUp,Time:(10.00, 0.00),CPow:\u4E0E\u30C0\u30E1\u30FC\u30B810%"
+            ID: 1000
+            Op: 0
+            Index: 0
+            Set: 1
+            Times: {x: 10, y: 0}
+            CPow:
+            - HitSta: 0
+              Base: 1000
+              Op: 0
+              Mult: 10
+            MPow: []
+        HitCT: 0
+        HitEXCharge: 0
+        HateAdd: {x: 0, y: 0}

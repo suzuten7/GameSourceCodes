@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25e6c561ce6617643a673e1ea2192005, type: 3}
+  m_Name: JTGroup_Otori
+  m_EditorClassIdentifier: Assembly-CSharp::Suzuten_Test.Data_JobTree_Group
+  JobTrees:
+  - DispName: "[0]\u6700\u5927HP\u500D\u5316,(0.00, 0.00),\u524D\u63D0\u65700,\u524D\u63D0LV0"
+    CTree: {fileID: 11400000, guid: 325ef22dc84fe7e46952f9e7907ae3ae, type: 2}
+    Pos: {x: 0, y: 0}
+    BTreeIDs: 
+    PrereLV: 0
+  - DispName: "[1]\u6700\u5927HP\u500D\u5316,(2.00, 3.00),\u524D\u63D0\u65701,\u524D\u63D0LV3"
+    CTree: {fileID: 11400000, guid: 325ef22dc84fe7e46952f9e7907ae3ae, type: 2}
+    Pos: {x: 2, y: 3}
+    BTreeIDs: 00000000
+    PrereLV: 3
+  - DispName: "[2]\u6700\u5927HP\u500D\u5316,(2.00, -3.00),\u524D\u63D0\u65701,\u524D\u63D0LV3"
+    CTree: {fileID: 11400000, guid: 325ef22dc84fe7e46952f9e7907ae3ae, type: 2}
+    Pos: {x: 2, y: -3}
+    BTreeIDs: 00000000
+    PrereLV: 3
+  - DispName: "[3]\u6700\u5927HP\u500D\u5316,(5.00, 3.00),\u524D\u63D0\u65701,\u524D\u63D0LV3"
+    CTree: {fileID: 11400000, guid: 325ef22dc84fe7e46952f9e7907ae3ae, type: 2}
+    Pos: {x: 5, y: 3}
+    BTreeIDs: 01000000
+    PrereLV: 3
+  - DispName: "[4]\u6700\u5927HP\u500D\u5316,(5.00, -3.00),\u524D\u63D0\u65701,\u524D\u63D0LV3"
+    CTree: {fileID: 11400000, guid: 325ef22dc84fe7e46952f9e7907ae3ae, type: 2}
+    Pos: {x: 5, y: -3}
+    BTreeIDs: 02000000
+    PrereLV: 3
+  - DispName: "[5]\u6700\u5927HP\u500D\u5316,(7.00, 0.00),\u524D\u63D0\u65702,\u524D\u63D0LV3"
+    CTree: {fileID: 11400000, guid: 325ef22dc84fe7e46952f9e7907ae3ae, type: 2}
+    Pos: {x: 7, y: 0}
+    BTreeIDs: 0300000004000000
+    PrereLV: 3
+  - DispName: "[6]\u6700\u5927HP\u500D\u5316,(9.00, 5.00),\u524D\u63D0\u65702,\u524D\u63D0LV3"
+    CTree: {fileID: 11400000, guid: 325ef22dc84fe7e46952f9e7907ae3ae, type: 2}
+    Pos: {x: 9, y: 5}
+    BTreeIDs: 0300000005000000
+    PrereLV: 3
+  - DispName: "[7]\u6700\u5927HP\u500D\u5316,(9.00, -5.00),\u524D\u63D0\u65702,\u524D\u63D0LV3"
+    CTree: {fileID: 11400000, guid: 325ef22dc84fe7e46952f9e7907ae3ae, type: 2}
+    Pos: {x: 9, y: -5}
+    BTreeIDs: 0400000005000000
+    PrereLV: 3
+  - DispName: "[8]\u6700\u5927HP\u500D\u5316,(12.00, 5.00),\u524D\u63D0\u65701,\u524D\u63D0LV3"
+    CTree: {fileID: 11400000, guid: 325ef22dc84fe7e46952f9e7907ae3ae, type: 2}
+    Pos: {x: 12, y: 5}
+    BTreeIDs: 06000000
+    PrereLV: 3
+  - DispName: "[9]\u6700\u5927HP\u500D\u5316,(12.00, -5.00),\u524D\u63D0\u65701,\u524D\u63D0LV3"
+    CTree: {fileID: 11400000, guid: 325ef22dc84fe7e46952f9e7907ae3ae, type: 2}
+    Pos: {x: 12, y: -5}
+    BTreeIDs: 07000000
+    PrereLV: 3
+  - DispName: "[10]\u6700\u5927HP\u500D\u5316,(14.00, 0.00),\u524D\u63D0\u65702,\u524D\u63D0LV3"
+    CTree: {fileID: 11400000, guid: 325ef22dc84fe7e46952f9e7907ae3ae, type: 2}
+    Pos: {x: 14, y: 0}
+    BTreeIDs: 0800000009000000
+    PrereLV: 3

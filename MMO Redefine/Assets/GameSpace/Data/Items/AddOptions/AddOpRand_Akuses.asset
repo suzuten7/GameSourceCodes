@@ -1,0 +1,209 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 565db8863d90fef4ab320eccba0123b6, type: 3}
+  m_Name: AddOpRand_Akuses
+  m_EditorClassIdentifier: Assembly-CSharp::Datas.Data_AddOptions
+  OPs:
+  - DispName: "[0]\u6700\u5927HP|\u57FA\u790E\u5B9A\u6570(100|4.57%)"
+    Type: 0
+    Op: 0
+    P: 100
+  - DispName: "[1]\u6700\u5927HP|\u52A0\u7B97\u5272\u5408(50|2.29%)"
+    Type: 0
+    Op: 1
+    P: 50
+  - DispName: "[2]HP\u56DE\u5FA9\u901F\u5EA6|\u57FA\u790E\u5B9A\u6570(100|4.57%)"
+    Type: 1
+    Op: 0
+    P: 100
+  - DispName: "[3]HP\u56DE\u5FA9\u901F\u5EA6|\u52A0\u7B97\u5272\u5408(50|2.29%)"
+    Type: 1
+    Op: 1
+    P: 50
+  - DispName: "[4]\u6700\u5927MP|\u57FA\u790E\u5B9A\u6570(200|9.15%)"
+    Type: 2
+    Op: 0
+    P: 200
+  - DispName: "[5]\u6700\u5927MP|\u52A0\u7B97\u5272\u5408(100|4.57%)"
+    Type: 2
+    Op: 1
+    P: 100
+  - DispName: "[6]MP\u56DE\u5FA9\u901F\u5EA6|\u57FA\u790E\u5B9A\u6570(100|4.57%)"
+    Type: 3
+    Op: 0
+    P: 100
+  - DispName: "[7]MP\u56DE\u5FA9\u901F\u5EA6|\u52A0\u7B97\u5272\u5408(50|2.29%)"
+    Type: 3
+    Op: 1
+    P: 50
+  - DispName: "[8]\u6700\u5927ST|\u57FA\u790E\u5B9A\u6570(200|9.15%)"
+    Type: 4
+    Op: 0
+    P: 200
+  - DispName: "[9]\u6700\u5927ST|\u52A0\u7B97\u5272\u5408(100|4.57%)"
+    Type: 4
+    Op: 1
+    P: 100
+  - DispName: "[10]ST\u56DE\u5FA9\u901F\u5EA6|\u57FA\u790E\u5B9A\u6570(100|4.57%)"
+    Type: 5
+    Op: 0
+    P: 100
+  - DispName: "[11]ST\u56DE\u5FA9\u901F\u5EA6|\u52A0\u7B97\u5272\u5408(50|2.29%)"
+    Type: 5
+    Op: 1
+    P: 50
+  - DispName: "[12]\u7269\u7406\u653B\u6483\u529B|\u57FA\u790E\u5B9A\u6570(100|4.57%)"
+    Type: 100
+    Op: 0
+    P: 100
+  - DispName: "[13]\u7269\u7406\u653B\u6483\u529B|\u52A0\u7B97\u5272\u5408(50|2.29%)"
+    Type: 100
+    Op: 1
+    P: 50
+  - DispName: "[14]\u9B54\u6CD5\u653B\u6483\u529B|\u57FA\u790E\u5B9A\u6570(100|4.57%)"
+    Type: 101
+    Op: 0
+    P: 100
+  - DispName: "[15]\u9B54\u6CD5\u653B\u6483\u529B|\u52A0\u7B97\u5272\u5408(50|2.29%)"
+    Type: 101
+    Op: 1
+    P: 50
+  - DispName: "[16]\u7269\u7406\u9632\u5FA1\u529B|\u57FA\u790E\u5B9A\u6570(100|4.57%)"
+    Type: 102
+    Op: 0
+    P: 100
+  - DispName: "[17]\u7269\u7406\u9632\u5FA1\u529B|\u52A0\u7B97\u5272\u5408(50|2.29%)"
+    Type: 102
+    Op: 1
+    P: 50
+  - DispName: "[18]\u9B54\u6CD5\u9632\u5FA1\u529B|\u57FA\u790E\u5B9A\u6570(100|4.57%)"
+    Type: 103
+    Op: 0
+    P: 100
+  - DispName: "[19]\u9B54\u6CD5\u9632\u5FA1\u529B|\u52A0\u7B97\u5272\u5408(50|2.29%)"
+    Type: 103
+    Op: 1
+    P: 50
+  - DispName: "[20]\u4F1A\u5FC3\u7387|\u57FA\u790E\u5B9A\u6570(25|1.14%)"
+    Type: 200
+    Op: 0
+    P: 25
+  - DispName: "[21]\u4F1A\u5FC3\u30C0\u30E1\u30FC\u30B8|\u57FA\u790E\u5B9A\u6570(25|1.14%)"
+    Type: 201
+    Op: 0
+    P: 25
+  - DispName: "[22]\u653B\u6483\u901F\u5EA6|\u57FA\u790E\u5B9A\u6570(25|1.14%)"
+    Type: 202
+    Op: 0
+    P: 25
+  - DispName: "[23]EX\u6642\u9593\u30C1\u30E3\u30FC\u30B8|\u57FA\u790E\u5B9A\u6570(100|4.57%)"
+    Type: 210
+    Op: 0
+    P: 100
+  - DispName: "[24]EX\u30C0\u30E1\u30FC\u30B8\u30C1\u30E3\u30FC\u30B8|\u57FA\u790E\u5B9A\u6570(25|1.14%)"
+    Type: 211
+    Op: 0
+    P: 25
+  - DispName: "[25]EX\u547D\u4E2D\u30C1\u30E3\u30FC\u30B8|\u57FA\u790E\u5B9A\u6570(25|1.14%)"
+    Type: 212
+    Op: 0
+    P: 25
+  - DispName: "[26]\u30B9\u30AD\u30EBCT|\u57FA\u790E\u5B9A\u6570(5|0.23%)"
+    Type: 220
+    Op: 0
+    P: 5
+  - DispName: "[27]\u4E0E\u30C0\u30E1\u30FC\u30B8\u5F37\u5316|\u57FA\u790E\u5B9A\u6570(15|0.69%)"
+    Type: 204
+    Op: 0
+    P: 15
+  - DispName: "[28]\u88AB\u30C0\u30E1\u30FC\u30B8\u8EFD\u6E1B|\u57FA\u790E\u5B9A\u6570(15|0.69%)"
+    Type: 205
+    Op: 0
+    P: 15
+  - DispName: "[29]\u4E0E\u56DE\u5FA9\u5F37\u5316|\u57FA\u790E\u5B9A\u6570(10|0.46%)"
+    Type: 206
+    Op: 0
+    P: 10
+  - DispName: "[30]\u53D7\u56DE\u5FA9\u5F37\u5316|\u57FA\u790E\u5B9A\u6570(10|0.46%)"
+    Type: 207
+    Op: 0
+    P: 10
+  - DispName: "[31]\u547D\u4E2D\u7387|\u57FA\u790E\u5B9A\u6570(5|0.23%)"
+    Type: 208
+    Op: 0
+    P: 5
+  - DispName: "[32]\u56DE\u907F\u7387|\u57FA\u790E\u5B9A\u6570(5|0.23%)"
+    Type: 209
+    Op: 0
+    P: 5
+  - DispName: "[33]\u5168\u5C5E\u6027\u8010\u6027|\u57FA\u790E\u5B9A\u6570(12|0.55%)"
+    Type: 300
+    Op: 0
+    P: 12
+  - DispName: "[34]\u7121\u5C5E\u6027\u8010\u6027|\u57FA\u790E\u5B9A\u6570(6|0.27%)"
+    Type: 301
+    Op: 0
+    P: 6
+  - DispName: "[35]\u706B\u5C5E\u6027\u8010\u6027|\u57FA\u790E\u5B9A\u6570(6|0.27%)"
+    Type: 302
+    Op: 0
+    P: 6
+  - DispName: "[36]\u6C34\u5C5E\u6027\u8010\u6027|\u57FA\u790E\u5B9A\u6570(6|0.27%)"
+    Type: 303
+    Op: 0
+    P: 6
+  - DispName: "[37]\u98A8\u5C5E\u6027\u8010\u6027|\u57FA\u790E\u5B9A\u6570(6|0.27%)"
+    Type: 304
+    Op: 0
+    P: 6
+  - DispName: "[38]\u571F\u5C5E\u6027\u8010\u6027|\u57FA\u790E\u5B9A\u6570(6|0.27%)"
+    Type: 305
+    Op: 0
+    P: 6
+  - DispName: "[39]\u5149\u5C5E\u6027\u8010\u6027|\u57FA\u790E\u5B9A\u6570(6|0.27%)"
+    Type: 306
+    Op: 0
+    P: 6
+  - DispName: "[40]\u95C7\u5C5E\u6027\u8010\u6027|\u57FA\u790E\u5B9A\u6570(6|0.27%)"
+    Type: 307
+    Op: 0
+    P: 6
+  - DispName: "[41]\u7121\u5C5E\u6027\u5F37\u5316|\u57FA\u790E\u5B9A\u6570(6|0.27%)"
+    Type: 400
+    Op: 0
+    P: 6
+  - DispName: "[42]\u706B\u5C5E\u6027\u5F37\u5316|\u57FA\u790E\u5B9A\u6570(6|0.27%)"
+    Type: 401
+    Op: 0
+    P: 6
+  - DispName: "[43]\u6C34\u5C5E\u6027\u5F37\u5316|\u57FA\u790E\u5B9A\u6570(6|0.27%)"
+    Type: 402
+    Op: 0
+    P: 6
+  - DispName: "[44]\u98A8\u5C5E\u6027\u5F37\u5316|\u57FA\u790E\u5B9A\u6570(6|0.27%)"
+    Type: 403
+    Op: 0
+    P: 6
+  - DispName: "[45]\u571F\u5C5E\u6027\u5F37\u5316|\u57FA\u790E\u5B9A\u6570(6|0.27%)"
+    Type: 404
+    Op: 0
+    P: 6
+  - DispName: "[46]\u5149\u5C5E\u6027\u5F37\u5316|\u57FA\u790E\u5B9A\u6570(6|0.27%)"
+    Type: 405
+    Op: 0
+    P: 6
+  - DispName: "[47]\u95C7\u5C5E\u6027\u5F37\u5316|\u57FA\u790E\u5B9A\u6570(6|0.27%)"
+    Type: 406
+    Op: 0
+    P: 6
+  TestTo: 1
+  TestTx: "[0](8)\u6700\u5927ST|\u57FA\u790E\u5B9A\u6570\n[1](2)HP\u56DE\u5FA9\u901F\u5EA6|\u57FA\u790E\u5B9A\u6570\n[2](17)\u7269\u7406\u9632\u5FA1\u529B|\u52A0\u7B97\u5272\u5408\n[3](17)\u7269\u7406\u9632\u5FA1\u529B|\u52A0\u7B97\u5272\u5408\n[4](8)\u6700\u5927ST|\u57FA\u790E\u5B9A\u6570\n[5](6)MP\u56DE\u5FA9\u901F\u5EA6|\u57FA\u790E\u5B9A\u6570\n[6](23)EX\u6642\u9593\u30C1\u30E3\u30FC\u30B8|\u57FA\u790E\u5B9A\u6570\n[7](4)\u6700\u5927MP|\u57FA\u790E\u5B9A\u6570\n[8](3)HP\u56DE\u5FA9\u901F\u5EA6|\u52A0\u7B97\u5272\u5408\n[9](9)\u6700\u5927ST|\u52A0\u7B97\u5272\u5408"

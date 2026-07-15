@@ -1,0 +1,108 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fe58b3b87749b543bf81c315e34f0e0, type: 3}
+  m_Name: JSAtk_Mazyutu_ManaShoot
+  m_EditorClassIdentifier: Assembly-CSharp::Suzuten_Test.Suzuten_Data_Attack
+  Name: "\u30DE\u30CA\u30B7\u30E5\u30FC\u30C8"
+  Info: "\u30DB\u30FC\u30DF\u30F3\u30B0\u3059\u308B\u5F3E\u3092\u3070\u3089\u307E\u304F"
+  Icon: {fileID: 0}
+  Type: 1
+  AddressableAddress: JSAtk_Mazyutu_ManaShoot
+  AtkType: 0
+  CT: 7
+  Costs:
+  - Type: 3
+    Val: 400
+  Branchs:
+  - DispStr: "[0]|2\u79D2"
+    BID: 0
+    BName: 
+    EndTime: 2
+  SortOption: 0
+  SortUpper: 1
+  EndTime: 2
+  Events:
+  - rid: 2557346964607336723
+  references:
+    version: 2
+    RefIds:
+    - rid: 2557346964607336723
+      type: {class: Data_Attack/Class_AEvent_ShotMain, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[0]\u5F3E\u767A\u5C04|BID:0,\u6642\u9593:(0.3\uFF5E1.4\u9593\u96940.18)\u79D2|Attack_ManaShoot,Count:1,Speed:500\uFF5E1250,TBase:MyPosition,MyLook,Hit:\xD71,HCT:0\u79D2,HEXCh:0%"
+        Memo: 
+        IfBID: 0
+        IfBIDs: 
+        Times: {x: 0.3, y: 1.4, z: 0.18}
+        Shot: {fileID: 5935130586681626263, guid: 808882733e7f0e843afef9acc513140d, type: 3}
+        Fire:
+          Count: 1
+          Speed: {x: 500, y: 1250}
+          PosBase: 0
+          PosChange: []
+          RotBase: 0
+          RotChange:
+          - TChange: 0
+            VectVal: {x: -25, y: 0, z: 0}
+            AddVal: {x: 0, y: 0}
+          - TChange: 1
+            VectVal: {x: 9, y: 9, z: 9}
+            AddVal: {x: 0, y: 0}
+        Hits:
+        - DispStr: "[0](\u6575)<\u30C0\u30E1,\u30B9\u30AD\u30EB,\u4E2D\u8DDD\u96E2,\u5C5E\u6027\u5909\u5316>\u653B\u6483\u5024:\u9B54\u653B100%,\u9632\u5FA1\u5024:\u9B54\u9632100%,\u500D\u7387\xD780%,\u72B6\u614B\xD71"
+          Option:
+            EHit: 1
+            FHit: 0
+            MHit: 0
+            DeathHit: 0
+            Heal: 0
+            AtkType: 2
+            RangeType: 1
+            NoDamAdd: 0
+            NoBaseRegist: 0
+            Element: 0
+            EleRides: 1
+            NoEleRegist: 0
+            ChangeCritPer: {x: 0, y: 0}
+            ChangeCritMult: {x: 0, y: 0}
+            ChangeHitPer: {x: 0, y: 0}
+            ChangeDogePer: {x: 0, y: 0}
+          Dam:
+            CalStr: "\u653B\u6483\u5024:\u9B54\u653B100%,\u9632\u5FA1\u5024:\u9B54\u9632100%,\u500D\u7387\xD780%"
+            DamCals:
+            - HitSta: 0
+              Base: 100
+              Op: 4
+              Mult: 100
+            DefCals:
+            - HitSta: 1
+              Base: 101
+              Op: 4
+              Mult: 100
+            DefPer: 0
+            Mult: 80
+          BufAdds:
+          - DispStr: "[0]Poison_Non(0)AddUp,Time:(6.00, 0.00),CPow:\u4E0E\u30C0\u30E1\u30FC\u30B85%"
+            ID: 1000
+            Op: 0
+            Index: 0
+            Set: 1
+            Times: {x: 6, y: 0}
+            CPow:
+            - HitSta: 0
+              Base: 1000
+              Op: 0
+              Mult: 5
+            MPow: []
+        HitCT: 0
+        HitEXCharge: 0
+        HateAdd: {x: 0, y: 0}

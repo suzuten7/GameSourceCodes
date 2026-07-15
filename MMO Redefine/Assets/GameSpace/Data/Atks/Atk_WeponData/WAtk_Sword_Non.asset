@@ -1,0 +1,233 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fe58b3b87749b543bf81c315e34f0e0, type: 3}
+  m_Name: WAtk_Sword_Non
+  m_EditorClassIdentifier: Assembly-CSharp::Suzuten_Test.Suzuten_Data_Attack
+  Name: "\u865A\u7121"
+  Info: "\u30E2\u30FC\u30B7\u30E7\u30F3\u3060\u3051\u3067\n\u30C0\u30E1\u30FC\u30B8\u3092\u4E0E\u3048\u3089\u308C\u306A\u3044"
+  Icon: {fileID: 0}
+  Type: 0
+  AddressableAddress: WAtk_Sword_Non
+  AtkType: 0
+  CT: 0
+  Costs: []
+  Branchs:
+  - DispStr: "[0]\u901A\u5E381|1.5\u79D2"
+    BID: 0
+    BName: "\u901A\u5E381"
+    EndTime: 1.5
+    NoEnd: 0
+  - DispStr: "[1]\u901A\u5E382|1.5\u79D2"
+    BID: 1
+    BName: "\u901A\u5E382"
+    EndTime: 1.5
+    NoEnd: 0
+  - DispStr: "[2]\u901A\u5E383|1.5\u79D2"
+    BID: 2
+    BName: "\u901A\u5E383"
+    EndTime: 1.5
+    NoEnd: 0
+  - DispStr: "[3]\u901A\u5E384|1.5\u79D2"
+    BID: 3
+    BName: "\u901A\u5E384"
+    EndTime: 1.5
+    NoEnd: 0
+  - DispStr: "[4]\u901A\u5E385|2\u79D2"
+    BID: 4
+    BName: "\u901A\u5E385"
+    EndTime: 2
+    NoEnd: 0
+  - DispStr: "[10]\u91CD\u6483|2\u79D2"
+    BID: 10
+    BName: "\u91CD\u6483"
+    EndTime: 2
+    NoEnd: 0
+  SortOption: 0
+  SortUpper: 1
+  EndTime: 2
+  ASpdUse: 1
+  Events:
+  - rid: 2557346964607336608
+  - rid: 2557346964607336611
+  - rid: 2557346964607336612
+  - rid: 4682136466307940454
+  - rid: 4682136466307940455
+  - rid: 2557346964607336614
+  - rid: 2557346964607336620
+  - rid: 8770667200874807408
+  - rid: 8770667200874807416
+  - rid: 8770667200874807417
+  - rid: 4682136466307940461
+  - rid: 4682136466307940463
+  - rid: 8770667200874807418
+  references:
+    version: 2
+    RefIds:
+    - rid: 2557346964607336608
+      type: {class: Data_Attack/Class_AEvent_BChange, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[0]\u5206\u5C90|\u30E1\u30E2:\u901A\u5E381>>\u901A\u5E382|BID:0,\u6642\u9593:(0.6\uFF5E2)\u79D2|NBID:1,NTime:0\u79D2,If:\xD71,IfStay:0\u79D2"
+        Memo: "\u901A\u5E381>>\u901A\u5E382"
+        IfBID: 0
+        IfBIDs: 
+        Times: {x: 0.6, y: 2, z: 0}
+        NBID: 1
+        NTime: 0
+        Ifs: 02000000
+        Costs: []
+        IfStayTime: 0
+    - rid: 2557346964607336611
+      type: {class: Data_Attack/Class_AEvent_BChange, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[1]\u5206\u5C90|\u30E1\u30E2:\u901A\u5E382>>\u901A\u5E383|BID:1,\u6642\u9593:(0.6\uFF5E2)\u79D2|NBID:2,NTime:0\u79D2,If:\xD71,IfStay:0\u79D2"
+        Memo: "\u901A\u5E382>>\u901A\u5E383"
+        IfBID: 1
+        IfBIDs: 
+        Times: {x: 0.6, y: 2, z: 0}
+        NBID: 2
+        NTime: 0
+        Ifs: 02000000
+        Costs: []
+        IfStayTime: 0
+    - rid: 2557346964607336612
+      type: {class: Data_Attack/Class_AEvent_BChange, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[2]\u5206\u5C90|\u30E1\u30E2:\u901A\u5E383>>\u901A\u5E384|BID:2,\u6642\u9593:(0.6\uFF5E2)\u79D2|NBID:3,NTime:0\u79D2,If:\xD71,IfStay:0\u79D2"
+        Memo: "\u901A\u5E383>>\u901A\u5E384"
+        IfBID: 2
+        IfBIDs: 
+        Times: {x: 0.6, y: 2, z: 0}
+        NBID: 3
+        NTime: 0
+        Ifs: 02000000
+        Costs: []
+        IfStayTime: 0
+    - rid: 2557346964607336614
+      type: {class: Data_Attack/Class_AEvent_BChange, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[5]\u5206\u5C90|\u30E1\u30E2:\u901A\u5E38>>\u91CD\u6483|BID:0/1/2/3/4,\u6642\u9593:(1\uFF5E2)\u79D2|NBID:10,NTime:0\u79D2,If:\xD71,IfStay:0.3\u79D2"
+        Memo: "\u901A\u5E38>>\u91CD\u6483"
+        IfBID: 0
+        IfBIDs: 01000000020000000300000004000000
+        Times: {x: 1, y: 2, z: 0}
+        NBID: 10
+        NTime: 0
+        Ifs: 01000000
+        Costs:
+        - Type: 6
+          Val: 150
+        IfStayTime: 0.3
+    - rid: 2557346964607336620
+      type: {class: Data_Attack/Class_AEvent_BChange, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[6]\u5206\u5C90|\u30E1\u30E2:\u91CD\u6483>>\u901A\u5E383|BID:10,\u6642\u9593:(0.7\uFF5E2)\u79D2|NBID:2,NTime:0\u79D2,If:\xD71,IfStay:0\u79D2"
+        Memo: "\u91CD\u6483>>\u901A\u5E383"
+        IfBID: 10
+        IfBIDs: 
+        Times: {x: 0.7, y: 2, z: 0}
+        NBID: 2
+        NTime: 0
+        Ifs: 02000000
+        Costs: []
+        IfStayTime: 0
+    - rid: 4682136466307940454
+      type: {class: Data_Attack/Class_AEvent_BChange, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[3]\u5206\u5C90|\u30E1\u30E2:\u901A\u5E384>>\u901A\u5E385|BID:3,\u6642\u9593:(0.6\uFF5E2)\u79D2|NBID:4,NTime:0\u79D2,If:\xD71,IfStay:0\u79D2"
+        Memo: "\u901A\u5E384>>\u901A\u5E385"
+        IfBID: 3
+        IfBIDs: 
+        Times: {x: 0.6, y: 2, z: 0}
+        NBID: 4
+        NTime: 0
+        Ifs: 02000000
+        Costs: []
+        IfStayTime: 0
+    - rid: 4682136466307940455
+      type: {class: Data_Attack/Class_AEvent_BChange, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[4]\u5206\u5C90|\u30E1\u30E2:\u901A\u5E385>>\u901A\u5E381|BID:4,\u6642\u9593:(0.7\uFF5E2)\u79D2|NBID:0,NTime:0\u79D2,If:\xD71,IfStay:0\u79D2"
+        Memo: "\u901A\u5E385>>\u901A\u5E381"
+        IfBID: 4
+        IfBIDs: 
+        Times: {x: 0.7, y: 2, z: 0}
+        NBID: 0
+        NTime: 0
+        Ifs: 02000000
+        Costs: []
+        IfStayTime: 0
+    - rid: 4682136466307940461
+      type: {class: Data_Attack/Class_AEvent_Anim, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[10]\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3|BID:3,\u6642\u9593:(0\uFF5E2)\u79D2|AnimClip:BoneBase|Atk_NSword_4ComboID:3,AnimSpeed:250.0%"
+        Memo: 
+        IfBID: 3
+        IfBIDs: 
+        Times: {x: 0, y: 2, z: 0}
+        ComboID: 3
+        AnimClip: {fileID: 4008075218713862330, guid: 99c95ceb26202e14b8d918a167d7da44, type: 3}
+        AnimSpeed: 250
+    - rid: 4682136466307940463
+      type: {class: Data_Attack/Class_AEvent_Anim, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[11]\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3|BID:4,\u6642\u9593:(0\uFF5E2)\u79D2|AnimClip:BoneBase|Atk_NSword_5ComboID:4,AnimSpeed:250.0%"
+        Memo: 
+        IfBID: 4
+        IfBIDs: 
+        Times: {x: 0, y: 2, z: 0}
+        ComboID: 4
+        AnimClip: {fileID: 901223543361077704, guid: 99c95ceb26202e14b8d918a167d7da44, type: 3}
+        AnimSpeed: 250
+    - rid: 8770667200874807408
+      type: {class: Data_Attack/Class_AEvent_Anim, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[7]\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3|BID:0,\u6642\u9593:(0\uFF5E2)\u79D2|AnimClip:BoneBase|Atk_NSword_1ComboID:0,AnimSpeed:250.0%"
+        Memo: 
+        IfBID: 0
+        IfBIDs: 
+        Times: {x: 0, y: 2, z: 0}
+        ComboID: 0
+        AnimClip: {fileID: -7935518398562406466, guid: 99c95ceb26202e14b8d918a167d7da44, type: 3}
+        AnimSpeed: 250
+    - rid: 8770667200874807416
+      type: {class: Data_Attack/Class_AEvent_Anim, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[8]\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3|BID:1,\u6642\u9593:(0\uFF5E2)\u79D2|AnimClip:BoneBase|Atk_NSword_2ComboID:1,AnimSpeed:250.0%"
+        Memo: 
+        IfBID: 1
+        IfBIDs: 
+        Times: {x: 0, y: 2, z: 0}
+        ComboID: 1
+        AnimClip: {fileID: -2684104988991484436, guid: 99c95ceb26202e14b8d918a167d7da44, type: 3}
+        AnimSpeed: 250
+    - rid: 8770667200874807417
+      type: {class: Data_Attack/Class_AEvent_Anim, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[9]\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3|BID:2,\u6642\u9593:(0\uFF5E2)\u79D2|AnimClip:BoneBase|Atk_NSword_3ComboID:2,AnimSpeed:250.0%"
+        Memo: 
+        IfBID: 2
+        IfBIDs: 
+        Times: {x: 0, y: 2, z: 0}
+        ComboID: 2
+        AnimClip: {fileID: -4096868526149018637, guid: 99c95ceb26202e14b8d918a167d7da44, type: 3}
+        AnimSpeed: 250
+    - rid: 8770667200874807418
+      type: {class: Data_Attack/Class_AEvent_Anim, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[12]\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3|BID:10,\u6642\u9593:(0\uFF5E2)\u79D2|AnimClip:BoneBase|Atk_NSword_HComboID:10,AnimSpeed:250.0%"
+        Memo: 
+        IfBID: 10
+        IfBIDs: 
+        Times: {x: 0, y: 2, z: 0}
+        ComboID: 10
+        AnimClip: {fileID: 7328202713370535564, guid: 99c95ceb26202e14b8d918a167d7da44, type: 3}
+        AnimSpeed: 250

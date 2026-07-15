@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fe58b3b87749b543bf81c315e34f0e0, type: 3}
+  m_Name: OAtk_SB_MagSlash
+  m_EditorClassIdentifier: Assembly-CSharp::Suzuten_Test.Suzuten_Data_Attack
+  Name: "SB\u30B9\u30E9\u30C3\u30B7\u30E5(\u9B54\u6CD5)"
+  Info: 
+  Icon: {fileID: 0}
+  Type: 0
+  AddressableAddress: OAtk_SB_MagSlash
+  AtkType: 0
+  CT: 1
+  Costs: []
+  Branchs:
+  - DispStr: "[0]|1\u79D2"
+    BID: 0
+    BName: 
+    EndTime: 1
+  SortOption: 0
+  SortUpper: 1
+  EndTime: 1
+  Events:
+  - rid: 1746325311325995090
+  references:
+    version: 2
+    RefIds:
+    - rid: 1746325311325995090
+      type: {class: Data_Attack/Class_AEvent_ShotMain, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[0]\u5F3E\u767A\u5C04|BID:0,\u6642\u9593:(0)\u79D2|Attack_SB_MagSlash,Count:1,Speed:0,TBase:MyPosition,MyLook,Hit:\xD71,HCT:0\u79D2"
+        Memo: 
+        IfBID: 0
+        Times: {x: 0, y: 0, z: 0}
+        Shot: {fileID: 5935130586681626263, guid: 69feb7cf5a49b9d4294b6b343cbe0b0d, type: 3}
+        Fire:
+          Count: 1
+          Speed: {x: 0, y: 0}
+          PosBase: 0
+          PosChange: []
+          RotBase: 0
+          RotChange: []
+        Hits:
+        - DispStr: "[0](\u6575)<\u30C0\u30E1>\u653B\u6483\u5024:\u9B54\u653B100%,\u9632\u5FA1\u5024:\u9B54\u9632100%,\u500D\u7387\xD7100%"
+          Option:
+            EHit: 1
+            FHit: 0
+            MHit: 0
+            Heal: 0
+            NoDamAdd: 0
+            NoBaseRegist: 0
+            Element: 0
+            EleRides: 0
+            NoEleRegist: 0
+            ChangeCritPer: {x: 0, y: 0}
+            ChangeCritMult: {x: 0, y: 0}
+            ChangeHitPer: {x: 0, y: 0}
+            ChangeDogePer: {x: 0, y: 0}
+          Dam:
+            CalStr: "\u653B\u6483\u5024:\u9B54\u653B100%,\u9632\u5FA1\u5024:\u9B54\u9632100%,\u500D\u7387\xD7100%"
+            DamCals:
+            - HitSta: 0
+              Base: 100
+              Op: 4
+              Mult: 100
+            DefCals:
+            - HitSta: 1
+              Base: 101
+              Op: 4
+              Mult: 100
+            DefPer: 0
+            Mult: 100
+          BufAdds: []
+        HitCT: 0

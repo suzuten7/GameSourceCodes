@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa203160696848942959fbd9e62a3d7e, type: 3}
+  m_Name: Shop_WTF
+  m_EditorClassIdentifier: Assembly-CSharp::Datas.Data_Shop
+  Buys:
+  - ItemD: {fileID: 11400000, guid: cf742ff40fbf4554b9f65c6e8e9f0a1f, type: 2}
+    Cost: Infinity
+  - ItemD: {fileID: 11400000, guid: 8e9749504b242464480f973d21f7764d, type: 2}
+    Cost: 0
+  - ItemD: {fileID: 11400000, guid: 5ce88f46105e9b147a8d9ee90856d674, type: 2}
+    Cost: 0
+  - ItemD: {fileID: 11400000, guid: 00db1c87961b8b248ab456cee4f8596e, type: 2}
+    Cost: 0

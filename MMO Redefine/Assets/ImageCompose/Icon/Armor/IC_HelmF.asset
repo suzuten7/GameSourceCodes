@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1f72764022b1224a937c65be5312c06, type: 3}
+  m_Name: IC_HelmF
+  m_EditorClassIdentifier: Assembly-CSharp::Toole.ImageComposeSO
+  outputSize: {x: 256, y: 256}
+  backColor: {r: 0, g: 0, b: 0, a: 0}
+  layers:
+  - noOutput: 0
+    locks: 0
+    hidePreview: 0
+    order: 0
+    texture: {fileID: 2800000, guid: 5395d7a6a87a156459165cf78726a3dc, type: 3}
+    color: {r: 0.54901963, g: 1, b: 0.78039217, a: 1}
+    anchor: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0.5}
+    position: {x: 0, y: 0}
+    rotation: 0
+    size: {x: 256, y: 256}
+    scale: {x: 1, y: 1}
+  previewCheck1: {r: 0.7, g: 0.7, b: 0.7, a: 1}
+  previewCheck2: {r: 0.3, g: 0.3, b: 0.3, a: 1}

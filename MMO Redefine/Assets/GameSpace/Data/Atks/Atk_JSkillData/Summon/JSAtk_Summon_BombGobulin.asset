@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fe58b3b87749b543bf81c315e34f0e0, type: 3}
+  m_Name: JSAtk_Summon_BombGobulin
+  m_EditorClassIdentifier: Assembly-CSharp::Suzuten_Test.Suzuten_Data_Attack
+  Name: "\u7206\u6483\u9B54\u30B4\u30D6\u30EA\u30F3"
+  Info: "\u81EA\u7206\u7279\u653B\u3059\u308B\u30B4\u30D6\u30EA\u30F3\u3092\n\u53EC\u559A\u3059\u308B"
+  Icon: {fileID: 0}
+  Type: 1
+  AddressableAddress: JSAtk_Summon_Bomb
+  AtkType: 0
+  CT: 12
+  Costs:
+  - Type: 3
+    Val: 200
+  Branchs: []
+  SortOption: 0
+  SortUpper: 1
+  EndTime: 0
+  Events:
+  - rid: 5002143692311756906
+  references:
+    version: 2
+    RefIds:
+    - rid: 5002143692311756906
+      type: {class: Data_Attack/Class_AEvent_Summon, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[0]\u53EC\u559A|BID:0,\u6642\u9593:(0)\u79D2|HP\u5272\u5408:100\u653B\u6483\u529B\u5272\u5408:70\u9632\u5FA1\u529B\u5272\u5408:100\u6642\u9593\u5236\u9650:20\u79D2"
+        Memo: 
+        IfBID: 0
+        IfBIDs: 
+        Times: {x: 0, y: 0, z: 0}
+        State: {fileID: 4376319703276055463, guid: 54f0d54924c7daf418e7cc1c7c624fc9, type: 3}
+        Fire:
+          Count: 1
+          Speed: {x: 0, y: 0}
+          PosBase: 0
+          PosChange:
+          - TChange: 0
+            VectVal: {x: 0, y: 0, z: 2}
+            AddVal: {x: 0, y: 0}
+          RotBase: 0
+          RotChange: []
+        NoTeam: 0
+        HPPer: 100
+        AtkPer: 70
+        DefPer: 100
+        TimeLimit: 20

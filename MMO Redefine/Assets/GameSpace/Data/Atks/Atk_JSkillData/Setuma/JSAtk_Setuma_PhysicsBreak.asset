@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fe58b3b87749b543bf81c315e34f0e0, type: 3}
+  m_Name: JSAtk_Setuma_PhysicsBreak
+  m_EditorClassIdentifier: Assembly-CSharp::Suzuten_Test.Suzuten_Data_Attack
+  Name: "\u7269\u7406\u5D29\u58CA"
+  Info: "\u9B54\u6CD5\u653B\u6483\u529B\u304C\u5897\u52A0\u3059\u308B\u304C\n\u7269\u7406\u653B\u6483\u529B\u304C\u5927\u304D\u304F\u4F4E\u4E0B\u3059\u308B"
+  Icon: {fileID: 0}
+  Type: 1
+  AddressableAddress: JSAtk_Setuma_PhysicsBreak
+  AtkType: 0
+  CT: 10
+  Costs:
+  - Type: 3
+    Val: 350
+  Branchs:
+  - DispStr: "[0]|1\u79D2"
+    BID: 0
+    BName: 
+    EndTime: 1
+  SortOption: 0
+  SortUpper: 1
+  EndTime: 1
+  Events:
+  - rid: 5002143623174946907
+  - rid: 5002143623174946908
+  references:
+    version: 2
+    RefIds:
+    - rid: 5002143623174946907
+      type: {class: Data_Attack/Class_AEvent_MyBuf, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[0]\u81EA\u5DF1\u30D0\u30D5|BID:0,\u6642\u9593:(0.5)\u79D2|PAtkChange(0)Add,Time:10,Pow:70"
+        Memo: 
+        IfBID: 0
+        IfBIDs: 
+        Times: {x: 0.5, y: 0.5, z: 0}
+        ID: 100
+        Op: 9
+        Index: 0
+        Set: 0
+        AddTimes: {x: 10, y: 0}
+        CPow:
+        - HitSta: 0
+          Base: 0
+          Op: 0
+          Mult: 70
+        MPow: []
+    - rid: 5002143623174946908
+      type: {class: Data_Attack/Class_AEvent_MyBuf, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[1]\u81EA\u5DF1\u30D0\u30D5|BID:0,\u6642\u9593:(0.5)\u79D2|MAtkChange(0)Add,Time:10,Pow:40"
+        Memo: 
+        IfBID: 0
+        IfBIDs: 
+        Times: {x: 0.5, y: 0.5, z: 0}
+        ID: 101
+        Op: 4
+        Index: 0
+        Set: 0
+        AddTimes: {x: 10, y: 0}
+        CPow:
+        - HitSta: 0
+          Base: 0
+          Op: 0
+          Mult: 40
+        MPow: []

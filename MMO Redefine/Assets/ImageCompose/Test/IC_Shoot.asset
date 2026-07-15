@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1f72764022b1224a937c65be5312c06, type: 3}
+  m_Name: IC_Shoot
+  m_EditorClassIdentifier: Assembly-CSharp::Toole.ImageComposeSO
+  outputName: 
+  outputSize: {x: 256, y: 256}
+  backColor: {r: 0, g: 0, b: 0, a: 0}
+  layers:
+  - order: 100
+    texture: {fileID: 2800000, guid: d4198952f753bed4ea97f27c40106d6a, type: 3}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    anchor: {x: 0.2, y: 0.5}
+    pivot: {x: 0.5, y: 0.5}
+    position: {x: 0, y: 0}
+    rotation: 0
+    size: {x: 90, y: 90}
+    scale: {x: 1, y: 1}
+  - order: 0
+    texture: {fileID: 2800000, guid: af03b46fd4196994ca2e139639f0165c, type: 3}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    anchor: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0.5}
+    position: {x: -23, y: 64}
+    rotation: 180
+    size: {x: 64, y: 64}
+    scale: {x: 1, y: 1}
+  - order: 0
+    texture: {fileID: 2800000, guid: af03b46fd4196994ca2e139639f0165c, type: 3}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    anchor: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0.5}
+    position: {x: 22, y: 0}
+    rotation: 180
+    size: {x: 64, y: 64}
+    scale: {x: 1, y: 1}
+  - order: 0
+    texture: {fileID: 2800000, guid: af03b46fd4196994ca2e139639f0165c, type: 3}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    anchor: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0.5}
+    position: {x: 52, y: -65}
+    rotation: 180
+    size: {x: 64, y: 64}
+    scale: {x: 1, y: 1}
+  previewCheck1: {r: 0, g: 0, b: 0, a: 1}
+  previewCheck2: {r: 0.3, g: 0.3, b: 0.3, a: 1}

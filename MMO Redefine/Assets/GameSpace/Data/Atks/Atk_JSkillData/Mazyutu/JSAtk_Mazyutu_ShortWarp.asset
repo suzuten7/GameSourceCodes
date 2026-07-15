@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fe58b3b87749b543bf81c315e34f0e0, type: 3}
+  m_Name: JSAtk_Mazyutu_ShortWarp
+  m_EditorClassIdentifier: Assembly-CSharp::Suzuten_Test.Suzuten_Data_Attack
+  Name: "\u30B7\u30E7\u30FC\u30C8\u30EF\u30FC\u30D7"
+  Info: "\u5165\u529B\u65B9\u5411\u306E\u6700\u592720m\u5148\u306B\u77AC\u9593\u79FB\u52D5\u3059\u308B\n\u5165\u529B\u7121\u3057\u3067\u4E0A\u65B9\u5411\u306B\u79FB\u52D5"
+  Icon: {fileID: 0}
+  Type: 1
+  AddressableAddress: JSAtk_Mazyutu_ShortWarp
+  AtkType: 0
+  CT: 8
+  Costs:
+  - Type: 3
+    Val: 180
+  Branchs:
+  - DispStr: "[0]|1\u79D2"
+    BID: 0
+    BName: 
+    EndTime: 1
+  SortOption: 0
+  SortUpper: 1
+  EndTime: 1
+  Events:
+  - rid: 5002143623174946910
+  references:
+    version: 2
+    RefIds:
+    - rid: 5002143623174946910
+      type: {class: Data_Attack/Class_AEvent_EX, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[0]EX|BID:0,\u6642\u9593:(0.5)\u79D2|EX:ShortWarp"
+        Memo: 
+        IfBID: 0
+        IfBIDs: 
+        Times: {x: 0.5, y: 0.5, z: 0}
+        EXs: 4

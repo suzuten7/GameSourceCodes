@@ -1,0 +1,220 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25e6c561ce6617643a673e1ea2192005, type: 3}
+  m_Name: JTGroup_BaseSta
+  m_EditorClassIdentifier: Assembly-CSharp::Suzuten_Test.Data_JobTree_Group
+  Alls: 1
+  JobTrees:
+  - DispName: "[0]\u6700\u5927HP\u5897\u52A01,(-5.00, 10.00),\u524D\u63D0\u65700,\u524D\u63D0LV0"
+    CTree: {fileID: 11400000, guid: 717a6b07470fdfb44a31eed9e0ef9efe, type: 2}
+    Pos: {x: -5, y: 10}
+    BTreeIDs: 
+    PrereLV: 0
+  - DispName: "[1]\u6700\u5927HP\u5897\u52A02,(-7.00, 10.00),\u524D\u63D0\u65701,\u524D\u63D0LV10"
+    CTree: {fileID: 11400000, guid: 8f66edc97ae3ec344ab58d5be76d64c3, type: 2}
+    Pos: {x: -7, y: 10}
+    BTreeIDs: 00000000
+    PrereLV: 10
+  - DispName: "[2]\u6700\u5927HP\u5897\u52A03,(-9.00, 10.00),\u524D\u63D0\u65701,\u524D\u63D0LV10"
+    CTree: {fileID: 11400000, guid: 1b5b6ea977af4b0459bec643da424f53, type: 2}
+    Pos: {x: -9, y: 10}
+    BTreeIDs: 01000000
+    PrereLV: 10
+  - DispName: "[3]\u6700\u5927HP\u5897\u52A04,(-11.00, 10.00),\u524D\u63D0\u65701,\u524D\u63D0LV10"
+    CTree: {fileID: 11400000, guid: 0cdd327f15f5c6b458dce4b31b346b7e, type: 2}
+    Pos: {x: -11, y: 10}
+    BTreeIDs: 02000000
+    PrereLV: 10
+  - DispName: "[4]HP\u56DE\u5FA9\u901F\u5EA6\u5897\u52A01,(-5.00, 8.00),\u524D\u63D0\u65700,\u524D\u63D0LV0"
+    CTree: {fileID: 11400000, guid: 728ebb7611a74344fa671778999f0afa, type: 2}
+    Pos: {x: -5, y: 8}
+    BTreeIDs: 
+    PrereLV: 0
+  - DispName: "[5]HP\u56DE\u5FA9\u901F\u5EA6\u5897\u52A02,(-7.00, 8.00),\u524D\u63D0\u65701,\u524D\u63D0LV10"
+    CTree: {fileID: 11400000, guid: e9e4c94d65b10b946b33cb3a6efd74d3, type: 2}
+    Pos: {x: -7, y: 8}
+    BTreeIDs: 04000000
+    PrereLV: 10
+  - DispName: "[6]HP\u56DE\u5FA9\u901F\u5EA6\u5897\u52A03,(-9.00, 8.00),\u524D\u63D0\u65701,\u524D\u63D0LV10"
+    CTree: {fileID: 11400000, guid: 3e9b111546a63af44ba89ab968b2ce4c, type: 2}
+    Pos: {x: -9, y: 8}
+    BTreeIDs: 05000000
+    PrereLV: 10
+  - DispName: "[7]HP\u56DE\u5FA9\u901F\u5EA6\u5897\u52A04,(-11.00, 8.00),\u524D\u63D0\u65701,\u524D\u63D0LV10"
+    CTree: {fileID: 11400000, guid: 47c082f64d048224da3f1575bde3921d, type: 2}
+    Pos: {x: -11, y: 8}
+    BTreeIDs: 06000000
+    PrereLV: 10
+  - DispName: "[8]\u6700\u5927MP\u5897\u52A01,(-5.00, 6.00),\u524D\u63D0\u65700,\u524D\u63D0LV0"
+    CTree: {fileID: 11400000, guid: eaead3b555fab664db6f9c0637130e36, type: 2}
+    Pos: {x: -5, y: 6}
+    BTreeIDs: 
+    PrereLV: 0
+  - DispName: "[9]\u6700\u5927MP\u5897\u52A02,(-7.00, 6.00),\u524D\u63D0\u65701,\u524D\u63D0LV10"
+    CTree: {fileID: 11400000, guid: 2742b9a6c2ca2c5419748df5be095997, type: 2}
+    Pos: {x: -7, y: 6}
+    BTreeIDs: 08000000
+    PrereLV: 10
+  - DispName: "[10]\u6700\u5927MP\u5897\u52A03,(-9.00, 6.00),\u524D\u63D0\u65701,\u524D\u63D0LV10"
+    CTree: {fileID: 11400000, guid: a364309e0f2e73e4f96bdfee769ae9f5, type: 2}
+    Pos: {x: -9, y: 6}
+    BTreeIDs: 09000000
+    PrereLV: 10
+  - DispName: "[11]\u6700\u5927MP\u5897\u52A04,(-11.00, 6.00),\u524D\u63D0\u65701,\u524D\u63D0LV10"
+    CTree: {fileID: 11400000, guid: 79f4cd541534dbb4d979ce2bddb862eb, type: 2}
+    Pos: {x: -11, y: 6}
+    BTreeIDs: 0a000000
+    PrereLV: 10
+  - DispName: "[12]MP\u56DE\u5FA9\u901F\u5EA6\u5897\u52A01,(-5.00, 4.00),\u524D\u63D0\u65700,\u524D\u63D0LV0"
+    CTree: {fileID: 11400000, guid: 20720244a59aae64783cc310287a1ca4, type: 2}
+    Pos: {x: -5, y: 4}
+    BTreeIDs: 
+    PrereLV: 0
+  - DispName: "[13]MP\u56DE\u5FA9\u901F\u5EA6\u5897\u52A02,(-7.00, 4.00),\u524D\u63D0\u65701,\u524D\u63D0LV10"
+    CTree: {fileID: 11400000, guid: 6258978d7805e424aae4b38352fd8353, type: 2}
+    Pos: {x: -7, y: 4}
+    BTreeIDs: 0c000000
+    PrereLV: 10
+  - DispName: "[14]MP\u56DE\u5FA9\u901F\u5EA6\u5897\u52A03,(-9.00, 4.00),\u524D\u63D0\u65701,\u524D\u63D0LV10"
+    CTree: {fileID: 11400000, guid: 0efc77cb5e7bc5241a49fd8a7062f976, type: 2}
+    Pos: {x: -9, y: 4}
+    BTreeIDs: 0d000000
+    PrereLV: 10
+  - DispName: "[15]MP\u56DE\u5FA9\u901F\u5EA6\u5897\u52A04,(-11.00, 4.00),\u524D\u63D0\u65701,\u524D\u63D0LV10"
+    CTree: {fileID: 11400000, guid: 21f5a54bd066fa9469b7101d2fa56724, type: 2}
+    Pos: {x: -11, y: 4}
+    BTreeIDs: 0e000000
+    PrereLV: 10
+  - DispName: "[16]\u6700\u5927\u30B9\u30BF\u30DF\u30CA\u5897\u52A01,(-5.00, 2.00),\u524D\u63D0\u65700,\u524D\u63D0LV0"
+    CTree: {fileID: 11400000, guid: e7f3883d738199841b2e499c05f92385, type: 2}
+    Pos: {x: -5, y: 2}
+    BTreeIDs: 
+    PrereLV: 0
+  - DispName: "[17]\u6700\u5927\u30B9\u30BF\u30DF\u30CA\u5897\u52A02,(-7.00, 2.00),\u524D\u63D0\u65701,\u524D\u63D0LV10"
+    CTree: {fileID: 11400000, guid: eeeb6f697da3e11409b010d6df093b1a, type: 2}
+    Pos: {x: -7, y: 2}
+    BTreeIDs: 10000000
+    PrereLV: 10
+  - DispName: "[18]\u6700\u5927\u30B9\u30BF\u30DF\u30CA\u5897\u52A03,(-9.00, 2.00),\u524D\u63D0\u65701,\u524D\u63D0LV10"
+    CTree: {fileID: 11400000, guid: 56490f6248de73743af3730b1cef7985, type: 2}
+    Pos: {x: -9, y: 2}
+    BTreeIDs: 11000000
+    PrereLV: 10
+  - DispName: "[19]\u6700\u5927\u30B9\u30BF\u30DF\u30CA\u5897\u52A04,(-11.00, 2.00),\u524D\u63D0\u65701,\u524D\u63D0LV10"
+    CTree: {fileID: 11400000, guid: bca69c662f0cc1549bff23fb572ee1fd, type: 2}
+    Pos: {x: -11, y: 2}
+    BTreeIDs: 12000000
+    PrereLV: 10
+  - DispName: "[20]\u30B9\u30BF\u30DF\u30CA\u56DE\u5FA9\u901F\u5EA6\u5897\u52A01,(-5.00,
+      0.00),\u524D\u63D0\u65700,\u524D\u63D0LV0"
+    CTree: {fileID: 11400000, guid: 01fb00449f07d0f4ebf454f5f10d9a5c, type: 2}
+    Pos: {x: -5, y: 0}
+    BTreeIDs: 
+    PrereLV: 0
+  - DispName: "[21]\u30B9\u30BF\u30DF\u30CA\u56DE\u5FA9\u901F\u5EA6\u5897\u52A02,(-7.00,
+      0.00),\u524D\u63D0\u65701,\u524D\u63D0LV10"
+    CTree: {fileID: 11400000, guid: ed1675d4f20cbf747b182bc19dd8dad3, type: 2}
+    Pos: {x: -7, y: 0}
+    BTreeIDs: 14000000
+    PrereLV: 10
+  - DispName: "[22]\u30B9\u30BF\u30DF\u30CA\u56DE\u5FA9\u901F\u5EA6\u5897\u52A03,(-9.00,
+      0.00),\u524D\u63D0\u65701,\u524D\u63D0LV10"
+    CTree: {fileID: 11400000, guid: 109c9b4fbc97c964cbe9cfb678f8d06f, type: 2}
+    Pos: {x: -9, y: 0}
+    BTreeIDs: 15000000
+    PrereLV: 10
+  - DispName: "[23]\u30B9\u30BF\u30DF\u30CA\u56DE\u5FA9\u901F\u5EA6\u5897\u52A04,(-11.00,
+      0.00),\u524D\u63D0\u65701,\u524D\u63D0LV10"
+    CTree: {fileID: 11400000, guid: 676726dc86b47bd45ac85fe3801a8c45, type: 2}
+    Pos: {x: -11, y: 0}
+    BTreeIDs: 16000000
+    PrereLV: 10
+  - DispName: "[24]\u7269\u7406\u653B\u6483\u529B\u5897\u52A01,(-5.00, -2.00),\u524D\u63D0\u65700,\u524D\u63D0LV0"
+    CTree: {fileID: 11400000, guid: 55d4f266cad160941bca9b7787b3ad1b, type: 2}
+    Pos: {x: -5, y: -2}
+    BTreeIDs: 
+    PrereLV: 0
+  - DispName: "[25]\u7269\u7406\u653B\u6483\u529B\u5897\u52A02,(-7.00, -2.00),\u524D\u63D0\u65701,\u524D\u63D0LV10"
+    CTree: {fileID: 11400000, guid: 4cab8fab52287f04fb6acd7cee8a8e37, type: 2}
+    Pos: {x: -7, y: -2}
+    BTreeIDs: 18000000
+    PrereLV: 10
+  - DispName: "[26]\u7269\u7406\u653B\u6483\u529B\u5897\u52A03,(-9.00, -2.00),\u524D\u63D0\u65701,\u524D\u63D0LV10"
+    CTree: {fileID: 11400000, guid: 4074fc4a9cedeac488802be93dc8667f, type: 2}
+    Pos: {x: -9, y: -2}
+    BTreeIDs: 19000000
+    PrereLV: 10
+  - DispName: "[27]\u7269\u7406\u653B\u6483\u529B\u5897\u52A04,(-11.00, -2.00),\u524D\u63D0\u65701,\u524D\u63D0LV10"
+    CTree: {fileID: 11400000, guid: de0bf7873c167ac44a1eb87fed3bd517, type: 2}
+    Pos: {x: -11, y: -2}
+    BTreeIDs: 1a000000
+    PrereLV: 10
+  - DispName: "[28]\u9B54\u6CD5\u653B\u6483\u529B\u5897\u52A01,(-5.00, -4.00),\u524D\u63D0\u65700,\u524D\u63D0LV0"
+    CTree: {fileID: 11400000, guid: 4cb1894af1fd5e34fa8388a49504eb34, type: 2}
+    Pos: {x: -5, y: -4}
+    BTreeIDs: 
+    PrereLV: 0
+  - DispName: "[29]\u9B54\u6CD5\u653B\u6483\u529B\u5897\u52A02,(-7.00, -4.00),\u524D\u63D0\u65701,\u524D\u63D0LV10"
+    CTree: {fileID: 11400000, guid: 45246e070e1fb1848a3fabd4a5bc7bd6, type: 2}
+    Pos: {x: -7, y: -4}
+    BTreeIDs: 1c000000
+    PrereLV: 10
+  - DispName: "[30]\u9B54\u6CD5\u653B\u6483\u529B\u5897\u52A03,(-9.00, -4.00),\u524D\u63D0\u65701,\u524D\u63D0LV10"
+    CTree: {fileID: 11400000, guid: 3f1be0b6ea756be4fb8fee0a4d569c4a, type: 2}
+    Pos: {x: -9, y: -4}
+    BTreeIDs: 1d000000
+    PrereLV: 10
+  - DispName: "[31]\u9B54\u6CD5\u653B\u6483\u529B\u5897\u52A04,(-11.00, -4.00),\u524D\u63D0\u65701,\u524D\u63D0LV10"
+    CTree: {fileID: 11400000, guid: 336e7160fcb566a45a8cad5487f68d10, type: 2}
+    Pos: {x: -11, y: -4}
+    BTreeIDs: 1e000000
+    PrereLV: 10
+  - DispName: "[32]\u7269\u7406\u9632\u5FA1\u529B\u5897\u52A01,(-5.00, -6.00),\u524D\u63D0\u65700,\u524D\u63D0LV0"
+    CTree: {fileID: 11400000, guid: a975e852e0e44554aa6b6c3f3a087564, type: 2}
+    Pos: {x: -5, y: -6}
+    BTreeIDs: 
+    PrereLV: 0
+  - DispName: "[33]\u7269\u7406\u9632\u5FA1\u529B\u5897\u52A02,(-7.00, -6.00),\u524D\u63D0\u65701,\u524D\u63D0LV10"
+    CTree: {fileID: 11400000, guid: fa646a091ed292248b88971d44cae08a, type: 2}
+    Pos: {x: -7, y: -6}
+    BTreeIDs: 20000000
+    PrereLV: 10
+  - DispName: "[34]\u7269\u7406\u9632\u5FA1\u529B\u5897\u52A03,(-9.00, -6.00),\u524D\u63D0\u65701,\u524D\u63D0LV10"
+    CTree: {fileID: 11400000, guid: 2db749b154be3dc47b6319b9fa800931, type: 2}
+    Pos: {x: -9, y: -6}
+    BTreeIDs: 21000000
+    PrereLV: 10
+  - DispName: "[35]\u7269\u7406\u9632\u5FA1\u529B\u5897\u52A04,(-11.00, -6.00),\u524D\u63D0\u65701,\u524D\u63D0LV10"
+    CTree: {fileID: 11400000, guid: c74e62ffcc8d44e42a18a64de37421cf, type: 2}
+    Pos: {x: -11, y: -6}
+    BTreeIDs: 22000000
+    PrereLV: 10
+  - DispName: "[36]\u9B54\u6CD5\u9632\u5FA1\u529B\u5897\u52A01,(-5.00, -8.00),\u524D\u63D0\u65700,\u524D\u63D0LV0"
+    CTree: {fileID: 11400000, guid: bc0d9e99fafe0764f9ef612be2c07cbf, type: 2}
+    Pos: {x: -5, y: -8}
+    BTreeIDs: 
+    PrereLV: 0
+  - DispName: "[37]\u9B54\u6CD5\u9632\u5FA1\u529B\u5897\u52A02,(-7.00, -8.00),\u524D\u63D0\u65701,\u524D\u63D0LV10"
+    CTree: {fileID: 11400000, guid: 1a9e566b935a4544fa498d4f6ebbf7ad, type: 2}
+    Pos: {x: -7, y: -8}
+    BTreeIDs: 24000000
+    PrereLV: 10
+  - DispName: "[38]\u9B54\u6CD5\u9632\u5FA1\u529B\u5897\u52A03,(-9.00, -8.00),\u524D\u63D0\u65701,\u524D\u63D0LV10"
+    CTree: {fileID: 11400000, guid: 7d6d14851a79e7140b53a046e98f3101, type: 2}
+    Pos: {x: -9, y: -8}
+    BTreeIDs: 25000000
+    PrereLV: 10
+  - DispName: "[39]\u9B54\u6CD5\u9632\u5FA1\u529B\u5897\u52A04,(-11.00, -8.00),\u524D\u63D0\u65701,\u524D\u63D0LV10"
+    CTree: {fileID: 11400000, guid: 987afa12b6d262849b965637b00e5a55, type: 2}
+    Pos: {x: -11, y: -8}
+    BTreeIDs: 26000000
+    PrereLV: 10

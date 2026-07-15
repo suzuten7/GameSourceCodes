@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1f72764022b1224a937c65be5312c06, type: 3}
+  m_Name: IC_Skill_UltRay
+  m_EditorClassIdentifier: Assembly-CSharp::Toole.ImageComposeSO
+  outputSize: {x: 256, y: 256}
+  backColor: {r: 0, g: 0, b: 0, a: 0}
+  layers:
+  - noOutput: 0
+    locks: 0
+    hidePreview: 0
+    order: 0
+    texture: {fileID: 2800000, guid: d4198952f753bed4ea97f27c40106d6a, type: 3}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    anchor: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0.5}
+    position: {x: -84.19252, y: -58.181816}
+    rotation: 8.011482
+    size: {x: 64, y: 64}
+    scale: {x: 1, y: 1}
+  - noOutput: 0
+    locks: 0
+    hidePreview: 0
+    order: 0
+    texture: {fileID: 2800000, guid: 7b26ad566ec8dcd4c99117160f42a1f8, type: 3}
+    color: {r: 1, g: 0, b: 1, a: 1}
+    anchor: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0.5}
+    position: {x: 9.582888, y: 24.641716}
+    rotation: 224.16193
+    size: {x: 64, y: 64}
+    scale: {x: 4, y: 0.3}
+  - noOutput: 0
+    locks: 0
+    hidePreview: 0
+    order: 0
+    texture: {fileID: 2800000, guid: 7b26ad566ec8dcd4c99117160f42a1f8, type: 3}
+    color: {r: 1, g: 0, b: 1, a: 0.78431374}
+    anchor: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0.5}
+    position: {x: -15.058824, y: 36.278076}
+    rotation: 234.66998
+    size: {x: 64, y: 64}
+    scale: {x: 4, y: 0.3}
+  - noOutput: 0
+    locks: 0
+    hidePreview: 0
+    order: 0
+    texture: {fileID: 2800000, guid: 7b26ad566ec8dcd4c99117160f42a1f8, type: 3}
+    color: {r: 1, g: 0, b: 1, a: 0.5882353}
+    anchor: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0.5}
+    position: {x: 19.165777, y: 6.160431}
+    rotation: 214.93913
+    size: {x: 64, y: 64}
+    scale: {x: 4, y: 0.3}
+  - noOutput: 0
+    locks: 0
+    hidePreview: 0
+    order: 0
+    texture: {fileID: 2800000, guid: 7b26ad566ec8dcd4c99117160f42a1f8, type: 3}
+    color: {r: 1, g: 0, b: 1, a: 0.39215687}
+    anchor: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0.5}
+    position: {x: -6.84492, y: 32.855618}
+    rotation: 230.22693
+    size: {x: 64, y: 64}
+    scale: {x: 4, y: 0.3}
+  - noOutput: 0
+    locks: 0
+    hidePreview: 0
+    order: 0
+    texture: {fileID: 2800000, guid: 7b26ad566ec8dcd4c99117160f42a1f8, type: 3}
+    color: {r: 1, g: 0, b: 1, a: 0.29411766}
+    anchor: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0.5}
+    position: {x: 11.636362, y: 17.796795}
+    rotation: 217.10037
+    size: {x: 64, y: 64}
+    scale: {x: 4, y: 0.3}
+  previewCheck1: {r: 0.7, g: 0.7, b: 0.7, a: 1}
+  previewCheck2: {r: 0.3, g: 0.3, b: 0.3, a: 1}

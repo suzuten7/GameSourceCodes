@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fe58b3b87749b543bf81c315e34f0e0, type: 3}
+  m_Name: JSAtk_Sien_SelfBuf
+  m_EditorClassIdentifier: Assembly-CSharp::Suzuten_Test.Suzuten_Data_Attack
+  Name: "\u30BB\u30EB\u30D5\u30D0\u30D5"
+  Info: "\u81EA\u8EAB\u306EHP\u4E0A\u9650\u3068\u4E0E\u30C0\u30E1\u30FC\u30B8\u3092\n+8%\u6700\u592732%\u5897\u52A0\u3055\u305B\u308B"
+  Icon: {fileID: 2800000, guid: 53c312e867e49c0418989d940605294a, type: 3}
+  Type: 1
+  AddressableAddress: JSAtk_Sien_SelfBuf
+  AtkType: 0
+  CT: 3
+  Costs:
+  - Type: 3
+    Val: 150
+  Branchs: []
+  SortOption: 0
+  SortUpper: 1
+  EndTime: 0
+  Events:
+  - rid: 5286047716286398568
+  - rid: 5286047716286398569
+  references:
+    version: 2
+    RefIds:
+    - rid: 5286047716286398568
+      type: {class: Data_Attack/Class_AEvent_MyBuf, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[0]\u81EA\u5DF1\u30D0\u30D5|BID:0,\u6642\u9593:(0)\u79D2|MaxHPChange(1000)AddUp,Time:15m15,Pow:8m32"
+        Memo: 
+        IfBID: 0
+        Times: {x: 0, y: 0, z: 0}
+        ID: 0
+        Op: 2
+        Index: 1000
+        Set: 1
+        AddTimes: {x: 15, y: 15}
+        CPow:
+        - HitSta: 0
+          Base: 0
+          Op: 0
+          Mult: 8
+        MPow:
+        - HitSta: 0
+          Base: 0
+          Op: 0
+          Mult: 32
+    - rid: 5286047716286398569
+      type: {class: Data_Attack/Class_AEvent_MyBuf, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[1]\u81EA\u5DF1\u30D0\u30D5|BID:0,\u6642\u9593:(0)\u79D2|AddDamageMultChange(1000)AddUp,Time:15m15,Pow:8m32"
+        Memo: 
+        IfBID: 0
+        Times: {x: 0, y: 0, z: 0}
+        ID: 204
+        Op: 2
+        Index: 1000
+        Set: 1
+        AddTimes: {x: 15, y: 15}
+        CPow:
+        - HitSta: 0
+          Base: 0
+          Op: 0
+          Mult: 8
+        MPow:
+        - HitSta: 0
+          Base: 0
+          Op: 0
+          Mult: 32

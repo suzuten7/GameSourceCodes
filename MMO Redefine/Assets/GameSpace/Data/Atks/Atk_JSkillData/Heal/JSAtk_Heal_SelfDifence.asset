@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fe58b3b87749b543bf81c315e34f0e0, type: 3}
+  m_Name: JSAtk_Heal_SelfDifence
+  m_EditorClassIdentifier: Assembly-CSharp::Suzuten_Test.Suzuten_Data_Attack
+  Name: "\u30BB\u30EB\u30D5\u30C7\u30A3\u30D5\u30A7\u30F3\u30B9"
+  Info: "\u81EA\u8EAB\u306E\u9632\u5FA1\u529B\u3092\u5897\u52A0\u3055\u305B\u308B"
+  Icon: {fileID: 0}
+  Type: 1
+  AddressableAddress: JSAtk_Heal_SelfDifence
+  AtkType: 0
+  CT: 25
+  Costs:
+  - Type: 3
+    Val: 250
+  Branchs: []
+  SortOption: 0
+  SortUpper: 1
+  EndTime: 0
+  Events:
+  - rid: 5002143692311756891
+  - rid: 5002143692311756894
+  references:
+    version: 2
+    RefIds:
+    - rid: 5002143692311756891
+      type: {class: Data_Attack/Class_AEvent_MyBuf, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[0]\u81EA\u5DF1\u30D0\u30D5|BID:0,\u6642\u9593:(0)\u79D2|PDefChange(6)Add,Time:10,Pow:50"
+        Memo: 
+        IfBID: 0
+        IfBIDs: 
+        Times: {x: 0, y: 0, z: 0}
+        ID: 102
+        Op: 4
+        Index: 6
+        Set: 0
+        AddTimes: {x: 10, y: 0}
+        CPow:
+        - HitSta: 0
+          Base: 0
+          Op: 0
+          Mult: 50
+        MPow: []
+    - rid: 5002143692311756894
+      type: {class: Data_Attack/Class_AEvent_MyBuf, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[1]\u81EA\u5DF1\u30D0\u30D5|BID:0,\u6642\u9593:(0)\u79D2|MDefChange(6)Add,Time:10,Pow:50"
+        Memo: 
+        IfBID: 0
+        IfBIDs: 
+        Times: {x: 0, y: 0, z: 0}
+        ID: 103
+        Op: 4
+        Index: 6
+        Set: 0
+        AddTimes: {x: 10, y: 0}
+        CPow:
+        - HitSta: 0
+          Base: 0
+          Op: 0
+          Mult: 50
+        MPow: []

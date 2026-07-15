@@ -1,0 +1,511 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fe58b3b87749b543bf81c315e34f0e0, type: 3}
+  m_Name: WAtk_Flys_Base
+  m_EditorClassIdentifier: Assembly-CSharp::Suzuten_Test.Suzuten_Data_Attack
+  Name: "\u98DB\u65AC"
+  Info: "\u9AD8\u983B\u5EA6\u653B\u6483\n\u98A8\u5C5E\u6027\u306E\u7269\u7406&\u9B54\u6CD5\u653B\u6483\u529B+\n\u6575\u306E\u73FE\u5728HP\u4F9D\u5B58\u306E\n\u30C0\u30E1\u30FC\u30B8\u3092\u4E0E\u3048\u308B"
+  Icon: {fileID: 0}
+  Type: 0
+  AddressableAddress: BAtk_Flys_Base
+  AtkType: 0
+  CT: 0
+  Costs: []
+  Branchs:
+  - BID: 0
+    BName: "\u901A\u5E381"
+    EndTime: 1.2
+    NoEnd: 0
+  - BID: 1
+    BName: "\u901A\u5E382"
+    EndTime: 1.2
+    NoEnd: 0
+  - BID: 2
+    BName: "\u901A\u5E383"
+    EndTime: 1.2
+    NoEnd: 0
+  - BID: 10
+    BName: "\u91CD\u6483"
+    EndTime: 2
+    NoEnd: 0
+  SortOption: 0
+  SortUpper: 1
+  EndTime: 2
+  ASpdUse: 1
+  Events:
+  - rid: 2557346964607336608
+  - rid: 2557346964607336611
+  - rid: 2557346964607336612
+  - rid: 2557346964607336614
+  - rid: 2557346964607336620
+  - rid: 2557346964607336621
+  - rid: 2557346964607336625
+  - rid: 2557346964607336626
+  - rid: 2557346964607336628
+  - rid: 5286047648232767594
+  - rid: 5286047648232767627
+  - rid: 5286047648232767630
+  - rid: 5286047648232767631
+  references:
+    version: 2
+    RefIds:
+    - rid: 2557346964607336608
+      type: {class: Data_Attack/Class_AEvent_BChange, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[0]\u5206\u5C90|\u30E1\u30E2:\u901A\u5E381>>\u901A\u5E382|BID:0,\u6642\u9593:(0.7\uFF5E1.2)\u79D2|NBID:1,NTime:0\u79D2,If:\xD71,IfStay:0\u79D2"
+        Memo: "\u901A\u5E381>>\u901A\u5E382"
+        IfBID: 0
+        IfBIDs: 
+        Times: {x: 0.7, y: 1.2, z: 0}
+        NBID: 1
+        NTime: 0
+        Ifs: 02000000
+        Costs: []
+        IfStayTime: 0
+    - rid: 2557346964607336611
+      type: {class: Data_Attack/Class_AEvent_BChange, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[1]\u5206\u5C90|\u30E1\u30E2:\u901A\u5E382>>\u901A\u5E383|BID:1,\u6642\u9593:(0.7\uFF5E1.2)\u79D2|NBID:2,NTime:0\u79D2,If:\xD71,IfStay:0\u79D2"
+        Memo: "\u901A\u5E382>>\u901A\u5E383"
+        IfBID: 1
+        IfBIDs: 
+        Times: {x: 0.7, y: 1.2, z: 0}
+        NBID: 2
+        NTime: 0
+        Ifs: 02000000
+        Costs: []
+        IfStayTime: 0
+    - rid: 2557346964607336612
+      type: {class: Data_Attack/Class_AEvent_BChange, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[2]\u5206\u5C90|\u30E1\u30E2:\u901A\u5E383>>\u901A\u5E381|BID:2,\u6642\u9593:(0.7\uFF5E1.2)\u79D2|NBID:0,NTime:0\u79D2,If:\xD71,IfStay:0\u79D2"
+        Memo: "\u901A\u5E383>>\u901A\u5E381"
+        IfBID: 2
+        IfBIDs: 
+        Times: {x: 0.7, y: 1.2, z: 0}
+        NBID: 0
+        NTime: 0
+        Ifs: 02000000
+        Costs: []
+        IfStayTime: 0
+    - rid: 2557346964607336614
+      type: {class: Data_Attack/Class_AEvent_BChange, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[3]\u5206\u5C90|\u30E1\u30E2:\u901A\u5E38>>\u91CD\u6483|BID:0/1/2,\u6642\u9593:(0.7\uFF5E1.2)\u79D2|NBID:10,NTime:0\u79D2,If:\xD71,IfStay:0.4\u79D2"
+        Memo: "\u901A\u5E38>>\u91CD\u6483"
+        IfBID: 0
+        IfBIDs: 0100000002000000
+        Times: {x: 0.7, y: 1.2, z: 0}
+        NBID: 10
+        NTime: 0
+        Ifs: 01000000
+        Costs:
+        - Type: 6
+          Val: 160
+        IfStayTime: 0.4
+    - rid: 2557346964607336620
+      type: {class: Data_Attack/Class_AEvent_BChange, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[4]\u5206\u5C90|\u30E1\u30E2:\u91CD\u6483>>\u901A\u5E381|BID:10,\u6642\u9593:(0.25\uFF5E2)\u79D2|NBID:0,NTime:0\u79D2,If:\xD71,IfStay:0\u79D2"
+        Memo: "\u91CD\u6483>>\u901A\u5E381"
+        IfBID: 10
+        IfBIDs: 
+        Times: {x: 0.25, y: 2, z: 0}
+        NBID: 0
+        NTime: 0
+        Ifs: 02000000
+        Costs: []
+        IfStayTime: 0
+    - rid: 2557346964607336621
+      type: {class: Data_Attack/Class_AEvent_ShotMain, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[5]\u5F3E\u767A\u5C04|\u30E1\u30E2:\u901A\u5E381-\u653B\u6483|BID:0,\u6642\u9593:(0.1)\u79D2|Attack_FlysAt_Base,Count:1,Speed:1000,TBase:MyPosition,MyLook,Hit:\xD72,HCT:0\u79D2,HEXCh:0.15%"
+        Memo: "\u901A\u5E381-\u653B\u6483"
+        IfBID: 0
+        IfBIDs: 
+        Times: {x: 0.1, y: 0.1, z: 0}
+        Shot: {fileID: 5935130586681626263, guid: 65d6029468270834c89f88d8ad66c746, type: 3}
+        Fire:
+          Count: 1
+          Speed: {x: 1000, y: 1000}
+          PosBase: 0
+          PosChange: []
+          RotBase: 0
+          RotChange: []
+        Hits:
+        - DispStr: "[0](\u6575)<\u30C0\u30E1,\u901A\u5E38,\u8FD1\u8DDD\u96E2,\u98A8\u5C5E\u6027>\u653B\u6483\u5024:\u53D7.\u73FE\u5728HP0.5%,\u500D\u7387\xD7100%"
+          Option:
+            EHit: 1
+            FHit: 0
+            MHit: 0
+            DeathHit: 0
+            Heal: 0
+            AtkType: 0
+            RangeType: 0
+            NoHitRegist: 0
+            NoDamAdd: 1
+            NoBaseRegist: 0
+            Element: 3
+            EleRides: 0
+            NoEleRegist: 0
+            ChangeCritPer: {x: 0, y: 0}
+            ChangeCritMult: {x: 0, y: 0}
+            ChangeHitPer: {x: 0, y: 0}
+            ChangeDogePer: {x: 0, y: 0}
+          Dam:
+            CalStr: "\u653B\u6483\u5024:\u53D7.\u73FE\u5728HP0.5%,\u500D\u7387\xD7100%"
+            DamCals:
+            - HitSta: 1
+              Base: 3
+              Op: 4
+              Mult: 0.5
+            DefCals: []
+            DefPer: 0
+            Mult: 100
+          BufAdds: []
+        - DispStr: "[1](\u6575)<\u30C0\u30E1,\u901A\u5E38,\u8FD1\u8DDD\u96E2,\u98A8\u5C5E\u6027>\u653B\u6483\u5024:\u7269:\u9B54\u653B33:67%,\u9632\u5FA1\u5024:\u7269:\u9B54\u963250:50%,\u500D\u7387\xD713%"
+          Option:
+            EHit: 1
+            FHit: 0
+            MHit: 0
+            DeathHit: 0
+            Heal: 0
+            AtkType: 0
+            RangeType: 0
+            NoHitRegist: 0
+            NoDamAdd: 0
+            NoBaseRegist: 0
+            Element: 3
+            EleRides: 0
+            NoEleRegist: 0
+            ChangeCritPer: {x: 0, y: 0}
+            ChangeCritMult: {x: 0, y: 0}
+            ChangeHitPer: {x: 0, y: 0}
+            ChangeDogePer: {x: 0, y: 0}
+          Dam:
+            CalStr: "\u653B\u6483\u5024:\u7269:\u9B54\u653B33:67%,\u9632\u5FA1\u5024:\u7269:\u9B54\u963250:50%,\u500D\u7387\xD713%"
+            DamCals:
+            - HitSta: 0
+              Base: 100
+              Op: 4
+              Mult: 67
+            DefCals:
+            - HitSta: 1
+              Base: 101
+              Op: 4
+              Mult: 50
+            DefPer: 0
+            Mult: 13
+          BufAdds: []
+        HitCT: 0
+        HitEXCharge: 0.15
+        HateAdd: {x: 0, y: 0}
+    - rid: 2557346964607336625
+      type: {class: Data_Attack/Class_AEvent_ShotMain, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[6]\u5F3E\u767A\u5C04|\u30E1\u30E2:\u901A\u5E382-\u653B\u6483|BID:1,\u6642\u9593:(0.1)\u79D2|Attack_FlysAt_Base,Count:1,Speed:1000,TBase:MyPosition,MyLook,Hit:\xD72,HCT:0\u79D2,HEXCh:0.2%"
+        Memo: "\u901A\u5E382-\u653B\u6483"
+        IfBID: 1
+        IfBIDs: 
+        Times: {x: 0.1, y: 0.1, z: 0}
+        Shot: {fileID: 5935130586681626263, guid: 65d6029468270834c89f88d8ad66c746, type: 3}
+        Fire:
+          Count: 1
+          Speed: {x: 1000, y: 1000}
+          PosBase: 0
+          PosChange: []
+          RotBase: 0
+          RotChange: []
+        Hits:
+        - DispStr: "[0](\u6575)<\u30C0\u30E1,\u901A\u5E38,\u8FD1\u8DDD\u96E2,\u98A8\u5C5E\u6027>\u653B\u6483\u5024:\u53D7.\u73FE\u5728HP0.5%,\u500D\u7387\xD7100%"
+          Option:
+            EHit: 1
+            FHit: 0
+            MHit: 0
+            DeathHit: 0
+            Heal: 0
+            AtkType: 0
+            RangeType: 0
+            NoHitRegist: 0
+            NoDamAdd: 1
+            NoBaseRegist: 0
+            Element: 3
+            EleRides: 0
+            NoEleRegist: 0
+            ChangeCritPer: {x: 0, y: 0}
+            ChangeCritMult: {x: 0, y: 0}
+            ChangeHitPer: {x: 0, y: 0}
+            ChangeDogePer: {x: 0, y: 0}
+          Dam:
+            CalStr: "\u653B\u6483\u5024:\u53D7.\u73FE\u5728HP0.5%,\u500D\u7387\xD7100%"
+            DamCals:
+            - HitSta: 1
+              Base: 3
+              Op: 4
+              Mult: 0.5
+            DefCals: []
+            DefPer: 0
+            Mult: 100
+          BufAdds: []
+        - DispStr: "[1](\u6575)<\u30C0\u30E1,\u901A\u5E38,\u8FD1\u8DDD\u96E2,\u98A8\u5C5E\u6027>\u653B\u6483\u5024:\u7269:\u9B54\u653B33:67%,\u9632\u5FA1\u5024:\u7269:\u9B54\u963250:50%,\u500D\u7387\xD715%"
+          Option:
+            EHit: 1
+            FHit: 0
+            MHit: 0
+            DeathHit: 0
+            Heal: 0
+            AtkType: 0
+            RangeType: 0
+            NoHitRegist: 0
+            NoDamAdd: 0
+            NoBaseRegist: 0
+            Element: 3
+            EleRides: 0
+            NoEleRegist: 0
+            ChangeCritPer: {x: 0, y: 0}
+            ChangeCritMult: {x: 0, y: 0}
+            ChangeHitPer: {x: 0, y: 0}
+            ChangeDogePer: {x: 0, y: 0}
+          Dam:
+            CalStr: "\u653B\u6483\u5024:\u7269:\u9B54\u653B33:67%,\u9632\u5FA1\u5024:\u7269:\u9B54\u963250:50%,\u500D\u7387\xD715%"
+            DamCals:
+            - HitSta: 0
+              Base: 100
+              Op: 4
+              Mult: 67
+            DefCals:
+            - HitSta: 1
+              Base: 101
+              Op: 4
+              Mult: 50
+            DefPer: 0
+            Mult: 15
+          BufAdds: []
+        HitCT: 0
+        HitEXCharge: 0.2
+        HateAdd: {x: 0, y: 0}
+    - rid: 2557346964607336626
+      type: {class: Data_Attack/Class_AEvent_ShotMain, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[7]\u5F3E\u767A\u5C04|\u30E1\u30E2:\u901A\u5E383-\u653B\u6483|BID:2,\u6642\u9593:(0.1)\u79D2|Attack_FlysAt_Base,Count:1,Speed:1000,TBase:MyPosition,MyLook,Hit:\xD72,HCT:0\u79D2,HEXCh:0.25%"
+        Memo: "\u901A\u5E383-\u653B\u6483"
+        IfBID: 2
+        IfBIDs: 
+        Times: {x: 0.1, y: 0.1, z: 0}
+        Shot: {fileID: 5935130586681626263, guid: 65d6029468270834c89f88d8ad66c746, type: 3}
+        Fire:
+          Count: 1
+          Speed: {x: 1000, y: 1000}
+          PosBase: 0
+          PosChange: []
+          RotBase: 0
+          RotChange: []
+        Hits:
+        - DispStr: "[0](\u6575)<\u30C0\u30E1,\u901A\u5E38,\u8FD1\u8DDD\u96E2,\u98A8\u5C5E\u6027>\u653B\u6483\u5024:\u53D7.\u73FE\u5728HP0.5%,\u500D\u7387\xD7100%"
+          Option:
+            EHit: 1
+            FHit: 0
+            MHit: 0
+            DeathHit: 0
+            Heal: 0
+            AtkType: 0
+            RangeType: 0
+            NoHitRegist: 0
+            NoDamAdd: 1
+            NoBaseRegist: 0
+            Element: 3
+            EleRides: 0
+            NoEleRegist: 0
+            ChangeCritPer: {x: 0, y: 0}
+            ChangeCritMult: {x: 0, y: 0}
+            ChangeHitPer: {x: 0, y: 0}
+            ChangeDogePer: {x: 0, y: 0}
+          Dam:
+            CalStr: "\u653B\u6483\u5024:\u53D7.\u73FE\u5728HP0.5%,\u500D\u7387\xD7100%"
+            DamCals:
+            - HitSta: 1
+              Base: 3
+              Op: 4
+              Mult: 0.5
+            DefCals: []
+            DefPer: 0
+            Mult: 100
+          BufAdds: []
+        - DispStr: "[1](\u6575)<\u30C0\u30E1,\u901A\u5E38,\u8FD1\u8DDD\u96E2,\u98A8\u5C5E\u6027>\u653B\u6483\u5024:\u7269:\u9B54\u653B33:67%,\u9632\u5FA1\u5024:\u7269:\u9B54\u963250:50%,\u500D\u7387\xD717%"
+          Option:
+            EHit: 1
+            FHit: 0
+            MHit: 0
+            DeathHit: 0
+            Heal: 0
+            AtkType: 0
+            RangeType: 0
+            NoHitRegist: 0
+            NoDamAdd: 0
+            NoBaseRegist: 0
+            Element: 3
+            EleRides: 0
+            NoEleRegist: 0
+            ChangeCritPer: {x: 0, y: 0}
+            ChangeCritMult: {x: 0, y: 0}
+            ChangeHitPer: {x: 0, y: 0}
+            ChangeDogePer: {x: 0, y: 0}
+          Dam:
+            CalStr: "\u653B\u6483\u5024:\u7269:\u9B54\u653B33:67%,\u9632\u5FA1\u5024:\u7269:\u9B54\u963250:50%,\u500D\u7387\xD717%"
+            DamCals:
+            - HitSta: 0
+              Base: 100
+              Op: 4
+              Mult: 67
+            DefCals:
+            - HitSta: 1
+              Base: 101
+              Op: 4
+              Mult: 50
+            DefPer: 0
+            Mult: 17
+          BufAdds: []
+        HitCT: 0
+        HitEXCharge: 0.25
+        HateAdd: {x: 0, y: 0}
+    - rid: 2557346964607336628
+      type: {class: Data_Attack/Class_AEvent_ShotMain, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[8]\u5F3E\u767A\u5C04|\u30E1\u30E2:\u91CD\u6483-\u653B\u6483|BID:10,\u6642\u9593:(0.1)\u79D2|Attack_FlysAt_Base,Count:7,Speed:2000\uFF5E4000,TBase:MyPosition,MyLook,Hit:\xD72,HCT:0\u79D2,HEXCh:0.1%"
+        Memo: "\u91CD\u6483-\u653B\u6483"
+        IfBID: 10
+        IfBIDs: 
+        Times: {x: 0.1, y: 0.1, z: 0}
+        Shot: {fileID: 5935130586681626263, guid: 65d6029468270834c89f88d8ad66c746, type: 3}
+        Fire:
+          Count: 7
+          Speed: {x: 2000, y: 4000}
+          PosBase: 0
+          PosChange: []
+          RotBase: 0
+          RotChange:
+          - TChange: 1
+            VectVal: {x: 30, y: 10, z: 0}
+            AChange: 0
+            AddVal: {x: 0, y: 0}
+        Hits:
+        - DispStr: "[0](\u6575)<\u30C0\u30E1,\u91CD\u6483,\u8FD1\u8DDD\u96E2,\u98A8\u5C5E\u6027>\u653B\u6483\u5024:\u53D7.\u73FE\u5728HP0.5%,\u500D\u7387\xD7100%"
+          Option:
+            EHit: 1
+            FHit: 0
+            MHit: 0
+            DeathHit: 0
+            Heal: 0
+            AtkType: 1
+            RangeType: 0
+            NoHitRegist: 0
+            NoDamAdd: 1
+            NoBaseRegist: 0
+            Element: 3
+            EleRides: 0
+            NoEleRegist: 0
+            ChangeCritPer: {x: 0, y: 0}
+            ChangeCritMult: {x: 0, y: 0}
+            ChangeHitPer: {x: 0, y: 0}
+            ChangeDogePer: {x: 0, y: 0}
+          Dam:
+            CalStr: "\u653B\u6483\u5024:\u53D7.\u73FE\u5728HP0.5%,\u500D\u7387\xD7100%"
+            DamCals:
+            - HitSta: 1
+              Base: 3
+              Op: 4
+              Mult: 0.5
+            DefCals: []
+            DefPer: 0
+            Mult: 100
+          BufAdds: []
+        - DispStr: "[1](\u6575)<\u30C0\u30E1,\u901A\u5E38,\u8FD1\u8DDD\u96E2,\u98A8\u5C5E\u6027>\u653B\u6483\u5024:\u7269:\u9B54\u653B33:67%,\u9632\u5FA1\u5024:\u7269:\u9B54\u963250:50%,\u500D\u7387\xD77%"
+          Option:
+            EHit: 1
+            FHit: 0
+            MHit: 0
+            DeathHit: 0
+            Heal: 0
+            AtkType: 0
+            RangeType: 0
+            NoHitRegist: 0
+            NoDamAdd: 0
+            NoBaseRegist: 0
+            Element: 3
+            EleRides: 0
+            NoEleRegist: 0
+            ChangeCritPer: {x: 0, y: 0}
+            ChangeCritMult: {x: 0, y: 0}
+            ChangeHitPer: {x: 0, y: 0}
+            ChangeDogePer: {x: 0, y: 0}
+          Dam:
+            CalStr: "\u653B\u6483\u5024:\u7269:\u9B54\u653B33:67%,\u9632\u5FA1\u5024:\u7269:\u9B54\u963250:50%,\u500D\u7387\xD77%"
+            DamCals:
+            - HitSta: 0
+              Base: 100
+              Op: 4
+              Mult: 67
+            DefCals:
+            - HitSta: 1
+              Base: 101
+              Op: 4
+              Mult: 50
+            DefPer: 0
+            Mult: 7
+          BufAdds: []
+        HitCT: 0
+        HitEXCharge: 0.1
+        HateAdd: {x: 0, y: 0}
+    - rid: 5286047648232767594
+      type: {class: Data_Attack/Class_AEvent_Anim, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[9]\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3|BID:0,\u6642\u9593:(0\uFF5E2)\u79D2|AnimClip:BoneBase|Atk_SSword_1ComboID:0,AnimSpeed:800.0%"
+        Memo: 
+        IfBID: 0
+        IfBIDs: 
+        Times: {x: 0, y: 2, z: 0}
+        ComboID: 0
+        AnimClip: {fileID: 8364859861719831890, guid: 99c95ceb26202e14b8d918a167d7da44, type: 3}
+        AnimSpeed: 800
+    - rid: 5286047648232767627
+      type: {class: Data_Attack/Class_AEvent_Anim, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[10]\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3|BID:1,\u6642\u9593:(0\uFF5E2)\u79D2|AnimClip:BoneBase|Atk_SSword_2ComboID:1,AnimSpeed:800.0%"
+        Memo: 
+        IfBID: 1
+        IfBIDs: 
+        Times: {x: 0, y: 2, z: 0}
+        ComboID: 1
+        AnimClip: {fileID: 1628126560036685130, guid: 99c95ceb26202e14b8d918a167d7da44, type: 3}
+        AnimSpeed: 800
+    - rid: 5286047648232767630
+      type: {class: Data_Attack/Class_AEvent_Anim, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[11]\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3|BID:2,\u6642\u9593:(0\uFF5E2)\u79D2|AnimClip:BoneBase|Atk_SSword_3ComboID:2,AnimSpeed:800.0%"
+        Memo: 
+        IfBID: 2
+        IfBIDs: 
+        Times: {x: 0, y: 2, z: 0}
+        ComboID: 2
+        AnimClip: {fileID: 5853597881876224788, guid: 99c95ceb26202e14b8d918a167d7da44, type: 3}
+        AnimSpeed: 800
+    - rid: 5286047648232767631
+      type: {class: Data_Attack/Class_AEvent_Anim, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[12]\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3|BID:10,\u6642\u9593:(0\uFF5E2)\u79D2|AnimClip:BoneBase|Atk_NSword_HComboID:3,AnimSpeed:600.0%"
+        Memo: 
+        IfBID: 10
+        IfBIDs: 
+        Times: {x: 0, y: 2, z: 0}
+        ComboID: 3
+        AnimClip: {fileID: 7328202713370535564, guid: 99c95ceb26202e14b8d918a167d7da44, type: 3}
+        AnimSpeed: 600

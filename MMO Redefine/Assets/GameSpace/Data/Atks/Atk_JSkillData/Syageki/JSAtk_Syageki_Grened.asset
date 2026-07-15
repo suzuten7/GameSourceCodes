@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fe58b3b87749b543bf81c315e34f0e0, type: 3}
+  m_Name: JSAtk_Syageki_Grened
+  m_EditorClassIdentifier: Assembly-CSharp::Suzuten_Test.Suzuten_Data_Attack
+  Name: "\u30B0\u30EC\u30CD\u30FC\u30C9"
+  Info: "\u624B\u69B4\u5F3E\u3092\u6295\u3052\u7206\u7834\u3055\u305B\u308B"
+  Icon: {fileID: 0}
+  Type: 1
+  AddressableAddress: JSAtk_Syageki_Grened
+  AtkType: 0
+  CT: 8
+  Costs:
+  - Type: 3
+    Val: 350
+  Branchs: []
+  SortOption: 0
+  SortUpper: 1
+  EndTime: 0
+  Events:
+  - rid: 2557346964607336723
+  references:
+    version: 2
+    RefIds:
+    - rid: 2557346964607336723
+      type: {class: Data_Attack/Class_AEvent_ShotMain, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[0]\u5F3E\u767A\u5C04|BID:0,\u6642\u9593:(0)\u79D2|Attack_Grened_Shot,Count:3,Speed:700,TBase:MyPosition,MyLook,Hit:\xD70,HCT:0\u79D2,HEXCh:0%"
+        Memo: 
+        IfBID: 0
+        IfBIDs: 
+        Times: {x: 0, y: 0, z: 0}
+        Shot: {fileID: 5935130586681626263, guid: 615708ea373b5e844827c6777feeaed9, type: 3}
+        Fire:
+          Count: 3
+          Speed: {x: 700, y: 700}
+          PosBase: 0
+          PosChange: []
+          RotBase: 0
+          RotChange:
+          - TChange: 0
+            VectVal: {x: -25, y: 0, z: 0}
+            AddVal: {x: 0, y: 0}
+          - TChange: 2
+            VectVal: {x: 0, y: 25, z: 0}
+            AddVal: {x: 0, y: 0}
+        Hits: []
+        HitCT: 0
+        HitEXCharge: 0

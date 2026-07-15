@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fe58b3b87749b543bf81c315e34f0e0, type: 3}
+  m_Name: EnAtk_FallBurst
+  m_EditorClassIdentifier: Assembly-CSharp::Suzuten_Test.Suzuten_Data_Attack
+  Name: "\u30D5\u30A9\u30FC\u30EB\u30D0\u30FC\u30B9\u30C8"
+  Info: 
+  Icon: {fileID: 0}
+  Type: 1
+  AddressableAddress: EnAtk_FallBurst
+  AtkType: 0
+  CT: 1
+  Costs: []
+  Branchs:
+  - DispStr: "[0]|2\u79D2"
+    BID: 0
+    BName: 
+    EndTime: 2
+  SortOption: 0
+  SortUpper: 1
+  EndTime: 2
+  Events:
+  - rid: 5286047512291705008
+  - rid: 2557346964607336744
+  - rid: 2557346964607336745
+  references:
+    version: 2
+    RefIds:
+    - rid: 2557346964607336744
+      type: {class: Data_Attack/Class_AEvent_MyMove, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[1]\u81EA\u5DF1\u79FB\u52D5|BID:0,\u6642\u9593:(1)\u79D2|Vect:(0.00,
+          -3000.00, 0.00)"
+        Memo: 
+        IfBID: 0
+        IfBIDs: 
+        Times: {x: 1, y: 1, z: 0}
+        RotBase: 0
+        RotOffSet: {x: 0, y: 0, z: 0}
+        Vect: {x: 0, y: -3000, z: 0}
+        RotPer: 0
+    - rid: 2557346964607336745
+      type: {class: Data_Attack/Class_AEvent_ShotMain, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[2]\u5F3E\u767A\u5C04|BID:0,\u6642\u9593:(1.4)\u79D2|Attack_ESlash,Count:5,Speed:1000,TBase:MyPosition,MyLook,Hit:\xD71,HCT:0\u79D2,HEXCh:0%"
+        Memo: 
+        IfBID: 0
+        IfBIDs: 
+        Times: {x: 1.4, y: 1.4, z: 0}
+        Shot: {fileID: 5935130586681626263, guid: 325d9496a72b41746af772af48e9764d, type: 3}
+        Fire:
+          Count: 5
+          Speed: {x: 1000, y: 1000}
+          PosBase: 0
+          PosChange: []
+          RotBase: 0
+          RotChange:
+          - TChange: 2
+            VectVal: {x: 0, y: 72, z: 0}
+            AddVal: {x: 0, y: 0}
+        Hits:
+        - DispStr: "[0](\u6575)<\u30C0\u30E1,\u91CD\u6483,\u8FD1\u8DDD\u96E2,\u5149\u5C5E\u6027>\u653B\u6483\u5024:\u7269:\u9B54\u653B60:40%,\u9632\u5FA1\u5024:\u7269:\u9B54\u963240:60%,\u500D\u7387\xD7333%"
+          Option:
+            EHit: 1
+            FHit: 0
+            MHit: 0
+            DeathHit: 0
+            Heal: 0
+            AtkType: 1
+            RangeType: 0
+            NoDamAdd: 0
+            NoBaseRegist: 0
+            Element: 5
+            EleRides: 0
+            NoEleRegist: 0
+            ChangeCritPer: {x: 0, y: 0}
+            ChangeCritMult: {x: 0, y: 0}
+            ChangeHitPer: {x: 0, y: 0}
+            ChangeDogePer: {x: 0, y: 0}
+          Dam:
+            CalStr: "\u653B\u6483\u5024:\u7269:\u9B54\u653B60:40%,\u9632\u5FA1\u5024:\u7269:\u9B54\u963240:60%,\u500D\u7387\xD7333%"
+            DamCals:
+            - HitSta: 0
+              Base: 100
+              Op: 4
+              Mult: 40
+            DefCals:
+            - HitSta: 1
+              Base: 101
+              Op: 4
+              Mult: 60
+            DefPer: 0
+            Mult: 333
+          BufAdds: []
+        HitCT: 0
+        HitEXCharge: 0
+        HateAdd: {x: 0, y: 0}
+    - rid: 5286047512291705008
+      type: {class: Data_Attack/Class_AEvent_MyMove, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[0]\u81EA\u5DF1\u79FB\u52D5|BID:0,\u6642\u9593:(0)\u79D2|Vect:(0.00,
+          1500.00, 6000.00)"
+        Memo: 
+        IfBID: 0
+        IfBIDs: 
+        Times: {x: 0, y: 0, z: 0}
+        RotBase: 0
+        RotOffSet: {x: 0, y: 0, z: 0}
+        Vect: {x: 0, y: 1500, z: 6000}
+        RotPer: 0

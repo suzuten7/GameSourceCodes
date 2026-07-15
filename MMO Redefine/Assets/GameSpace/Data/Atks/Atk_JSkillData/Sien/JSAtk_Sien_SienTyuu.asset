@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fe58b3b87749b543bf81c315e34f0e0, type: 3}
+  m_Name: JSAtk_Sien_SienTyuu
+  m_EditorClassIdentifier: Assembly-CSharp::Suzuten_Test.Suzuten_Data_Attack
+  Name: "\u652F\u63F4\u67F1"
+  Info: "\u652F\u63F4\u52B9\u679C\u3092\u6301\u3064\u67F1\u3092\u5EFA\u3066\u308B"
+  Icon: {fileID: 2800000, guid: b5414b7d99eab204da7758503e2d266d, type: 3}
+  Type: 1
+  AddressableAddress: JSAtk_Sien_SienTyuu
+  AtkType: 0
+  CT: 15
+  Costs: []
+  Branchs: []
+  SortOption: 0
+  SortUpper: 1
+  Events:
+  - rid: 2557346964607336749
+  references:
+    version: 2
+    RefIds:
+    - rid: 2557346964607336749
+      type: {class: Data_Attack/Class_AEvent_ShotMain, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[0]\u5F3E\u767A\u5C04|BID:0,\u6642\u9593:(0)\u79D2|Summon_SapoCel,Count:1,Speed:1000,TBase:\u81EA\u8EAB\u4F4D\u7F6E,\u81EA\u8EAB\u5411\u304D,Hit:\xD70,HCT:0\u79D2"
+        Memo: 
+        IfBID: 0
+        Times: {x: 0, y: 0, z: 0}
+        Shot: {fileID: 4376319703276055463, guid: d0e8855e6db2cce4fb124b64da07a750, type: 3}
+        Fire:
+          Count: 1
+          Speed: {x: 1000, y: 1000}
+          PosBase: 0
+          PosChange:
+          - TChange: 0
+            VectVal: {x: 0, y: 0, z: 1}
+            AddVal: {x: 0, y: 0}
+          RotBase: 0
+          RotChange: []
+        Hits: []
+        HitCT: 0

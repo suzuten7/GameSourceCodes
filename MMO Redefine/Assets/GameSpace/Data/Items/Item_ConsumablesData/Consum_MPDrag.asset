@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bad41e71af3e194f98e7e588a1ca985, type: 3}
+  m_Name: Consum_MPDrag
+  m_EditorClassIdentifier: Assembly-CSharp::Suzuten_Test.Suzuten_Data_Consumables
+  Name: "\u9B54\u6CD5\u306E\u85AC\u5264"
+  Info: "MP\u3092\u5272\u5408\u3067\u56DE\u5FA9\u3067\u304D\u308B"
+  Icon: {fileID: 2800000, guid: 24a22d21fe312f44892796563f01c302, type: 3}
+  Type: 0
+  Model: {fileID: 0}
+  Rarity: 0
+  BuyGold: 250
+  UpgradeExp: 0
+  Attack: {fileID: 11400000, guid: 26689da42331f9848a16406988c600cb, type: 2}

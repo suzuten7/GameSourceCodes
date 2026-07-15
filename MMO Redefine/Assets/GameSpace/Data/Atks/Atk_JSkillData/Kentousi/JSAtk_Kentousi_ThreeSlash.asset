@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fe58b3b87749b543bf81c315e34f0e0, type: 3}
+  m_Name: JSAtk_Kentousi_ThreeSlash
+  m_EditorClassIdentifier: Assembly-CSharp::Suzuten_Test.Suzuten_Data_Attack
+  Name: "3\u9023\u65AC"
+  Info: "3\u3064\u306E\u65AC\u6483\u3092\u653E\u3064"
+  Icon: {fileID: 2800000, guid: b060fbdc0301b004789c23fbfeb023ee, type: 3}
+  Type: 1
+  AddressableAddress: JSAtk_Kensi_ThreeSlash
+  AtkType: 0
+  CT: 7
+  Costs: []
+  Branchs:
+  - DispStr: "[0]|1\u79D2"
+    BID: 0
+    BName: 
+    EndTime: 1
+  SortOption: 0
+  SortUpper: 1
+  EndTime: 1
+  Events:
+  - rid: 2557346964607336723
+  references:
+    version: 2
+    RefIds:
+    - rid: 2557346964607336723
+      type: {class: Data_Attack/Class_AEvent_ShotMain, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[0]\u5F3E\u767A\u5C04|BID:0,\u6642\u9593:(0\uFF5E0.6\u9593\u96940.25)\u79D2|Attack_Sword_Base,Count:1,Speed:1600,TBase:MyPosition,MyLook,Hit:\xD71,HCT:0\u79D2,HEXCh:0%"
+        Memo: 
+        IfBID: 0
+        IfBIDs: 
+        Times: {x: 0, y: 0.6, z: 0.25}
+        Shot: {fileID: 5935130586681626263, guid: 6ca6b9a1783fda44c9e20f6bcaa8502e, type: 3}
+        Fire:
+          Count: 1
+          Speed: {x: 1600, y: 1600}
+          PosBase: 0
+          PosChange: []
+          RotBase: 0
+          RotChange:
+          - TChange: 1
+            VectVal: {x: 0, y: 0, z: 45}
+            AddVal: {x: 0, y: 0}
+        Hits:
+        - DispStr: "[0](\u6575)<\u30C0\u30E1,\u30B9\u30AD\u30EB,\u8FD1\u8DDD\u96E2,\u7121\u5C5E\u6027>\u653B\u6483\u5024:\u73FE\u5728HP0%,\u9632\u5FA1\u5024:\u6700\u5927MP0%,\u500D\u7387\xD790%"
+          Option:
+            EHit: 1
+            FHit: 0
+            MHit: 0
+            DeathHit: 0
+            Heal: 0
+            AtkType: 2
+            RangeType: 0
+            NoDamAdd: 0
+            NoBaseRegist: 0
+            Element: 0
+            EleRides: 0
+            NoEleRegist: 0
+            ChangeCritPer: {x: 0, y: 0}
+            ChangeCritMult: {x: 0, y: 0}
+            ChangeHitPer: {x: 0, y: 0}
+            ChangeDogePer: {x: 0, y: 0}
+          Dam:
+            CalStr: "\u653B\u6483\u5024:\u73FE\u5728HP0%,\u9632\u5FA1\u5024:\u6700\u5927MP0%,\u500D\u7387\xD790%"
+            DamCals:
+            - HitSta: 0
+              Base: 3
+              Op: 0
+              Mult: 0
+            DefCals:
+            - HitSta: 1
+              Base: 4
+              Op: 0
+              Mult: 0
+            DefPer: 0
+            Mult: 90
+          BufAdds: []
+        HitCT: 0
+        HitEXCharge: 0
+        HateAdd: {x: 0, y: 0}

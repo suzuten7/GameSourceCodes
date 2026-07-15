@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac39b339236a4244f8f0b49a8fffc025, type: 3}
+  m_Name: Wepon_Sword_Fire
+  m_EditorClassIdentifier: Assembly-CSharp::Suzuten_Test.Suzuten_Data_Wepon
+  Name: "\u708E\u306E\u5263"
+  Info: 
+  Icon: {fileID: 2800000, guid: 1718e71cb3d23514290ee91ef83bfb45, type: 3}
+  Type: 1
+  Model: {fileID: 3509651900504877852, guid: 5ef9b9658ee323a4aa69f117429f8f71, type: 3}
+  Rarity: 0
+  BuyGold: 0
+  UpgradeExp: 0
+  UpgradeCost: 170
+  UpgradeBoosts:
+  - ItemD: {fileID: 11400000, guid: f81384a5b869f0b4e81c385c34c97242, type: 2}
+    ExpAddPer: 50
+  WeponObject: {fileID: 3509651900504877852, guid: 5ef9b9658ee323a4aa69f117429f8f71, type: 3}
+  Attack: {fileID: 11400000, guid: 2d758609c1abc6b4686864e683bca9e1, type: 2}
+  Stay: 0
+  EquipmentAdds:
+  - EquipIfs: []
+    State: 100
+    Option: 0
+    Values: {x: 10, y: 1}
+  - EquipIfs: []
+    State: 100
+    Option: 1
+    Values: {x: 5, y: 0.5}
+  - EquipIfs: []
+    State: 401
+    Option: 0
+    Values: {x: 25, y: 2.5}
+  TriggerAttacks: []

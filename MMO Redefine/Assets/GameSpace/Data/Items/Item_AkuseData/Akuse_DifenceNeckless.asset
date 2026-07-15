@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4c54f5ae6be2664fa72292c64d02205, type: 3}
+  m_Name: Akuse_DifenceNeckless
+  m_EditorClassIdentifier: Assembly-CSharp::Suzuten_Test.Suzuten_Data_Equipment
+  Name: "\u9632\u5FA1\u306E\u30CD\u30C3\u30AF\u30EC\u30B9"
+  Info: "\u88AB\u30C0\u30E1\u30FC\u30B8\u3092\u8EFD\u6E1B\u3059\u308B\u9996\u98FE\u308A"
+  Icon: {fileID: 2800000, guid: 2701010585f93f9409ca2f3688c8d90b, type: 3}
+  Type: 101
+  Model: {fileID: 0}
+  Rarity: 2
+  BuyGold: 2000
+  UpgradeExp: 0
+  UpgradeCost: 500
+  EquipmentAdds:
+  - EquipIfs: []
+    State: 205
+    Option: 0
+    Values: {x: 20, y: 0.05}
+  TriggerAttacks: []

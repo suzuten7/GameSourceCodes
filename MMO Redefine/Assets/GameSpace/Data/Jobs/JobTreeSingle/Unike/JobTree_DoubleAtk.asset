@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a601ed501c3c0440aef862acb0ae1f1, type: 3}
+  m_Name: JobTree_DoubleAtk
+  m_EditorClassIdentifier: Assembly-CSharp::Data_JobTree
+  Name: "\u30C0\u30D6\u30EB\u30A2\u30BF\u30C3\u30AF"
+  Info: "\u653B\u6483\u547D\u4E2D\u6642\u306B\u8FFD\u52A0\u653B\u6483\u3092\u3059\u308B"
+  Icon: {fileID: 2800000, guid: edac287d69aca35439d9528210bb9040, type: 3}
+  Point: 5
+  LVMax: 1
+  StateAdds: []
+  TriggerAttacks:
+  - Trigger: 100
+    EquipIfs: []
+    TriggerStaTransUse: 0
+    Attack: {fileID: 11400000, guid: dcca381d86ea64a4abaa4457591b6ae5, type: 2}
+  SkillAdds: []

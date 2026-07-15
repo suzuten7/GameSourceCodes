@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac39b339236a4244f8f0b49a8fffc025, type: 3}
+  m_Name: Wepon_Staff_Wand
+  m_EditorClassIdentifier: Assembly-CSharp::Suzuten_Test.Suzuten_Data_Wepon
+  Name: "\u30EF\u30F3\u30C9"
+  Info: 
+  Icon: {fileID: 2800000, guid: e8c7db9db11cef24f9be643b37653a55, type: 3}
+  Type: 61
+  Model: {fileID: 3509651900504877852, guid: 2d953ebba1206764f81889c0579bded3, type: 3}
+  Rarity: 1
+  BuyGold: 2500
+  UpgradeExp: 0
+  UpgradeCost: 250
+  UpgradeBoosts: []
+  WeponObject: {fileID: 3509651900504877852, guid: 2d953ebba1206764f81889c0579bded3, type: 3}
+  Attack: {fileID: 11400000, guid: 6925c955ad534b14bb75169e8efd0aff, type: 2}
+  Stay: 0
+  EquipmentAdds:
+  - EquipIfs: []
+    State: 101
+    Option: 0
+    Values: {x: 10, y: 1}
+  - EquipIfs: []
+    State: 101
+    Option: 1
+    Values: {x: 5, y: 0.5}
+  - EquipIfs: []
+    State: 3
+    Option: 1
+    Values: {x: 20, y: 2}
+  TriggerAttacks: []

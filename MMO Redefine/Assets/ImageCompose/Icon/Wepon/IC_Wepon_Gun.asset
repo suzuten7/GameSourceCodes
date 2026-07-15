@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1f72764022b1224a937c65be5312c06, type: 3}
+  m_Name: IC_Wepon_Gun
+  m_EditorClassIdentifier: Assembly-CSharp::Toole.ImageComposeSO
+  outputSize: {x: 256, y: 256}
+  backColor: {r: 0, g: 0, b: 0, a: 0}
+  layers:
+  - noOutput: 0
+    locks: 0
+    hidePreview: 0
+    order: 0
+    texture: {fileID: 2800000, guid: b4df995f83ec09d42a1ff0ac02a53534, type: 3}
+    color: {r: 0.6320754, g: 0.6320754, b: 0.6320754, a: 1}
+    anchor: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0.5}
+    position: {x: -4.025157, y: 26.566025}
+    rotation: 3.9558458
+    size: {x: 64, y: 64}
+    scale: {x: 2.7076735, y: 0.44114485}
+  - noOutput: 0
+    locks: 0
+    hidePreview: 0
+    order: 0
+    texture: {fileID: 2800000, guid: b4df995f83ec09d42a1ff0ac02a53534, type: 3}
+    color: {r: 0.3207547, g: 0.3207547, b: 0.3207547, a: 1}
+    anchor: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0.5}
+    position: {x: -74.86791, y: -42.666664}
+    rotation: 273.25073
+    size: {x: 64, y: 64}
+    scale: {x: 1.9350537, y: 0.52190626}
+  - noOutput: 0
+    locks: 0
+    hidePreview: 0
+    order: -1
+    texture: {fileID: 2800000, guid: b4df995f83ec09d42a1ff0ac02a53534, type: 3}
+    color: {r: 0.4716981, g: 0.4716981, b: 0.4716981, a: 1}
+    anchor: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0.5}
+    position: {x: 7.2452674, y: 11.270456}
+    rotation: 1.7365265
+    size: {x: 64, y: 64}
+    scale: {x: 3.0334315, y: 0.29400927}
+  previewCheck1: {r: 0.7, g: 0.7, b: 0.7, a: 1}
+  previewCheck2: {r: 0.3, g: 0.3, b: 0.3, a: 1}

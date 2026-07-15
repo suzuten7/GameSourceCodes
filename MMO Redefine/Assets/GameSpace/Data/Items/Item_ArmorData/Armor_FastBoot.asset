@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4c54f5ae6be2664fa72292c64d02205, type: 3}
+  m_Name: Armor_FastBoot
+  m_EditorClassIdentifier: Assembly-CSharp::Suzuten_Test.Suzuten_Data_Equipment
+  Name: "\u30D5\u30A1\u30FC\u30B9\u30C8\u30D6\u30FC\u30C4"
+  Info: "\u79FB\u52D5\u304C\u6709\u5229\u306B\u306A\u308B\u8DB3\u9632\u5177\n\u9632\u5FA1\u6027\u80FD\u306F\u4F4E\u3044"
+  Icon: {fileID: 2800000, guid: 7f2001eb007a2634f8a13fc2da1ad7fd, type: 3}
+  Type: 3
+  Model: {fileID: 0}
+  Rarity: 1
+  BuyGold: 0
+  UpgradeExp: 0
+  UpgradeCost: 150
+  EquipmentAdds:
+  - EquipIfs:
+    - If: 4
+      Val: {x: 50, y: 0}
+    State: 102
+    Option: 0
+    Values: {x: 2, y: 0.2}
+  - EquipIfs: []
+    State: 103
+    Option: 0
+    Values: {x: 2, y: 0.2}
+  - EquipIfs: []
+    State: 203
+    Option: 0
+    Values: {x: 5, y: 0}
+  TriggerAttacks:
+  - Trigger: 104
+    EquipIfs: []
+    TriggerStaTransUse: 1
+    Attack: {fileID: 11400000, guid: 5e8735874277bdc4b9693d2842235032, type: 2}

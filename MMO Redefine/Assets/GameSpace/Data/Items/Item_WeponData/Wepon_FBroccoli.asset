@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac39b339236a4244f8f0b49a8fffc025, type: 3}
+  m_Name: Wepon_FBroccoli
+  m_EditorClassIdentifier: Assembly-CSharp::Suzuten_Test.Suzuten_Data_Wepon
+  Name: "\u507D\u30D6"
+  Info: 
+  Icon: {fileID: 2800000, guid: 8c699c8b15e6d1e4da34c857282fc79c, type: 3}
+  Type: 80
+  Model: {fileID: 3509651900504877852, guid: 83c28d3e6d1b8e542959de3627054c5c, type: 3}
+  Rarity: 2
+  BuyGold: 8652
+  UpgradeExp: 0
+  UpgradeCost: 100
+  UpgradeBoosts: []
+  WeponObject: {fileID: 3509651900504877852, guid: 83c28d3e6d1b8e542959de3627054c5c, type: 3}
+  Attack: {fileID: 11400000, guid: a139b99039570e845bf1c62d497bc07c, type: 2}
+  Stay: 1
+  EquipmentAdds:
+  - EquipIfs: []
+    State: 100
+    Option: 0
+    Values: {x: 5, y: 0.5}
+  - EquipIfs: []
+    State: 100
+    Option: 1
+    Values: {x: 2.5, y: 0.25}
+  - EquipIfs: []
+    State: 101
+    Option: 0
+    Values: {x: 5, y: 0.5}
+  - EquipIfs: []
+    State: 101
+    Option: 1
+    Values: {x: 2.5, y: 0.25}
+  TriggerAttacks: []

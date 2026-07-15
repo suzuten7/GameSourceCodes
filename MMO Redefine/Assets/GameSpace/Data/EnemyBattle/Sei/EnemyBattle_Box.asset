@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b10f35fdc7fa1c4c92c0358eb4b6120, type: 3}
+  m_Name: EnemyBattle_Box
+  m_EditorClassIdentifier: Assembly-CSharp::DB.Data_EnemyBattle
+  Branchs:
+  - DispStr: "[0]|7\u79D2"
+    AID: 0
+    BName: 
+    EndTime: 7
+  SortOption: 0
+  SortUpper: 1
+  EndTime: 7
+  Acts:
+  - rid: 4580097502348574871
+  - rid: 4580097502348574830
+  - rid: 4580097502348574846
+  - rid: 4580097502348574869
+  - rid: 4580097502348574870
+  references:
+    version: 2
+    RefIds:
+    - rid: 4580097502348574830
+      type: {class: Data_EnemyBattle/Class_Data_EBEvent_Move, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[1]\u79FB\u52D5|ActID:0,\u6642\u9593:(0\uFF5E5)\u79D2|\u6761\u4EF6\u65701|"
+        Memo: 
+        ActID: 0
+        ActIDs: 
+        Times: {x: 0, y: 5, z: 0}
+        Ifs:
+        - Ifs: 0
+          Target: 0
+          Val: 10
+          Down: 0
+        BaseRot: 1
+        AddVect: {x: 0, y: 0, z: 1}
+        VeUsed: 0
+        SpeedPer: 100
+        LookPer: 0
+        SetVect: 0
+    - rid: 4580097502348574846
+      type: {class: Data_EnemyBattle/Class_Data_EBEvent_Move, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[2]\u79FB\u52D5|ActID:0,\u6642\u9593:(0\uFF5E5)\u79D2|\u6761\u4EF6\u65701|"
+        Memo: 
+        ActID: 0
+        ActIDs: 
+        Times: {x: 0, y: 5, z: 0}
+        Ifs:
+        - Ifs: 1
+          Target: 0
+          Val: 10
+          Down: 1
+        BaseRot: 1
+        AddVect: {x: 1, y: 0, z: 0}
+        VeUsed: 0
+        SpeedPer: 100
+        LookPer: 0
+        SetVect: 0
+    - rid: 4580097502348574869
+      type: {class: Data_EnemyBattle/Class_Data_EBEvent_Move, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[3]\u79FB\u52D5|\u30E1\u30E2:\u7A81\u6483|ActID:0,\u6642\u9593:(5\uFF5E7)\u79D2|"
+        Memo: "\u7A81\u6483"
+        ActID: 0
+        ActIDs: 
+        Times: {x: 5, y: 7, z: 0}
+        Ifs: []
+        BaseRot: 0
+        AddVect: {x: 0, y: 0, z: 1}
+        VeUsed: 0
+        SpeedPer: 6000
+        LookPer: 0
+        SetVect: 1
+    - rid: 4580097502348574870
+      type: {class: Data_EnemyBattle/Class_Data_EBEvent_Attack, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[4]\u653B\u6483|ActID:0,\u6642\u9593:(5\uFF5E7)\u79D2|"
+        Memo: 
+        ActID: 0
+        ActIDs: 
+        Times: {x: 5, y: 7, z: 0}
+        Ifs: []
+        AttackD: {fileID: 11400000, guid: 454039262162445498d0bd35fc6bc04b, type: 2}
+        ID: 0
+        Stay: 0
+        NoUse: 0
+        PosOffSet: {x: 0, y: 0, z: 0}
+        RotOffSet: {x: 0, y: 0, z: 0}
+    - rid: 4580097502348574871
+      type: {class: Data_EnemyBattle/Class_Data_EBEvent_Rot, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[0]\u56DE\u8EE2|ActID:0,\u6642\u9593:(0\uFF5E5)\u79D2|"
+        Memo: 
+        ActID: 0
+        ActIDs: 
+        Times: {x: 0, y: 5, z: 0}
+        Ifs: []
+        BaseRot: 1
+        AddRot: {x: 0, y: 0, z: 0}
+        LookPer: 100

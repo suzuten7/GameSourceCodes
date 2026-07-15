@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac39b339236a4244f8f0b49a8fffc025, type: 3}
+  m_Name: Wepon_Axe_Base
+  m_EditorClassIdentifier: Assembly-CSharp::Suzuten_Test.Suzuten_Data_Wepon
+  Name: "\u30A2\u30C3\u30AF\u30B9"
+  Info: 
+  Icon: {fileID: 2800000, guid: 05ea562b65ba6cf4099b7e30a297a11a, type: 3}
+  Type: 3
+  Model: {fileID: 3509651900504877852, guid: 9201dafb6b0022a4d9b7bdb1c438a017, type: 3}
+  Rarity: 0
+  BuyGold: 0
+  UpgradeExp: 0
+  UpgradeCost: 100
+  UpgradeBoosts: []
+  WeponObject: {fileID: 3509651900504877852, guid: 9201dafb6b0022a4d9b7bdb1c438a017, type: 3}
+  Attack: {fileID: 11400000, guid: 6723e821cd1e62c48bdf3d5c694cc1f4, type: 2}
+  Stay: 0
+  EquipmentAdds:
+  - EquipIfs: []
+    State: 100
+    Option: 0
+    Values: {x: 10, y: 1}
+  - EquipIfs: []
+    State: 100
+    Option: 1
+    Values: {x: 5, y: 0.5}
+  TriggerAttacks: []

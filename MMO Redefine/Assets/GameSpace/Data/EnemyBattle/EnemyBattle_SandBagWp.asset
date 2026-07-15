@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b10f35fdc7fa1c4c92c0358eb4b6120, type: 3}
+  m_Name: EnemyBattle_SandBagWp
+  m_EditorClassIdentifier: Assembly-CSharp::Suzuten_Test.Data_EnemyBattle
+  Branchs:
+  - DispStr: "[0]\u653B\u6483|1\u79D2"
+    AID: 0
+    BName: "\u653B\u6483"
+    EndTime: 1
+  SortOption: 0
+  SortUpper: 1
+  EndTime: 1
+  Acts:
+  - rid: 4682136330209329270
+  - rid: 4682136330209329449
+  - rid: 5286047512291705042
+  references:
+    version: 2
+    RefIds:
+    - rid: 4682136330209329270
+      type: {class: Data_EnemyBattle/Class_Data_EBEvent_Attack, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[0]\u653B\u6483|ActID:0,\u6642\u9593:(0\uFF5E1)\u79D2|\u6761\u4EF6\u65701|"
+        Memo: 
+        ActID: 0
+        ActIDs: 
+        Times: {x: 0, y: 1, z: 0}
+        Ifs:
+        - Ifs: 1
+          Target: 0
+          Val: 7
+          Down: 1
+        AttackD: {fileID: 11400000, guid: f916673eeaf8e4d4b997a85bb78021d8, type: 2}
+        ID: -1
+        Stay: 0
+        NoUse: 0
+        PosOffSet: {x: -1.25, y: 0, z: 0}
+        RotOffSet: {x: 0, y: 0, z: 0}
+    - rid: 4682136330209329449
+      type: {class: Data_EnemyBattle/Class_Data_EBEvent_Attack, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[1]\u653B\u6483|ActID:0,\u6642\u9593:(0\uFF5E1)\u79D2|\u6761\u4EF6\u65701|"
+        Memo: 
+        ActID: 0
+        ActIDs: 
+        Times: {x: 0, y: 1, z: 0}
+        Ifs:
+        - Ifs: 1
+          Target: 0
+          Val: 7
+          Down: 1
+        AttackD: {fileID: 11400000, guid: 224f7016f3c36d64680b80cba79517e5, type: 2}
+        ID: -2
+        Stay: 0
+        NoUse: 0
+        PosOffSet: {x: 1.25, y: 0, z: 0}
+        RotOffSet: {x: 0, y: 0, z: 0}
+    - rid: 5286047512291705042
+      type: {class: Data_EnemyBattle/Class_Data_EBEvent_Rot, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[2]\u56DE\u8EE2|ActID:0,\u6642\u9593:(0\uFF5E1)\u79D2|"
+        Memo: 
+        ActID: 0
+        ActIDs: 
+        Times: {x: 0, y: 1, z: 0}
+        Ifs: []
+        BaseRot: 1
+        AddRot: {x: 0, y: 0, z: 0}
+        LookPer: 5

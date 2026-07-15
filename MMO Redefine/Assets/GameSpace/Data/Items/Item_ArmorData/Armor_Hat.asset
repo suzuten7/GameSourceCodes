@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4c54f5ae6be2664fa72292c64d02205, type: 3}
+  m_Name: Armor_Hat
+  m_EditorClassIdentifier: Assembly-CSharp::Suzuten_Test.Suzuten_Data_Equipment
+  Name: "\u30CF\u30C3\u30C8"
+  Info: "\u9B54\u6CD5\u5411\u3051\u306E\u982D\u9632\u5177"
+  Icon: {fileID: 2800000, guid: 8e60496f21a933749902580e8f3f91bd, type: 3}
+  Type: 0
+  Model: {fileID: 0}
+  Rarity: 0
+  BuyGold: 0
+  UpgradeExp: 0
+  UpgradeCost: 100
+  EquipmentAdds:
+  - EquipIfs: []
+    State: 103
+    Option: 0
+    Values: {x: 7, y: 0.7}
+  - EquipIfs: []
+    State: 102
+    Option: 0
+    Values: {x: 0.3, y: 0.3}
+  - EquipIfs: []
+    State: 103
+    Option: 1
+    Values: {x: 5, y: 0.5}
+  TriggerAttacks:
+  - Trigger: 104
+    EquipIfs: []
+    TriggerStaTransUse: 1
+    Attack: {fileID: 11400000, guid: 5e8735874277bdc4b9693d2842235032, type: 2}

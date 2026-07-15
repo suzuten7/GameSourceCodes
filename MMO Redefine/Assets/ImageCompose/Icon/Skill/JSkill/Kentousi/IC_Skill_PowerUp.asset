@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1f72764022b1224a937c65be5312c06, type: 3}
+  m_Name: IC_Skill_PowerUp
+  m_EditorClassIdentifier: Assembly-CSharp::Toole.ImageComposeSO
+  outputSize: {x: 256, y: 256}
+  backColor: {r: 0, g: 0, b: 0, a: 0}
+  layers:
+  - noOutput: 0
+    locks: 0
+    hidePreview: 0
+    order: 0
+    texture: {fileID: 2800000, guid: bf1cdc1d422c37d46ae192b7500f5e4f, type: 3}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    anchor: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0.5}
+    position: {x: 67.20504, y: -14.73595}
+    rotation: 0
+    size: {x: 64, y: 64}
+    scale: {x: 1.2100002, y: 1.8700001}
+  - noOutput: 0
+    locks: 0
+    hidePreview: 0
+    order: 0
+    texture: {fileID: 2800000, guid: a8a427245458bc54284aa9f408515045, type: 3}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    anchor: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0.5}
+    position: {x: -70.37784, y: -9.944507}
+    rotation: 0
+    size: {x: 64, y: 64}
+    scale: {x: 1.2100002, y: 1.8700001}
+  - noOutput: 0
+    locks: 0
+    hidePreview: 0
+    order: 0
+    texture: {fileID: 2800000, guid: d4198952f753bed4ea97f27c40106d6a, type: 3}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    anchor: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0.5}
+    position: {x: -0.5036926, y: -34.732594}
+    rotation: 0
+    size: {x: 64, y: 64}
+    scale: {x: 2.0813267, y: 2.3805394}
+  - noOutput: 0
+    locks: 0
+    hidePreview: 0
+    order: -1
+    texture: {fileID: 2800000, guid: 3914b5a02177be7428f363b9764066a9, type: 3}
+    color: {r: 1, g: 0, b: 0, a: 1}
+    anchor: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0.5}
+    position: {x: -8.213906, y: 11.636365}
+    rotation: 268.90695
+    size: {x: 64, y: 64}
+    scale: {x: 3.3986144, y: 2.4736817}
+  previewCheck1: {r: 0.7, g: 0.7, b: 0.7, a: 1}
+  previewCheck2: {r: 0.3, g: 0.3, b: 0.3, a: 1}

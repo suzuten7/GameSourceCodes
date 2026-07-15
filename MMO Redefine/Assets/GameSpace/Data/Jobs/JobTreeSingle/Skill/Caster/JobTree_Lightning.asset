@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a601ed501c3c0440aef862acb0ae1f1, type: 3}
+  m_Name: JobTree_Lightning
+  m_EditorClassIdentifier: Assembly-CSharp::Data_JobTree
+  Name: "\u30E9\u30A4\u30C8\u30CB\u30F3\u30B0"
+  Info: "\u30B9\u30AD\u30EB\u300C\u30E9\u30A4\u30C8\u30CB\u30F3\u30B0\u300D\u304C\u4F7F\u7528\u53EF\u80FD\u306B"
+  Icon: {fileID: 2800000, guid: c0528e9ba3878be4cbdc4a4af0ea619a, type: 3}
+  Point: 5
+  LVMax: 1
+  StateAdds: []
+  TriggerAttacks: []
+  SkillAdds:
+  - {fileID: 11400000, guid: aee2cde4742d8cd42bf2775cd426cb8b, type: 2}

@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91c8e8e76d57cbf4981ef25bc7351421, type: 3}
+  m_Name: Job_Rom_Hubutu
+  m_EditorClassIdentifier: Assembly-CSharp::Suzuten_Test.Suzuten_Data_Job
+  Name: "\u6D6E\u7269"
+  Info: "\u9AD8\u3044\u901F\u5EA6\u3092\u6301\u3064\u304C\n\u6483\u305F\u308C\u5F31\u3044"
+  MHP: 300
+  HPRegene: 3
+  MMP: 300
+  MPRegene: 5
+  MST: 350
+  STRegene: 75
+  PAtk: 50
+  MAtk: 50
+  PDef: 50
+  MDef: 50
+  Adds:
+  - EquipIfs: []
+    State: 202
+    Option: 0
+    Values: {x: 15, y: 0}
+  - EquipIfs: []
+    State: 203
+    Option: 0
+    Values: {x: 10, y: 0}
+  - EquipIfs: []
+    State: 209
+    Option: 0
+    Values: {x: 15, y: 0}
+  - EquipIfs: []
+    State: 205
+    Option: 3
+    Values: {x: -25, y: 0}
+  - EquipIfs: []
+    State: 240
+    Option: 0
+    Values: {x: 20, y: 0}
+  SkillAttacks:
+  - {fileID: 11400000, guid: 48d9bec1dfccfce4fb03c7901cc7fad5, type: 2}
+  - {fileID: 11400000, guid: 2146743050b6bf346be56a99b094bac6, type: 2}
+  - {fileID: 11400000, guid: 6f2c2ac062045d344b7a04f430955deb, type: 2}
+  - {fileID: 11400000, guid: 3261fbda1d396204aabeb3b80ef597cf, type: 2}
+  - {fileID: 11400000, guid: ca7994609d10e314a8e4b20bd72f1421, type: 2}
+  - {fileID: 11400000, guid: a34a90b1a2671604babd732940dc1e4d, type: 2}
+  - {fileID: 11400000, guid: f178ba2d252d3b74c854d499a1eb5aee, type: 2}
+  - {fileID: 11400000, guid: 6a26537aa8bd5bc40abaf2c165d0a3fb, type: 2}
+  JTGroupSet:
+  - JTreeGroup: {fileID: 11400000, guid: 25f0f9fb3d5e8314c944995306a89de0, type: 2}
+    OffSet: {x: 0, y: 0}
+  - JTreeGroup: {fileID: 11400000, guid: 7c65764ca6fa69c4ca81587a85dfb8c6, type: 2}
+    OffSet: {x: 2, y: 0}
+  - JTreeGroup: {fileID: 11400000, guid: 98b6bf655fa11e14190ae49a4a0efac7, type: 2}
+    OffSet: {x: 0, y: -5}

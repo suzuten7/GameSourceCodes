@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fe58b3b87749b543bf81c315e34f0e0, type: 3}
+  m_Name: EnAtk_Beam
+  m_EditorClassIdentifier: Assembly-CSharp::Datas.Data_Attack
+  Name: 
+  Info: 
+  Icon: {fileID: 0}
+  Type: 0
+  AddressableAddress: EnAtk_Beam
+  AtkType: 0
+  CT: 0
+  Costs: []
+  Branchs: []
+  SortOption: 0
+  SortUpper: 1
+  EndTime: 0
+  Events:
+  - rid: 5286047829401272436
+  references:
+    version: 2
+    RefIds:
+    - rid: 5286047829401272436
+      type: {class: Data_Attack/Class_AEvent_ShotMain, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[0]\u5F3E\u767A\u5C04|BID:0,\u6642\u9593:(0)\u79D2|Attack_Beam,Count:1,Speed:1,TBase:MyPosition,MyLook,Hit:\xD71,HCT:1\u79D2,HEXCh:0%"
+        Memo: 
+        IfBID: 0
+        IfBIDs: 
+        Times: {x: 0, y: 0, z: 0}
+        Shot: {fileID: 5935130586681626263, guid: 07ab728b7dce9614ab39818eec29e6dd, type: 3}
+        Fire:
+          Count: 1
+          Speed: {x: 1, y: 1}
+          PosBase: 0
+          PosChange: []
+          RotBase: 0
+          RotChange:
+          - TChange: 0
+            VectVal: {x: 0, y: 90, z: 0}
+            AddVal: {x: 0, y: 0}
+        Hits:
+        - DispStr: "[0](\u6575)<\u30C0\u30E1,\u305D\u306E\u4ED6,\u305D\u306E\u4ED6,\u5149\u5C5E\u6027>\u653B\u6483\u5024:\u53D7.\u6700\u5927HP40%,\u500D\u7387\xD7100%"
+          Option:
+            EHit: 1
+            FHit: 0
+            MHit: 0
+            DeathHit: 0
+            Heal: 0
+            AtkType: 4
+            RangeType: 3
+            NoDamAdd: 1
+            NoBaseRegist: 1
+            Element: 5
+            EleRides: 0
+            NoEleRegist: 1
+            ChangeCritPer: {x: -9999, y: 0}
+            ChangeCritMult: {x: 0, y: 0}
+            ChangeHitPer: {x: 0, y: 0}
+            ChangeDogePer: {x: 0, y: 0}
+          Dam:
+            CalStr: "\u653B\u6483\u5024:\u53D7.\u6700\u5927HP40%,\u500D\u7387\xD7100%"
+            DamCals:
+            - HitSta: 1
+              Base: 1
+              Op: 4
+              Mult: 40
+            DefCals: []
+            DefPer: 0
+            Mult: 100
+          BufAdds: []
+        HitCT: 1
+        HitEXCharge: 0
+        HateAdd: {x: 0, y: 0}

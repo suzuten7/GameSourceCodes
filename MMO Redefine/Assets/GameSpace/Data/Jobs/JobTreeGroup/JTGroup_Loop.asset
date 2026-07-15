@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25e6c561ce6617643a673e1ea2192005, type: 3}
+  m_Name: JTGroup_Loop
+  m_EditorClassIdentifier: Assembly-CSharp::Suzuten_Test.Data_JobTree_Group
+  JobTrees:
+  - DispName: "[0]\u30EB\u30FC\u30D7,(-1.50, -1.00),\u524D\u63D0\u65701,\u524D\u63D0LV1"
+    CTree: {fileID: 11400000, guid: 97527f16e64e605418e16cefe4b7b5d5, type: 2}
+    Pos: {x: -1.5, y: -1}
+    BTreeIDs: 01000000
+    PrereLV: 1
+  - DispName: "[1]\u30EB\u30FC\u30D7,(1.50, -1.00),\u524D\u63D0\u65701,\u524D\u63D0LV2"
+    CTree: {fileID: 11400000, guid: 97527f16e64e605418e16cefe4b7b5d5, type: 2}
+    Pos: {x: 1.5, y: -1}
+    BTreeIDs: 02000000
+    PrereLV: 2
+  - DispName: "[2]\u30EB\u30FC\u30D7,(0.00, 2.00),\u524D\u63D0\u65701,\u524D\u63D0LV3"
+    CTree: {fileID: 11400000, guid: 97527f16e64e605418e16cefe4b7b5d5, type: 2}
+    Pos: {x: 0, y: 2}
+    BTreeIDs: 00000000
+    PrereLV: 3

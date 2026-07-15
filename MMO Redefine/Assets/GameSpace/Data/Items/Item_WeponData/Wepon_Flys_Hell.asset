@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac39b339236a4244f8f0b49a8fffc025, type: 3}
+  m_Name: Wepon_Flys_Hell
+  m_EditorClassIdentifier: Assembly-CSharp::Suzuten_Test.Suzuten_Data_Wepon
+  Name: "\u7344\u65AC"
+  Info: 
+  Icon: {fileID: 2800000, guid: a517d93e6144a4c45bd5a2fefa915139, type: 3}
+  Type: 0
+  Model: {fileID: 3509651900504877852, guid: 80ef94f6e73a46248abe1e1f5e9fe0b2, type: 3}
+  Rarity: 1
+  BuyGold: 2500
+  UpgradeExp: 0
+  UpgradeCost: 100
+  UpgradeBoosts: []
+  WeponObject: {fileID: 3509651900504877852, guid: 80ef94f6e73a46248abe1e1f5e9fe0b2, type: 3}
+  Attack: {fileID: 11400000, guid: a0c7e43ffe33f4d45ab3d4a09d67c39e, type: 2}
+  Stay: 0
+  EquipmentAdds:
+  - EquipIfs: []
+    State: 100
+    Option: 0
+    Values: {x: 4, y: 0.4}
+  - EquipIfs: []
+    State: 100
+    Option: 1
+    Values: {x: 2, y: 0.2}
+  - EquipIfs: []
+    State: 101
+    Option: 0
+    Values: {x: 6, y: 0.6}
+  - EquipIfs: []
+    State: 101
+    Option: 1
+    Values: {x: 3, y: 0.3}
+  TriggerAttacks: []

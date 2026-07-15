@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 205a0cb26729b844ab2c1dc64fdcfca2, type: 3}
+  m_Name: DropTable_Boss1
+  m_EditorClassIdentifier: Assembly-CSharp::Datas.Data_DropTable
+  Drops:
+  - TableName: "\u78BA\u5B9A\u7D20\u6750"
+    DropChancePer: 100
+    DropsSelects: 0
+    Drops:
+    - DropItems: {fileID: 11400000, guid: f81384a5b869f0b4e81c385c34c97242, type: 2}
+      DropCounts: {x: 8, y: 15}
+    - DropItems: {fileID: 11400000, guid: 80797dedafa892b44b48d18cd4c6eaa1, type: 2}
+      DropCounts: {x: 4, y: 6}
+  - TableName: "\u30E9\u30F3\u30C0\u30E0\u7D20\u6750"
+    DropChancePer: 100
+    DropsSelects: 2
+    Drops:
+    - DropItems: {fileID: 11400000, guid: 0e1ddea28dcf2be48844dd98d3f6cf3f, type: 2}
+      DropCounts: {x: 3, y: 5}
+    - DropItems: {fileID: 11400000, guid: cac3d30bf85fb8f4aa0749154d9a123b, type: 2}
+      DropCounts: {x: 3, y: 5}
+    - DropItems: {fileID: 11400000, guid: fd1100ec46cd18c4a8911260f9413c1d, type: 2}
+      DropCounts: {x: 3, y: 4}
+    - DropItems: {fileID: 11400000, guid: 8e9749504b242464480f973d21f7764d, type: 2}
+      DropCounts: {x: 1, y: 2}
+  - TableName: "\u8D85\u30EC\u30A2"
+    DropChancePer: 20
+    DropsSelects: 0
+    Drops:
+    - DropItems: {fileID: 11400000, guid: 4c4d4f414e974f940a00425df8c1f304, type: 2}
+      DropCounts: {x: 1, y: 1}
+  - TableName: "\u85AC\u8349"
+    DropChancePer: 100
+    DropsSelects: 0
+    Drops:
+    - DropItems: {fileID: 11400000, guid: 98c1e333dc34d8e4389595ca5edd398c, type: 2}
+      DropCounts: {x: 3, y: 6}
+  - TableName: "\u4ED6\u6D88\u8017\u54C1"
+    DropChancePer: 100
+    DropsSelects: 2
+    Drops:
+    - DropItems: {fileID: 11400000, guid: 79fd21feb635eee4f86d624247bcbbbf, type: 2}
+      DropCounts: {x: 3, y: 5}
+    - DropItems: {fileID: 11400000, guid: cd78394b5c374544eae9eae30f23f377, type: 2}
+      DropCounts: {x: 3, y: 5}
+    - DropItems: {fileID: 11400000, guid: 8e40dad04975a064487c5cbb57705b78, type: 2}
+      DropCounts: {x: 3, y: 5}
+    - DropItems: {fileID: 11400000, guid: d4902bc491e34384a952a59360051eaa, type: 2}
+      DropCounts: {x: 3, y: 5}
+  - TableName: "\u6B66\u5668"
+    DropChancePer: 100
+    DropsSelects: 1
+    Drops:
+    - DropItems: {fileID: 11400000, guid: 4d4c4a97a2d85d8468116b1bc8dba83b, type: 2}
+      DropCounts: {x: 1, y: 1}
+    - DropItems: {fileID: 11400000, guid: d1c45de5e190dd949ad50ffa2d578d45, type: 2}
+      DropCounts: {x: 1, y: 1}
+    - DropItems: {fileID: 11400000, guid: 278daeb91bddbbd48ba3f42fe75e0f0d, type: 2}
+      DropCounts: {x: 1, y: 1}
+    - DropItems: {fileID: 11400000, guid: c87dbef127ad6db458fbb987793ff00e, type: 2}
+      DropCounts: {x: 1, y: 1}
+    - DropItems: {fileID: 11400000, guid: d61e666b048f7bb46a018db1505a2179, type: 2}
+      DropCounts: {x: 1, y: 1}
+    - DropItems: {fileID: 11400000, guid: a1b05d52c027d364a82ed5ae5bebb24b, type: 2}
+      DropCounts: {x: 1, y: 1}
+    - DropItems: {fileID: 11400000, guid: b978751fece1309438462e8f29626b02, type: 2}
+      DropCounts: {x: 1, y: 1}
+  - TableName: "\u9632\u5177"
+    DropChancePer: 100
+    DropsSelects: 1
+    Drops:
+    - DropItems: {fileID: 11400000, guid: 92e462b44f2305a439f6d8fee2e244e5, type: 2}
+      DropCounts: {x: 1, y: 1}
+    - DropItems: {fileID: 11400000, guid: c70d4c57de6ecd94597c1e29128b0408, type: 2}
+      DropCounts: {x: 1, y: 1}
+    - DropItems: {fileID: 11400000, guid: ab06d085d81040f4885cdb1d112227f4, type: 2}
+      DropCounts: {x: 1, y: 1}
+    - DropItems: {fileID: 11400000, guid: 5c58cb89dbb90284c86745183abe6240, type: 2}
+      DropCounts: {x: 1, y: 1}
+    - DropItems: {fileID: 11400000, guid: 801c1433b6dfb8a4687814fafcdb65aa, type: 2}
+      DropCounts: {x: 1, y: 1}
+    - DropItems: {fileID: 11400000, guid: 164905f46acadcf4db932e70d0d5f650, type: 2}
+      DropCounts: {x: 1, y: 1}
+    - DropItems: {fileID: 11400000, guid: 719ee44006ef48e4da846116b914676c, type: 2}
+      DropCounts: {x: 1, y: 1}
+    - DropItems: {fileID: 11400000, guid: 7dc85d02490fa5644be96ff2b2288acb, type: 2}
+      DropCounts: {x: 1, y: 1}
+  - TableName: "\u30A2\u30AF\u30BB"
+    DropChancePer: 100
+    DropsSelects: 1
+    Drops:
+    - DropItems: {fileID: 11400000, guid: 1baac75b88c7d83469453c5ceba5002b, type: 2}
+      DropCounts: {x: 1, y: 1}
+    - DropItems: {fileID: 11400000, guid: c88b8bde41d1c54489d540a2c2ee2bf7, type: 2}
+      DropCounts: {x: 1, y: 1}
+    - DropItems: {fileID: 11400000, guid: a4aadff72b28e4349b5b817b8986f090, type: 2}
+      DropCounts: {x: 1, y: 1}
+    - DropItems: {fileID: 11400000, guid: b21f80721dd9b864d9fef4f3160a5b22, type: 2}
+      DropCounts: {x: 1, y: 1}
+    - DropItems: {fileID: 11400000, guid: d0b39daed04ba92458d8c8b784a76982, type: 2}
+      DropCounts: {x: 1, y: 1}
+    - DropItems: {fileID: 11400000, guid: d1dd09d5b2ed61e42bccb99eabeaa00d, type: 2}
+      DropCounts: {x: 1, y: 1}
+    - DropItems: {fileID: 11400000, guid: 5e0f0bf885b209a44bac1843c6dfbf16, type: 2}
+      DropCounts: {x: 1, y: 1}
+    - DropItems: {fileID: 11400000, guid: af63b55fd548e8b4ca1ebb15a93858f4, type: 2}
+      DropCounts: {x: 1, y: 1}

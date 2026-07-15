@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1f72764022b1224a937c65be5312c06, type: 3}
+  m_Name: IC_HPRegene
+  m_EditorClassIdentifier: Assembly-CSharp::Toole.ImageComposeSO
+  outputSize: {x: 256, y: 256}
+  backColor: {r: 0, g: 0, b: 0, a: 0}
+  layers:
+  - noOutput: 0
+    locks: 0
+    hidePreview: 0
+    order: 0
+    texture: {fileID: 2800000, guid: f5fff4b8f2f6e3449b6cb4d87f31b9ae, type: 3}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    anchor: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0.5}
+    position: {x: 0, y: 0}
+    rotation: 0
+    size: {x: 64, y: 64}
+    scale: {x: 2, y: 2}
+  - noOutput: 0
+    locks: 0
+    hidePreview: 0
+    order: 0
+    texture: {fileID: 2800000, guid: 3e0717bbabd91f34e83d24bab0547bae, type: 3}
+    color: {r: 0, g: 1, b: 0, a: 1}
+    anchor: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0.5}
+    position: {x: -70.60088, y: -40.179375}
+    rotation: -90
+    size: {x: 64, y: 64}
+    scale: {x: 2, y: 1}
+  - noOutput: 0
+    locks: 0
+    hidePreview: 0
+    order: 0
+    texture: {fileID: 2800000, guid: 3e0717bbabd91f34e83d24bab0547bae, type: 3}
+    color: {r: 0, g: 1, b: 0, a: 1}
+    anchor: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0.5}
+    position: {x: 0.57400787, y: 41.32734}
+    rotation: -90
+    size: {x: 64, y: 64}
+    scale: {x: 2, y: 1}
+  - noOutput: 0
+    locks: 0
+    hidePreview: 0
+    order: 0
+    texture: {fileID: 2800000, guid: 3e0717bbabd91f34e83d24bab0547bae, type: 3}
+    color: {r: 0, g: 1, b: 0, a: 1}
+    anchor: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0.5}
+    position: {x: 69.45292, y: -53.381165}
+    rotation: -90
+    size: {x: 64, y: 64}
+    scale: {x: 2, y: 1}
+  previewCheck1: {r: 0.7, g: 0.7, b: 0.7, a: 1}
+  previewCheck2: {r: 0.3, g: 0.3, b: 0.3, a: 1}

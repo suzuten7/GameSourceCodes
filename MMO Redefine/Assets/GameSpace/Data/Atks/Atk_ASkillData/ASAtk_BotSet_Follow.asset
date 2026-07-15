@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fe58b3b87749b543bf81c315e34f0e0, type: 3}
+  m_Name: ASAtk_BotSet_Follow
+  m_EditorClassIdentifier: Assembly-CSharp::Suzuten_Test.Suzuten_Data_Attack
+  Name: "\u30DC\u30C3\u30C8\u6307\u793A(\u8FFD\u5F93)"
+  Info: "\u30DC\u30C3\u30C8\u306E\u30E2\u30FC\u30C9\u304C\u8FFD\u5F93\n(\u30D7\u30EC\u30A4\u30E4\u30FC\u306B\u4ED8\u3044\u3066\u304F\u308B)\n\u306B\u306A\u308B"
+  Icon: {fileID: 2800000, guid: ceb9fa85de4d4f84caa1477b2b4898f8, type: 3}
+  Type: 1
+  AddressableAddress: ASAtk_BotSet_Follow
+  AtkType: 0
+  CT: 1
+  Costs: []
+  Branchs: []
+  SortOption: 0
+  SortUpper: 1
+  Events:
+  - rid: 5286047489797914712
+  references:
+    version: 2
+    RefIds:
+    - rid: 5286047489797914712
+      type: {class: Data_Attack/Class_AEvent_EX, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[0]EX|BID:0,\u6642\u9593:(0)\u79D2|EX:\u30DC\u30C3\u30C8\u6307\u793A_\u8FFD\u5F93"
+        Memo: 
+        IfBID: 0
+        Times: {x: 0, y: 0, z: 0}
+        EXs: 1

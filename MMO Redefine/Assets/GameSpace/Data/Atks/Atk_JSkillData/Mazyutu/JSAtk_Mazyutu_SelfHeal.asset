@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fe58b3b87749b543bf81c315e34f0e0, type: 3}
+  m_Name: JSAtk_Mazyutu_SelfHeal
+  m_EditorClassIdentifier: Assembly-CSharp::Suzuten_Test.Suzuten_Data_Attack
+  Name: "\u30BB\u30EB\u30D5\u30D2\u30FC\u30EB"
+  Info: "\u81EA\u8EAB\u306EHP\u3092\u56DE\u5FA9\u3059\u308B"
+  Icon: {fileID: 2800000, guid: 6eacbc99eddc25e46999122b8c61f612, type: 3}
+  Type: 1
+  AddressableAddress: JSAtk_Mazyutu_SelfHeal
+  AtkType: 0
+  CT: 12
+  Costs:
+  - Type: 3
+    Val: 300
+  Branchs: []
+  SortOption: 0
+  SortUpper: 1
+  EndTime: 0
+  Events:
+  - rid: 2557346964607336723
+  - rid: 2557346964607336733
+  references:
+    version: 2
+    RefIds:
+    - rid: 2557346964607336723
+      type: {class: Data_Attack/Class_AEvent_ShotMain, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[0]\u5F3E\u767A\u5C04|BID:0,\u6642\u9593:(0)\u79D2|Attack_SelfHeal,Count:1,Speed:0,TBase:MyPosition,MyLook,Hit:\xD70,HCT:0\u79D2,HEXCh:0%"
+        Memo: 
+        IfBID: 0
+        IfBIDs: 
+        Times: {x: 0, y: 0, z: 0}
+        Shot: {fileID: 5935130586681626263, guid: 7490d6d42ec78ae4b811153066933719, type: 3}
+        Fire:
+          Count: 1
+          Speed: {x: 0, y: 0}
+          PosBase: 0
+          PosChange: []
+          RotBase: 0
+          RotChange: []
+        Hits: []
+        HitCT: 0
+        HitEXCharge: 0
+    - rid: 2557346964607336733
+      type: {class: Data_Attack/Class_AEvent_MyValState, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[1]\u81EA\u5DF1\u6570\u5024\u5909\u5316|BID:0,\u6642\u9593:(0)\u79D2|State:HP+\u9B54\u653B90%+\u6700\u5927HP10%"
+        Memo: 
+        IfBID: 0
+        IfBIDs: 
+        Times: {x: 0, y: 0, z: 0}
+        State: 0
+        Val:
+        - HitSta: 0
+          Base: 111
+          Op: 4
+          Mult: 90
+        - HitSta: 0
+          Base: 1
+          Op: 4
+          Mult: 10

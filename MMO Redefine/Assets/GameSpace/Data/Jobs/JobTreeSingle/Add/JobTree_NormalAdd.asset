@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a601ed501c3c0440aef862acb0ae1f1, type: 3}
+  m_Name: JobTree_NormalAdd
+  m_EditorClassIdentifier: Assembly-CSharp::Data_JobTree
+  Name: "\u901A\u5E38\u5F37\u5316"
+  Info: "\u901A\u5E38\u30C0\u30E1\u30FC\u30B8\u304C\u5897\u52A0\u3059\u308B"
+  Icon: {fileID: 0}
+  Point: 1
+  LVMax: 5
+  StateAdds:
+  - EquipIfs: []
+    State: 230
+    Option: 0
+    Values: {x: 4, y: 1}
+  TriggerAttacks: []
+  SkillAdds: []

@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1f72764022b1224a937c65be5312c06, type: 3}
+  m_Name: IC_Skill_SyuuZan
+  m_EditorClassIdentifier: Assembly-CSharp::Toole.ImageComposeSO
+  outputSize: {x: 256, y: 256}
+  backColor: {r: 0, g: 0, b: 0, a: 0}
+  layers:
+  - noOutput: 0
+    locks: 0
+    hidePreview: 0
+    order: 1
+    texture: {fileID: 2800000, guid: bf1cdc1d422c37d46ae192b7500f5e4f, type: 3}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    anchor: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0.5}
+    position: {x: -12.880499, y: -2.4150934}
+    rotation: 0
+    size: {x: 64, y: 64}
+    scale: {x: 0.5000005, y: 1.4300005}
+  - noOutput: 0
+    locks: 0
+    hidePreview: 0
+    order: 0
+    texture: {fileID: 2800000, guid: 5cf80a2dcf7c9f846b3c9eb809356f7e, type: 3}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    anchor: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0.5}
+    position: {x: 79.698105, y: -9.660374}
+    rotation: 183.3674
+    size: {x: 64, y: 64}
+    scale: {x: 0.39132732, y: 1.3905401}
+  - noOutput: 0
+    locks: 0
+    hidePreview: 0
+    order: 0
+    texture: {fileID: 2800000, guid: 5cf80a2dcf7c9f846b3c9eb809356f7e, type: 3}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    anchor: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0.5}
+    position: {x: -62.792446, y: 78.89308}
+    rotation: 304.91022
+    size: {x: 64, y: 64}
+    scale: {x: 0.39132732, y: 1.3905401}
+  - noOutput: 0
+    locks: 0
+    hidePreview: 0
+    order: 0
+    texture: {fileID: 2800000, guid: 5cf80a2dcf7c9f846b3c9eb809356f7e, type: 3}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    anchor: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0.5}
+    position: {x: 54.742134, y: 76.477974}
+    rotation: 234.28777
+    size: {x: 64, y: 64}
+    scale: {x: 0.39132732, y: 1.3905401}
+  - noOutput: 0
+    locks: 0
+    hidePreview: 0
+    order: 0
+    texture: {fileID: 2800000, guid: 5cf80a2dcf7c9f846b3c9eb809356f7e, type: 3}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    anchor: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0.5}
+    position: {x: 52.32705, y: -86.943375}
+    rotation: 136.98204
+    size: {x: 64, y: 64}
+    scale: {x: 0.39132732, y: 1.3905401}
+  - noOutput: 0
+    locks: 0
+    hidePreview: 0
+    order: 0
+    texture: {fileID: 2800000, guid: 5cf80a2dcf7c9f846b3c9eb809356f7e, type: 3}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    anchor: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0.5}
+    position: {x: -51.522, y: -94.18865}
+    rotation: 71.024796
+    size: {x: 64, y: 64}
+    scale: {x: 0.39132732, y: 1.3905401}
+  - noOutput: 0
+    locks: 0
+    hidePreview: 0
+    order: 0
+    texture: {fileID: 2800000, guid: 5cf80a2dcf7c9f846b3c9eb809356f7e, type: 3}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    anchor: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0.5}
+    position: {x: -90.1635, y: -6.4402514}
+    rotation: 0.3361206
+    size: {x: 64, y: 64}
+    scale: {x: 0.39132732, y: 1.3905401}
+  previewCheck1: {r: 0.7, g: 0.7, b: 0.7, a: 1}
+  previewCheck2: {r: 0.3, g: 0.3, b: 0.3, a: 1}

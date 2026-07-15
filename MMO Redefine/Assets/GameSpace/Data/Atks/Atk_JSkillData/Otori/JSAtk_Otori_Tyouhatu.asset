@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fe58b3b87749b543bf81c315e34f0e0, type: 3}
+  m_Name: JSAtk_Otori_Tyouhatu
+  m_EditorClassIdentifier: Assembly-CSharp::Suzuten_Test.Suzuten_Data_Attack
+  Name: "\u6311\u767A"
+  Info: "\u8FD1\u304F\u306E\u6575\u306E\u30D8\u30A4\u30C8\u3092\n\u6301\u7D9A\u7684\u306B\u5897\u52A0\u3055\u305B\u308B"
+  Icon: {fileID: 0}
+  Type: 1
+  AddressableAddress: JSAtk_Otori_Tyouhatu
+  AtkType: 0
+  CT: 9
+  Costs:
+  - Type: 3
+    Val: 125
+  Branchs: []
+  SortOption: 0
+  SortUpper: 1
+  EndTime: 0
+  Events:
+  - rid: 5002143623174946918
+  references:
+    version: 2
+    RefIds:
+    - rid: 5002143623174946918
+      type: {class: Data_Attack/Class_AEvent_ShotMain, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[0]\u5F3E\u767A\u5C04|BID:0,\u6642\u9593:(0)\u79D2|Attack_Tyouhatu,Count:1,Speed:0,TBase:MyPosition,MyLook,Hit:\xD71,HCT:0\u79D2,HEXCh:0%"
+        Memo: 
+        IfBID: 0
+        IfBIDs: 
+        Times: {x: 0, y: 0, z: 0}
+        Shot: {fileID: 5935130586681626263, guid: a526466f079f34e4695ac01cc85ccf2a, type: 3}
+        Fire:
+          Count: 1
+          Speed: {x: 0, y: 0}
+          PosBase: 0
+          PosChange: []
+          RotBase: 0
+          RotChange: []
+        Hits:
+        - DispStr: "[0](\u6575)<\u30C0\u30E1,\u30B9\u30AD\u30EB,\u8FD1\u8DDD\u96E2,\u7121\u5C5E\u6027>\u500D\u7387\xD70%,\u72B6\u614B\xD71"
+          Option:
+            EHit: 1
+            FHit: 0
+            MHit: 0
+            DeathHit: 0
+            Heal: 0
+            AtkType: 2
+            RangeType: 0
+            NoDamAdd: 0
+            NoBaseRegist: 0
+            Element: 0
+            EleRides: 0
+            NoEleRegist: 0
+            ChangeCritPer: {x: 0, y: 0}
+            ChangeCritMult: {x: 0, y: 0}
+            ChangeHitPer: {x: 0, y: 0}
+            ChangeDogePer: {x: 0, y: 0}
+          Dam:
+            CalStr: "\u500D\u7387\xD70%"
+            DamCals: []
+            DefCals: []
+            DefPer: 0
+            Mult: 0
+          BufAdds:
+          - DispStr: '[0]Tyouhatu_Non(255)Add,Time:(10.00, 0.00),CPow:2'
+            ID: 1002
+            Op: 0
+            Index: 255
+            Set: 0
+            Times: {x: 10, y: 0}
+            CPow:
+            - HitSta: 0
+              Base: 0
+              Op: 0
+              Mult: 2
+            MPow: []
+        HitCT: 0
+        HitEXCharge: 0
+        HateAdd: {x: 0, y: 10}

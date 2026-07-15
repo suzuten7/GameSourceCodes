@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fe58b3b87749b543bf81c315e34f0e0, type: 3}
+  m_Name: JSAtk_Otori_SuperGurad
+  m_EditorClassIdentifier: Assembly-CSharp::Suzuten_Test.Suzuten_Data_Attack
+  Name: "\u30B9\u30FC\u30D1\u30FC\u30AC\u30FC\u30C9"
+  Info: "\u77ED\u6642\u9593\u9632\u5FA1\u529B\u304C\u5927\u304D\u304F\u5897\u52A0\u3059\u308B"
+  Icon: {fileID: 2800000, guid: c09cb6c1e3a2b1b4f945a887d5836bb9, type: 3}
+  Type: 1
+  AddressableAddress: JSAtk_Otori_SuperGurad
+  AtkType: 0
+  CT: 12
+  Costs:
+  - Type: 3
+    Val: 300
+  Branchs: []
+  SortOption: 0
+  SortUpper: 1
+  EndTime: 0
+  Events:
+  - rid: 2557346964607336734
+  - rid: 2557346964607336736
+  references:
+    version: 2
+    RefIds:
+    - rid: 2557346964607336734
+      type: {class: Data_Attack/Class_AEvent_MyBuf, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[0]\u81EA\u5DF1\u30D0\u30D5|BID:0,\u6642\u9593:(0)\u79D2|PDefChange(9999)Add,Time:4,Pow:200"
+        Memo: 
+        IfBID: 0
+        IfBIDs: 
+        Times: {x: 0, y: 0, z: 0}
+        ID: 102
+        Op: 4
+        Index: 9999
+        Set: 0
+        AddTimes: {x: 4, y: 0}
+        CPow:
+        - HitSta: 0
+          Base: 0
+          Op: 0
+          Mult: 200
+        MPow: []
+    - rid: 2557346964607336736
+      type: {class: Data_Attack/Class_AEvent_MyBuf, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[1]\u81EA\u5DF1\u30D0\u30D5|BID:0,\u6642\u9593:(0)\u79D2|MDefChange(9999)Add,Time:4,Pow:200"
+        Memo: 
+        IfBID: 0
+        IfBIDs: 
+        Times: {x: 0, y: 0, z: 0}
+        ID: 103
+        Op: 4
+        Index: 9999
+        Set: 0
+        AddTimes: {x: 4, y: 0}
+        CPow:
+        - HitSta: 0
+          Base: 0
+          Op: 0
+          Mult: 200
+        MPow: []

@@ -1,0 +1,211 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d882faf01bcd12341a1f627c0b2cb67a, type: 3}
+  m_Name: AddOpValue
+  m_EditorClassIdentifier: Assembly-CSharp::Datas.Data_AddOptionValues
+  Values:
+  - DispName: "[0]\u6700\u5927HP|\u57FA\u790E\u5B9A\u6570{50+25\xD7Lv}"
+    Type: 0
+    Op: 0
+    Value: {x: 50, y: 25}
+  - DispName: "[1]\u6700\u5927HP|\u52A0\u7B97\u5272\u5408{5+1\xD7Lv}"
+    Type: 0
+    Op: 1
+    Value: {x: 5, y: 1}
+  - DispName: "[2]HP\u56DE\u5FA9\u901F\u5EA6|\u57FA\u790E\u5B9A\u6570{1+0.2\xD7Lv}"
+    Type: 1
+    Op: 0
+    Value: {x: 1, y: 0.2}
+  - DispName: "[3]HP\u56DE\u5FA9\u901F\u5EA6|\u52A0\u7B97\u5272\u5408{2+0.2\xD7Lv}"
+    Type: 1
+    Op: 1
+    Value: {x: 2, y: 0.2}
+  - DispName: "[4]\u6700\u5927MP|\u57FA\u790E\u5B9A\u6570{5+1\xD7Lv}"
+    Type: 2
+    Op: 0
+    Value: {x: 5, y: 1}
+  - DispName: "[5]\u6700\u5927MP|\u52A0\u7B97\u5272\u5408{2+0.2\xD7Lv}"
+    Type: 2
+    Op: 1
+    Value: {x: 2, y: 0.2}
+  - DispName: "[6]MP\u56DE\u5FA9\u901F\u5EA6|\u57FA\u790E\u5B9A\u6570{1+0.1\xD7Lv}"
+    Type: 3
+    Op: 0
+    Value: {x: 1, y: 0.1}
+  - DispName: "[7]MP\u56DE\u5FA9\u901F\u5EA6|\u52A0\u7B97\u5272\u5408{2+0.2\xD7Lv}"
+    Type: 3
+    Op: 1
+    Value: {x: 2, y: 0.2}
+  - DispName: "[8]\u6700\u5927ST|\u57FA\u790E\u5B9A\u6570{5+1\xD7Lv}"
+    Type: 4
+    Op: 0
+    Value: {x: 5, y: 1}
+  - DispName: "[9]\u6700\u5927ST|\u52A0\u7B97\u5272\u5408{2+0.2\xD7Lv}"
+    Type: 4
+    Op: 1
+    Value: {x: 2, y: 0.2}
+  - DispName: "[10]ST\u56DE\u5FA9\u901F\u5EA6|\u57FA\u790E\u5B9A\u6570{1+0.1\xD7Lv}"
+    Type: 5
+    Op: 0
+    Value: {x: 1, y: 0.1}
+  - DispName: "[11]ST\u56DE\u5FA9\u901F\u5EA6|\u52A0\u7B97\u5272\u5408{2+0.2\xD7Lv}"
+    Type: 5
+    Op: 1
+    Value: {x: 2, y: 0.2}
+  - DispName: "[12]\u7269\u7406\u653B\u6483\u529B|\u57FA\u790E\u5B9A\u6570{6+2\xD7Lv}"
+    Type: 100
+    Op: 0
+    Value: {x: 6, y: 2}
+  - DispName: "[13]\u7269\u7406\u653B\u6483\u529B|\u52A0\u7B97\u5272\u5408{5+1\xD7Lv}"
+    Type: 100
+    Op: 1
+    Value: {x: 5, y: 1}
+  - DispName: "[14]\u9B54\u6CD5\u653B\u6483\u529B|\u57FA\u790E\u5B9A\u6570{6+2\xD7Lv}"
+    Type: 101
+    Op: 0
+    Value: {x: 6, y: 2}
+  - DispName: "[15]\u9B54\u6CD5\u653B\u6483\u529B|\u52A0\u7B97\u5272\u5408{5+1\xD7Lv}"
+    Type: 101
+    Op: 1
+    Value: {x: 5, y: 1}
+  - DispName: "[16]\u7269\u7406\u9632\u5FA1\u529B|\u57FA\u790E\u5B9A\u6570{6+2\xD7Lv}"
+    Type: 102
+    Op: 0
+    Value: {x: 6, y: 2}
+  - DispName: "[17]\u7269\u7406\u9632\u5FA1\u529B|\u52A0\u7B97\u5272\u5408{5+1\xD7Lv}"
+    Type: 102
+    Op: 1
+    Value: {x: 5, y: 1}
+  - DispName: "[18]\u9B54\u6CD5\u9632\u5FA1\u529B|\u57FA\u790E\u5B9A\u6570{6+2\xD7Lv}"
+    Type: 103
+    Op: 0
+    Value: {x: 6, y: 2}
+  - DispName: "[19]\u9B54\u6CD5\u9632\u5FA1\u529B|\u52A0\u7B97\u5272\u5408{5+1\xD7Lv}"
+    Type: 103
+    Op: 1
+    Value: {x: 5, y: 1}
+  - DispName: "[20]\u4F1A\u5FC3\u7387|\u57FA\u790E\u5B9A\u6570{1+0.1\xD7Lv}"
+    Type: 200
+    Op: 0
+    Value: {x: 1, y: 0.1}
+  - DispName: "[21]\u4F1A\u5FC3\u30C0\u30E1\u30FC\u30B8|\u57FA\u790E\u5B9A\u6570{2+0.2\xD7Lv}"
+    Type: 201
+    Op: 0
+    Value: {x: 2, y: 0.2}
+  - DispName: "[22]\u653B\u6483\u901F\u5EA6|\u57FA\u790E\u5B9A\u6570{1+0.1\xD7Lv}"
+    Type: 202
+    Op: 0
+    Value: {x: 1, y: 0.1}
+  - DispName: "[23]\u79FB\u52D5\u901F\u5EA6|\u57FA\u790E\u5B9A\u6570{0.5+0.05\xD7Lv}"
+    Type: 203
+    Op: 0
+    Value: {x: 0.5, y: 0.05}
+  - DispName: "[24]EX\u6642\u9593\u30C1\u30E3\u30FC\u30B8|\u57FA\u790E\u5B9A\u6570{2+0.2\xD7Lv}"
+    Type: 210
+    Op: 0
+    Value: {x: 2, y: 0.2}
+  - DispName: "[25]EX\u30C0\u30E1\u30FC\u30B8\u30C1\u30E3\u30FC\u30B8|\u57FA\u790E\u5B9A\u6570{2+0.2\xD7Lv}"
+    Type: 211
+    Op: 0
+    Value: {x: 2, y: 0.2}
+  - DispName: "[26]EX\u547D\u4E2D\u30C1\u30E3\u30FC\u30B8|\u57FA\u790E\u5B9A\u6570{2+0.2\xD7Lv}"
+    Type: 212
+    Op: 0
+    Value: {x: 2, y: 0.2}
+  - DispName: "[27]\u30B9\u30AD\u30EBCT|\u57FA\u790E\u5B9A\u6570{0.5+0.05\xD7Lv}"
+    Type: 220
+    Op: 0
+    Value: {x: 0.5, y: 0.05}
+  - DispName: "[28]\u4E0E\u30C0\u30E1\u30FC\u30B8\u5F37\u5316|\u57FA\u790E\u5B9A\u6570{1+0.1\xD7Lv}"
+    Type: 204
+    Op: 0
+    Value: {x: 1, y: 0.1}
+  - DispName: "[29]\u88AB\u30C0\u30E1\u30FC\u30B8\u8EFD\u6E1B|\u57FA\u790E\u5B9A\u6570{1+0.1\xD7Lv}"
+    Type: 205
+    Op: 0
+    Value: {x: 1, y: 0.1}
+  - DispName: "[30]\u4E0E\u56DE\u5FA9\u5F37\u5316|\u57FA\u790E\u5B9A\u6570{1+0.1\xD7Lv}"
+    Type: 206
+    Op: 0
+    Value: {x: 1, y: 0.1}
+  - DispName: "[31]\u53D7\u56DE\u5FA9\u5F37\u5316|\u57FA\u790E\u5B9A\u6570{1+0.1\xD7Lv}"
+    Type: 207
+    Op: 0
+    Value: {x: 1, y: 0.1}
+  - DispName: "[32]\u547D\u4E2D\u7387|\u57FA\u790E\u5B9A\u6570{0.5+0.05\xD7Lv}"
+    Type: 208
+    Op: 0
+    Value: {x: 0.5, y: 0.05}
+  - DispName: "[33]\u56DE\u907F\u7387|\u57FA\u790E\u5B9A\u6570{0.5+0.05\xD7Lv}"
+    Type: 209
+    Op: 0
+    Value: {x: 0.5, y: 0.05}
+  - DispName: "[34]\u5168\u5C5E\u6027\u8010\u6027|\u57FA\u790E\u5B9A\u6570{1+0.1\xD7Lv}"
+    Type: 300
+    Op: 0
+    Value: {x: 1, y: 0.1}
+  - DispName: "[35]\u7121\u5C5E\u6027\u8010\u6027|\u57FA\u790E\u5B9A\u6570{2+0.2\xD7Lv}"
+    Type: 301
+    Op: 0
+    Value: {x: 2, y: 0.2}
+  - DispName: "[36]\u706B\u5C5E\u6027\u8010\u6027|\u57FA\u790E\u5B9A\u6570{2+0.2\xD7Lv}"
+    Type: 302
+    Op: 0
+    Value: {x: 2, y: 0.2}
+  - DispName: "[37]\u6C34\u5C5E\u6027\u8010\u6027|\u57FA\u790E\u5B9A\u6570{2+0.2\xD7Lv}"
+    Type: 303
+    Op: 0
+    Value: {x: 2, y: 0.2}
+  - DispName: "[38]\u98A8\u5C5E\u6027\u8010\u6027|\u57FA\u790E\u5B9A\u6570{2+0.2\xD7Lv}"
+    Type: 304
+    Op: 0
+    Value: {x: 2, y: 0.2}
+  - DispName: "[39]\u571F\u5C5E\u6027\u8010\u6027|\u57FA\u790E\u5B9A\u6570{2+0.2\xD7Lv}"
+    Type: 305
+    Op: 0
+    Value: {x: 2, y: 0.2}
+  - DispName: "[40]\u5149\u5C5E\u6027\u8010\u6027|\u57FA\u790E\u5B9A\u6570{2+0.2\xD7Lv}"
+    Type: 306
+    Op: 0
+    Value: {x: 2, y: 0.2}
+  - DispName: "[41]\u95C7\u5C5E\u6027\u8010\u6027|\u57FA\u790E\u5B9A\u6570{2+0.2\xD7Lv}"
+    Type: 307
+    Op: 0
+    Value: {x: 2, y: 0.2}
+  - DispName: "[42]\u7121\u5C5E\u6027\u5F37\u5316|\u57FA\u790E\u5B9A\u6570{2+0.2\xD7Lv}"
+    Type: 400
+    Op: 0
+    Value: {x: 2, y: 0.2}
+  - DispName: "[43]\u706B\u5C5E\u6027\u5F37\u5316|\u57FA\u790E\u5B9A\u6570{2+0.2\xD7Lv}"
+    Type: 401
+    Op: 0
+    Value: {x: 2, y: 0.2}
+  - DispName: "[44]\u6C34\u5C5E\u6027\u5F37\u5316|\u57FA\u790E\u5B9A\u6570{2+0.2\xD7Lv}"
+    Type: 402
+    Op: 0
+    Value: {x: 2, y: 0.2}
+  - DispName: "[45]\u98A8\u5C5E\u6027\u5F37\u5316|\u57FA\u790E\u5B9A\u6570{2+0.2\xD7Lv}"
+    Type: 403
+    Op: 0
+    Value: {x: 2, y: 0.2}
+  - DispName: "[46]\u571F\u5C5E\u6027\u5F37\u5316|\u57FA\u790E\u5B9A\u6570{2+0.2\xD7Lv}"
+    Type: 404
+    Op: 0
+    Value: {x: 2, y: 0.2}
+  - DispName: "[47]\u5149\u5C5E\u6027\u5F37\u5316|\u57FA\u790E\u5B9A\u6570{2+0.2\xD7Lv}"
+    Type: 405
+    Op: 0
+    Value: {x: 2, y: 0.2}
+  - DispName: "[48]\u95C7\u5C5E\u6027\u5F37\u5316|\u57FA\u790E\u5B9A\u6570{2+0.2\xD7Lv}"
+    Type: 406
+    Op: 0
+    Value: {x: 2, y: 0.2}

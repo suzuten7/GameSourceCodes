@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25e6c561ce6617643a673e1ea2192005, type: 3}
+  m_Name: JTGroup_BaseSkill
+  m_EditorClassIdentifier: Assembly-CSharp::Suzuten_Test.Data_JobTree_Group
+  Alls: 1
+  JobTrees:
+  - DispName: "[0]\u30D5\u30A1\u30A4\u30E4\u30FC\u30AA\u30FC\u30D0\u30FC\u30E9\u30A4\u30C9,(-3.00,
+      -2.00),\u524D\u63D0\u65700,\u524D\u63D0LV0"
+    CTree: {fileID: 11400000, guid: 0f12d96a4bdfd4946a92da9c87c50076, type: 2}
+    Pos: {x: -3, y: -2}
+    BTreeIDs: 
+    PrereLV: 0
+  - DispName: "[1]\u30A6\u30A9\u30FC\u30BF\u30FC\u30AA\u30FC\u30D0\u30FC\u30E9\u30A4\u30C9,(-2.00,
+      -1.00),\u524D\u63D0\u65700,\u524D\u63D0LV0"
+    CTree: {fileID: 11400000, guid: 8debb74376e080947a40ba74d0fb4c67, type: 2}
+    Pos: {x: -2, y: -1}
+    BTreeIDs: 
+    PrereLV: 0
+  - DispName: "[2]\u30A6\u30A3\u30F3\u30C9\u30AA\u30FC\u30D0\u30FC\u30E9\u30A4\u30C9,(-1.00,
+      0.00),\u524D\u63D0\u65700,\u524D\u63D0LV0"
+    CTree: {fileID: 11400000, guid: 5b4bfde96634038468ce66ae2b1f18b8, type: 2}
+    Pos: {x: -1, y: 0}
+    BTreeIDs: 
+    PrereLV: 0
+  - DispName: "[3]\u30A2\u30FC\u30B9\u30AA\u30FC\u30D0\u30FC\u30E9\u30A4\u30C9,(1.00,
+      0.00),\u524D\u63D0\u65700,\u524D\u63D0LV0"
+    CTree: {fileID: 11400000, guid: 0b33f2b20ba7fae41b067345c2f57860, type: 2}
+    Pos: {x: 1, y: 0}
+    BTreeIDs: 
+    PrereLV: 0
+  - DispName: "[4]\u30E9\u30A4\u30C8\u30AA\u30FC\u30D0\u30FC\u30E9\u30A4\u30C9,(2.00,
+      -1.00),\u524D\u63D0\u65700,\u524D\u63D0LV0"
+    CTree: {fileID: 11400000, guid: 08a212dccbdc3284b992662b86e85fd0, type: 2}
+    Pos: {x: 2, y: -1}
+    BTreeIDs: 
+    PrereLV: 0
+  - DispName: "[5]\u30C0\u30FC\u30AF\u30AA\u30FC\u30D0\u30FC\u30E9\u30A4\u30C9,(3.00,
+      -2.00),\u524D\u63D0\u65700,\u524D\u63D0LV0"
+    CTree: {fileID: 11400000, guid: 9de280ff6a2d40d4e8ebd4fb75fcad01, type: 2}
+    Pos: {x: 3, y: -2}
+    BTreeIDs: 
+    PrereLV: 0
+  - DispName: "[6]\u30CE\u30F3\u30AA\u30FC\u30D0\u30FC\u30E9\u30A4\u30C9,(0.00, -3.00),\u524D\u63D0\u65706,\u524D\u63D0LV1"
+    CTree: {fileID: 11400000, guid: d5881941fdf3aca4ea2bbb4de96b3702, type: 2}
+    Pos: {x: 0, y: -3}
+    BTreeIDs: 000000000100000002000000030000000400000005000000
+    PrereLV: 1
+  - DispName: "[7]\u30DF\u30C3\u30AF\u30B9\u30AA\u30FC\u30D0\u30FC\u30E9\u30A4\u30C9,(0.00,
+      -5.00),\u524D\u63D0\u65701,\u524D\u63D0LV1"
+    CTree: {fileID: 11400000, guid: bd135638e1aee7a449e2d32c92c04742, type: 2}
+    Pos: {x: 0, y: -5}
+    BTreeIDs: 06000000
+    PrereLV: 1
+  - DispName: "[8]\u30A8\u30EC\u30E1\u30F3\u30C8\u30AB\u30C3\u30C8,(2.00, -4.00),\u524D\u63D0\u65700,\u524D\u63D0LV0"
+    CTree: {fileID: 11400000, guid: 10bf410518baf574e89f94d5b349b4e4, type: 2}
+    Pos: {x: 2, y: -4}
+    BTreeIDs: 
+    PrereLV: 0
+  - DispName: "[9]\u30CE\u30F3\u30AB\u30C3\u30C8,(-2.00, -4.00),\u524D\u63D0\u65700,\u524D\u63D0LV0"
+    CTree: {fileID: 11400000, guid: f5e84a3f9ac999c4fbd8fb58bb8ecb21, type: 2}
+    Pos: {x: -2, y: -4}
+    BTreeIDs: 
+    PrereLV: 0
+  - DispName: "[10]CT\u30EF\u30FC\u30D7,(0.00, 2.00),\u524D\u63D0\u65700,\u524D\u63D0LV1"
+    CTree: {fileID: 11400000, guid: a1ea034566f50f44592d12f9557c0534, type: 2}
+    Pos: {x: 0, y: 2}
+    BTreeIDs: 
+    PrereLV: 1
+  - DispName: "[11]\u5EC3\u901F,(-2.00, 2.00),\u524D\u63D0\u65700,\u524D\u63D0LV0"
+    CTree: {fileID: 11400000, guid: ff03dc7855f3fea458f1967e36026324, type: 2}
+    Pos: {x: -2, y: 2}
+    BTreeIDs: 
+    PrereLV: 0
+  - DispName: "[12]\u904B\u7834\u58CA,(2.00, 2.00),\u524D\u63D0\u65700,\u524D\u63D0LV0"
+    CTree: {fileID: 11400000, guid: 3f9efa16840da374daa2b7b4812d6fa4, type: 2}
+    Pos: {x: 2, y: 2}
+    BTreeIDs: 
+    PrereLV: 0
+  - DispName: "[13]WTF,(0.00, -8.00),\u524D\u63D0\u65700,\u524D\u63D0LV0"
+    CTree: {fileID: 11400000, guid: 182a34331ce71884ea9f625bbd0033ea, type: 2}
+    Pos: {x: 0, y: -8}
+    BTreeIDs: 
+    PrereLV: 0

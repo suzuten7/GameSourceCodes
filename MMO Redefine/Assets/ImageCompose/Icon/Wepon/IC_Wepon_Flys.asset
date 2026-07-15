@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1f72764022b1224a937c65be5312c06, type: 3}
+  m_Name: IC_Wepon_Flys
+  m_EditorClassIdentifier: Assembly-CSharp::Toole.ImageComposeSO
+  outputSize: {x: 256, y: 256}
+  backColor: {r: 0, g: 0, b: 0, a: 0}
+  layers:
+  - noOutput: 0
+    locks: 0
+    hidePreview: 0
+    order: -1
+    texture: {fileID: 2800000, guid: b4df995f83ec09d42a1ff0ac02a53534, type: 3}
+    color: {r: 0, g: 0.9999995, b: 1, a: 0.78431374}
+    anchor: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0.5}
+    position: {x: -47.496857, y: -50.716957}
+    rotation: 43.226738
+    size: {x: 64, y: 64}
+    scale: {x: 2.2704148, y: 0.6498441}
+  - noOutput: 0
+    locks: 0
+    hidePreview: 0
+    order: 0
+    texture: {fileID: 2800000, guid: b4df995f83ec09d42a1ff0ac02a53534, type: 3}
+    color: {r: 0, g: 1, b: 1, a: 0.78431374}
+    anchor: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0.5}
+    position: {x: 8.855344, y: 4.0251493}
+    rotation: 43.385567
+    size: {x: 64, y: 64}
+    scale: {x: 1.7726175, y: 0.5181557}
+  - noOutput: 0
+    locks: 0
+    hidePreview: 0
+    order: 0
+    texture: {fileID: 2800000, guid: b4df995f83ec09d42a1ff0ac02a53534, type: 3}
+    color: {r: 0, g: 1, b: 1, a: 0.78431374}
+    anchor: {x: 0.5, y: 0.5}
+    pivot: {x: 0.5, y: 0.5}
+    position: {x: 69.2327, y: 59.572327}
+    rotation: 310.85233
+    size: {x: 64, y: 64}
+    scale: {x: 0.36760965, y: 1.7840945}
+  previewCheck1: {r: 0.7, g: 0.7, b: 0.7, a: 1}
+  previewCheck2: {r: 0.3, g: 0.3, b: 0.3, a: 1}

@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2fe58b3b87749b543bf81c315e34f0e0, type: 3}
+  m_Name: JSAtk_Breaker_OverAttack
+  m_EditorClassIdentifier: Assembly-CSharp::Suzuten_Test.Suzuten_Data_Attack
+  Name: "\u30AA\u30FC\u30D0\u30FC\u30A2\u30BF\u30C3\u30AF"
+  Info: "\u30B9\u30BF\u30DF\u30CA\u3092\u5927\u91CF\u6D88\u8CBB\u3059\u308B\u304C\n\u5F37\u529B\u306A\u653B\u6483\u3092\u3059\u308B"
+  Icon: {fileID: 2800000, guid: 8a614cc4476ab3e43bf75eb69cf4676f, type: 3}
+  Type: 1
+  AddressableAddress: JSAtk_Breaker_OverAttack
+  AtkType: 0
+  CT: 12
+  Costs:
+  - Type: 6
+    Val: 999
+  Branchs:
+  - DispStr: "[0]|2.5\u79D2"
+    BID: 0
+    BName: 
+    EndTime: 2.5
+  SortOption: 0
+  SortUpper: 1
+  EndTime: 2.5
+  Events:
+  - rid: 5002143605276803164
+  - rid: 7578355760006955097
+  references:
+    version: 2
+    RefIds:
+    - rid: 5002143605276803164
+      type: {class: Data_Attack/Class_AEvent_ShotMain, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[0]\u5F3E\u767A\u5C04|BID:0,\u6642\u9593:(2)\u79D2|Attack_OverAttack,Count:1,Speed:0,TBase:MyPosition,MyLook,Hit:\xD71,HCT:0\u79D2,HEXCh:0%"
+        Memo: 
+        IfBID: 0
+        IfBIDs: 
+        Times: {x: 2, y: 2, z: 0}
+        Shot: {fileID: 5935130586681626263, guid: ae4618a8f0f85e3449c1a13606bb8255, type: 3}
+        Fire:
+          Count: 1
+          Speed: {x: 0, y: 0}
+          PosBase: 0
+          PosChange: []
+          RotBase: 0
+          RotChange: []
+        Hits:
+        - DispStr: "[0](\u6575)<\u30C0\u30E1,\u30B9\u30AD\u30EB,\u8FD1\u8DDD\u96E2,\u7121\u5C5E\u6027>\u653B\u6483\u5024:\u7269\u653B100%,\u9632\u5FA1\u5024:\u4E0E.\u7269\u9632100%,\u500D\u7387\xD71200%"
+          Option:
+            EHit: 1
+            FHit: 0
+            MHit: 0
+            DeathHit: 0
+            Heal: 0
+            AtkType: 2
+            RangeType: 0
+            NoDamAdd: 0
+            NoBaseRegist: 0
+            Element: 0
+            EleRides: 0
+            NoEleRegist: 0
+            ChangeCritPer: {x: 0, y: 0}
+            ChangeCritMult: {x: 0, y: 0}
+            ChangeHitPer: {x: 0, y: 0}
+            ChangeDogePer: {x: 0, y: 0}
+          Dam:
+            CalStr: "\u653B\u6483\u5024:\u7269\u653B100%,\u9632\u5FA1\u5024:\u4E0E.\u7269\u9632100%,\u500D\u7387\xD71200%"
+            DamCals:
+            - HitSta: 0
+              Base: 100
+              Op: 4
+              Mult: 0
+            DefCals:
+            - HitSta: 0
+              Base: 101
+              Op: 4
+              Mult: 0
+            DefPer: 0
+            Mult: 1200
+          BufAdds: []
+        HitCT: 0
+        HitEXCharge: 0
+        HateAdd: {x: 0, y: 0}
+    - rid: 7578355760006955097
+      type: {class: Data_Attack/Class_AEvent_Anim, ns: Datas, asm: Assembly-CSharp}
+      data:
+        DispName: "[1]\u30A2\u30CB\u30E1\u30FC\u30B7\u30E7\u30F3|BID:0,\u6642\u9593:(0\uFF5E2.5)\u79D2|AnimClip:Attack_SwordSlash_03ComboID:0,AnimSpeed:-90.0%"
+        Memo: 
+        IfBID: 0
+        IfBIDs: 
+        Times: {x: 0, y: 2.5, z: 0}
+        ComboID: 0
+        AnimClip: {fileID: -203655887218126122, guid: c2211bfebbd885944b1609fef324f824, type: 3}
+        AnimSpeed: -90

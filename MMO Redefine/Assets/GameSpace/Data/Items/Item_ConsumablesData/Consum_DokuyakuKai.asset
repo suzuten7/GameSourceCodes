@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8bad41e71af3e194f98e7e588a1ca985, type: 3}
+  m_Name: Consum_DokuyakuKai
+  m_EditorClassIdentifier: Assembly-CSharp::Suzuten_Test.Suzuten_Data_Consumables
+  Name: "\u6BD2\u85AC\u30FB\u6539"
+  Info: "\u6575\u306B\u6BD2\u3092\u4E0E\u3048\u7D99\u7D9A\u7684\u306A\u30C0\u30E1\u30FC\u30B8\u3092\u4E0E\u3048\u308B\n<s>\u6BD2\u85AC\u3068\u9055\u3063\u3066\u3061\u3083\u3093\u3068\u4F7F\u3048\u308B</s>"
+  Icon: {fileID: 2800000, guid: 1d8e03a545dfbad43a2bc4e205e96611, type: 3}
+  Type: 0
+  Model: {fileID: 0}
+  Rarity: 0
+  BuyGold: 300
+  UpgradeExp: 0
+  Attack: {fileID: 11400000, guid: cc5d375db3c4955489498b5150096d91, type: 2}

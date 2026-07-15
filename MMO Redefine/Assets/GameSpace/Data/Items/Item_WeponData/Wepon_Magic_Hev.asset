@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac39b339236a4244f8f0b49a8fffc025, type: 3}
+  m_Name: Wepon_Magic_Hev
+  m_EditorClassIdentifier: Assembly-CSharp::Suzuten_Test.Suzuten_Data_Wepon
+  Name: "\u91CD\u9B54"
+  Info: 
+  Icon: {fileID: 2800000, guid: 44c4815286c971c418852e394f15e930, type: 3}
+  Type: 60
+  Model: {fileID: 3509651900504877852, guid: ec2a463832a954942a82f326223ef74f, type: 3}
+  Rarity: 1
+  BuyGold: 2500
+  UpgradeExp: 0
+  UpgradeCost: 100
+  UpgradeBoosts: []
+  WeponObject: {fileID: 3509651900504877852, guid: ec2a463832a954942a82f326223ef74f, type: 3}
+  Attack: {fileID: 11400000, guid: c67d742f378457d4daaf072db0286740, type: 2}
+  Stay: 0
+  EquipmentAdds:
+  - EquipIfs: []
+    State: 101
+    Option: 0
+    Values: {x: 10, y: 1}
+  - EquipIfs: []
+    State: 101
+    Option: 1
+    Values: {x: 5, y: 0.5}
+  TriggerAttacks: []
