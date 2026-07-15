@@ -1,0 +1,129 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69db0c6a51aef0b4c8bef8f5e65deb0a, type: 3}
+  m_Name: EiffelTower_Data
+  m_EditorClassIdentifier: 
+  CharaName: La tour Eiffel
+  CharaNameEnter: 0
+  CharaImage: {fileID: 2800000, guid: e453e2ff040f3e4499bc34baae75c1fb, type: 3}
+  CharaInfo: "\u30D5\u30E9\u30F3\u30B9\u306E\u9996\u90FD\n\u30D1\u30EA\u306E\u8C61\u5FB4\u7684\u306A\n\u540D\u6240\u3068\u306A\u3063\u3066\u3044\u308B\n\u5854\u3067\u3042\u308B"
+  CharaObj: {fileID: 4828130518640760683, guid: 9b2ef3dd3af48334db6ad2935aab5ff8, type: 3}
+  ModelObj: {fileID: 6294561453341445199, guid: 2a49e43c2b0244241a4c35b80d6d3d39, type: 3}
+  RandomNoSelects: 0
+  YPos: 0.5
+  GravPower: 100
+  PhisAtkEffect: {fileID: 8003688231374381314, guid: 3caf082a4516b9c45b5f5c2593c63ce6, type: 3}
+  PhisHitEffect: {fileID: 8003688231374381314, guid: 99f88cd77965b1749954dc75c756bbc0, type: 3}
+  SpeedTrail: {fileID: 8809798474311061704, guid: c919de2e9510b654dbfa1d99f1f6e64f, type: 3}
+  MHP: 90000
+  HPRegene: 90
+  StanRegist: 900
+  STRegene: 9
+  MSP: 5000
+  SPRegene: 50
+  StartSPPer: 50
+  DamageSPPer: 60
+  Atk: 120
+  MMP: 500
+  MPRegene: 100
+  PhisPow: 60
+  PhisRange: 12
+  PhisStanTime: 150
+  GroundSpeed: 30
+  AirSpeed: 20
+  BoostSpeed: 90
+  JumpPower: 50
+  DownPower: 80
+  Actions:
+  - {fileID: 11400000, guid: 4427bcf5aceb76344a7ea6046a9e718a, type: 2}
+  - {fileID: 11400000, guid: c26c419c83becdd4a877d0c5590aec34, type: 2}
+  - {fileID: 11400000, guid: f95c944cbc0aa9a4e8288241a4f25dab, type: 2}
+  - {fileID: 11400000, guid: f5b87cdef8238184a90f3003081341db, type: 2}
+  - {fileID: 11400000, guid: aa4a6257ad832b24b8b26b36984ddaad, type: 2}
+  SelectSE:
+    SEFile: {fileID: 8300000, guid: 36acd6084ecde7a48829da108b36cbe0, type: 3}
+    SEOP: 3
+    SERePlay: 1
+    Volume: 3
+    Pitch: 1.6
+  StartSE:
+    SEFile: {fileID: 0}
+    SEOP: 0
+    SERePlay: 0
+    Volume: 1
+    Pitch: 1
+  WINSE:
+    SEFile: {fileID: 0}
+    SEOP: 0
+    SERePlay: 0
+    Volume: 1
+    Pitch: 1
+  LoseSE:
+    SEFile: {fileID: 0}
+    SEOP: 0
+    SERePlay: 0
+    Volume: 1
+    Pitch: 1
+  BoostSE:
+    SEFile: {fileID: 0}
+    SEOP: 0
+    SERePlay: 0
+    Volume: 1
+    Pitch: 1
+  GuardSE:
+    SEFile: {fileID: 0}
+    SEOP: 0
+    SERePlay: 0
+    Volume: 1
+    Pitch: 1
+  JumpSE:
+    SEFile: {fileID: 0}
+    SEOP: 0
+    SERePlay: 0
+    Volume: 1
+    Pitch: 1
+  FallSE:
+    SEFile: {fileID: 0}
+    SEOP: 0
+    SERePlay: 0
+    Volume: 1
+    Pitch: 1
+  PhisAtkSE:
+    SEFile: {fileID: 0}
+    SEOP: 0
+    SERePlay: 0
+    Volume: 1
+    Pitch: 1
+  StanSE:
+    SEFile: {fileID: 0}
+    SEOP: 0
+    SERePlay: 0
+    Volume: 1
+    Pitch: 1
+  DamageSE:
+    SEFile: {fileID: 0}
+    SEOP: 0
+    SERePlay: 0
+    Volume: 1
+    Pitch: 1
+  DamGuardSE:
+    SEFile: {fileID: 0}
+    SEOP: 0
+    SERePlay: 0
+    Volume: 1
+    Pitch: 1
+  DownSE:
+    SEFile: {fileID: 0}
+    SEOP: 0
+    SERePlay: 0
+    Volume: 1
+    Pitch: 1

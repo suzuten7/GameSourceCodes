@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e73461f4614ef8a41b9cc230ed036bc7, type: 3}
+  m_Name: Chaos_AC2
+  m_EditorClassIdentifier: 
+  ACName: "\u672A\u8A2D\u5B9A"
+  ACInfo: "\u672A\u8A2D\u5B9A(\u672A\u8A2D\u5B9A\u3068\u306F\u8A00\u3063\u3066\u3044\u306A\u3044)"
+  SPAC: 0
+  AnimID: 1
+  Stints: 
+  Shots:
+  - ShotObj: {fileID: 2555061478973486199, guid: 6269ee824e70be74c81eada94c9abbad, type: 3}
+    Firings:
+    - ShotTimes: {x: 25, y: 35, z: 0}
+      Ifs: []
+      ShotSpeed: {x: 600, y: 1000}
+      ShotCount: 1
+      RotBase: 0
+      HorizontalFixed: 0
+      PosOffSet: {x: 0, y: 0, z: 0}
+      YOffSet: 0
+      RotChange: {x: 0, y: 0, z: 0}
+      RotRand: {x: 33, y: 33, z: 33}
+      RotWay: {x: 0, y: 0, z: 0}
+    Damages:
+      Damage: 14
+      HitsDam: 0
+      HitMax: 0
+      TimeDam: 0
+      TimeMin: 0
+      GuardReg: 70
+      HPDrain: 0
+      StanPow: {x: 28, y: 120}
+      HitCT: 0
+      HitEffect: {fileID: 5024009746357069192, guid: b863de378032049409c1eec4114cf7f9, type: 3}
+      HitStopTime: 0.1
+    KBs: []
+    AddBufs:
+    - Buf: 16
+      BufOP: 0
+      BufTime: 300
+      BufPower: 0
+      BufTimeMax: 0
+      BufPowerMax: 0
+    OwnerHits: 0
+  Moves: []
+  MyBufs: []
+  MyParametors: []
+  SEs: []
+  IfTimeBranch: []
+  SPCost: 0
+  EndTime: 40
+  StanRegist: 100
+  CT: 3
+  Video: {fileID: 0}

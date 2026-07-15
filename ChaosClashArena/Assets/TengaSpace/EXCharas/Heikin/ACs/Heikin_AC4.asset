@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e73461f4614ef8a41b9cc230ed036bc7, type: 3}
+  m_Name: Heikin_AC4
+  m_EditorClassIdentifier: 
+  ACName: "\u5FAE\u9707(\u9577\u62BC\u3057)"
+  ACInfo: "\u63FA\u308C\u3066\u81EA\u8EAB\u306E\nHP\u3068MP\u3068SP\u3092\u5909\u52D5\u3055\u305B\u308B\n\u96E2\u3057\u305F\u30BF\u30A4\u30DF\u30F3\u30B0\u306B\u3088\u3063\u3066\n\u5897\u6E1B\u3059\u308B\u304B\u304C\u6C7A\u307E\u308B"
+  SPAC: 0
+  AnimID: 3
+  Stints: 0000000001000000
+  Shots: []
+  Moves: []
+  MyBufs: []
+  MyParametors:
+  - ParaTimes: {x: 2, y: 999, z: 29}
+    Ifs: []
+    Parametor: -1
+    Val: 4640
+  - ParaTimes: {x: 2, y: 999, z: 23}
+    Ifs: []
+    Parametor: -1
+    Val: -3680
+  - ParaTimes: {x: 3, y: 999, z: 31}
+    Ifs: []
+    Parametor: 1
+    Val: 93
+  - ParaTimes: {x: 3, y: 999, z: 37}
+    Ifs: []
+    Parametor: 1
+    Val: -111
+  - ParaTimes: {x: 4, y: 999, z: 7}
+    Ifs: []
+    Parametor: 2
+    Val: 175
+  - ParaTimes: {x: 4, y: 999, z: 9}
+    Ifs: []
+    Parametor: 2
+    Val: -225
+  SEs: []
+  IfTimeBranch:
+  - Times: {x: 990, y: 999}
+    Ifs:
+    - Ifs: 2
+      Val: {x: 0, y: 0}
+    TimeChange: 1
+    CTChange: 0
+  - Times: {x: 0, y: 999}
+    Ifs:
+    - Ifs: 0
+      Val: {x: 0, y: 0}
+    TimeChange: 9999
+    CTChange: 0
+  SPCost: 250
+  EndTime: 9999
+  StanRegist: 100
+  CT: 2
+  Video: {fileID: 0}

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e73461f4614ef8a41b9cc230ed036bc7, type: 3}
+  m_Name: WC_AC3
+  m_EditorClassIdentifier: 
+  ACName: "\u7A81\u6483\uFF01\uFF01\uFF01"
+  ACInfo: "\u6575\u306E\u65B9\u306B\u7A81\u3063\u8FBC\u3080"
+  SPAC: 0
+  AnimID: 2
+  Stints: 
+  Shots: []
+  Moves:
+  - MoveTimes: {x: 45, y: 80, z: 0}
+    Ifs: []
+    RotBase: 0
+    HorizontalFixed: 1
+    Pows: {x: 0, y: 0, z: 15}
+    YPower: 0
+  MyBufs: []
+  MyParametors: []
+  SEs:
+  - SETimes: {x: 45, y: 45, z: 0}
+    Ifs: []
+    SEPlays:
+    - SEFile: {fileID: 8300000, guid: 786a597b96b51b144b69c55e51766b7d, type: 3}
+      SEOP: 0
+      SERePlay: 0
+      Volume: 2
+      Pitch: 1.3
+  IfTimeBranch: []
+  SPCost: 0
+  EndTime: 90
+  StanRegist: 500
+  CT: 10
+  Video: {fileID: 32900000, guid: 7755d2b690d95714784635e99b5c2d25, type: 3}

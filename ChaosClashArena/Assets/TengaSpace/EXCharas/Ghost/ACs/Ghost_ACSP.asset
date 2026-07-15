@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e73461f4614ef8a41b9cc230ed036bc7, type: 3}
+  m_Name: Ghost_ACSP
+  m_EditorClassIdentifier: 
+  ACName: "\u5FF5\u529B"
+  ACInfo: "\u6575\u3092\u5F15\u304D\u4ED8\u3051\u308B"
+  SPAC: 1
+  AnimID: 4
+  Stints: 
+  Shots:
+  - ShotObj: {fileID: 2555061478973486199, guid: b56043b4772a17145867d3cfd816b400, type: 3}
+    Firings:
+    - ShotTimes: {x: 25, y: 25, z: 0}
+      Ifs: []
+      ShotSpeed: {x: 0, y: 0}
+      ShotCount: 1
+      RotBase: 2
+      HorizontalFixed: 0
+      PosOffSet: {x: 0, y: 0, z: 0}
+      YOffSet: 0
+      RotChange: {x: 0, y: 0, z: 0}
+      RotRand: {x: 0, y: 0, z: 0}
+      RotWay: {x: 0, y: 0, z: 0}
+    Damages:
+      Damage: 2
+      HitsDam: 0
+      HitMax: 0
+      TimeDam: 0
+      TimeMin: 0
+      GuardReg: 70
+      HPDrain: 0
+      StanPow: {x: 6, y: 120}
+      HitCT: 8
+      HitEffect: {fileID: 5024009746357069192, guid: 3f970fd7195e8c04a8708ac70d2c7b03, type: 3}
+      HitStopTime: 0.02
+    KBs:
+    - KBRotBase: 4
+      KBPow: {x: 0, y: 0, z: -33}
+      KBPowY: 0
+    AddBufs: []
+    OwnerHits: 0
+  Moves: []
+  MyBufs: []
+  MyParametors: []
+  SEs: []
+  IfTimeBranch: []
+  SPCost: 1500
+  EndTime: 40
+  StanRegist: 100
+  CT: 5
+  Video: {fileID: 0}

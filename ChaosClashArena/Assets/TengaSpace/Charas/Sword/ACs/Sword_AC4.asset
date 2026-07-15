@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e73461f4614ef8a41b9cc230ed036bc7, type: 3}
+  m_Name: Sword_AC4
+  m_EditorClassIdentifier: 
+  ACName: "\u30A6\u30A9\u30FC\u30BF\u30FC\u305D\u30FC\u3069"
+  ACInfo: "\u6FE1\u308C\u3066\u3044\u308B\u5263\u3092\u4F5C\u308A\u51FA\u3059\n\u4E00\u5B9A\u6642\u9593\u7D4C\u904E\u3059\u308B\u307E\u3067\u52D5\u304B\u306A\u3044"
+  SPAC: 0
+  AnimID: 3
+  Stints: 0000000001000000
+  Shots:
+  - ShotObj: {fileID: 2555061478973486199, guid: c1bebfec8c6907241996880a1d56e399, type: 3}
+    Firings:
+    - ShotTimes: {x: 15, y: 50, z: 15}
+      Ifs: []
+      ShotSpeed: {x: 1000, y: 2000}
+      ShotCount: 1
+      RotBase: 0
+      PosOffSet: {x: 0, y: 0, z: 0}
+      YOffSet: 0
+      RotChange: {x: 0, y: 0, z: 0}
+      RotRand: {x: 16, y: 45, z: 0}
+      RotWay: {x: 0, y: 0, z: 0}
+    Damages:
+      Damage: 25
+      HitsDam: 0
+      HitMax: 0
+      TimeDam: 0
+      TimeMin: 0
+      GuardReg: 70
+      HPDrain: 0
+      StanPow: {x: 30, y: 120}
+      HitCT: 100
+      HitEffect: {fileID: 5024009746357069192, guid: b863de378032049409c1eec4114cf7f9, type: 3}
+      HitStopTime: 0.06
+    KBs: []
+    AddBufs: []
+  Moves: []
+  MyBufs: []
+  MyParametors: []
+  SEs:
+  - SETimes: {x: 15, y: 50, z: 15}
+    Ifs: []
+    SEPlays:
+    - SEFile: {fileID: 8300000, guid: 4f368f86fd7a41947bd1dceac79619a1, type: 3}
+      SEOP: 2
+      SERePlay: 0
+      Volume: 2
+      Pitch: 1.3
+  IfTimeBranch: []
+  SPCost: 300
+  EndTime: 55
+  StanRegist: 150
+  CT: 1
+  Video: {fileID: 32900000, guid: fb08f3814e9acd64abe997c6b661a967, type: 3}

@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7231608131c1f32428611094c735c62d, type: 3}
+  m_Name: DBufs
+  m_EditorClassIdentifier: 
+  ItemMessage: "\u30C7\u30D0\u30D5\u306E\u8A70\u3081\u5408\u308F\u305B\u3060!!!"
+  GetEffect: {fileID: 0}
+  ItemDs:
+  - Targets: 0
+    Parametors: []
+    Bufs:
+    - Buf: 6
+      BufOP: 0
+      BufTime: 900
+      BufPower: 0
+      BufTimeMax: 0
+      BufPowerMax: 0
+    - Buf: 5
+      BufOP: 0
+      BufTime: 600
+      BufPower: 0
+      BufTimeMax: 0
+      BufPowerMax: 0
+    - Buf: 1
+      BufOP: 1
+      BufTime: 600
+      BufPower: 25
+      BufTimeMax: 600
+      BufPowerMax: 1000
+    - Buf: 4
+      BufOP: 1
+      BufTime: 900
+      BufPower: 10
+      BufTimeMax: 900
+      BufPowerMax: 100
+    - Buf: 2
+      BufOP: 1
+      BufTime: 1200
+      BufPower: 15
+      BufTimeMax: 1200
+      BufPowerMax: 1000
+    - Buf: 11
+      BufOP: 1
+      BufTime: 900
+      BufPower: 150
+      BufTimeMax: 900
+      BufPowerMax: 900

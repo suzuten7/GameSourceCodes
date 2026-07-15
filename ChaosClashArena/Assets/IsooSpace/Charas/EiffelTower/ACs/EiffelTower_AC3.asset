@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e73461f4614ef8a41b9cc230ed036bc7, type: 3}
+  m_Name: EiffelTower_AC3
+  m_EditorClassIdentifier: 
+  ACName: "\u9244\u9AA8"
+  ACInfo: "\u3088\u304F\u898B\u308B\u8D64\u3044H\u578B\u306E\u92FC\u306E\u584A\u3092\u6295\u3052\u308B\u3002\n\u5B9F\u306F\u3061\u3083\u3093\u3068\u3057\u305F\u540D\u524D\u306F\u306A\u3044\u3089\u3057\u304F\u3001\nH\u578B\u92FC\u3068wiki\u3067\u306F\u66F8\u3044\u3066\u3042\u3063\u305F\u3002"
+  SPAC: 0
+  AnimID: 2
+  Stints: 
+  Shots:
+  - ShotObj: {fileID: 2555061478973486199, guid: 7dfa4af572d146c48a7a7b7aa15eaa0f, type: 3}
+    Firings:
+    - ShotTimes: {x: 25, y: 25, z: 0}
+      Ifs: []
+      ShotSpeed: {x: 500, y: 5000}
+      ShotCount: 0
+      RotBase: 0
+      PosOffSet: {x: 0, y: 0, z: 0}
+      YOffSet: 0
+      RotChange: {x: 0, y: 0, z: 0}
+      RotRand: {x: 5, y: 5, z: 5}
+      RotWay: {x: 0, y: 0, z: 0}
+    Damages:
+      Damage: 70
+      HitsDam: -3
+      HitMax: 2
+      TimeDam: 0
+      TimeMin: 0
+      GuardReg: -100
+      HPDrain: 0
+      StanPow: {x: 200, y: 150}
+      HitCT: 30
+      HitEffect: {fileID: 5024009746357069192, guid: c71b9ddf0fed5a847bbdeac93136da6d, type: 3}
+      HitStopTime: 0.3
+    KBs: []
+    AddBufs:
+    - Buf: 5
+      BufOP: 1
+      BufTime: 120
+      BufPower: 1
+      BufTimeMax: 1
+      BufPowerMax: 99
+  Moves: []
+  MyBufs: []
+  MyParametors:
+  - ParaTimes: {x: 25, y: 25, z: 0}
+    Ifs: []
+    Parametor: 0
+    Val: -7000
+  SEs:
+  - SETimes: {x: 25, y: 25, z: 0}
+    Ifs: []
+    SEPlays:
+    - SEFile: {fileID: 8300000, guid: c3cffada932f6d2488980b0cfb9a8dcd, type: 3}
+      SEOP: 0
+      SERePlay: 0
+      Volume: 2
+      Pitch: 0.7
+  IfTimeBranch: []
+  SPCost: 600
+  EndTime: 40
+  StanRegist: 100
+  CT: 5
+  Video: {fileID: 32900000, guid: 512fd702723d2114c95c5c437e67d66d, type: 3}

@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e73461f4614ef8a41b9cc230ed036bc7, type: 3}
+  m_Name: Hansya_AC4
+  m_EditorClassIdentifier: 
+  ACName: "\u5F3E\u529B\u56E3\u5B50"
+  ACInfo: "\u30B3\u30EC\u306B\u5F53\u305F\u3063\u305F\u6575\u5F3E\u306F\n\u6575\u306E\u65B9\u5411\u306B\u3068\u3093\u3067\u3044\u304F\n\u5FC5\u6BBA\u3084\u5927\u304D\u3044\u653B\u6483\u306F\n\u53CD\u5C04\u3067\u304D\u306A\u304B\u3063\u305F\u308A\u3059\u308B"
+  SPAC: 0
+  AnimID: 3
+  Stints: 00000000010000000200000003000000
+  Shots:
+  - ShotObj: {fileID: 2555061478973486199, guid: 7cf3752913a516e44bae9f92ac313169, type: 3}
+    Firings:
+    - ShotTimes: {x: 25, y: 25, z: 0}
+      Ifs: []
+      ShotSpeed: {x: 0, y: 0}
+      ShotCount: 1
+      RotBase: 2
+      HorizontalFixed: 0
+      PosOffSet: {x: 0, y: 0, z: 0}
+      YOffSet: 0
+      RotChange: {x: 0, y: 0, z: 0}
+      RotRand: {x: 0, y: 0, z: 0}
+      RotWay: {x: 0, y: 0, z: 0}
+    Damages:
+      Damage: 10
+      HitsDam: 0
+      HitMax: 0
+      TimeDam: 0
+      TimeMin: 0
+      GuardReg: 70
+      HPDrain: 0
+      StanPow: {x: 20, y: 120}
+      HitCT: 45
+      HitEffect: {fileID: 5024009746357069192, guid: 9b435bea4d88da34b96f56fb22fa92df, type: 3}
+      HitStopTime: 0.08
+    KBs: []
+    AddBufs: []
+    OwnerHits: 0
+  Moves: []
+  MyBufs: []
+  MyParametors: []
+  SEs: []
+  IfTimeBranch: []
+  SPCost: 1000
+  EndTime: 40
+  StanRegist: 100
+  CT: 5
+  Video: {fileID: 0}

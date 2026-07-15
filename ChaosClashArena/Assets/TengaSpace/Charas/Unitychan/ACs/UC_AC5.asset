@@ -1,0 +1,366 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e73461f4614ef8a41b9cc230ed036bc7, type: 3}
+  m_Name: UC_AC5
+  m_EditorClassIdentifier: 
+  ACName: "Unity\u30C1\u30E3\u30FC\u30B8(\u9577\u62BC\u3057)"
+  ACInfo: "\u9577\u62BC\u3057\u6642\u9593\u306B\u3088\u3063\u3066\u6700\u59279\u6BB5\u968E\n\u5A01\u529B\u304C\u5897\u52A0\u3059\u308B\u653B\u6483\n\u30CF\u30A4\u30D1\u30FCUnity\u3061\u3083\u3093\u72B6\u614B\u3060\u3068\n\u5373\u5EA7\u306B5\u6BB5\u968E\u306E\u653B\u6483\u306B\u306A\u308B"
+  SPAC: 0
+  AnimID: 3
+  Stints: 0000000001000000
+  Shots:
+  - ShotObj: {fileID: 2555061478973486199, guid: e655e115aa939bc428cd3cc46e5bbf8b, type: 3}
+    Firings:
+    - ShotTimes: {x: 451, y: 451, z: 0}
+      Ifs: []
+      ShotSpeed: {x: 3000, y: 3000}
+      ShotCount: 1
+      RotBase: 0
+      HorizontalFixed: 1
+      PosOffSet: {x: 0, y: 0, z: 0}
+      YOffSet: 0
+      RotChange: {x: 0, y: 0, z: 0}
+      RotRand: {x: 0, y: 0, z: 0}
+      RotWay: {x: 0, y: 0, z: 0}
+    Damages:
+      Damage: 50
+      HitsDam: 0
+      HitMax: 0
+      TimeDam: 0
+      TimeMin: 0
+      GuardReg: 0
+      HPDrain: 0
+      StanPow: {x: 100, y: 120}
+      HitCT: 0
+      HitEffect: {fileID: 5024009746357069192, guid: c83adc2e17e39ce4d9f84de6207f3a0e, type: 3}
+      HitStopTime: 0.12
+    KBs: []
+    AddBufs: []
+    OwnerHits: 0
+  - ShotObj: {fileID: 2555061478973486199, guid: e655e115aa939bc428cd3cc46e5bbf8b, type: 3}
+    Firings:
+    - ShotTimes: {x: 452, y: 452, z: 0}
+      Ifs: []
+      ShotSpeed: {x: 3500, y: 3500}
+      ShotCount: 1
+      RotBase: 0
+      HorizontalFixed: 1
+      PosOffSet: {x: 0, y: 0, z: 0}
+      YOffSet: 0
+      RotChange: {x: 0, y: 0, z: 0}
+      RotRand: {x: 0, y: 0, z: 0}
+      RotWay: {x: 0, y: 0, z: 0}
+    Damages:
+      Damage: 75
+      HitsDam: 0
+      HitMax: 0
+      TimeDam: 0
+      TimeMin: 0
+      GuardReg: 0
+      HPDrain: 0
+      StanPow: {x: 150, y: 120}
+      HitCT: 0
+      HitEffect: {fileID: 5024009746357069192, guid: c71b9ddf0fed5a847bbdeac93136da6d, type: 3}
+      HitStopTime: 0.12
+    KBs: []
+    AddBufs: []
+    OwnerHits: 0
+  - ShotObj: {fileID: 2555061478973486199, guid: e655e115aa939bc428cd3cc46e5bbf8b, type: 3}
+    Firings:
+    - ShotTimes: {x: 453, y: 453, z: 0}
+      Ifs: []
+      ShotSpeed: {x: 4000, y: 4000}
+      ShotCount: 1
+      RotBase: 0
+      HorizontalFixed: 1
+      PosOffSet: {x: 0, y: 0, z: 0}
+      YOffSet: 0
+      RotChange: {x: 0, y: 0, z: 0}
+      RotRand: {x: 0, y: 0, z: 0}
+      RotWay: {x: 0, y: 0, z: 0}
+    Damages:
+      Damage: 100
+      HitsDam: 0
+      HitMax: 0
+      TimeDam: 0
+      TimeMin: 0
+      GuardReg: 0
+      HPDrain: 0
+      StanPow: {x: 200, y: 120}
+      HitCT: 0
+      HitEffect: {fileID: 5024009746357069192, guid: c71b9ddf0fed5a847bbdeac93136da6d, type: 3}
+      HitStopTime: 0.12
+    KBs: []
+    AddBufs: []
+    OwnerHits: 0
+  - ShotObj: {fileID: 2555061478973486199, guid: e655e115aa939bc428cd3cc46e5bbf8b, type: 3}
+    Firings:
+    - ShotTimes: {x: 454, y: 454, z: 0}
+      Ifs: []
+      ShotSpeed: {x: 4500, y: 4500}
+      ShotCount: 1
+      RotBase: 0
+      HorizontalFixed: 1
+      PosOffSet: {x: 0, y: 0, z: 0}
+      YOffSet: 0
+      RotChange: {x: 0, y: 0, z: 0}
+      RotRand: {x: 0, y: 0, z: 0}
+      RotWay: {x: 0, y: 0, z: 0}
+    Damages:
+      Damage: 125
+      HitsDam: 0
+      HitMax: 0
+      TimeDam: 0
+      TimeMin: 0
+      GuardReg: 0
+      HPDrain: 0
+      StanPow: {x: 250, y: 120}
+      HitCT: 0
+      HitEffect: {fileID: 5024009746357069192, guid: 31da87f91f5b1454eafdbc618a69540a, type: 3}
+      HitStopTime: 0.12
+    KBs: []
+    AddBufs: []
+    OwnerHits: 0
+  - ShotObj: {fileID: 2555061478973486199, guid: e655e115aa939bc428cd3cc46e5bbf8b, type: 3}
+    Firings:
+    - ShotTimes: {x: 455, y: 455, z: 0}
+      Ifs: []
+      ShotSpeed: {x: 5000, y: 5000}
+      ShotCount: 1
+      RotBase: 0
+      HorizontalFixed: 1
+      PosOffSet: {x: 0, y: 0, z: 0}
+      YOffSet: 0
+      RotChange: {x: 0, y: 0, z: 0}
+      RotRand: {x: 0, y: 0, z: 0}
+      RotWay: {x: 0, y: 0, z: 0}
+    Damages:
+      Damage: 150
+      HitsDam: 0
+      HitMax: 0
+      TimeDam: 0
+      TimeMin: 0
+      GuardReg: 0
+      HPDrain: 0
+      StanPow: {x: 300, y: 120}
+      HitCT: 0
+      HitEffect: {fileID: 5024009746357069192, guid: 31da87f91f5b1454eafdbc618a69540a, type: 3}
+      HitStopTime: 0.12
+    KBs: []
+    AddBufs: []
+    OwnerHits: 0
+  - ShotObj: {fileID: 2555061478973486199, guid: e655e115aa939bc428cd3cc46e5bbf8b, type: 3}
+    Firings:
+    - ShotTimes: {x: 456, y: 456, z: 0}
+      Ifs: []
+      ShotSpeed: {x: 5500, y: 5500}
+      ShotCount: 1
+      RotBase: 0
+      HorizontalFixed: 1
+      PosOffSet: {x: 0, y: 0, z: 0}
+      YOffSet: 0
+      RotChange: {x: 0, y: 0, z: 0}
+      RotRand: {x: 0, y: 0, z: 0}
+      RotWay: {x: 0, y: 0, z: 0}
+    Damages:
+      Damage: 175
+      HitsDam: 0
+      HitMax: 0
+      TimeDam: 0
+      TimeMin: 0
+      GuardReg: 0
+      HPDrain: 0
+      StanPow: {x: 350, y: 120}
+      HitCT: 0
+      HitEffect: {fileID: 5024009746357069192, guid: 31da87f91f5b1454eafdbc618a69540a, type: 3}
+      HitStopTime: 0.12
+    KBs: []
+    AddBufs: []
+    OwnerHits: 0
+  - ShotObj: {fileID: 2555061478973486199, guid: e655e115aa939bc428cd3cc46e5bbf8b, type: 3}
+    Firings:
+    - ShotTimes: {x: 457, y: 457, z: 0}
+      Ifs: []
+      ShotSpeed: {x: 6000, y: 6000}
+      ShotCount: 1
+      RotBase: 0
+      HorizontalFixed: 1
+      PosOffSet: {x: 0, y: 0, z: 0}
+      YOffSet: 0
+      RotChange: {x: 0, y: 0, z: 0}
+      RotRand: {x: 0, y: 0, z: 0}
+      RotWay: {x: 0, y: 0, z: 0}
+    Damages:
+      Damage: 200
+      HitsDam: 0
+      HitMax: 0
+      TimeDam: 0
+      TimeMin: 0
+      GuardReg: 0
+      HPDrain: 0
+      StanPow: {x: 400, y: 120}
+      HitCT: 0
+      HitEffect: {fileID: 5024009746357069192, guid: 31da87f91f5b1454eafdbc618a69540a, type: 3}
+      HitStopTime: 0.12
+    KBs: []
+    AddBufs: []
+    OwnerHits: 0
+  - ShotObj: {fileID: 2555061478973486199, guid: e655e115aa939bc428cd3cc46e5bbf8b, type: 3}
+    Firings:
+    - ShotTimes: {x: 458, y: 458, z: 0}
+      Ifs: []
+      ShotSpeed: {x: 6500, y: 6500}
+      ShotCount: 1
+      RotBase: 0
+      HorizontalFixed: 1
+      PosOffSet: {x: 0, y: 0, z: 0}
+      YOffSet: 0
+      RotChange: {x: 0, y: 0, z: 0}
+      RotRand: {x: 0, y: 0, z: 0}
+      RotWay: {x: 0, y: 0, z: 0}
+    Damages:
+      Damage: 225
+      HitsDam: 0
+      HitMax: 0
+      TimeDam: 0
+      TimeMin: 0
+      GuardReg: 0
+      HPDrain: 0
+      StanPow: {x: 450, y: 120}
+      HitCT: 0
+      HitEffect: {fileID: 5024009746357069192, guid: e8c19bc6f3bef5b4a8fb7153e7ae3c81, type: 3}
+      HitStopTime: 0.12
+    KBs: []
+    AddBufs: []
+    OwnerHits: 0
+  - ShotObj: {fileID: 2555061478973486199, guid: e655e115aa939bc428cd3cc46e5bbf8b, type: 3}
+    Firings:
+    - ShotTimes: {x: 459, y: 459, z: 0}
+      Ifs: []
+      ShotSpeed: {x: 7000, y: 7000}
+      ShotCount: 1
+      RotBase: 0
+      HorizontalFixed: 1
+      PosOffSet: {x: 0, y: 0, z: 0}
+      YOffSet: 0
+      RotChange: {x: 0, y: 0, z: 0}
+      RotRand: {x: 0, y: 0, z: 0}
+      RotWay: {x: 0, y: 0, z: 0}
+    Damages:
+      Damage: 250
+      HitsDam: 0
+      HitMax: 0
+      TimeDam: 0
+      TimeMin: 0
+      GuardReg: 0
+      HPDrain: 0
+      StanPow: {x: 500, y: 120}
+      HitCT: 0
+      HitEffect: {fileID: 5024009746357069192, guid: e8c19bc6f3bef5b4a8fb7153e7ae3c81, type: 3}
+      HitStopTime: 0.12
+    KBs: []
+    AddBufs: []
+    OwnerHits: 0
+  Moves: []
+  MyBufs: []
+  MyParametors: []
+  SEs:
+  - SETimes: {x: 4, y: 4, z: 0}
+    Ifs: []
+    SEPlays:
+    - SEFile: {fileID: 8300000, guid: c680172e9ee284460a1f0f344e05ac59, type: 3}
+      SEOP: 3
+      SERePlay: 0
+      Volume: 1
+      Pitch: 1
+  - SETimes: {x: 400, y: 500, z: 0}
+    Ifs: []
+    SEPlays:
+    - SEFile: {fileID: 8300000, guid: c680172e9ee284460a1f0f344e05ac59, type: 3}
+      SEOP: 3
+      SERePlay: 0
+      Volume: 1
+      Pitch: 1
+  IfTimeBranch:
+  - Times: {x: 450, y: 500}
+    Ifs: []
+    TimeChange: 500
+    CTChange: 0
+  - Times: {x: 15, y: 50}
+    Ifs:
+    - Ifs: 11
+      Val: {x: 0, y: 0}
+    TimeChange: 454
+    CTChange: 0
+  - Times: {x: 15, y: 50}
+    Ifs:
+    - Ifs: 0
+      Val: {x: 0, y: 0}
+    TimeChange: 450
+    CTChange: 0
+  - Times: {x: 51, y: 100}
+    Ifs:
+    - Ifs: 0
+      Val: {x: 0, y: 0}
+    TimeChange: 451
+    CTChange: 0
+  - Times: {x: 101, y: 150}
+    Ifs:
+    - Ifs: 0
+      Val: {x: 0, y: 0}
+    TimeChange: 452
+    CTChange: 0
+  - Times: {x: 151, y: 200}
+    Ifs:
+    - Ifs: 0
+      Val: {x: 0, y: 0}
+    TimeChange: 453
+    CTChange: 0
+  - Times: {x: 201, y: 250}
+    Ifs:
+    - Ifs: 0
+      Val: {x: 0, y: 0}
+    TimeChange: 454
+    CTChange: 0
+  - Times: {x: 251, y: 300}
+    Ifs:
+    - Ifs: 0
+      Val: {x: 0, y: 0}
+    TimeChange: 455
+    CTChange: 0
+  - Times: {x: 301, y: 350}
+    Ifs:
+    - Ifs: 0
+      Val: {x: 0, y: 0}
+    TimeChange: 456
+    CTChange: 0
+  - Times: {x: 351, y: 400}
+    Ifs:
+    - Ifs: 0
+      Val: {x: 0, y: 0}
+    TimeChange: 457
+    CTChange: 0
+  - Times: {x: 401, y: 449}
+    Ifs:
+    - Ifs: 0
+      Val: {x: 0, y: 0}
+    TimeChange: 458
+    CTChange: 0
+  - Times: {x: 449, y: 449}
+    Ifs: []
+    TimeChange: 458
+    CTChange: 0
+  SPCost: 0
+  EndTime: 500
+  StanRegist: 250
+  CT: 7.5
+  Video: {fileID: 0}

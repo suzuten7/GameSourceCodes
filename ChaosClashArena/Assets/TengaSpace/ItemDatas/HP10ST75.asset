@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7231608131c1f32428611094c735c62d, type: 3}
+  m_Name: HP10ST75
+  m_EditorClassIdentifier: 
+  ItemMessage: "HP\u304C10%,\u30B9\u30BF\u30F3\u5024\u304C75%\u56DE\u5FA9!!!"
+  GetEffect: {fileID: 0}
+  ItemDs:
+  - Targets: 0
+    Parametors:
+    - Parametor: 0
+      Val: 10
+      MaxPers: 1
+    - Parametor: 3
+      Val: 75
+      MaxPers: 1
+    - Parametor: 4
+      Val: 75
+      MaxPers: 1
+    Bufs: []
+    TPs: []
+    InstObj: []

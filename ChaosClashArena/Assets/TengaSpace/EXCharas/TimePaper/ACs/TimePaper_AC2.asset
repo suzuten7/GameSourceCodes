@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e73461f4614ef8a41b9cc230ed036bc7, type: 3}
+  m_Name: TimePaper_AC2
+  m_EditorClassIdentifier: 
+  ACName: "\u30BF\u30A4\u30E0\u30D4\u30FC\u30B9\u30D1\u30C3\u30B7\u30F3\u30B0"
+  ACInfo: "\u6642\u306E\u6B20\u7247\u3092\n\u5DE6\u53F3\u304B\u3089\n\u76F8\u624B\u306B\u901A\u904E\u3055\u305B\u308B"
+  SPAC: 0
+  AnimID: 1
+  Stints: 
+  Shots:
+  - ShotObj: {fileID: 2555061478973486199, guid: 4b9c661c58a93384f83f1fb4a66f248e, type: 3}
+    Firings:
+    - ShotTimes: {x: 25, y: 25, z: 0}
+      Ifs: []
+      ShotSpeed: {x: 888, y: 888}
+      ShotCount: 1
+      RotBase: 0
+      HorizontalFixed: 1
+      PosOffSet: {x: 0, y: 0, z: 0}
+      YOffSet: 0
+      RotChange: {x: 0, y: -90, z: 0}
+      RotRand: {x: 0, y: 0, z: 0}
+      RotWay: {x: 0, y: 0, z: 0}
+    - ShotTimes: {x: 25, y: 25, z: 0}
+      Ifs: []
+      ShotSpeed: {x: 888, y: 888}
+      ShotCount: 1
+      RotBase: 0
+      HorizontalFixed: 1
+      PosOffSet: {x: 0, y: 0, z: 0}
+      YOffSet: 0
+      RotChange: {x: 0, y: 90, z: 0}
+      RotRand: {x: 0, y: 0, z: 0}
+      RotWay: {x: 0, y: 0, z: 0}
+    Damages:
+      Damage: 2
+      HitsDam: 0
+      HitMax: 0
+      TimeDam: 0
+      TimeMin: 0
+      GuardReg: 70
+      HPDrain: 0
+      StanPow: {x: 4, y: 120}
+      HitCT: 2
+      HitEffect: {fileID: 5024009746357069192, guid: 3f970fd7195e8c04a8708ac70d2c7b03, type: 3}
+      HitStopTime: 0.04
+    KBs:
+    - KBRotBase: 0
+      KBPow: {x: 0, y: 0, z: 12}
+      KBPowY: 0
+    AddBufs:
+    - Buf: 17
+      BufOP: 1
+      BufTime: 30
+      BufPower: 0
+      BufTimeMax: 300
+      BufPowerMax: 0
+    OwnerHits: 0
+  Moves: []
+  MyBufs: []
+  MyParametors: []
+  SEs: []
+  IfTimeBranch: []
+  SPCost: 0
+  EndTime: 40
+  StanRegist: 100
+  CT: 6
+  Video: {fileID: 0}

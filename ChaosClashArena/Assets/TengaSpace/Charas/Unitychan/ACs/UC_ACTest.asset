@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e73461f4614ef8a41b9cc230ed036bc7, type: 3}
+  m_Name: UC_ACTest
+  m_EditorClassIdentifier: 
+  ACName: "\u30C6\u30B9\u30C8\u7528"
+  ACInfo: "\u30C6\u30B9\u30C8\u4E2D\n\u708E\u4E0A,\u6BD2\u3092\u81EA\u8EAB\u59D4\u4ED8\u4E0E"
+  Stints: 0000000001000000020000000300000004000000
+  Shots: []
+  Moves: []
+  MyBufs:
+  - BufTimes: {x: 2, y: 2, z: 0}
+    Bufs:
+    - Buf: 1
+      BufTime: 150
+      BufPower: 10
+  - BufTimes: {x: 152, y: 152, z: 0}
+    Bufs:
+    - Buf: 2
+      BufTime: 150
+      BufPower: 10
+  SPCost: 0
+  EndTime: 300
+  StanRegist: 100
+  CT: 1.5
+  Video: {fileID: 32900000, guid: 68466cb7a180b434684eefeec4613d37, type: 3}

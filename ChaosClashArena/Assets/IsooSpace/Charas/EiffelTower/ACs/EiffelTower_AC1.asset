@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e73461f4614ef8a41b9cc230ed036bc7, type: 3}
+  m_Name: EiffelTower_AC1
+  m_EditorClassIdentifier: 
+  ACName: "\u30D5\u30E9\u30F3\u30B9\u30D1\u30F3"
+  ACInfo: "\u30D5\u30E9\u30F3\u30B9\u306E\u30D1\u30F3\u3001\n1255\u5E745\u670824\u65E5\u30DC\u30EB\u30C9\u30FC\uFF08Bordeaux\uFF09\n\u306E\u5E02\u6C11\u306F\u53CD\u4E71\u3092\u8D77\u3053\u3057\u305F\u3001\n\u305D\u306E\u5E02\u6C11\u9054\u306E\u624B\u306B\u306F\u30D5\u30E9\u30F3\u30B9\u30D1\u30F3\u304C\u3042\u3063\u305F\n\u306A\u304A\u3053\u306E\u60C5\u5831\u306F\u30C7\u30DE\u3067\u3042\u308B"
+  SPAC: 0
+  AnimID: 0
+  Stints: 
+  Shots:
+  - ShotObj: {fileID: 2555061478973486199, guid: a4eb77778e2a1bf49a1328e6237e8c9e, type: 3}
+    Firings:
+    - ShotTimes: {x: 15, y: 15, z: 0}
+      Ifs: []
+      ShotSpeed: {x: 1000, y: 2000}
+      ShotCount: 1
+      RotBase: 0
+      PosOffSet: {x: 0, y: 0, z: 0}
+      YOffSet: 0
+      RotChange: {x: 0, y: 0, z: 0}
+      RotRand: {x: 0, y: 0, z: 0}
+      RotWay: {x: 0, y: 0, z: 0}
+    - ShotTimes: {x: 15, y: 15, z: 0}
+      Ifs: []
+      ShotSpeed: {x: 1000, y: 2000}
+      ShotCount: 1
+      RotBase: 0
+      PosOffSet: {x: 0, y: 0, z: 0}
+      YOffSet: 0
+      RotChange: {x: 0, y: 0, z: 0}
+      RotRand: {x: 8, y: 8, z: 8}
+      RotWay: {x: 0, y: 0, z: 0}
+    Damages:
+      Damage: 10
+      HitsDam: 0
+      HitMax: 0
+      TimeDam: 0
+      TimeMin: 0
+      GuardReg: 70
+      HPDrain: 0
+      StanPow: {x: 20, y: 120}
+      HitCT: 0
+      HitEffect: {fileID: 5024009746357069192, guid: 9b435bea4d88da34b96f56fb22fa92df, type: 3}
+      HitStopTime: 0.15
+    KBs: []
+    AddBufs: []
+  Moves: []
+  MyBufs: []
+  MyParametors: []
+  SEs:
+  - SETimes: {x: 15, y: 15, z: 0}
+    Ifs: []
+    SEPlays:
+    - SEFile: {fileID: 8300000, guid: 26f418f40a0423d4eadef8362ba869bb, type: 3}
+      SEOP: 1
+      SERePlay: 0
+      Volume: 1
+      Pitch: 0.6
+  IfTimeBranch: []
+  SPCost: 0
+  EndTime: 40
+  StanRegist: 100
+  CT: 1
+  Video: {fileID: 32900000, guid: f1882cdd13932124fb4c660d4382c7e1, type: 3}

@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e73461f4614ef8a41b9cc230ed036bc7, type: 3}
+  m_Name: ExtGun_AC1
+  m_EditorClassIdentifier: 
+  ACName: "\u30B9\u30CA\u30A4\u30D7"
+  ACInfo: "\u6C34\u5E73\u65B9\u5411\u306B\n\u3057\u304B\u98DB\u3070\u306A\u3044\u304C\n\u8D85\u5F37\u529B\u306A\u5C04\u6483\u3092\u884C\u3046\n\u53CD\u5C04\u72B6\u614B\u3092\u8CAB\u901A\u3059\u308B"
+  SPAC: 0
+  AnimID: 0
+  Stints: 
+  Shots:
+  - ShotObj: {fileID: 2555061478973486199, guid: e4c1ddc68bc6e5744a6ec09b75181abf, type: 3}
+    Firings:
+    - ShotTimes: {x: 59, y: 59, z: 0}
+      Ifs: []
+      ShotSpeed: {x: 9999, y: 9999}
+      ShotCount: 1
+      RotBase: 0
+      HorizontalFixed: 1
+      PosOffSet: {x: 0, y: 0, z: 0}
+      YOffSet: 0
+      RotChange: {x: 0, y: 0, z: 0}
+      RotRand: {x: 0, y: 0, z: 0}
+      RotWay: {x: 0, y: 0, z: 0}
+    Damages:
+      Damage: 210
+      HitsDam: 0
+      HitMax: 0
+      TimeDam: 0
+      TimeMin: 0
+      GuardReg: 70
+      HPDrain: 0
+      StanPow: {x: 105, y: 120}
+      HitCT: 0
+      HitEffect: {fileID: 5024009746357069192, guid: e8c19bc6f3bef5b4a8fb7153e7ae3c81, type: 3}
+      HitStopTime: 0.1
+    KBs: []
+    AddBufs: []
+    OwnerHits: 0
+  Moves: []
+  MyBufs: []
+  MyParametors: []
+  SEs: []
+  IfTimeBranch: []
+  SPCost: 0
+  EndTime: 60
+  StanRegist: 100
+  CT: 1
+  Video: {fileID: 0}

@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e73461f4614ef8a41b9cc230ed036bc7, type: 3}
+  m_Name: Pluto_ACSP
+  m_EditorClassIdentifier: 
+  ACName: "\u5C0F\u60D1\u661F\u661F\u96F2"
+  ACInfo: "\u5C0F\u60D1\u661F\u3092\u6563\u308A\u3070\u3081\u305F\n\u661F\u96F2\u3092\u4F5C\u308A\u51FA\u3059\n\u63A5\u89E6\u3057\u305F\u3082\u306E\u306E\n\u91CD\u529B\u3092\u4E0D\u5B89\u5B9A\u306B\u3055\u305B\u308B"
+  SPAC: 1
+  AnimID: 4
+  Stints: 
+  Shots:
+  - ShotObj: {fileID: 2555061478973486199, guid: a8c4ecd83e5617b499c9245f79e533c4, type: 3}
+    Firings:
+    - ShotTimes: {x: 3, y: 3, z: 0}
+      Ifs: []
+      ShotSpeed: {x: 1000, y: 1000}
+      ShotCount: 1
+      RotBase: 0
+      HorizontalFixed: 0
+      PosOffSet: {x: 0, y: 0, z: 0}
+      YOffSet: 0
+      RotChange: {x: 0, y: 0, z: 0}
+      RotRand: {x: 0, y: 0, z: 0}
+      RotWay: {x: 0, y: 0, z: 0}
+    Damages:
+      Damage: 8
+      HitsDam: 0
+      HitMax: 0
+      TimeDam: 0
+      TimeMin: 0
+      GuardReg: 70
+      HPDrain: 0
+      StanPow: {x: 8, y: 120}
+      HitCT: 100
+      HitEffect: {fileID: 5024009746357069192, guid: 9b435bea4d88da34b96f56fb22fa92df, type: 3}
+      HitStopTime: 0.1
+    KBs: []
+    AddBufs:
+    - Buf: 15
+      BufOP: 0
+      BufTime: 400
+      BufPower: 0
+      BufTimeMax: 0
+      BufPowerMax: 0
+    OwnerHits: 0
+  Moves: []
+  MyBufs: []
+  MyParametors: []
+  SEs: []
+  IfTimeBranch: []
+  SPCost: 1500
+  EndTime: 5
+  StanRegist: 100
+  CT: 8
+  Video: {fileID: 0}

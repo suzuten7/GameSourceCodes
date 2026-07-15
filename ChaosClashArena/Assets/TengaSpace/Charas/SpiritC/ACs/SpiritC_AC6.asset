@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e73461f4614ef8a41b9cc230ed036bc7, type: 3}
+  m_Name: SpiritC_AC6
+  m_EditorClassIdentifier: 
+  ACName: "\u76F8\u5BFE\u6027\u91CD\u529B"
+  ACInfo: "\u6575\u3092\u4E0B\u306B\u98DB\u3070\u3057\n\u81EA\u5206\u306F\u4E0A\u306B\u98DB\u3076"
+  SPAC: 0
+  AnimID: 4
+  Stints: 0000000001000000
+  Shots:
+  - ShotObj: {fileID: 2555061478973486199, guid: 59ae892251f653d4b820696f0d2bd7b5, type: 3}
+    Firings:
+    - ShotTimes: {x: 20, y: 20, z: 0}
+      Ifs: []
+      ShotSpeed: {x: 5, y: 5}
+      ShotCount: 1
+      RotBase: 2
+      HorizontalFixed: 0
+      PosOffSet: {x: 0, y: 0, z: 0}
+      YOffSet: 0
+      RotChange: {x: 90, y: 0, z: 0}
+      RotRand: {x: 0, y: 0, z: 0}
+      RotWay: {x: 0, y: 0, z: 0}
+    Damages:
+      Damage: 3
+      HitsDam: 0
+      HitMax: 0
+      TimeDam: 0
+      TimeMin: 0
+      GuardReg: 70
+      HPDrain: 0
+      StanPow: {x: 6, y: 120}
+      HitCT: 10
+      HitEffect: {fileID: 5024009746357069192, guid: 3f970fd7195e8c04a8708ac70d2c7b03, type: 3}
+      HitStopTime: 0.01
+    KBs:
+    - KBRotBase: 0
+      KBPow: {x: 0, y: 0, z: 25}
+      KBPowY: 0
+    AddBufs: []
+    OwnerHits: 0
+  Moves:
+  - MoveTimes: {x: 20, y: 20, z: 0}
+    Ifs: []
+    RotBase: 1
+    HorizontalFixed: 0
+    Pows: {x: 0, y: 0, z: 0}
+    YPower: 250
+  MyBufs: []
+  MyParametors: []
+  SEs:
+  - SETimes: {x: 35, y: 35, z: 0}
+    Ifs: []
+    SEPlays:
+    - SEFile: {fileID: 8300000, guid: e6de129228de3144a87e947b803c9988, type: 3}
+      SEOP: 0
+      SERePlay: 0
+      Volume: 1
+      Pitch: 1.2
+  IfTimeBranch: []
+  SPCost: 1600
+  EndTime: 25
+  StanRegist: 300
+  CT: 8
+  Video: {fileID: 32900000, guid: 59f8cf85ec65a8c4a9df883dc13a31e3, type: 3}

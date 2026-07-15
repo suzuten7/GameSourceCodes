@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e73461f4614ef8a41b9cc230ed036bc7, type: 3}
+  m_Name: Robot_AC2
+  m_EditorClassIdentifier: 
+  ACName: "\u30AA\u30FC\u30C8\u30FC\u30DE\u30FB\u30EC\u30FC\u30B6\u30FC"
+  ACInfo: "\u653E\u3066\u3070\u81EA\u52D5\u3067\n\u6575\u3092\u6BB2\u6EC5\u3059\u308B\n\u30EC\u30FC\u30B6\u30FC"
+  SPAC: 0
+  AnimID: 1
+  Stints: 
+  Shots:
+  - ShotObj: {fileID: 2555061478973486199, guid: bcdfbf6d8877dea41aa577ce8753213d, type: 3}
+    Firings:
+    - ShotTimes: {x: 25, y: 25, z: 0}
+      Ifs: []
+      ShotSpeed: {x: 3000, y: 3000}
+      ShotCount: 8
+      RotBase: 0
+      PosOffSet: {x: 0, y: 0, z: 0}
+      YOffSet: 0
+      RotChange: {x: 0, y: 0, z: 0}
+      RotRand: {x: 90, y: 90, z: 0}
+      RotWay: {x: 0, y: 0, z: 0}
+    Damages:
+      Damage: 2
+      HitsDam: 0
+      HitMax: 0
+      TimeDam: 0
+      TimeMin: 0
+      GuardReg: 70
+      HPDrain: 0
+      StanPow: {x: 4, y: 120}
+      HitCT: 32
+      HitEffect: {fileID: 5024009746357069192, guid: 3f970fd7195e8c04a8708ac70d2c7b03, type: 3}
+      HitStopTime: 0
+    KBs: []
+    AddBufs: []
+  Moves: []
+  MyBufs: []
+  MyParametors: []
+  SEs:
+  - SETimes: {x: 25, y: 25, z: 0}
+    Ifs: []
+    SEPlays:
+    - SEFile: {fileID: 8300000, guid: 52d4dde5cd0f047438fae3e09808684a, type: 3}
+      SEOP: 0
+      SERePlay: 0
+      Volume: 1
+      Pitch: 1
+  IfTimeBranch: []
+  SPCost: 0
+  EndTime: 40
+  StanRegist: 100
+  CT: 10
+  Video: {fileID: 32900000, guid: 2b50ed5120c8dfa4da2c0750b106740f, type: 3}

@@ -1,0 +1,134 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69db0c6a51aef0b4c8bef8f5e65deb0a, type: 3}
+  m_Name: BoxSan_Data
+  m_EditorClassIdentifier: 
+  CharaName: "\u30DC\u30C3\u30AF\u30B9\u3055\u3093"
+  CharaNameEnter: 0
+  CharaImage: {fileID: 2800000, guid: d328ab48a6247a743a0bf2661c853874, type: 3}
+  CharaInfo: "        \u56DB\u89D2\u3044\u305F\u3081\n      \u8D85\u624B\u629C\u304D\n   
+    \u30AD\u30E3\u30E9\u30AF\u30BF\u30FC\n  \u306B\u898B\u3048\u308B\n\u5730\u4E0A\u79FB\u52D5\u306F\u56DE\u8EE2\u3059\u308B\n"
+  CharaObj: {fileID: 2736651957914070017, guid: 3ce769803b045f645ad2960c3cb0d17b, type: 3}
+  ModelObj: {fileID: 6294561453341445199, guid: 892d7b42d3349aa4e80771488bc8da2d, type: 3}
+  RandomNoSelects: 0
+  YPos: 0.35
+  GravPower: 100
+  PhisAtkEffect: {fileID: 8003688231374381314, guid: 537a29746d447df4993e5bac3ddd7278, type: 3}
+  PhisHitEffect: {fileID: 8003688231374381314, guid: 5afc42110de62ac40a2c550fe7c370aa, type: 3}
+  SpeedTrail: {fileID: 8809798474311061704, guid: 00fe8473a63de794497486e97380bdc4, type: 3}
+  MHP: 65000
+  HPRegene: 65
+  StanRegist: 600
+  STRegene: 6
+  MSP: 3000
+  SPRegene: 50
+  StartSPPer: 50
+  DamageSPPer: 80
+  Atk: 100
+  MMP: 400
+  MPRegene: 100
+  PhisPow: 101
+  PhisRange: 6.54321
+  PhisStanTime: 150
+  GroundSpeed: 75
+  AirSpeed: 30
+  BoostSpeed: 100
+  JumpPower: 55
+  DownPower: 45
+  Actions:
+  - {fileID: 11400000, guid: 4e841e4626fb10c488318bd887c833f7, type: 2}
+  - {fileID: 11400000, guid: cb35db32242d63d469d35dc1744281d2, type: 2}
+  - {fileID: 11400000, guid: 7c7c09cadc458ed4ab73dc7ba51980d9, type: 2}
+  - {fileID: 11400000, guid: 3a0067278f83ef94aafc9a193630c7dd, type: 2}
+  - {fileID: 11400000, guid: dfb05a06f736b67478794ad1ea8ca735, type: 2}
+  - {fileID: 11400000, guid: fddcfd36f1b0de14191e8b9428722e34, type: 2}
+  - {fileID: 11400000, guid: 08cf495f388010e4bbea70fe1cbd824b, type: 2}
+  - {fileID: 11400000, guid: abc05cbe97fb26e4f9769018d499857d, type: 2}
+  - {fileID: 11400000, guid: da74ac3aefbbb3d4b9743915fa2687b2, type: 2}
+  SelectSE:
+    SEFile: {fileID: 8300000, guid: 445a650326e5c564485290943ba5431b, type: 3}
+    SEOP: 3
+    SERePlay: 0
+    Volume: 4
+    Pitch: 0.5
+  StartSE:
+    SEFile: {fileID: 0}
+    SEOP: 0
+    SERePlay: 0
+    Volume: 1
+    Pitch: 1
+  WINSE:
+    SEFile: {fileID: 0}
+    SEOP: 0
+    SERePlay: 0
+    Volume: 1
+    Pitch: 1
+  LoseSE:
+    SEFile: {fileID: 0}
+    SEOP: 0
+    SERePlay: 0
+    Volume: 1
+    Pitch: 1
+  BoostSE:
+    SEFile: {fileID: 0}
+    SEOP: 0
+    SERePlay: 0
+    Volume: 1
+    Pitch: 1
+  GuardSE:
+    SEFile: {fileID: 0}
+    SEOP: 0
+    SERePlay: 0
+    Volume: 1
+    Pitch: 1
+  JumpSE:
+    SEFile: {fileID: 0}
+    SEOP: 0
+    SERePlay: 0
+    Volume: 1
+    Pitch: 1
+  FallSE:
+    SEFile: {fileID: 0}
+    SEOP: 0
+    SERePlay: 0
+    Volume: 1
+    Pitch: 1
+  PhisAtkSE:
+    SEFile: {fileID: 8300000, guid: 445a650326e5c564485290943ba5431b, type: 3}
+    SEOP: 2
+    SERePlay: 0
+    Volume: 4
+    Pitch: 0.8
+  StanSE:
+    SEFile: {fileID: 8300000, guid: acbc18f9641bcdd419fdb5b70657144c, type: 3}
+    SEOP: 0
+    SERePlay: 0
+    Volume: 3
+    Pitch: 0.7
+  DamageSE:
+    SEFile: {fileID: 8300000, guid: a4e7cb8ef966ee04db8fad8420aab48a, type: 3}
+    SEOP: 0
+    SERePlay: 1
+    Volume: 4
+    Pitch: 1
+  DamGuardSE:
+    SEFile: {fileID: 8300000, guid: 38288d32ebf820446830d30f8144bc3a, type: 3}
+    SEOP: 0
+    SERePlay: 1
+    Volume: 3
+    Pitch: 1
+  DownSE:
+    SEFile: {fileID: 0}
+    SEOP: 0
+    SERePlay: 0
+    Volume: 1
+    Pitch: 1

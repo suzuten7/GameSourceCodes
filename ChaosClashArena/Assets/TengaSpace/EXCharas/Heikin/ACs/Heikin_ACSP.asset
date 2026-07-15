@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e73461f4614ef8a41b9cc230ed036bc7, type: 3}
+  m_Name: Heikin_ACSP
+  m_EditorClassIdentifier: 
+  ACName: "\u5E73\u5747\u4E16\u754C"
+  ACInfo: "\u81EA\u5206\u3068\u6575\u306E\nHP\u3092\u5E73\u5747\u306B\u3059\u308B\n\u203BHP\u4E0A\u9650\u306B\u306F\u5F15\u3063\u304B\u304B\u308B\u306E\u3067\n\u540C\u3058\u306B\u306A\u308B\u3068\u306F\u9650\u3089\u306A\u3044"
+  SPAC: 1
+  AnimID: 4
+  Stints: 
+  Shots:
+  - ShotObj: {fileID: 2555061478973486199, guid: c58ba33d451b9a546a3056473db8c49b, type: 3}
+    Firings:
+    - ShotTimes: {x: 25, y: 25, z: 0}
+      Ifs: []
+      ShotSpeed: {x: 0, y: 0}
+      ShotCount: 1
+      RotBase: 2
+      HorizontalFixed: 0
+      PosOffSet: {x: 0, y: 0, z: 0}
+      YOffSet: 0
+      RotChange: {x: 0, y: 0, z: 0}
+      RotRand: {x: 0, y: 0, z: 0}
+      RotWay: {x: 0, y: 0, z: 0}
+    Damages:
+      Damage: 0
+      HitsDam: 0
+      HitMax: 0
+      TimeDam: 0
+      TimeMin: 0
+      GuardReg: 70
+      HPDrain: 0
+      StanPow: {x: 0, y: 120}
+      HitCT: 0
+      HitEffect: {fileID: 5024009746357069192, guid: 4e57d3739b3d5bc4ebc2d7e7d1333efe, type: 3}
+      HitStopTime: 0.6
+    KBs: []
+    AddBufs: []
+    OwnerHits: 0
+  Moves: []
+  MyBufs: []
+  MyParametors: []
+  SEs: []
+  IfTimeBranch: []
+  SPCost: 3000
+  EndTime: 40
+  StanRegist: 100
+  CT: 5
+  Video: {fileID: 0}

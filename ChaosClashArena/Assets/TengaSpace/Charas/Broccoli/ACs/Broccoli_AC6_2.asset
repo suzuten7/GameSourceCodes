@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e73461f4614ef8a41b9cc230ed036bc7, type: 3}
+  m_Name: Broccoli_AC6_2
+  m_EditorClassIdentifier: 
+  ACName: "\u30B9\u30C8\u30FC\u30AD\u30F3\u30B0\u30D6\u30ED\u30C3\u30B3\u30EA\u30FC\u7206\u767A"
+  ACInfo: 
+  SPAC: 0
+  AnimID: 0
+  Stints: 
+  Shots:
+  - ShotObj: {fileID: 2555061478973486199, guid: e7d4e40753b17cf498eb410178cec9ea, type: 3}
+    Firings:
+    - ShotTimes: {x: 25, y: 25, z: 0}
+      Ifs: []
+      ShotSpeed: {x: 0, y: 0}
+      ShotCount: 1
+      RotBase: 2
+      HorizontalFixed: 0
+      PosOffSet: {x: 0, y: 0, z: 0}
+      YOffSet: 1
+      RotChange: {x: 0, y: 0, z: 0}
+      RotRand: {x: 0, y: 0, z: 0}
+      RotWay: {x: 0, y: 0, z: 0}
+    Damages:
+      Damage: 20
+      HitsDam: 0
+      HitMax: 0
+      TimeDam: 0
+      TimeMin: 0
+      GuardReg: 70
+      HPDrain: 0
+      StanPow: {x: 40, y: 120}
+      HitCT: 0
+      HitEffect: {fileID: 5024009746357069192, guid: b863de378032049409c1eec4114cf7f9, type: 3}
+      HitStopTime: 0.3
+    KBs: []
+    AddBufs:
+    - Buf: 2
+      BufOP: 1
+      BufTime: 600
+      BufPower: 15
+      BufTimeMax: 600
+      BufPowerMax: 200
+    OwnerHits: 0
+  Moves: []
+  MyBufs: []
+  MyParametors: []
+  SEs:
+  - SETimes: {x: 0, y: 0, z: 0}
+    Ifs: []
+    SEPlays:
+    - SEFile: {fileID: 8300000, guid: dd7f65f9e56114f469dba492c0103809, type: 3}
+      SEOP: 0
+      SERePlay: 0
+      Volume: 1
+      Pitch: 1
+  IfTimeBranch: []
+  SPCost: 0
+  EndTime: 0
+  StanRegist: 0
+  CT: 0
+  Video: {fileID: 0}

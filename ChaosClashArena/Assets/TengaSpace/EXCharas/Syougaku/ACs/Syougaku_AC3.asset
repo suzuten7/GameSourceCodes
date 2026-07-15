@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e73461f4614ef8a41b9cc230ed036bc7, type: 3}
+  m_Name: Syougaku_AC3
+  m_EditorClassIdentifier: 
+  ACName: "\u30C1\u30E3\u30FC\u30B8"
+  ACInfo: "\u30CE\u30FC\u30EA\u30B9\u30AF\u3067\nSP\u3092\u305F\u3081\u308B\u6280"
+  SPAC: 0
+  AnimID: 2
+  Stints: 
+  Shots: []
+  Moves: []
+  MyBufs: []
+  MyParametors:
+  - ParaTimes: {x: 2, y: 2, z: 0}
+    Ifs: []
+    Parametor: 2
+    Val: 1000
+  SEs: []
+  IfTimeBranch: []
+  SPCost: 0
+  EndTime: 5
+  StanRegist: 100
+  CT: 1
+  Video: {fileID: 0}

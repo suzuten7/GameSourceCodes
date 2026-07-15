@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e73461f4614ef8a41b9cc230ed036bc7, type: 3}
+  m_Name: Cheater_AC2
+  m_EditorClassIdentifier: 
+  ACName: "\u30C1\u30FC\u30C8Atk2"
+  ACInfo: "\u98DF\u3089\u3048\u3070\u6BD2\u3067\u8870\u5F31"
+  SPAC: 0
+  AnimID: 1
+  Stints: 0000000001000000020000000300000004000000
+  Shots:
+  - ShotObj: {fileID: 2555061478973486199, guid: 73dd6bd4837369141ae3ad10d50c1716, type: 3}
+    Firings:
+    - ShotTimes: {x: 2, y: 2, z: 0}
+      Ifs: []
+      ShotSpeed: {x: 5000, y: 5000}
+      ShotCount: 15
+      RotBase: 0
+      PosOffSet: {x: 0, y: 0, z: 0}
+      YOffSet: 0
+      RotChange: {x: 0, y: 0, z: 0}
+      RotRand: {x: 0, y: 0, z: 0}
+      RotWay: {x: 5, y: 0, z: 0}
+    Damages:
+      Damage: 50
+      HitsDam: 0
+      HitMax: 0
+      TimeDam: 0
+      TimeMin: 0
+      GuardReg: 70
+      HPDrain: 0
+      StanPow: {x: 50, y: 120}
+      HitCT: 0
+      HitEffect: {fileID: 5024009746357069192, guid: c83adc2e17e39ce4d9f84de6207f3a0e, type: 3}
+      HitStopTime: 0
+    KBs: []
+    AddBufs:
+    - Buf: 2
+      BufOP: 1
+      BufTime: 5994
+      BufPower: 100
+      BufTimeMax: 5994
+      BufPowerMax: 10000
+  Moves: []
+  MyBufs: []
+  MyParametors: []
+  SEs:
+  - SETimes: {x: 2, y: 2, z: 0}
+    Ifs: []
+    SEPlays:
+    - SEFile: {fileID: 8300000, guid: 3d025d56be454fe45aa15402945f6efa, type: 3}
+      SEOP: 1
+      SERePlay: 1
+      Volume: 1
+      Pitch: 1
+  IfTimeBranch: []
+  SPCost: 0
+  EndTime: 3
+  StanRegist: 1000
+  CT: 0
+  Video: {fileID: 32900000, guid: 47ae1f28e21c3294d8b2dfbbb8be7d5f, type: 3}

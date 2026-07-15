@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e73461f4614ef8a41b9cc230ed036bc7, type: 3}
+  m_Name: Sagisi_ACSP
+  m_EditorClassIdentifier: 
+  ACName: "\u30EC\u30C3\u30C9\u30AB\u30FC\u30C9"
+  ACInfo: "\u8CC4\u8CC2(SP)\u3067\u30EC\u30C3\u30C9\u30AB\u30FC\u30C9\u3092\u53EC\u559A\n\u76F8\u624B\u306F\u6B7B\u306C\uFF01"
+  SPAC: 1
+  AnimID: 4
+  Stints: 
+  Shots:
+  - ShotObj: {fileID: 2555061478973486199, guid: d28f47acc5b61bb4094cdef150473a36, type: 3}
+    Firings:
+    - ShotTimes: {x: 25, y: 25, z: 0}
+      Ifs: []
+      ShotSpeed: {x: 1, y: 1}
+      ShotCount: 1
+      RotBase: 2
+      PosOffSet: {x: 0, y: 0, z: 0}
+      YOffSet: 0
+      RotChange: {x: 0, y: 0, z: 0}
+      RotRand: {x: 0, y: 0, z: 0}
+      RotWay: {x: 0, y: 0, z: 0}
+    Damages:
+      Damage: 1
+      HitsDam: 0
+      HitMax: 0
+      TimeDam: 0
+      TimeMin: 0
+      GuardReg: 70
+      HPDrain: 0
+      StanPow: {x: 1, y: 120}
+      HitCT: 0
+      HitEffect: {fileID: 5024009746357069192, guid: 3f970fd7195e8c04a8708ac70d2c7b03, type: 3}
+      HitStopTime: 0
+    KBs: []
+    AddBufs:
+    - Buf: 4
+      BufOP: 0
+      BufTime: 130
+      BufPower: 99999
+      BufTimeMax: 0
+      BufPowerMax: 0
+  - ShotObj: {fileID: 2555061478973486199, guid: fb73f5e32127a694c872ca2c595ccd58, type: 3}
+    Firings:
+    - ShotTimes: {x: 30, y: 30, z: 0}
+      Ifs: []
+      ShotSpeed: {x: 1, y: 1}
+      ShotCount: 1
+      RotBase: 2
+      PosOffSet: {x: 0, y: 0, z: 0}
+      YOffSet: 0
+      RotChange: {x: 90, y: 0, z: 0}
+      RotRand: {x: 0, y: 0, z: 0}
+      RotWay: {x: 0, y: 0, z: 0}
+    Damages:
+      Damage: 9999
+      HitsDam: 0
+      HitMax: 0
+      TimeDam: 0
+      TimeMin: 0
+      GuardReg: 70
+      HPDrain: 0
+      StanPow: {x: 9999, y: 120}
+      HitCT: 0
+      HitEffect: {fileID: 5024009746357069192, guid: 4e57d3739b3d5bc4ebc2d7e7d1333efe, type: 3}
+      HitStopTime: 1
+    KBs: []
+    AddBufs: []
+  Moves: []
+  MyBufs: []
+  MyParametors: []
+  SEs:
+  - SETimes: {x: 25, y: 25, z: 0}
+    Ifs: []
+    SEPlays:
+    - SEFile: {fileID: 8300000, guid: e611d53d6eef00b4889f038bc20fa1ae, type: 3}
+      SEOP: 2
+      SERePlay: 0
+      Volume: 4
+      Pitch: 1
+  IfTimeBranch: []
+  SPCost: 12000
+  EndTime: 40
+  StanRegist: 100
+  CT: 5
+  Video: {fileID: 32900000, guid: 5ef112977515c45458281f65f0f6e454, type: 3}

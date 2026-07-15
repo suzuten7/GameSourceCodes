@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e73461f4614ef8a41b9cc230ed036bc7, type: 3}
+  m_Name: G_ACSP
+  m_EditorClassIdentifier: 
+  ACName: "\u7A81\u7136\u5909\u7570\\n\uFF5E\u4EBA\u985E\u306E\u919C\u3044\u4E89\u3044\uFF5E"
+  ACInfo: "\u6838\u6C5A\u67D3\u306B\u3088\u308B\u7A81\u7136\u5909\u7570\u304C\u8D77\u3053\u308B\u3002\u5DE8\u5927\u5316\u3057\u30B9\u30D4\u30FC\u30C9\u3082\u4E0A\u304C\u308B"
+  SPAC: 1
+  AnimID: 4
+  Stints: 
+  Shots: []
+  Moves: []
+  MyBufs:
+  - BufTimes: {x: 1, y: 1, z: 0}
+    Ifs: []
+    Bufs:
+    - Buf: 9
+      BufOP: 0
+      BufTime: 600
+      BufPower: 1
+      BufTimeMax: 1000
+      BufPowerMax: 100
+    - Buf: 9
+      BufOP: 1
+      BufTime: 600
+      BufPower: 99
+      BufTimeMax: 1000
+      BufPowerMax: 100
+    - Buf: 11
+      BufOP: 0
+      BufTime: 600
+      BufPower: 1
+      BufTimeMax: 1000
+      BufPowerMax: 100
+    - Buf: 11
+      BufOP: 1
+      BufTime: 600
+      BufPower: 59
+      BufTimeMax: 1000
+      BufPowerMax: 100
+  MyParametors:
+  - ParaTimes: {x: 0, y: 1, z: 0}
+    Ifs: []
+    Parametor: 3
+    Val: 500
+  - ParaTimes: {x: 0, y: 1, z: 0}
+    Ifs: []
+    Parametor: 1
+    Val: 500
+  - ParaTimes: {x: 0, y: 1, z: 0}
+    Ifs: []
+    Parametor: 5
+    Val: 1000
+  SEs: []
+  IfTimeBranch: []
+  SPCost: 3000
+  EndTime: 35
+  StanRegist: 100
+  CT: 5
+  Video: {fileID: 0}

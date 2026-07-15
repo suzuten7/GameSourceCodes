@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e73461f4614ef8a41b9cc230ed036bc7, type: 3}
+  m_Name: StSm_AC4
+  m_EditorClassIdentifier: 
+  ACName: "\u3084\u3058\u308B\u3057\u4E26\u3079"
+  ACInfo: "\u6A2A\u306B\u3084\u3058\u308B\u3057\u3092\u4E26\u3079\n\u524D\u65B9\u306B\u98DB\u3070\u3059"
+  SPAC: 0
+  AnimID: 3
+  Stints: 
+  Shots:
+  - ShotObj: {fileID: 2555061478973486199, guid: 257ba8514ae6a5a418ee55fe1cc73e68, type: 3}
+    Firings:
+    - ShotTimes: {x: 25, y: 25, z: 0}
+      Ifs: []
+      ShotSpeed: {x: 1500, y: 1500}
+      ShotCount: 1
+      RotBase: 1
+      PosOffSet: {x: -4, y: 0, z: 0}
+      YOffSet: 0
+      RotChange: {x: 0, y: 0, z: 0}
+      RotRand: {x: 0, y: 0, z: 0}
+      RotWay: {x: 0, y: 0, z: 0}
+    - ShotTimes: {x: 25, y: 25, z: 0}
+      Ifs: []
+      ShotSpeed: {x: 1500, y: 1500}
+      ShotCount: 1
+      RotBase: 1
+      PosOffSet: {x: -2, y: 0, z: 0}
+      YOffSet: 0
+      RotChange: {x: 0, y: 0, z: 0}
+      RotRand: {x: 0, y: 0, z: 0}
+      RotWay: {x: 0, y: 0, z: 0}
+    - ShotTimes: {x: 25, y: 25, z: 0}
+      Ifs: []
+      ShotSpeed: {x: 1500, y: 1500}
+      ShotCount: 1
+      RotBase: 1
+      PosOffSet: {x: 0, y: 0, z: 0}
+      YOffSet: 0
+      RotChange: {x: 0, y: 0, z: 0}
+      RotRand: {x: 0, y: 0, z: 0}
+      RotWay: {x: 0, y: 0, z: 0}
+    - ShotTimes: {x: 25, y: 25, z: 0}
+      Ifs: []
+      ShotSpeed: {x: 1500, y: 1500}
+      ShotCount: 1
+      RotBase: 1
+      PosOffSet: {x: 2, y: 0, z: 0}
+      YOffSet: 0
+      RotChange: {x: 0, y: 0, z: 0}
+      RotRand: {x: 0, y: 0, z: 0}
+      RotWay: {x: 0, y: 0, z: 0}
+    - ShotTimes: {x: 25, y: 25, z: 0}
+      Ifs: []
+      ShotSpeed: {x: 1500, y: 1500}
+      ShotCount: 1
+      RotBase: 1
+      PosOffSet: {x: 4, y: 0, z: 0}
+      YOffSet: 0
+      RotChange: {x: 0, y: 0, z: 0}
+      RotRand: {x: 0, y: 0, z: 0}
+      RotWay: {x: 0, y: 0, z: 0}
+    Damages:
+      Damage: 35
+      HitsDam: 0
+      HitMax: 0
+      TimeDam: 0
+      TimeMin: 0
+      GuardReg: 33
+      HPDrain: 0
+      StanPow: {x: 70, y: 120}
+      HitCT: 0
+      HitEffect: {fileID: 5024009746357069192, guid: c83adc2e17e39ce4d9f84de6207f3a0e, type: 3}
+      HitStopTime: 0.3
+    KBs:
+    - KBRotBase: 0
+      KBPow: {x: 0, y: 0, z: 75}
+      KBPowY: 0
+    AddBufs: []
+  Moves: []
+  MyBufs: []
+  MyParametors: []
+  SEs:
+  - SETimes: {x: 25, y: 25, z: 0}
+    Ifs: []
+    SEPlays:
+    - SEFile: {fileID: 8300000, guid: d9a34e653e58c764fb85dfc4924732c4, type: 3}
+      SEOP: 1
+      SERePlay: 0
+      Volume: 3
+      Pitch: 1.25
+  IfTimeBranch: []
+  SPCost: 0
+  EndTime: 40
+  StanRegist: 100
+  CT: 5
+  Video: {fileID: 32900000, guid: 2c68835d77ce8de4e80ae9128f45df0a, type: 3}

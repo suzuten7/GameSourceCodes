@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e73461f4614ef8a41b9cc230ed036bc7, type: 3}
+  m_Name: Witch_ACSP
+  m_EditorClassIdentifier: 
+  ACName: "\u30B5\u30F3\u30FB\u30E9\u30A4\u30C8"
+  ACInfo: "\u65E5\u5149\u3092\u96C6\u3081\n\u76F8\u624B\u306B\u53CD\u5C04\u3055\u305B\n\u653B\u6483\u3059\u308B"
+  SPAC: 1
+  AnimID: 4
+  Stints: 0000000001000000
+  Shots:
+  - ShotObj: {fileID: 2555061478973486199, guid: 98566a3425bf996438a2fff4c6cc4a4b, type: 3}
+    Firings:
+    - ShotTimes: {x: 20, y: 112, z: 7}
+      Ifs: []
+      ShotSpeed: {x: 0, y: 0}
+      ShotCount: 1
+      RotBase: 0
+      HorizontalFixed: 0
+      PosOffSet: {x: 0, y: 0, z: 0}
+      YOffSet: 5
+      RotChange: {x: 0, y: 0, z: 0}
+      RotRand: {x: 13, y: 13, z: 13}
+      RotWay: {x: 0, y: 0, z: 0}
+    Damages:
+      Damage: 1
+      HitsDam: 0
+      HitMax: 0
+      TimeDam: 0
+      TimeMin: 0
+      GuardReg: 70
+      HPDrain: 0
+      StanPow: {x: 2, y: 120}
+      HitCT: 1
+      HitEffect: {fileID: 5024009746357069192, guid: 3f970fd7195e8c04a8708ac70d2c7b03, type: 3}
+      HitStopTime: 0.03
+    KBs: []
+    AddBufs: []
+  Moves: []
+  MyBufs: []
+  MyParametors: []
+  SEs: []
+  IfTimeBranch: []
+  SPCost: 1600
+  EndTime: 130
+  StanRegist: 100
+  CT: 5
+  Video: {fileID: 0}

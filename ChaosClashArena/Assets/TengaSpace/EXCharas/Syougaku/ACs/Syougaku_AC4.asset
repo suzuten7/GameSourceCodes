@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e73461f4614ef8a41b9cc230ed036bc7, type: 3}
+  m_Name: Syougaku_AC4
+  m_EditorClassIdentifier: 
+  ACName: "\u30D3\u30FC\u30E0"
+  ACInfo: "\u6E9C\u3081\u305FSP\u3092\u3076\u3063\u3071\u3059\u308B\n\u30AC\u30FC\u30C9\u3057\u306A\u3044\u3068\n\u7406\u4E0D\u5C3D\u306A\u5A01\u529B"
+  SPAC: 0
+  AnimID: 3
+  Stints: 
+  Shots:
+  - ShotObj: {fileID: 2555061478973486199, guid: b0239dfb61a66ff4da22d4bb1fe087e8, type: 3}
+    Firings:
+    - ShotTimes: {x: 25, y: 25, z: 0}
+      Ifs: []
+      ShotSpeed: {x: 9999, y: 9999}
+      ShotCount: 1
+      RotBase: 0
+      PosOffSet: {x: 0, y: 0, z: 0}
+      YOffSet: 0
+      RotChange: {x: 0, y: 0, z: 0}
+      RotRand: {x: 0, y: 0, z: 0}
+      RotWay: {x: 0, y: 0, z: 0}
+    Damages:
+      Damage: 80
+      HitsDam: 0
+      HitMax: 0
+      TimeDam: 0
+      TimeMin: 0
+      GuardReg: 90
+      HPDrain: 0
+      StanPow: {x: 160, y: 120}
+      HitCT: 0
+      HitEffect: {fileID: 5024009746357069192, guid: c71b9ddf0fed5a847bbdeac93136da6d, type: 3}
+      HitStopTime: 0.3
+    KBs: []
+    AddBufs: []
+  Moves: []
+  MyBufs: []
+  MyParametors: []
+  SEs: []
+  IfTimeBranch: []
+  SPCost: 1200
+  EndTime: 40
+  StanRegist: 100
+  CT: 5
+  Video: {fileID: 0}

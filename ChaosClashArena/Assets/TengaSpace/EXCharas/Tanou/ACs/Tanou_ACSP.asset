@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e73461f4614ef8a41b9cc230ed036bc7, type: 3}
+  m_Name: Tanou_ACSP
+  m_EditorClassIdentifier: 
+  ACName: "Wejd\u017A na CT i pokonaj go"
+  ACInfo: "CT\u30920\u306B\u3059\u308B"
+  SPAC: 1
+  AnimID: 4
+  Stints: 
+  Shots: []
+  Moves: []
+  MyBufs: []
+  MyParametors:
+  - ParaTimes: {x: 1, y: 1, z: 0}
+    Ifs: []
+    Parametor: 5
+    Val: -6000
+  - ParaTimes: {x: 1, y: 1, z: 0}
+    Ifs: []
+    Parametor: 6
+    Val: -6000
+  - ParaTimes: {x: 1, y: 1, z: 0}
+    Ifs: []
+    Parametor: 7
+    Val: -6000
+  - ParaTimes: {x: 1, y: 1, z: 0}
+    Ifs: []
+    Parametor: 8
+    Val: -6000
+  - ParaTimes: {x: 1, y: 1, z: 0}
+    Ifs: []
+    Parametor: 9
+    Val: -6000
+  SEs:
+  - SETimes: {x: 1, y: 1, z: 0}
+    Ifs: []
+    SEPlays:
+    - SEFile: {fileID: 8300000, guid: c8d85208a9087b74d8861c0c80286d61, type: 3}
+      SEOP: 2
+      SERePlay: 0
+      Volume: 1.8
+      Pitch: 1.25
+  IfTimeBranch: []
+  SPCost: 1800
+  EndTime: 5
+  StanRegist: 600
+  CT: 1
+  Video: {fileID: 32900000, guid: 4dd57a1708ac90342930ac281ab8b8ee, type: 3}

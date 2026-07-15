@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e73461f4614ef8a41b9cc230ed036bc7, type: 3}
+  m_Name: Drone_AC3
+  m_EditorClassIdentifier: 
+  ACName: "\u30B3\u30F3\u30C6\u30CA\u843D\u3068\u3057"
+  ACInfo: "\u8377\u7269\u306E\u30CF\u30BA\u306E\u30B3\u30F3\u30C6\u30CA\u3092\n\u771F\u4E0B\u306B\u6295\u4E0B\u3059\u308B"
+  SPAC: 0
+  AnimID: 2
+  Stints: 
+  Shots:
+  - ShotObj: {fileID: 2555061478973486199, guid: e835bf35dd1d404408c2909f19a50dc0, type: 3}
+    Firings:
+    - ShotTimes: {x: 25, y: 25, z: 0}
+      Ifs: []
+      ShotSpeed: {x: 2500, y: 2500}
+      ShotCount: 1
+      RotBase: 2
+      PosOffSet: {x: 0, y: 0, z: 0}
+      YOffSet: 0
+      RotChange: {x: 90, y: 0, z: 0}
+      RotRand: {x: 0, y: 0, z: 0}
+      RotWay: {x: 0, y: 0, z: 0}
+    Damages:
+      Damage: 75
+      HitsDam: 0
+      HitMax: 0
+      TimeDam: 0
+      TimeMin: 0
+      GuardReg: 70
+      HPDrain: 0
+      StanPow: {x: 1000, y: 120}
+      HitCT: 0
+      HitEffect: {fileID: 5024009746357069192, guid: c71b9ddf0fed5a847bbdeac93136da6d, type: 3}
+      HitStopTime: 0.4
+    KBs: []
+    AddBufs: []
+  Moves: []
+  MyBufs: []
+  MyParametors: []
+  SEs:
+  - SETimes: {x: 25, y: 25, z: 0}
+    Ifs: []
+    SEPlays:
+    - SEFile: {fileID: 8300000, guid: 366ee893a7c69a94cb28ef64e0ca298d, type: 3}
+      SEOP: 0
+      SERePlay: 0
+      Volume: 2
+      Pitch: 0.9
+  IfTimeBranch: []
+  SPCost: 0
+  EndTime: 40
+  StanRegist: 100
+  CT: 20
+  Video: {fileID: 32900000, guid: 06d62650e3b652b4ca068fe1dfdec2ba, type: 3}
