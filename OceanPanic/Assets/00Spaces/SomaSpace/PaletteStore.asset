@@ -1,0 +1,292 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0edd4d6dec9974f11ba4b078ca3a0e1e, type: 3}
+  m_Name: PaletteStore
+  m_EditorClassIdentifier: 
+  _colorPalette:
+    _entries:
+      _keys:
+      - aaddcd61-c2ba-49ed-98e0-77da06221150
+      - 74173a22-efb3-4ca7-ac18-ef905734474d
+      - f2e529c1-b161-45ca-b8c9-bd1eff765ee7
+      - 6b633627-8bef-4f76-869b-849d185eae5c
+      - 0f31bb51-1f79-494d-844f-6cc439fb6aa2
+      - b017a10d-aaad-47f2-9fe4-7fe44b82edb9
+      - 4a84c36e-89c3-4fb5-a3a7-06aa38018cb1
+      - ff6b9ab8-575c-415a-8ad9-923b3d596b9e
+      - 9087e793-adce-4e05-820b-0429a86d8fa1
+      - 6261f463-9afb-4816-9904-3f8dd9ce08f2
+      - 0ccfbd01-cf85-46b6-80eb-c6b8bf207165
+      - 20a36c85-e56a-48e6-8a94-39f450d2e5fa
+      - ae3c4df8-3a89-4035-9a93-7fb711cb4451
+      - e43a7aa5-d118-4c3a-8a87-94b5b5b73cf1
+      - 4ca4b587-a7cc-4c77-9811-a6704ce9a479
+      - 9abff30b-e529-4b06-b4b3-7d1534f3c79d
+      - 9c80f3f5-4b38-4cef-bdf1-b875559c6068
+      _values:
+      - _id: aaddcd61-c2ba-49ed-98e0-77da06221150
+        _name:
+          _value: Red
+        _values:
+          _keys:
+          - 1c8ec076-ad0e-49a9-9dbf-92026ec21aee
+          _values:
+          - _value: {r: 1, g: 0, b: 0, a: 1}
+      - _id: 74173a22-efb3-4ca7-ac18-ef905734474d
+        _name:
+          _value: Purple
+        _values:
+          _keys:
+          - 1c8ec076-ad0e-49a9-9dbf-92026ec21aee
+          _values:
+          - _value: {r: 1, g: 0, b: 1, a: 1}
+      - _id: f2e529c1-b161-45ca-b8c9-bd1eff765ee7
+        _name:
+          _value: Green
+        _values:
+          _keys:
+          - 1c8ec076-ad0e-49a9-9dbf-92026ec21aee
+          _values:
+          - _value: {r: 0, g: 1, b: 0, a: 1}
+      - _id: 6b633627-8bef-4f76-869b-849d185eae5c
+        _name:
+          _value: LightBlue
+        _values:
+          _keys:
+          - 1c8ec076-ad0e-49a9-9dbf-92026ec21aee
+          _values:
+          - _value: {r: 0, g: 1, b: 1, a: 1}
+      - _id: 0f31bb51-1f79-494d-844f-6cc439fb6aa2
+        _name:
+          _value: Yellow
+        _values:
+          _keys:
+          - 1c8ec076-ad0e-49a9-9dbf-92026ec21aee
+          _values:
+          - _value: {r: 1, g: 1, b: 0, a: 1}
+      - _id: b017a10d-aaad-47f2-9fe4-7fe44b82edb9
+        _name:
+          _value: Blue
+        _values:
+          _keys:
+          - 1c8ec076-ad0e-49a9-9dbf-92026ec21aee
+          _values:
+          - _value: {r: 0, g: 0, b: 1, a: 1}
+      - _id: 4a84c36e-89c3-4fb5-a3a7-06aa38018cb1
+        _name:
+          _value: Black_20
+        _values:
+          _keys:
+          - 1c8ec076-ad0e-49a9-9dbf-92026ec21aee
+          _values:
+          - _value: {r: 0, g: 0, b: 0, a: 0.2}
+      - _id: ff6b9ab8-575c-415a-8ad9-923b3d596b9e
+        _name:
+          _value: Black_40
+        _values:
+          _keys:
+          - 1c8ec076-ad0e-49a9-9dbf-92026ec21aee
+          _values:
+          - _value: {r: 0, g: 0, b: 0, a: 0.4}
+      - _id: 9087e793-adce-4e05-820b-0429a86d8fa1
+        _name:
+          _value: White_20
+        _values:
+          _keys:
+          - 1c8ec076-ad0e-49a9-9dbf-92026ec21aee
+          _values:
+          - _value: {r: 1, g: 1, b: 1, a: 0.2}
+      - _id: 6261f463-9afb-4816-9904-3f8dd9ce08f2
+        _name:
+          _value: White_40
+        _values:
+          _keys:
+          - 1c8ec076-ad0e-49a9-9dbf-92026ec21aee
+          _values:
+          - _value: {r: 1, g: 1, b: 1, a: 0.4}
+      - _id: 0ccfbd01-cf85-46b6-80eb-c6b8bf207165
+        _name:
+          _value: White_V80
+        _values:
+          _keys:
+          - 1c8ec076-ad0e-49a9-9dbf-92026ec21aee
+          _values:
+          - _value: {r: 0.9, g: 0.9, b: 0.9, a: 1}
+      - _id: 20a36c85-e56a-48e6-8a94-39f450d2e5fa
+        _name:
+          _value: Players/Wo/0
+        _values:
+          _keys:
+          - 1c8ec076-ad0e-49a9-9dbf-92026ec21aee
+          _values:
+          - _value: {r: 0.9098039, g: 0.6627451, b: 0.49019608, a: 1}
+      - _id: ae3c4df8-3a89-4035-9a93-7fb711cb4451
+        _name:
+          _value: Players/Plancton/0
+        _values:
+          _keys:
+          - 1c8ec076-ad0e-49a9-9dbf-92026ec21aee
+          _values:
+          - _value: {r: 0.49019608, g: 0.8352941, b: 0.9098039, a: 1}
+      - _id: e43a7aa5-d118-4c3a-8a87-94b5b5b73cf1
+        _name:
+          _value: Players/Vi_Koban/0
+        _values:
+          _keys:
+          - 1c8ec076-ad0e-49a9-9dbf-92026ec21aee
+          _values:
+          - _value: {r: 0.9098039, g: 0.49019608, b: 0.49019608, a: 1}
+      - _id: 4ca4b587-a7cc-4c77-9811-a6704ce9a479
+        _name:
+          _value: Players/Plancton/1
+        _values:
+          _keys:
+          - 1c8ec076-ad0e-49a9-9dbf-92026ec21aee
+          _values:
+          - _value: {r: 0.27450982, g: 0.46666667, b: 0.50980395, a: 1}
+      - _id: 9abff30b-e529-4b06-b4b3-7d1534f3c79d
+        _name:
+          _value: Players/Vi_Koban/1
+        _values:
+          _keys:
+          - 1c8ec076-ad0e-49a9-9dbf-92026ec21aee
+          _values:
+          - _value: {r: 0.50980395, g: 0.27450982, b: 0.27450982, a: 1}
+      - _id: 9c80f3f5-4b38-4cef-bdf1-b875559c6068
+        _name:
+          _value: Players/Wo/12
+        _values:
+          _keys:
+          - 1c8ec076-ad0e-49a9-9dbf-92026ec21aee
+          _values:
+          - _value: {r: 0.50980395, g: 0.37254903, b: 0.27450982, a: 1}
+    _themes:
+      _keys:
+      - 1c8ec076-ad0e-49a9-9dbf-92026ec21aee
+      _values:
+      - _id: 1c8ec076-ad0e-49a9-9dbf-92026ec21aee
+        _name:
+          _value: Default
+    _entryOrders:
+      _ids:
+      - aaddcd61-c2ba-49ed-98e0-77da06221150
+      - 74173a22-efb3-4ca7-ac18-ef905734474d
+      - f2e529c1-b161-45ca-b8c9-bd1eff765ee7
+      - 6b633627-8bef-4f76-869b-849d185eae5c
+      - 0f31bb51-1f79-494d-844f-6cc439fb6aa2
+      - b017a10d-aaad-47f2-9fe4-7fe44b82edb9
+      - 4a84c36e-89c3-4fb5-a3a7-06aa38018cb1
+      - ff6b9ab8-575c-415a-8ad9-923b3d596b9e
+      - 9087e793-adce-4e05-820b-0429a86d8fa1
+      - 6261f463-9afb-4816-9904-3f8dd9ce08f2
+      - 0ccfbd01-cf85-46b6-80eb-c6b8bf207165
+      - 20a36c85-e56a-48e6-8a94-39f450d2e5fa
+      - ae3c4df8-3a89-4035-9a93-7fb711cb4451
+      - e43a7aa5-d118-4c3a-8a87-94b5b5b73cf1
+      - 4ca4b587-a7cc-4c77-9811-a6704ce9a479
+      - 9abff30b-e529-4b06-b4b3-7d1534f3c79d
+      - 9c80f3f5-4b38-4cef-bdf1-b875559c6068
+    _themeOrders:
+      _ids:
+      - 1c8ec076-ad0e-49a9-9dbf-92026ec21aee
+    _activeThemeId: 1c8ec076-ad0e-49a9-9dbf-92026ec21aee
+  _gradientPalette:
+    _entries:
+      _keys:
+      - 20e9c556-2392-4190-982b-f70d7514afca
+      _values:
+      - _id: 20e9c556-2392-4190-982b-f70d7514afca
+        _name:
+          _value: New Gradient
+        _values:
+          _keys:
+          - 220625cc-a690-4d5a-b08d-8d402786f3ce
+          _values:
+          - _value:
+              serializedVersion: 2
+              key0: {r: 0.23529413, g: 0.6039216, b: 0.75294125, a: 1}
+              key1: {r: 0.23529413, g: 0.6039216, b: 0.75294125, a: 0}
+              key2: {r: 0, g: 0, b: 0, a: 0}
+              key3: {r: 0, g: 0, b: 0, a: 0}
+              key4: {r: 0, g: 0, b: 0, a: 0}
+              key5: {r: 0, g: 0, b: 0, a: 0}
+              key6: {r: 0, g: 0, b: 0, a: 0}
+              key7: {r: 0, g: 0, b: 0, a: 0}
+              ctime0: 0
+              ctime1: 65535
+              ctime2: 0
+              ctime3: 0
+              ctime4: 0
+              ctime5: 0
+              ctime6: 0
+              ctime7: 0
+              atime0: 25690
+              atime1: 65535
+              atime2: 0
+              atime3: 0
+              atime4: 0
+              atime5: 0
+              atime6: 0
+              atime7: 0
+              m_Mode: 0
+              m_ColorSpace: 0
+              m_NumColorKeys: 2
+              m_NumAlphaKeys: 2
+    _themes:
+      _keys:
+      - 220625cc-a690-4d5a-b08d-8d402786f3ce
+      _values:
+      - _id: 220625cc-a690-4d5a-b08d-8d402786f3ce
+        _name:
+          _value: Default
+    _entryOrders:
+      _ids:
+      - 20e9c556-2392-4190-982b-f70d7514afca
+    _themeOrders:
+      _ids:
+      - 220625cc-a690-4d5a-b08d-8d402786f3ce
+    _activeThemeId: 220625cc-a690-4d5a-b08d-8d402786f3ce
+  _characterStylePalette:
+    _entries:
+      _keys: []
+      _values: []
+    _themes:
+      _keys:
+      - 91ed0e2d-8279-4a7f-855e-120cfd9bfe65
+      _values:
+      - _id: 91ed0e2d-8279-4a7f-855e-120cfd9bfe65
+        _name:
+          _value: Default
+    _entryOrders:
+      _ids: []
+    _themeOrders:
+      _ids:
+      - 91ed0e2d-8279-4a7f-855e-120cfd9bfe65
+    _activeThemeId: 91ed0e2d-8279-4a7f-855e-120cfd9bfe65
+  _characterStyleTMPPalette:
+    _entries:
+      _keys: []
+      _values: []
+    _themes:
+      _keys:
+      - 2bc7a0a0-dfbf-4e92-98ba-ae8129cb4572
+      _values:
+      - _id: 2bc7a0a0-dfbf-4e92-98ba-ae8129cb4572
+        _name:
+          _value: Default
+    _entryOrders:
+      _ids: []
+    _themeOrders:
+      _ids:
+      - 2bc7a0a0-dfbf-4e92-98ba-ae8129cb4572
+    _activeThemeId: 2bc7a0a0-dfbf-4e92-98ba-ae8129cb4572
+  _missingEntryErrorLevel: 1

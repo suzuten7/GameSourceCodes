@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3d4f203256a80343aafcfbc82b28bba, type: 3}
+  m_Name: WhalesP_Pass_TimeLong1
+  m_EditorClassIdentifier: 
+  Names: "\u6642\u9593\u5EF6\u9577"
+  SkillColor: 2
+  Info: "\u5236\u9650\u6642\u9593+"
+  PassLVs:
+  - LVInfo: 5
+    Cost: 2
+  - LVInfo: 10
+    Cost: 2
+  - LVInfo: 15
+    Cost: 2
+  - LVInfo: 20
+    Cost: 3
+  - LVInfo: 30
+    Cost: 5
+  EndInfo: '%'
+  NRand: 0
+  Debug: 0

@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3d4f203256a80343aafcfbc82b28bba, type: 3}
+  m_Name: WhalesP_Pass_PowerEat
+  m_EditorClassIdentifier: 
+  Names: "\u5F37\u565B"
+  SkillColor: 4
+  Info: "\u63A5\u89E6\u4E0E\u30C0\u30E1\u30FC\u30B8\u304C\n"
+  PassLVs:
+  - LVInfo: 15
+    Cost: 5
+  - LVInfo: 30
+    Cost: 5
+  - LVInfo: 50
+    Cost: 7
+  EndInfo: "%\u5897\u52A0\u3059\u308B\n\u203B\u9003\u8D70\u8005\u306EHP\u304C\u6E80\u30BF\u30F3\u3060\u3068\n\u4E00\u6483\u3067\u5012\u305B\u306A\u3044"
+  NRand: 0
+  Debug: 0

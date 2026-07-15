@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3d4f203256a80343aafcfbc82b28bba, type: 3}
+  m_Name: Planc_Pass_PlancAdd1
+  m_EditorClassIdentifier: 
+  Names: "\u30D7\u30E9\u30F3\u30AF\u30C8\u30F3\u5897\u52A0"
+  SkillColor: {r: 0.07692313, g: 1, b: 0, a: 1}
+  Info: "\u30D7\u30E9\u30F3\u30AF\u30C8\u30F3\u4E0A\u9650(HP)\u304C\n"
+  PassLVs:
+  - LVInfo: 10
+    Cost: 1
+  - LVInfo: 20
+    Cost: 1
+  - LVInfo: 30
+    Cost: 1
+  - LVInfo: 45
+    Cost: 1
+  - LVInfo: 60
+    Cost: 2
+  EndInfo: "%\u5897\u52A0"
+  NRand: 0
+  Debug: 0
